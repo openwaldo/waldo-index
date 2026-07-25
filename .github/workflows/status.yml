@@ -1,0 +1,40 @@
+# On every change to main, regenerate status.json from the committed
+# metadata and publish it to GitHub Pages — never committed back to the
+# repo, so it cannot drift from the tree and never pollutes history.
+# The published URL serves the website and anyone else who wants the
+# index's live totals.
+name: status
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate status.json from the committed tree
+        run: |
+          mkdir -p _site
+          python3 scripts/status.py _site/status.json
+          cat _site/status.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
