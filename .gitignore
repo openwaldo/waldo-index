@@ -1,4 +1,4 @@
 # status.json is generated (.scripts/status.py) and published by CI to
-# GitHub Pages — never tracked, so it can never drift from the tree.
+# the gh-pages branch — never tracked on main, so the curated tree and
+# the machinery never overlap.
 /status.json
-/_site/

@@ -1,8 +1,10 @@
 # On every change to main, regenerate status.json from the committed
-# metadata and publish it to GitHub Pages — never committed back to the
-# repo, so it cannot drift from the tree and never pollutes history.
-# The published URL serves the website and anyone else who wants the
-# index's live totals.
+# metadata and publish it to the gh-pages branch, which Pages serves.
+# Machinery never touches main: the generated file lives quarantined on
+# its own branch, whose history doubles as a time-series of the corpus's
+# growth — one snapshot per data push. The publish step enforces that
+# gh-pages contains ONLY the published files, so the corpus metadata is
+# never deployed no matter how the branch was created.
 name: status
 
 on:
@@ -11,30 +13,34 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: status
   cancel-in-progress: true
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Generate status.json from the committed tree
         run: |
-          mkdir -p _site
-          python3 .scripts/status.py _site/status.json
-          cat _site/status.json
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          data=$(git rev-parse --short HEAD)
+          python3 .scripts/status.py /tmp/status.json
+          echo "data_commit=$data" >> "$GITHUB_ENV"
+      - name: Publish to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch origin gh-pages 2>/dev/null; then
+            git switch gh-pages
+          else
+            git switch --orphan gh-pages
+          fi
+          git rm -rfq . 2>/dev/null || true
+          cp /tmp/status.json status.json
+          touch .nojekyll
+          git add status.json .nojekyll
+          git commit -m "status: ${data_commit}"
+          git push origin gh-pages
