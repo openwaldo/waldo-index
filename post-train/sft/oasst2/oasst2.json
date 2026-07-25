@@ -1,0 +1,15 @@
+{
+  "kind": "manifest",
+  "schema": 2,
+  "name": "oasst2",
+  "license": "Apache-2.0",
+  "sources": [
+    { "name": "oasst2", "source": "OpenAssistant Conversations (OpenAssistant/oasst2)", "version": "2023-11-05", "url": "https://huggingface.co/datasets/OpenAssistant/oasst2", "sha256": "5fe37b126b5642f83d9c81f716e9e7dafb27b98a037eb84e9f21ff5b3cdacbff" }
+  ],
+  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:8d2dbd5", "zstd": "1.5.6/-19", "tokenizer": "tiktoken/cl100k_base" },
+  "shards": [
+    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/78/a0/78a0772a0899dd2ae2d4c7ec044587b90d949c0a5806eb89862d5b810bb3594a", "sha256": "78a0772a0899dd2ae2d4c7ec044587b90d949c0a5806eb89862d5b810bb3594a",
+      "sources": ["oasst2"],
+      "docs": 13852, "tokens": 6156748, "bytes": 7854120 }
+  ]
+}

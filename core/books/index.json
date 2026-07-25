@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "core/books",
+  "entries": [
+    { "name": "gutenberg", "type": "dir" }
+  ]
+}

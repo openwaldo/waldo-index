@@ -1,0 +1,16 @@
+{
+  "kind": "manifest",
+  "schema": 2,
+  "name": "public-domain-review",
+  "license": "CC0-1.0",
+  "sources": [
+    { "name": "common-pile/public_domain_review_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/public_domain_review_filtered", "sha256": "0ef4a01cde992f9c94d2a015a2e0e6db020ec05723a459b51ac633f1b438853a" }
+  ],
+  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:8d2dbd5", "zstd": "1.5.6/-19", "tokenizer": "tiktoken/cl100k_base" },
+  "shards": [
+    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/1a/9d/1a9d8509020ec17c6f8096a2965bc3a66d8efd68d3cc580588d248c01141551c", "sha256": "1a9d8509020ec17c6f8096a2965bc3a66d8efd68d3cc580588d248c01141551c",
+      "license": "CC-BY-SA-4.0",
+      "sources": ["common-pile/public_domain_review_filtered"],
+      "docs": 1406, "tokens": 1508728, "bytes": 2246417 }
+  ]
+}

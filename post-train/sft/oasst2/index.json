@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "post-train/sft/oasst2",
+  "entries": [
+    { "name": "oasst2.json", "type": "manifest" }
+  ]
+}

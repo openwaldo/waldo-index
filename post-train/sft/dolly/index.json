@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "post-train/sft/dolly",
+  "entries": [
+    { "name": "dolly.json", "type": "manifest" }
+  ]
+}

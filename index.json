@@ -1,0 +1,10 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "",
+  "entries": [
+    { "name": "core", "type": "dir" },
+    { "name": "post-train", "type": "dir" },
+    { "name": "science", "type": "dir" }
+  ]
+}

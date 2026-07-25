@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "science",
+  "entries": [
+    { "name": "plos", "type": "dir" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "manifest",
+  "schema": 2,
+  "name": "foodista",
+  "license": "CC-BY-3.0",
+  "sources": [
+    { "name": "common-pile/foodista_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/foodista_filtered", "sha256": "cfd4940e522a49900e7e42bba1646c27c15c3f9007ef5348f4cb341882f93db5" }
+  ],
+  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:8d2dbd5", "zstd": "1.5.6/-19", "tokenizer": "tiktoken/cl100k_base" },
+  "shards": [
+    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/7a/c2/7ac2be4e8b5cc94a35d0b51a0a66c56abb2f43e768ecaae7639aac17bea24f50", "sha256": "7ac2be4e8b5cc94a35d0b51a0a66c56abb2f43e768ecaae7639aac17bea24f50",
+      "sources": ["common-pile/foodista_filtered"],
+      "docs": 65640, "tokens": 20967715, "bytes": 25757528 }
+  ]
+}

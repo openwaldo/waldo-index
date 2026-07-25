@@ -1,0 +1,15 @@
+{
+  "kind": "manifest",
+  "schema": 2,
+  "name": "dolly",
+  "license": "CC-BY-SA-3.0",
+  "sources": [
+    { "name": "dolly", "source": "databricks-dolly-15k (huggingface.co/datasets/databricks/databricks-dolly-15k)", "version": "1.0", "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k", "sha256": "4bb0759cd6fd241df0661e2f7daf5935c362cb4a7a95d231921f97a1d7fb874c" }
+  ],
+  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:8d2dbd5", "zstd": "1.5.6/-19", "tokenizer": "tiktoken/cl100k_base" },
+  "shards": [
+    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/74/7f/747f64997cf219c1e02d21f196bb1c28868b33e8f0f5193c85b1d5fa0ba8679b", "sha256": "747f64997cf219c1e02d21f196bb1c28868b33e8f0f5193c85b1d5fa0ba8679b",
+      "sources": ["dolly"],
+      "docs": 14996, "tokens": 2647410, "bytes": 3923184 }
+  ]
+}

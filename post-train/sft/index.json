@@ -1,0 +1,10 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "post-train/sft",
+  "entries": [
+    { "name": "dolly", "type": "dir" },
+    { "name": "oasst1", "type": "dir" },
+    { "name": "oasst2", "type": "dir" }
+  ]
+}
