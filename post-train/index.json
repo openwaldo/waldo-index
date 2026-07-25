@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 2,
-  "path": "post-train",
-  "entries": [
-    { "name": "sft", "type": "dir" }
-  ]
-}

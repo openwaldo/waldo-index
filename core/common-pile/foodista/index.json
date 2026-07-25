@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 2,
-  "path": "core/common-pile/foodista",
-  "entries": [
-    { "name": "foodista.json", "type": "manifest" }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 2,
-  "path": "core/common-pile/public-domain-review",
-  "entries": [
-    { "name": "public-domain-review.json", "type": "manifest" }
-  ]
-}

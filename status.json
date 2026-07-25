@@ -1,0 +1,101 @@
+{
+  "generated": "2026-07-25T21:50:46Z",
+  "index_commit": "ab69a6a",
+  "manifests": 7,
+  "shards": 40,
+  "docs": 497713,
+  "tokens": 2770374346,
+  "bytes": 2952251222,
+  "licenses": {
+    "Apache-2.0": {
+      "shards": 2,
+      "docs": 24214,
+      "tokens": 10232304,
+      "bytes": 13166514
+    },
+    "CC-BY-3.0": {
+      "shards": 2,
+      "docs": 67858,
+      "tokens": 36880487,
+      "bytes": 42319351
+    },
+    "CC-BY-4.0": {
+      "shards": 18,
+      "docs": 284412,
+      "tokens": 1955685742,
+      "bytes": 2098681732
+    },
+    "CC-BY-SA-3.0": {
+      "shards": 1,
+      "docs": 14996,
+      "tokens": 2647410,
+      "bytes": 3923184
+    },
+    "CC-BY-SA-4.0": {
+      "shards": 1,
+      "docs": 1406,
+      "tokens": 1508728,
+      "bytes": 2246417
+    },
+    "CC0-1.0": {
+      "shards": 2,
+      "docs": 11268,
+      "tokens": 86825776,
+      "bytes": 93311917
+    },
+    "LicenseRef-CC-BY": {
+      "shards": 6,
+      "docs": 93513,
+      "tokens": 676282548,
+      "bytes": 698207334
+    },
+    "LicenseRef-http-CommonsAttributionLicense": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 8518,
+      "bytes": 12359
+    },
+    "LicenseRef-http-CreativeCommonsAttributionLicense": {
+      "shards": 1,
+      "docs": 28,
+      "tokens": 194714,
+      "bytes": 231680
+    },
+    "LicenseRef-http-creativecommons.org-icenses-by-4.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 6843,
+      "bytes": 9301
+    },
+    "LicenseRef-http-creativecommons.org-licenses-by-4.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 9244,
+      "bytes": 11697
+    },
+    "LicenseRef-http-www.nationalarchives.gov.uk-doc-open-government-licence-open-government-licence.htm": {
+      "shards": 1,
+      "docs": 6,
+      "tokens": 42181,
+      "bytes": 57863
+    },
+    "LicenseRef-http-www.nationalarchives.gov.uk-doc-open-government-licence-version-3": {
+      "shards": 1,
+      "docs": 3,
+      "tokens": 22288,
+      "bytes": 30923
+    },
+    "LicenseRef-http-www.plos.org-oa": {
+      "shards": 1,
+      "docs": 4,
+      "tokens": 14025,
+      "bytes": 22356
+    },
+    "LicenseRef-https-open.canada.ca-en-open-government-licence-canada": {
+      "shards": 1,
+      "docs": 2,
+      "tokens": 13538,
+      "bytes": 18594
+    }
+  }
+}

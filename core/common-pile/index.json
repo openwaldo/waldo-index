@@ -1,9 +1,0 @@
-{
-  "kind": "index",
-  "schema": 2,
-  "path": "core/common-pile",
-  "entries": [
-    { "name": "foodista", "type": "dir" },
-    { "name": "public-domain-review", "type": "dir" }
-  ]
-}
