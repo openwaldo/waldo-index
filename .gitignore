@@ -1,4 +1,4 @@
-# status.json is generated (scripts/status.py) and published by CI to
+# status.json is generated (.scripts/status.py) and published by CI to
 # GitHub Pages — never tracked, so it can never drift from the tree.
 /status.json
 /_site/

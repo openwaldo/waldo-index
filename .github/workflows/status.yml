@@ -30,7 +30,7 @@ jobs:
       - name: Generate status.json from the committed tree
         run: |
           mkdir -p _site
-          python3 scripts/status.py _site/status.json
+          python3 .scripts/status.py _site/status.json
           cat _site/status.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
