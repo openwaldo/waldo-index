@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-26T04:57:03Z",
-  "index_commit": "a33d5c4",
-  "manifests": 8,
-  "shards": 160,
-  "docs": 16768111,
-  "tokens": 16861474290,
-  "bytes": 20037867036,
+  "generated": "2026-07-26T15:07:16Z",
+  "index_commit": "6e17ce0",
+  "manifests": 9,
+  "shards": 197,
+  "docs": 26998217,
+  "tokens": 19804569978,
+  "bytes": 23707789311,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -13,41 +13,77 @@
       "tokens": 10232304,
       "bytes": 13166514
     },
+    "CC-BY-2.0": {
+      "shards": 1,
+      "docs": 11309,
+      "tokens": 3301845,
+      "bytes": 3634354
+    },
+    "CC-BY-2.5": {
+      "shards": 1,
+      "docs": 8538,
+      "tokens": 2121658,
+      "bytes": 2381958
+    },
     "CC-BY-3.0": {
-      "shards": 2,
-      "docs": 67858,
-      "tokens": 36880487,
-      "bytes": 42319351
+      "shards": 3,
+      "docs": 191889,
+      "tokens": 67152966,
+      "bytes": 80661368
     },
     "CC-BY-4.0": {
-      "shards": 18,
-      "docs": 284412,
-      "tokens": 1955685742,
-      "bytes": 2098681732
+      "shards": 19,
+      "docs": 307979,
+      "tokens": 1967584539,
+      "bytes": 2104651303
+    },
+    "CC-BY-SA-2.1": {
+      "shards": 1,
+      "docs": 3635,
+      "tokens": 323964,
+      "bytes": 634476
+    },
+    "CC-BY-SA-2.5": {
+      "shards": 1,
+      "docs": 76917,
+      "tokens": 22368217,
+      "bytes": 24889407
     },
     "CC-BY-SA-3.0": {
-      "shards": 1,
-      "docs": 14996,
-      "tokens": 2647410,
-      "bytes": 3923184
+      "shards": 23,
+      "docs": 8071651,
+      "tokens": 2299572715,
+      "bytes": 2922479535
     },
     "CC-BY-SA-4.0": {
-      "shards": 121,
-      "docs": 16271804,
-      "tokens": 14092608672,
-      "bytes": 17087862231
+      "shards": 127,
+      "docs": 18080285,
+      "tokens": 14646734753,
+      "bytes": 17738130121
     },
     "CC0-1.0": {
-      "shards": 2,
-      "docs": 11268,
-      "tokens": 86825776,
-      "bytes": 93311917
+      "shards": 3,
+      "docs": 25637,
+      "tokens": 90062535,
+      "bytes": 97238322
     },
     "LicenseRef-CC-BY": {
       "shards": 6,
       "docs": 93513,
       "tokens": 676282548,
       "bytes": 698207334
+    },
+    "LicenseRef-GNU-Free-Documentation-License": {
+      "shards": 1,
+      "docs": 33667,
+      "tokens": 6197163,
+      "bytes": 4987986
+    },
+    "LicenseRef-Public-Domain": {
+      "shards": 1,
+      "docs": 68937,
+      "tokens": 12323420,
+      "bytes": 16331860
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
