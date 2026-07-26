@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-26T15:07:16Z",
-  "index_commit": "6e17ce0",
-  "manifests": 9,
-  "shards": 197,
-  "docs": 26998217,
-  "tokens": 19804569978,
-  "bytes": 23707789311,
+  "generated": "2026-07-26T17:29:08Z",
+  "index_commit": "718ecf3",
+  "manifests": 11,
+  "shards": 234,
+  "docs": 27985246,
+  "tokens": 23880468522,
+  "bytes": 28556842395,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -32,10 +32,10 @@
       "bytes": 80661368
     },
     "CC-BY-4.0": {
-      "shards": 19,
-      "docs": 307979,
-      "tokens": 1967584539,
-      "bytes": 2104651303
+      "shards": 55,
+      "docs": 1294353,
+      "tokens": 6040947127,
+      "bytes": 6950968944
     },
     "CC-BY-SA-2.1": {
       "shards": 1,
@@ -80,10 +80,10 @@
       "bytes": 4987986
     },
     "LicenseRef-Public-Domain": {
-      "shards": 1,
-      "docs": 68937,
-      "tokens": 12323420,
-      "bytes": 16331860
+      "shards": 2,
+      "docs": 69592,
+      "tokens": 14859376,
+      "bytes": 19067303
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
