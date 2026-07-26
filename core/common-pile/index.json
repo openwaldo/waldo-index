@@ -5,6 +5,7 @@
   "entries": [
     { "name": "foodista", "type": "dir" },
     { "name": "public-domain-review", "type": "dir" },
-    { "name": "wikimedia", "type": "dir" }
+    { "name": "wikimedia", "type": "dir" },
+    { "name": "wikiteam", "type": "dir" }
   ]
 }
