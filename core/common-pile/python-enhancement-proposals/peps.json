@@ -1,0 +1,16 @@
+{
+  "kind": "manifest",
+  "schema": 2,
+  "name": "peps",
+  "license": "CC0-1.0",
+  "sources": [
+    { "name": "common-pile/python_enhancement_proposals_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/python_enhancement_proposals_filtered", "sha256": "14062485bbab7c13609c9a438af2546dec88fa83bf06027a1d4350136a595478" }
+  ],
+  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:a482038", "zstd": "1.5.6/-19", "tokenizer": "tiktoken/cl100k_base" },
+  "shards": [
+    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/c5/49/c549d8655aa61c3a6a50867c25cf96d020f3ac91739b11e8ab31d9f4779d7e69", "sha256": "c549d8655aa61c3a6a50867c25cf96d020f3ac91739b11e8ab31d9f4779d7e69",
+      "license": "LicenseRef-Public-Domain",
+      "sources": ["common-pile/python_enhancement_proposals_filtered"],
+      "docs": 655, "tokens": 2535956, "bytes": 2735443 }
+  ]
+}
