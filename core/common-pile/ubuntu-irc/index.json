@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "core/common-pile/ubuntu-irc",
+  "entries": [
+    { "name": "ubuntu-irc.json", "type": "manifest" }
+  ]
+}
