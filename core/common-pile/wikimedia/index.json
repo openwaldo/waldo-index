@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "core/common-pile/wikimedia",
+  "entries": [
+    { "name": "wikimedia.json", "type": "manifest" }
+  ]
+}
