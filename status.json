@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-27T01:49:37Z",
-  "index_commit": "6cfad48",
+  "generated": "2026-07-27T11:53:54Z",
+  "index_commit": "e8e4035",
   "manifests": 13,
-  "shards": 438,
-  "docs": 59187661,
-  "tokens": 47454841953,
-  "bytes": 56259512286,
+  "shards": 482,
+  "docs": 59248953,
+  "tokens": 53056317170,
+  "bytes": 62790930135,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -62,10 +62,10 @@
       "bytes": 28497658686
     },
     "CC0-1.0": {
-      "shards": 3,
-      "docs": 25637,
-      "tokens": 90062535,
-      "bytes": 97238322
+      "shards": 47,
+      "docs": 86929,
+      "tokens": 5691537752,
+      "bytes": 6628656171
     },
     "LicenseRef-CC-BY": {
       "shards": 6,
@@ -186,6 +186,29 @@
         "CC-BY-SA-4.0": {
           "shards": 120,
           "tokens": 14091099944
+        }
+      }
+    },
+    {
+      "path": "core/books/gutenberg",
+      "name": "gutenberg",
+      "sources": [
+        {
+          "name": "gutenberg",
+          "origin": "Project Gutenberg",
+          "version": "2026-07-27 catalog",
+          "url": "https://www.gutenberg.org/"
+        }
+      ],
+      "converted_by": "waldo-ingest/auto",
+      "shards": 45,
+      "docs": 61295,
+      "tokens": 5601783849,
+      "bytes": 6531813078,
+      "licenses": {
+        "CC0-1.0": {
+          "shards": 45,
+          "tokens": 5601783849
         }
       }
     },
@@ -500,29 +523,6 @@
         "CC-BY-SA-4.0": {
           "shards": 1,
           "tokens": 1508728
-        }
-      }
-    },
-    {
-      "path": "core/books/gutenberg",
-      "name": "gutenberg",
-      "sources": [
-        {
-          "name": "gutenberg",
-          "origin": "Project Gutenberg",
-          "version": "2026-07-25 fetch",
-          "url": "https://www.gutenberg.org/"
-        }
-      ],
-      "converted_by": "waldo-ingest/auto",
-      "shards": 1,
-      "docs": 3,
-      "tokens": 308632,
-      "bytes": 395229,
-      "licenses": {
-        "CC0-1.0": {
-          "shards": 1,
-          "tokens": 308632
         }
       }
     }
