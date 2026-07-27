@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-26T18:38:21Z",
-  "index_commit": "38b26bb",
-  "manifests": 12,
-  "shards": 245,
-  "docs": 28200208,
-  "tokens": 25642529425,
-  "bytes": 29952767197,
+  "generated": "2026-07-27T00:58:51Z",
+  "index_commit": "f5a766d",
+  "manifests": 13,
+  "shards": 438,
+  "docs": 59187661,
+  "tokens": 47454841953,
+  "bytes": 56259512286,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -44,22 +44,22 @@
       "bytes": 634476
     },
     "CC-BY-SA-2.5": {
-      "shards": 1,
-      "docs": 76917,
-      "tokens": 22368217,
-      "bytes": 24889407
+      "shards": 10,
+      "docs": 1426597,
+      "tokens": 934646192,
+      "bytes": 1190251740
     },
     "CC-BY-SA-3.0": {
-      "shards": 23,
-      "docs": 8071651,
-      "tokens": 2299572715,
-      "bytes": 2922479535
+      "shards": 128,
+      "docs": 25170927,
+      "tokens": 14104708523,
+      "bytes": 17304333726
     },
     "CC-BY-SA-4.0": {
-      "shards": 127,
-      "docs": 18080285,
-      "tokens": 14646734753,
-      "bytes": 17738130121
+      "shards": 206,
+      "docs": 30618782,
+      "tokens": 23741633498,
+      "bytes": 28497658686
     },
     "CC0-1.0": {
       "shards": 3,
