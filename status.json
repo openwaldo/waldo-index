@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-27T00:58:51Z",
-  "index_commit": "f5a766d",
+  "generated": "2026-07-27T01:49:37Z",
+  "index_commit": "6cfad48",
   "manifests": 13,
   "shards": 438,
   "docs": 59187661,
@@ -133,5 +133,398 @@
       "tokens": 13538,
       "bytes": 18594
     }
-  }
+  },
+  "corpora": [
+    {
+      "path": "core/common-pile/stackexchange",
+      "name": "stackexchange",
+      "sources": [
+        {
+          "name": "common-pile/stackexchange_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/stackexchange_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 193,
+      "docs": 30987453,
+      "tokens": 21812312528,
+      "bytes": 26306745089,
+      "licenses": {
+        "CC-BY-SA-2.5": {
+          "shards": 9,
+          "tokens": 912277975
+        },
+        "CC-BY-SA-3.0": {
+          "shards": 105,
+          "tokens": 11805135808
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 79,
+          "tokens": 9094898745
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/wikimedia",
+      "name": "wikimedia",
+      "sources": [
+        {
+          "name": "common-pile/wikimedia_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/wikimedia_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 120,
+      "docs": 16270398,
+      "tokens": 14091099944,
+      "bytes": 17085615814,
+      "licenses": {
+        "CC-BY-SA-4.0": {
+          "shards": 120,
+          "tokens": 14091099944
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/youtube",
+      "name": "youtube",
+      "sources": [
+        {
+          "name": "common-pile/youtube_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/youtube_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 36,
+      "docs": 986374,
+      "tokens": 4073362588,
+      "bytes": 4846317641,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 36,
+          "tokens": 4073362588
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/wikiteam",
+      "name": "wikiteam",
+      "sources": [
+        {
+          "name": "common-pile/wikiteam_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/wikiteam_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 37,
+      "docs": 10230106,
+      "tokens": 2943095688,
+      "bytes": 3669922275,
+      "licenses": {
+        "CC-BY-2.0": {
+          "shards": 1,
+          "tokens": 3301845
+        },
+        "CC-BY-2.5": {
+          "shards": 1,
+          "tokens": 2121658
+        },
+        "CC-BY-3.0": {
+          "shards": 1,
+          "tokens": 30272479
+        },
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 11898797
+        },
+        "CC-BY-SA-2.1": {
+          "shards": 1,
+          "tokens": 323964
+        },
+        "CC-BY-SA-2.5": {
+          "shards": 1,
+          "tokens": 22368217
+        },
+        "CC-BY-SA-3.0": {
+          "shards": 22,
+          "tokens": 2296925305
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 6,
+          "tokens": 554126081
+        },
+        "CC0-1.0": {
+          "shards": 1,
+          "tokens": 3236759
+        },
+        "LicenseRef-GNU-Free-Documentation-License": {
+          "shards": 1,
+          "tokens": 6197163
+        },
+        "LicenseRef-Public-Domain": {
+          "shards": 1,
+          "tokens": 12323420
+        }
+      }
+    },
+    {
+      "path": "science/plos",
+      "name": "plos",
+      "sources": [
+        {
+          "name": "plos",
+          "origin": "Public Library of Science (publisher-direct)",
+          "version": "2026-07-25 fetch",
+          "url": "https://allof.plos.org/allofplos.zip"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 34,
+      "docs": 391454,
+      "tokens": 2734709557,
+      "bytes": 2906762350,
+      "licenses": {
+        "CC-BY-3.0": {
+          "shards": 1,
+          "tokens": 15912772
+        },
+        "CC-BY-4.0": {
+          "shards": 18,
+          "tokens": 1955685742
+        },
+        "CC0-1.0": {
+          "shards": 1,
+          "tokens": 86517144
+        },
+        "LicenseRef-CC-BY": {
+          "shards": 6,
+          "tokens": 676282548
+        },
+        "LicenseRef-http-CommonsAttributionLicense": {
+          "shards": 1,
+          "tokens": 8518
+        },
+        "LicenseRef-http-CreativeCommonsAttributionLicense": {
+          "shards": 1,
+          "tokens": 194714
+        },
+        "LicenseRef-http-creativecommons.org-icenses-by-4.0": {
+          "shards": 1,
+          "tokens": 6843
+        },
+        "LicenseRef-http-creativecommons.org-licenses-by-4.0": {
+          "shards": 1,
+          "tokens": 9244
+        },
+        "LicenseRef-http-www.nationalarchives.gov.uk-doc-open-government-licence-open-government-licence.htm": {
+          "shards": 1,
+          "tokens": 42181
+        },
+        "LicenseRef-http-www.nationalarchives.gov.uk-doc-open-government-licence-version-3": {
+          "shards": 1,
+          "tokens": 22288
+        },
+        "LicenseRef-http-www.plos.org-oa": {
+          "shards": 1,
+          "tokens": 14025
+        },
+        "LicenseRef-https-open.canada.ca-en-open-government-licence-canada": {
+          "shards": 1,
+          "tokens": 13538
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/ubuntu-irc",
+      "name": "ubuntu-irc",
+      "sources": [
+        {
+          "name": "common-pile/ubuntu_irc_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/ubuntu_irc_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 11,
+      "docs": 214962,
+      "tokens": 1762060903,
+      "bytes": 1395924802,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 11,
+          "tokens": 1762060903
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/foodista",
+      "name": "foodista",
+      "sources": [
+        {
+          "name": "common-pile/foodista_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/foodista_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 1,
+      "docs": 65640,
+      "tokens": 20967715,
+      "bytes": 25757528,
+      "licenses": {
+        "CC-BY-3.0": {
+          "shards": 1,
+          "tokens": 20967715
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/oasst2",
+      "name": "oasst2",
+      "sources": [
+        {
+          "name": "oasst2",
+          "origin": "OpenAssistant Conversations (OpenAssistant/oasst2)",
+          "version": "2023-11-05",
+          "url": "https://huggingface.co/datasets/OpenAssistant/oasst2"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 1,
+      "docs": 13852,
+      "tokens": 6156748,
+      "bytes": 7854120,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 6156748
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/oasst1",
+      "name": "oasst1",
+      "sources": [
+        {
+          "name": "oasst1",
+          "origin": "OpenAssistant Conversations (OpenAssistant/oasst1)",
+          "version": "2023-04-12",
+          "url": "https://huggingface.co/datasets/OpenAssistant/oasst1"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 1,
+      "docs": 10362,
+      "tokens": 4075556,
+      "bytes": 5312394,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 4075556
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/dolly",
+      "name": "dolly",
+      "sources": [
+        {
+          "name": "dolly",
+          "origin": "databricks-dolly-15k (huggingface.co/datasets/databricks/databricks-dolly-15k)",
+          "version": "1.0",
+          "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 1,
+      "docs": 14996,
+      "tokens": 2647410,
+      "bytes": 3923184,
+      "licenses": {
+        "CC-BY-SA-3.0": {
+          "shards": 1,
+          "tokens": 2647410
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/python-enhancement-proposals",
+      "name": "peps",
+      "sources": [
+        {
+          "name": "common-pile/python_enhancement_proposals_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/python_enhancement_proposals_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 1,
+      "docs": 655,
+      "tokens": 2535956,
+      "bytes": 2735443,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 1,
+          "tokens": 2535956
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/public-domain-review",
+      "name": "public-domain-review",
+      "sources": [
+        {
+          "name": "common-pile/public_domain_review_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/public_domain_review_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 1,
+      "docs": 1406,
+      "tokens": 1508728,
+      "bytes": 2246417,
+      "licenses": {
+        "CC-BY-SA-4.0": {
+          "shards": 1,
+          "tokens": 1508728
+        }
+      }
+    },
+    {
+      "path": "core/books/gutenberg",
+      "name": "gutenberg",
+      "sources": [
+        {
+          "name": "gutenberg",
+          "origin": "Project Gutenberg",
+          "version": "2026-07-25 fetch",
+          "url": "https://www.gutenberg.org/"
+        }
+      ],
+      "converted_by": "waldo-ingest/auto",
+      "shards": 1,
+      "docs": 3,
+      "tokens": 308632,
+      "bytes": 395229,
+      "licenses": {
+        "CC0-1.0": {
+          "shards": 1,
+          "tokens": 308632
+        }
+      }
+    }
+  ]
 }
