@@ -4,6 +4,7 @@
   "name": "stackexchange",
   "description": "Question-and-answer threads from across the Stack Exchange network, via the Common Pile. Community technical Q&A, licensed CC-BY-SA by the version in force when each contribution was made.",
   "license": "CC-BY-SA-4.0",
+  "format": "jsonl.zst",
   "sources": [
     { "name": "common-pile/stackexchange_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/stackexchange_filtered", "sha256": "88047631295afc4143444014b9eae84e2338c7a99cbdfd3fbefce661596ea02e" }
   ],

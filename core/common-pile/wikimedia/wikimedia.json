@@ -4,6 +4,7 @@
   "name": "wikimedia",
   "description": "Encyclopedic and reference articles from Wikimedia projects, via the Common Pile. CC-BY-SA collaborative knowledge.",
   "license": "CC-BY-SA-4.0",
+  "format": "jsonl.zst",
   "sources": [
     { "name": "common-pile/wikimedia_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/wikimedia_filtered", "sha256": "7c21936120b1c7cdeb6e684d9578fa8f4a0b9c56121390190cda1c08738aba56" }
   ],

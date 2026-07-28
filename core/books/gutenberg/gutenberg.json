@@ -4,6 +4,7 @@
   "name": "gutenberg",
   "description": "Public-domain books from Project Gutenberg, fetched directly from gutenberg.org and cleaned into training documents. Long-form literature, largely pre-1929.",
   "license": "CC0-1.0",
+  "format": "jsonl.zst",
   "sources": [
     { "name": "gutenberg", "source": "Project Gutenberg", "version": "2026-07-27 catalog", "url": "https://www.gutenberg.org/", "sha256": "22e37d18153b904452a61ce9266c6f289a5f306d188b2e9fc2ab811162071107" }
   ],

@@ -4,6 +4,7 @@
   "name": "peps",
   "description": "Python Enhancement Proposals (PEPs) — the design documents of the Python language, via the Common Pile. Public domain.",
   "license": "CC0-1.0",
+  "format": "jsonl.zst",
   "sources": [
     { "name": "common-pile/python_enhancement_proposals_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/python_enhancement_proposals_filtered", "sha256": "14062485bbab7c13609c9a438af2546dec88fa83bf06027a1d4350136a595478" }
   ],

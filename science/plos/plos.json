@@ -4,6 +4,7 @@
   "name": "plos",
   "description": "Open-access biomedical and scientific research articles from the Public Library of Science, fetched directly from PLOS (JATS full text).",
   "license": "CC-BY-4.0",
+  "format": "jsonl.zst",
   "sources": [
     { "name": "plos", "source": "Public Library of Science (publisher-direct)", "version": "2026-07-25 fetch", "url": "https://allof.plos.org/allofplos.zip", "sha256": "844d9f28786daf43bb8b243ed8e28903c145dccd3728b9727abf0667125461d1" }
   ],

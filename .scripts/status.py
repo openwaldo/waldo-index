@@ -48,6 +48,8 @@ def walk(root, dirpath, agg, corpora):
                 "path": os.path.relpath(dirpath, root),
                 "name": m.get("name") or os.path.splitext(name)[0],
                 "description": m.get("description", ""),
+                # Empty format resolves to the parquet default, matching the tool.
+                "format": m.get("format") or "parquet",
                 "sources": [
                     {"name": s.get("name"), "origin": s.get("source"),
                      "version": s.get("version"), "url": s.get("url")}

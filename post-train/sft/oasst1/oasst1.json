@@ -4,6 +4,7 @@
   "name": "oasst1",
   "description": "OpenAssistant Conversations, release 1 — human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
   "license": "Apache-2.0",
+  "format": "jsonl.zst",
   "sources": [
     { "name": "oasst1", "source": "OpenAssistant Conversations (OpenAssistant/oasst1)", "version": "2023-04-12", "url": "https://huggingface.co/datasets/OpenAssistant/oasst1", "sha256": "c43d058ad23cb76d5ffffa0baaa37ac21d6442883efa85a2950c1fe83f0841d1" }
   ],

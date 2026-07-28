@@ -4,6 +4,7 @@
   "name": "youtube",
   "description": "Creative-Commons-licensed YouTube transcripts, via the Common Pile — spoken-language text across many topics and speakers.",
   "license": "CC-BY-3.0",
+  "format": "jsonl.zst",
   "sources": [
     { "name": "common-pile/youtube_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/youtube_filtered", "sha256": "462db25419b93e088e10c2ee507163b1ad2670289c6b62dd1ec6ca282cd44d24" }
   ],
