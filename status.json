@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-27T11:53:54Z",
-  "index_commit": "e8e4035",
-  "manifests": 13,
-  "shards": 482,
-  "docs": 59248953,
-  "tokens": 53056317170,
-  "bytes": 62790930135,
+  "generated": "2026-07-28T12:11:48Z",
+  "index_commit": "574720d",
+  "manifests": 14,
+  "shards": 826,
+  "docs": 65357935,
+  "tokens": 92608664932,
+  "bytes": 105144497688,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -32,10 +32,10 @@
       "bytes": 80661368
     },
     "CC-BY-4.0": {
-      "shards": 55,
-      "docs": 1294353,
-      "tokens": 6040947127,
-      "bytes": 6950968944
+      "shards": 399,
+      "docs": 7403335,
+      "tokens": 45593294889,
+      "bytes": 49304536497
     },
     "CC-BY-SA-2.1": {
       "shards": 1,
@@ -135,6 +135,29 @@
     }
   },
   "corpora": [
+    {
+      "path": "science/pes2o",
+      "name": "pes2o",
+      "sources": [
+        {
+          "name": "common-pile/peS2o_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/peS2o_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 344,
+      "docs": 6108982,
+      "tokens": 39552347762,
+      "bytes": 42353567553,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 344,
+          "tokens": 39552347762
+        }
+      }
+    },
     {
       "path": "core/common-pile/stackexchange",
       "name": "stackexchange",
