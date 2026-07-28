@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 2,
   "name": "wikiteam",
+  "description": "Community wiki text archived by WikiTeam, via the Common Pile; a mix of Creative Commons, public-domain, and GFDL licenses preserved per shard.",
   "license": "CC-BY-SA-3.0",
   "sources": [
     { "name": "common-pile/wikiteam_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/wikiteam_filtered", "sha256": "47d6d08c8da4f8414a3ef1a739bf1430a4d19e5852517f7e9d4e0c8ad2681073" }

@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 2,
   "name": "public-domain-review",
+  "description": "Essays on public-domain art, literature, and history from The Public Domain Review, via the Common Pile.",
   "license": "CC0-1.0",
   "sources": [
     { "name": "common-pile/public_domain_review_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/public_domain_review_filtered", "sha256": "0ef4a01cde992f9c94d2a015a2e0e6db020ec05723a459b51ac633f1b438853a" }

@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 2,
   "name": "pes2o",
+  "description": "Open-access scientific papers — abstracts and full-text bodies from the scholarly literature (Semantic Scholar's peS2o corpus), via the Common Pile. The largest science corpus in the index.",
   "license": "CC-BY-4.0",
   "sources": [
     { "name": "common-pile/peS2o_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/peS2o_filtered", "sha256": "01ce136a764a76517f5e6782271bd77b670c4b2aeadf031a2095eca112102aa0" }

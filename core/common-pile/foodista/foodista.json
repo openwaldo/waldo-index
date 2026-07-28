@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 2,
   "name": "foodista",
+  "description": "Community-contributed cooking and food articles from Foodista, via the Common Pile (CC-BY).",
   "license": "CC-BY-3.0",
   "sources": [
     { "name": "common-pile/foodista_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/foodista_filtered", "sha256": "cfd4940e522a49900e7e42bba1646c27c15c3f9007ef5348f4cb341882f93db5" }

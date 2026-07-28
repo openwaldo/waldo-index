@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 2,
   "name": "ubuntu-irc",
+  "description": "Two decades of public Ubuntu IRC support logs, via the Common Pile — real-world technical dialogue, released to the public domain.",
   "license": "CC0-1.0",
   "sources": [
     { "name": "common-pile/ubuntu_irc_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/ubuntu_irc_filtered", "sha256": "8372149dac5396a60fb1d3bcb27eecc580840199c917aa0def6c33cd45fc2345" }

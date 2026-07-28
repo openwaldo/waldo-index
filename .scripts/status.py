@@ -47,6 +47,7 @@ def walk(root, dirpath, agg, corpora):
             row = {
                 "path": os.path.relpath(dirpath, root),
                 "name": m.get("name") or os.path.splitext(name)[0],
+                "description": m.get("description", ""),
                 "sources": [
                     {"name": s.get("name"), "origin": s.get("source"),
                      "version": s.get("version"), "url": s.get("url")}

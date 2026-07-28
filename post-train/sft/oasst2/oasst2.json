@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 2,
   "name": "oasst2",
+  "description": "OpenAssistant Conversations, release 2 — human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
   "license": "Apache-2.0",
   "sources": [
     { "name": "oasst2", "source": "OpenAssistant Conversations (OpenAssistant/oasst2)", "version": "2023-11-05", "url": "https://huggingface.co/datasets/OpenAssistant/oasst2", "sha256": "5fe37b126b5642f83d9c81f716e9e7dafb27b98a037eb84e9f21ff5b3cdacbff" }
