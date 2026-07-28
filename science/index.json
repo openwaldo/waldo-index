@@ -3,6 +3,7 @@
   "schema": 2,
   "path": "science",
   "entries": [
+    { "name": "pes2o", "type": "dir" },
     { "name": "plos", "type": "dir" }
   ]
 }
