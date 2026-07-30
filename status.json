@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-30T09:58:19Z",
-  "index_commit": "905075d",
+  "generated": "2026-07-30T11:58:34Z",
+  "index_commit": "c4ae52c",
   "manifests": 14,
   "shards": 822,
   "docs": 65357935,
   "tokens": 92608664932,
-  "bytes": 106911084214,
+  "bytes": 107801202533,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -29,13 +29,13 @@
       "shards": 3,
       "docs": 191889,
       "tokens": 67152966,
-      "bytes": 90552880
+      "bytes": 95680307
     },
     "CC-BY-4.0": {
       "shards": 399,
       "docs": 7403335,
       "tokens": 45593294889,
-      "bytes": 50410257057
+      "bytes": 51050947638
     },
     "CC-BY-SA-2.1": {
       "shards": 1,
@@ -65,13 +65,13 @@
       "shards": 47,
       "docs": 86929,
       "tokens": 5691537752,
-      "bytes": 6629144124
+      "bytes": 6659800566
     },
     "LicenseRef-CC-BY": {
       "shards": 6,
       "docs": 93513,
       "tokens": 676282548,
-      "bytes": 698207334
+      "bytes": 910400018
     },
     "LicenseRef-GNU-Free-Documentation-License": {
       "shards": 1,
@@ -89,49 +89,49 @@
       "shards": 1,
       "docs": 1,
       "tokens": 8518,
-      "bytes": 12359
+      "bytes": 257699
     },
     "LicenseRef-http-CreativeCommonsAttributionLicense": {
       "shards": 1,
       "docs": 28,
       "tokens": 194714,
-      "bytes": 231680
+      "bytes": 391530
     },
     "LicenseRef-http-creativecommons.org-icenses-by-4.0": {
       "shards": 1,
       "docs": 1,
       "tokens": 6843,
-      "bytes": 9301
+      "bytes": 190629
     },
     "LicenseRef-http-creativecommons.org-licenses-by-4.0": {
       "shards": 1,
       "docs": 1,
       "tokens": 9244,
-      "bytes": 11697
+      "bytes": 232091
     },
     "LicenseRef-http-www.nationalarchives.gov.uk-doc-open-government-licence-open-government-licence.htm": {
       "shards": 1,
       "docs": 6,
       "tokens": 42181,
-      "bytes": 57863
+      "bytes": 237910
     },
     "LicenseRef-http-www.nationalarchives.gov.uk-doc-open-government-licence-version-3": {
       "shards": 1,
       "docs": 3,
       "tokens": 22288,
-      "bytes": 30923
+      "bytes": 217652
     },
     "LicenseRef-http-www.plos.org-oa": {
       "shards": 1,
       "docs": 4,
       "tokens": 14025,
-      "bytes": 22356
+      "bytes": 118434
     },
     "LicenseRef-https-open.canada.ca-en-open-government-licence-canada": {
       "shards": 1,
       "docs": 2,
       "tokens": 13538,
-      "bytes": 18594
+      "bytes": 200013
     }
   },
   "corpora": [
@@ -337,12 +337,12 @@
       "path": "science/plos",
       "name": "plos",
       "description": "Open-access biomedical and scientific research articles from the Public Library of Science, fetched directly from PLOS (JATS full text).",
-      "format": "jsonl.zst",
+      "format": "parquet",
       "sources": [
         {
           "name": "plos",
           "origin": "Public Library of Science (publisher-direct)",
-          "version": "2026-07-25 fetch",
+          "version": "2026-07-30 fetch",
           "url": "https://allof.plos.org/allofplos.zip"
         }
       ],
@@ -350,7 +350,7 @@
       "shards": 34,
       "docs": 391454,
       "tokens": 2734709557,
-      "bytes": 2906762350,
+      "bytes": 3796880669,
       "licenses": {
         "CC-BY-3.0": {
           "shards": 1,
