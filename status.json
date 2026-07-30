@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-30T09:43:43Z",
-  "index_commit": "9e94210",
+  "generated": "2026-07-30T09:58:19Z",
+  "index_commit": "905075d",
   "manifests": 14,
-  "shards": 825,
+  "shards": 822,
   "docs": 65357935,
   "tokens": 92608664932,
-  "bytes": 105383771220,
+  "bytes": 106911084214,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -17,55 +17,55 @@
       "shards": 1,
       "docs": 11309,
       "tokens": 3301845,
-      "bytes": 3634354
+      "bytes": 4145260
     },
     "CC-BY-2.5": {
       "shards": 1,
       "docs": 8538,
       "tokens": 2121658,
-      "bytes": 2381958
+      "bytes": 2622197
     },
     "CC-BY-3.0": {
       "shards": 3,
       "docs": 191889,
       "tokens": 67152966,
-      "bytes": 84514436
+      "bytes": 90552880
     },
     "CC-BY-4.0": {
       "shards": 399,
       "docs": 7403335,
       "tokens": 45593294889,
-      "bytes": 49304536497
+      "bytes": 50410257057
     },
     "CC-BY-SA-2.1": {
       "shards": 1,
       "docs": 3635,
       "tokens": 323964,
-      "bytes": 634476
+      "bytes": 632680
     },
     "CC-BY-SA-2.5": {
       "shards": 10,
       "docs": 1426597,
       "tokens": 934646192,
-      "bytes": 1190251740
+      "bytes": 1194941863
     },
     "CC-BY-SA-3.0": {
-      "shards": 128,
+      "shards": 126,
       "docs": 25170927,
       "tokens": 14104708523,
-      "bytes": 17304747594
+      "bytes": 17615936462
     },
     "CC-BY-SA-4.0": {
-      "shards": 206,
+      "shards": 205,
       "docs": 30618782,
       "tokens": 23741633498,
-      "bytes": 28498020899
+      "bytes": 28592515046
     },
     "CC0-1.0": {
       "shards": 47,
       "docs": 86929,
       "tokens": 5691537752,
-      "bytes": 6628656171
+      "bytes": 6629144124
     },
     "LicenseRef-CC-BY": {
       "shards": 6,
@@ -77,13 +77,13 @@
       "shards": 1,
       "docs": 33667,
       "tokens": 6197163,
-      "bytes": 4987986
+      "bytes": 6396977
     },
     "LicenseRef-Public-Domain": {
       "shards": 12,
       "docs": 284554,
       "tokens": 1776920279,
-      "bytes": 1647500066
+      "bytes": 1650034625
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
@@ -247,7 +247,7 @@
       "path": "core/common-pile/youtube",
       "name": "youtube",
       "description": "Creative-Commons-licensed YouTube transcripts, via the Common Pile \u2014 spoken-language text across many topics and speakers.",
-      "format": "jsonl.zst",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/youtube_filtered",
@@ -260,7 +260,7 @@
       "shards": 36,
       "docs": 986374,
       "tokens": 4073362588,
-      "bytes": 4846317641,
+      "bytes": 5949641994,
       "licenses": {
         "CC-BY-4.0": {
           "shards": 36,
@@ -272,7 +272,7 @@
       "path": "core/common-pile/wikiteam",
       "name": "wikiteam",
       "description": "Community wiki text archived by WikiTeam, via the Common Pile; a mix of Creative Commons, public-domain, and GFDL licenses preserved per shard.",
-      "format": "jsonl.zst",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/wikiteam_filtered",
@@ -282,10 +282,10 @@
         }
       ],
       "converted_by": "waldo-ingest/jsonl",
-      "shards": 37,
+      "shards": 34,
       "docs": 10230106,
       "tokens": 2943095688,
-      "bytes": 3669922275,
+      "bytes": 4093910916,
       "licenses": {
         "CC-BY-2.0": {
           "shards": 1,
@@ -312,11 +312,11 @@
           "tokens": 22368217
         },
         "CC-BY-SA-3.0": {
-          "shards": 22,
+          "shards": 20,
           "tokens": 2296925305
         },
         "CC-BY-SA-4.0": {
-          "shards": 6,
+          "shards": 5,
           "tokens": 554126081
         },
         "CC0-1.0": {
