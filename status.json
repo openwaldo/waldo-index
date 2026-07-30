@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-30T11:58:34Z",
-  "index_commit": "c4ae52c",
+  "generated": "2026-07-30T20:24:42Z",
+  "index_commit": "c3b1ecb",
   "manifests": 14,
-  "shards": 822,
+  "shards": 815,
   "docs": 65357935,
   "tokens": 92608664932,
-  "bytes": 107801202533,
+  "bytes": 113868205307,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -47,19 +47,19 @@
       "shards": 10,
       "docs": 1426597,
       "tokens": 934646192,
-      "bytes": 1194941863
+      "bytes": 1363091223
     },
     "CC-BY-SA-3.0": {
-      "shards": 126,
+      "shards": 123,
       "docs": 25170927,
       "tokens": 14104708523,
-      "bytes": 17615936462
+      "bytes": 19590410074
     },
     "CC-BY-SA-4.0": {
-      "shards": 205,
+      "shards": 201,
       "docs": 30618782,
       "tokens": 23741633498,
-      "bytes": 28592515046
+      "bytes": 32516894848
     },
     "CC0-1.0": {
       "shards": 47,
@@ -164,7 +164,7 @@
       "path": "core/common-pile/stackexchange",
       "name": "stackexchange",
       "description": "Question-and-answer threads from across the Stack Exchange network, via the Common Pile. Community technical Q&A, licensed CC-BY-SA by the version in force when each contribution was made.",
-      "format": "jsonl.zst",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/stackexchange_filtered",
@@ -174,21 +174,21 @@
         }
       ],
       "converted_by": "waldo-ingest/jsonl",
-      "shards": 193,
+      "shards": 188,
       "docs": 30987453,
       "tokens": 21812312528,
-      "bytes": 26306745089,
+      "bytes": 29908722980,
       "licenses": {
         "CC-BY-SA-2.5": {
           "shards": 9,
           "tokens": 912277975
         },
         "CC-BY-SA-3.0": {
-          "shards": 105,
+          "shards": 102,
           "tokens": 11805135808
         },
         "CC-BY-SA-4.0": {
-          "shards": 79,
+          "shards": 77,
           "tokens": 9094898745
         }
       }
@@ -197,7 +197,7 @@
       "path": "core/common-pile/wikimedia",
       "name": "wikimedia",
       "description": "Encyclopedic and reference articles from Wikimedia projects, via the Common Pile. CC-BY-SA collaborative knowledge.",
-      "format": "jsonl.zst",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/wikimedia_filtered",
@@ -207,13 +207,13 @@
         }
       ],
       "converted_by": "waldo-ingest/jsonl",
-      "shards": 120,
+      "shards": 118,
       "docs": 16270398,
       "tokens": 14091099944,
-      "bytes": 17085615814,
+      "bytes": 19550640697,
       "licenses": {
         "CC-BY-SA-4.0": {
-          "shards": 120,
+          "shards": 118,
           "tokens": 14091099944
         }
       }
