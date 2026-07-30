@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-28T12:11:48Z",
-  "index_commit": "574720d",
+  "generated": "2026-07-30T09:43:43Z",
+  "index_commit": "9e94210",
   "manifests": 14,
-  "shards": 826,
+  "shards": 825,
   "docs": 65357935,
   "tokens": 92608664932,
-  "bytes": 105144497688,
+  "bytes": 105383771220,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
       "docs": 24214,
       "tokens": 10232304,
-      "bytes": 13166514
+      "bytes": 15302936
     },
     "CC-BY-2.0": {
       "shards": 1,
@@ -29,7 +29,7 @@
       "shards": 3,
       "docs": 191889,
       "tokens": 67152966,
-      "bytes": 80661368
+      "bytes": 84514436
     },
     "CC-BY-4.0": {
       "shards": 399,
@@ -53,13 +53,13 @@
       "shards": 128,
       "docs": 25170927,
       "tokens": 14104708523,
-      "bytes": 17304333726
+      "bytes": 17304747594
     },
     "CC-BY-SA-4.0": {
       "shards": 206,
       "docs": 30618782,
       "tokens": 23741633498,
-      "bytes": 28497658686
+      "bytes": 28498020899
     },
     "CC0-1.0": {
       "shards": 47,
@@ -80,10 +80,10 @@
       "bytes": 4987986
     },
     "LicenseRef-Public-Domain": {
-      "shards": 13,
+      "shards": 12,
       "docs": 284554,
       "tokens": 1776920279,
-      "bytes": 1414992105
+      "bytes": 1647500066
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
@@ -138,6 +138,8 @@
     {
       "path": "science/pes2o",
       "name": "pes2o",
+      "description": "Open-access scientific papers \u2014 abstracts and full-text bodies from the scholarly literature (Semantic Scholar's peS2o corpus), via the Common Pile. The largest science corpus in the index.",
+      "format": "jsonl.zst",
       "sources": [
         {
           "name": "common-pile/peS2o_filtered",
@@ -161,6 +163,8 @@
     {
       "path": "core/common-pile/stackexchange",
       "name": "stackexchange",
+      "description": "Question-and-answer threads from across the Stack Exchange network, via the Common Pile. Community technical Q&A, licensed CC-BY-SA by the version in force when each contribution was made.",
+      "format": "jsonl.zst",
       "sources": [
         {
           "name": "common-pile/stackexchange_filtered",
@@ -192,6 +196,8 @@
     {
       "path": "core/common-pile/wikimedia",
       "name": "wikimedia",
+      "description": "Encyclopedic and reference articles from Wikimedia projects, via the Common Pile. CC-BY-SA collaborative knowledge.",
+      "format": "jsonl.zst",
       "sources": [
         {
           "name": "common-pile/wikimedia_filtered",
@@ -215,6 +221,8 @@
     {
       "path": "core/books/gutenberg",
       "name": "gutenberg",
+      "description": "Public-domain books from Project Gutenberg, fetched directly from gutenberg.org and cleaned into training documents. Long-form literature, largely pre-1929.",
+      "format": "jsonl.zst",
       "sources": [
         {
           "name": "gutenberg",
@@ -238,6 +246,8 @@
     {
       "path": "core/common-pile/youtube",
       "name": "youtube",
+      "description": "Creative-Commons-licensed YouTube transcripts, via the Common Pile \u2014 spoken-language text across many topics and speakers.",
+      "format": "jsonl.zst",
       "sources": [
         {
           "name": "common-pile/youtube_filtered",
@@ -261,6 +271,8 @@
     {
       "path": "core/common-pile/wikiteam",
       "name": "wikiteam",
+      "description": "Community wiki text archived by WikiTeam, via the Common Pile; a mix of Creative Commons, public-domain, and GFDL licenses preserved per shard.",
+      "format": "jsonl.zst",
       "sources": [
         {
           "name": "common-pile/wikiteam_filtered",
@@ -324,6 +336,8 @@
     {
       "path": "science/plos",
       "name": "plos",
+      "description": "Open-access biomedical and scientific research articles from the Public Library of Science, fetched directly from PLOS (JATS full text).",
+      "format": "jsonl.zst",
       "sources": [
         {
           "name": "plos",
@@ -391,6 +405,8 @@
     {
       "path": "core/common-pile/ubuntu-irc",
       "name": "ubuntu-irc",
+      "description": "Two decades of public Ubuntu IRC support logs, via the Common Pile \u2014 real-world technical dialogue, released to the public domain.",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/ubuntu_irc_filtered",
@@ -400,13 +416,13 @@
         }
       ],
       "converted_by": "waldo-ingest/jsonl",
-      "shards": 11,
+      "shards": 10,
       "docs": 214962,
       "tokens": 1762060903,
-      "bytes": 1395924802,
+      "bytes": 1627788761,
       "licenses": {
         "LicenseRef-Public-Domain": {
-          "shards": 11,
+          "shards": 10,
           "tokens": 1762060903
         }
       }
@@ -414,6 +430,8 @@
     {
       "path": "core/common-pile/foodista",
       "name": "foodista",
+      "description": "Community-contributed cooking and food articles from Foodista, via the Common Pile (CC-BY).",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/foodista_filtered",
@@ -426,7 +444,7 @@
       "shards": 1,
       "docs": 65640,
       "tokens": 20967715,
-      "bytes": 25757528,
+      "bytes": 29610596,
       "licenses": {
         "CC-BY-3.0": {
           "shards": 1,
@@ -437,6 +455,8 @@
     {
       "path": "post-train/sft/oasst2",
       "name": "oasst2",
+      "description": "OpenAssistant Conversations, release 2 \u2014 human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
+      "format": "parquet",
       "sources": [
         {
           "name": "oasst2",
@@ -449,7 +469,7 @@
       "shards": 1,
       "docs": 13852,
       "tokens": 6156748,
-      "bytes": 7854120,
+      "bytes": 9178785,
       "licenses": {
         "Apache-2.0": {
           "shards": 1,
@@ -460,6 +480,8 @@
     {
       "path": "post-train/sft/oasst1",
       "name": "oasst1",
+      "description": "OpenAssistant Conversations, release 1 \u2014 human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
+      "format": "parquet",
       "sources": [
         {
           "name": "oasst1",
@@ -472,7 +494,7 @@
       "shards": 1,
       "docs": 10362,
       "tokens": 4075556,
-      "bytes": 5312394,
+      "bytes": 6124151,
       "licenses": {
         "Apache-2.0": {
           "shards": 1,
@@ -483,6 +505,8 @@
     {
       "path": "post-train/sft/dolly",
       "name": "dolly",
+      "description": "databricks-dolly-15k \u2014 human-written instruction/response pairs across brainstorming, QA, summarization, and more (CC-BY-SA-3.0).",
+      "format": "parquet",
       "sources": [
         {
           "name": "dolly",
@@ -495,7 +519,7 @@
       "shards": 1,
       "docs": 14996,
       "tokens": 2647410,
-      "bytes": 3923184,
+      "bytes": 4337052,
       "licenses": {
         "CC-BY-SA-3.0": {
           "shards": 1,
@@ -506,6 +530,8 @@
     {
       "path": "core/common-pile/python-enhancement-proposals",
       "name": "peps",
+      "description": "Python Enhancement Proposals (PEPs) \u2014 the design documents of the Python language, via the Common Pile. Public domain.",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/python_enhancement_proposals_filtered",
@@ -518,7 +544,7 @@
       "shards": 1,
       "docs": 655,
       "tokens": 2535956,
-      "bytes": 2735443,
+      "bytes": 3379445,
       "licenses": {
         "LicenseRef-Public-Domain": {
           "shards": 1,
@@ -529,6 +555,8 @@
     {
       "path": "core/common-pile/public-domain-review",
       "name": "public-domain-review",
+      "description": "Essays on public-domain art, literature, and history from The Public Domain Review, via the Common Pile.",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/public_domain_review_filtered",
@@ -541,7 +569,7 @@
       "shards": 1,
       "docs": 1406,
       "tokens": 1508728,
-      "bytes": 2246417,
+      "bytes": 2608630,
       "licenses": {
         "CC-BY-SA-4.0": {
           "shards": 1,
