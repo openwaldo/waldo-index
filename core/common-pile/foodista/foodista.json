@@ -1,17 +1,16 @@
 {
   "kind": "manifest",
-  "schema": 2,
+  "schema": 1,
   "name": "foodista",
   "description": "Community-contributed cooking and food articles from Foodista, via the Common Pile (CC-BY).",
   "license": "CC-BY-3.0",
-  "format": "jsonl.zst",
   "sources": [
-    { "name": "common-pile/foodista_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/foodista_filtered", "sha256": "cfd4940e522a49900e7e42bba1646c27c15c3f9007ef5348f4cb341882f93db5" }
+    { "name": "common-pile/foodista_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/foodista_filtered", "sha256": "bdf3059a76b8fb7351aef2d37aa8b9a84f34135f54c863e39c60db53a3ef00b0" }
   ],
-  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:8d2dbd5", "zstd": "1.5.6/-19", "tokenizer": "tiktoken/cl100k_base" },
+  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [
-    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/7a/c2/7ac2be4e8b5cc94a35d0b51a0a66c56abb2f43e768ecaae7639aac17bea24f50", "sha256": "7ac2be4e8b5cc94a35d0b51a0a66c56abb2f43e768ecaae7639aac17bea24f50",
+    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/v1/2b/16/2b16d4760dfe23bce62e961993b25eab946c26a8676029c251b46aea1870163a", "sha256": "2b16d4760dfe23bce62e961993b25eab946c26a8676029c251b46aea1870163a",
       "sources": ["common-pile/foodista_filtered"],
-      "docs": 65640, "tokens": 20967715, "bytes": 25757528 }
+      "docs": 65640, "tokens": 20967715, "bytes": 29610596 }
   ]
 }
