@@ -1,17 +1,16 @@
 {
   "kind": "manifest",
-  "schema": 2,
+  "schema": 1,
   "name": "oasst1",
   "description": "OpenAssistant Conversations, release 1 — human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
   "license": "Apache-2.0",
-  "format": "jsonl.zst",
   "sources": [
     { "name": "oasst1", "source": "OpenAssistant Conversations (OpenAssistant/oasst1)", "version": "2023-04-12", "url": "https://huggingface.co/datasets/OpenAssistant/oasst1", "sha256": "c43d058ad23cb76d5ffffa0baaa37ac21d6442883efa85a2950c1fe83f0841d1" }
   ],
-  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:8d2dbd5", "zstd": "1.5.6/-19", "tokenizer": "tiktoken/cl100k_base" },
+  "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "waldo-fetch-conversations", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [
-    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/f0/2d/f02d64c74a8aa4e0ceca750e3020d58371d75c048bb0418dc16e7dfae3573dba", "sha256": "f02d64c74a8aa4e0ceca750e3020d58371d75c048bb0418dc16e7dfae3573dba",
+    { "url": "s3://s3.us-east-2.amazonaws.com/openwaldo/lookaside/v1/af/98/af983e8ba990eb836611b827ab38b7c30610b71a6dab572687c4404153ca7b6c", "sha256": "af983e8ba990eb836611b827ab38b7c30610b71a6dab572687c4404153ca7b6c",
       "sources": ["oasst1"],
-      "docs": 10362, "tokens": 4075556, "bytes": 5312394 }
+      "docs": 10362, "tokens": 4075556, "bytes": 6124151 }
   ]
 }
