@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T16:05:28Z",
-  "index_commit": "80c8684",
+  "generated": "2026-07-31T19:41:56Z",
+  "index_commit": "ab9e01b",
   "manifests": 14,
   "shards": 813,
   "docs": 65357937,
@@ -138,6 +138,7 @@
     {
       "path": "science/pes2o",
       "name": "pes2o",
+      "title": "Open-Access Papers",
       "description": "Open-access scientific papers \u2014 abstracts and full-text bodies from the scholarly literature (Semantic Scholar's peS2o corpus), via the Common Pile. The largest science corpus in the index.",
       "format": "parquet",
       "sources": [
@@ -163,6 +164,7 @@
     {
       "path": "core/common-pile/stackexchange",
       "name": "stackexchange",
+      "title": "Stack Exchange",
       "description": "Question-and-answer threads from across the Stack Exchange network, via the Common Pile. Community technical Q&A, licensed CC-BY-SA by the version in force when each contribution was made.",
       "format": "parquet",
       "sources": [
@@ -196,6 +198,7 @@
     {
       "path": "core/common-pile/wikimedia",
       "name": "wikimedia",
+      "title": "Wikimedia",
       "description": "Encyclopedic and reference articles from Wikimedia projects, via the Common Pile. CC-BY-SA collaborative knowledge.",
       "format": "parquet",
       "sources": [
@@ -221,6 +224,7 @@
     {
       "path": "core/books/gutenberg",
       "name": "gutenberg",
+      "title": "Project Gutenberg",
       "description": "Public-domain books from Project Gutenberg, fetched directly from gutenberg.org and cleaned into training documents. Long-form literature, largely pre-1929.",
       "format": "parquet",
       "sources": [
@@ -246,6 +250,7 @@
     {
       "path": "core/common-pile/youtube",
       "name": "youtube",
+      "title": "YouTube Transcripts",
       "description": "Creative-Commons-licensed YouTube transcripts, via the Common Pile \u2014 spoken-language text across many topics and speakers.",
       "format": "parquet",
       "sources": [
@@ -271,6 +276,7 @@
     {
       "path": "core/common-pile/wikiteam",
       "name": "wikiteam",
+      "title": "WikiTeam Archives",
       "description": "Community wiki text archived by WikiTeam, via the Common Pile; a mix of Creative Commons, public-domain, and GFDL licenses preserved per shard.",
       "format": "parquet",
       "sources": [
@@ -336,6 +342,7 @@
     {
       "path": "science/plos",
       "name": "plos",
+      "title": "PLOS Articles",
       "description": "Open-access biomedical and scientific research articles from the Public Library of Science, fetched directly from PLOS (JATS full text).",
       "format": "parquet",
       "sources": [
@@ -405,6 +412,7 @@
     {
       "path": "core/common-pile/ubuntu-irc",
       "name": "ubuntu-irc",
+      "title": "Ubuntu IRC Logs",
       "description": "Two decades of public Ubuntu IRC support logs, via the Common Pile \u2014 real-world technical dialogue, released to the public domain.",
       "format": "parquet",
       "sources": [
@@ -430,6 +438,7 @@
     {
       "path": "core/common-pile/foodista",
       "name": "foodista",
+      "title": "Foodista",
       "description": "Community-contributed cooking and food articles from Foodista, via the Common Pile (CC-BY).",
       "format": "parquet",
       "sources": [
@@ -455,6 +464,7 @@
     {
       "path": "post-train/sft/oasst2",
       "name": "oasst2",
+      "title": "OpenAssistant Conversations 2",
       "description": "OpenAssistant Conversations, release 2 \u2014 human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
       "format": "parquet",
       "sources": [
@@ -480,6 +490,7 @@
     {
       "path": "post-train/sft/oasst1",
       "name": "oasst1",
+      "title": "OpenAssistant Conversations 1",
       "description": "OpenAssistant Conversations, release 1 \u2014 human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
       "format": "parquet",
       "sources": [
@@ -505,6 +516,7 @@
     {
       "path": "post-train/sft/dolly",
       "name": "dolly",
+      "title": "Databricks Dolly",
       "description": "databricks-dolly-15k \u2014 human-written instruction/response pairs across brainstorming, QA, summarization, and more (CC-BY-SA-3.0).",
       "format": "parquet",
       "sources": [
@@ -530,6 +542,7 @@
     {
       "path": "core/common-pile/python-enhancement-proposals",
       "name": "peps",
+      "title": "Python Enhancement Proposals",
       "description": "Python Enhancement Proposals (PEPs) \u2014 the design documents of the Python language, via the Common Pile. Public domain.",
       "format": "parquet",
       "sources": [
@@ -555,6 +568,7 @@
     {
       "path": "core/common-pile/public-domain-review",
       "name": "public-domain-review",
+      "title": "The Public Domain Review",
       "description": "Essays on public-domain art, literature, and history from The Public Domain Review, via the Common Pile.",
       "format": "parquet",
       "sources": [
