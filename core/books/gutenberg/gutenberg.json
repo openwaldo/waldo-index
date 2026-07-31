@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "gutenberg",
+  "title": "Project Gutenberg",
   "description": "Public-domain books from Project Gutenberg, fetched directly from gutenberg.org and cleaned into training documents. Long-form literature, largely pre-1929.",
   "license": "CC0-1.0",
   "sources": [

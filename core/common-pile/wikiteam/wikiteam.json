@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "wikiteam",
+  "title": "WikiTeam Archives",
   "description": "Community wiki text archived by WikiTeam, via the Common Pile; a mix of Creative Commons, public-domain, and GFDL licenses preserved per shard.",
   "license": "CC-BY-SA-3.0",
   "sources": [

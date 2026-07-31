@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "pes2o",
+  "title": "Open-Access Papers",
   "description": "Open-access scientific papers — abstracts and full-text bodies from the scholarly literature (Semantic Scholar's peS2o corpus), via the Common Pile. The largest science corpus in the index.",
   "license": "CC-BY-4.0",
   "sources": [

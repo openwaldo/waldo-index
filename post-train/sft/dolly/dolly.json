@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "dolly",
+  "title": "Databricks Dolly",
   "description": "databricks-dolly-15k — human-written instruction/response pairs across brainstorming, QA, summarization, and more (CC-BY-SA-3.0).",
   "license": "CC-BY-SA-3.0",
   "sources": [

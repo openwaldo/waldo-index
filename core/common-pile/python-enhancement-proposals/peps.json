@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "peps",
+  "title": "Python Enhancement Proposals",
   "description": "Python Enhancement Proposals (PEPs) — the design documents of the Python language, via the Common Pile. Public domain.",
   "license": "CC0-1.0",
   "sources": [

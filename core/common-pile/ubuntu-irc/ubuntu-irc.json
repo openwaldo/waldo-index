@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "ubuntu-irc",
+  "title": "Ubuntu IRC Logs",
   "description": "Two decades of public Ubuntu IRC support logs, via the Common Pile — real-world technical dialogue, released to the public domain.",
   "license": "CC0-1.0",
   "sources": [

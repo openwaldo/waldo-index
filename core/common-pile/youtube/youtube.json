@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "youtube",
+  "title": "YouTube Transcripts",
   "description": "Creative-Commons-licensed YouTube transcripts, via the Common Pile — spoken-language text across many topics and speakers.",
   "license": "CC-BY-3.0",
   "sources": [

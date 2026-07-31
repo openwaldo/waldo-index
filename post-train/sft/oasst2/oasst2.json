@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "oasst2",
+  "title": "OpenAssistant Conversations 2",
   "description": "OpenAssistant Conversations, release 2 — human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
   "license": "Apache-2.0",
   "sources": [

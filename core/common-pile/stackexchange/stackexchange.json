@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "stackexchange",
+  "title": "Stack Exchange",
   "description": "Question-and-answer threads from across the Stack Exchange network, via the Common Pile. Community technical Q&A, licensed CC-BY-SA by the version in force when each contribution was made.",
   "license": "CC-BY-SA-4.0",
   "sources": [

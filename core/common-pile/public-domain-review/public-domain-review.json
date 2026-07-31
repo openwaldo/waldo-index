@@ -2,6 +2,7 @@
   "kind": "manifest",
   "schema": 1,
   "name": "public-domain-review",
+  "title": "The Public Domain Review",
   "description": "Essays on public-domain art, literature, and history from The Public Domain Review, via the Common Pile.",
   "license": "CC0-1.0",
   "sources": [
