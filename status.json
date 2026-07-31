@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-30T20:24:42Z",
-  "index_commit": "c3b1ecb",
+  "generated": "2026-07-31T16:05:28Z",
+  "index_commit": "80c8684",
   "manifests": 14,
-  "shards": 815,
-  "docs": 65357935,
-  "tokens": 92608664932,
-  "bytes": 113868205307,
+  "shards": 813,
+  "docs": 65357937,
+  "tokens": 92608744661,
+  "bytes": 127936434953,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -32,10 +32,10 @@
       "bytes": 95680307
     },
     "CC-BY-4.0": {
-      "shards": 399,
+      "shards": 398,
       "docs": 7403335,
       "tokens": 45593294889,
-      "bytes": 51050947638
+      "bytes": 62099510001
     },
     "CC-BY-SA-2.1": {
       "shards": 1,
@@ -62,10 +62,10 @@
       "bytes": 32516894848
     },
     "CC0-1.0": {
-      "shards": 47,
-      "docs": 86929,
-      "tokens": 5691537752,
-      "bytes": 6659800566
+      "shards": 46,
+      "docs": 86931,
+      "tokens": 5691617481,
+      "bytes": 9679467849
     },
     "LicenseRef-CC-BY": {
       "shards": 6,
@@ -139,7 +139,7 @@
       "path": "science/pes2o",
       "name": "pes2o",
       "description": "Open-access scientific papers \u2014 abstracts and full-text bodies from the scholarly literature (Semantic Scholar's peS2o corpus), via the Common Pile. The largest science corpus in the index.",
-      "format": "jsonl.zst",
+      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/peS2o_filtered",
@@ -149,13 +149,13 @@
         }
       ],
       "converted_by": "waldo-ingest/jsonl",
-      "shards": 344,
+      "shards": 343,
       "docs": 6108982,
       "tokens": 39552347762,
-      "bytes": 42353567553,
+      "bytes": 53402129916,
       "licenses": {
         "CC-BY-4.0": {
-          "shards": 344,
+          "shards": 343,
           "tokens": 39552347762
         }
       }
@@ -222,24 +222,24 @@
       "path": "core/books/gutenberg",
       "name": "gutenberg",
       "description": "Public-domain books from Project Gutenberg, fetched directly from gutenberg.org and cleaned into training documents. Long-form literature, largely pre-1929.",
-      "format": "jsonl.zst",
+      "format": "parquet",
       "sources": [
         {
           "name": "gutenberg",
           "origin": "Project Gutenberg",
-          "version": "2026-07-27 catalog",
+          "version": "2026-07-31 catalog",
           "url": "https://www.gutenberg.org/"
         }
       ],
       "converted_by": "waldo-ingest/auto",
-      "shards": 45,
-      "docs": 61295,
-      "tokens": 5601783849,
-      "bytes": 6531813078,
+      "shards": 44,
+      "docs": 61297,
+      "tokens": 5601863578,
+      "bytes": 9551480361,
       "licenses": {
         "CC0-1.0": {
-          "shards": 45,
-          "tokens": 5601783849
+          "shards": 44,
+          "tokens": 5601863578
         }
       }
     },
