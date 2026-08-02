@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "government/regulations",
+  "entries": [
+    { "name": "regulations.json", "type": "manifest" }
+  ]
+}
