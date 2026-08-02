@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-31T19:41:56Z",
-  "index_commit": "ab9e01b",
-  "manifests": 14,
-  "shards": 813,
-  "docs": 65357937,
-  "tokens": 92608744661,
-  "bytes": 127936434953,
+  "generated": "2026-08-02T17:17:12Z",
+  "index_commit": "57c2432",
+  "manifests": 17,
+  "shards": 867,
+  "docs": 66002184,
+  "tokens": 98705965395,
+  "bytes": 136890898226,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -26,16 +26,16 @@
       "bytes": 2622197
     },
     "CC-BY-3.0": {
-      "shards": 3,
-      "docs": 191889,
-      "tokens": 67152966,
-      "bytes": 95680307
+      "shards": 13,
+      "docs": 439518,
+      "tokens": 1236387174,
+      "bytes": 1557815014
     },
     "CC-BY-4.0": {
-      "shards": 398,
-      "docs": 7403335,
-      "tokens": 45593294889,
-      "bytes": 62099510001
+      "shards": 412,
+      "docs": 7559226,
+      "tokens": 47183392588,
+      "bytes": 65244203413
     },
     "CC-BY-SA-2.1": {
       "shards": 1,
@@ -50,16 +50,16 @@
       "bytes": 1363091223
     },
     "CC-BY-SA-3.0": {
-      "shards": 123,
-      "docs": 25170927,
-      "tokens": 14104708523,
-      "bytes": 19590410074
+      "shards": 124,
+      "docs": 25170936,
+      "tokens": 14105662976,
+      "bytes": 19594682573
     },
     "CC-BY-SA-4.0": {
-      "shards": 201,
-      "docs": 30618782,
-      "tokens": 23741633498,
-      "bytes": 32516894848
+      "shards": 202,
+      "docs": 30619170,
+      "tokens": 23785370797,
+      "bytes": 32592083117
     },
     "CC0-1.0": {
       "shards": 46,
@@ -79,11 +79,17 @@
       "tokens": 6197163,
       "bytes": 6396977
     },
+    "LicenseRef-Open-Parliament-Licence---https-www.parliament.uk-site-information-copyright-parliament-open-parliament-licence": {
+      "shards": 18,
+      "docs": 47894,
+      "tokens": 2012229928,
+      "bytes": 3093635490
+    },
     "LicenseRef-Public-Domain": {
-      "shards": 12,
-      "docs": 284554,
-      "tokens": 1776920279,
-      "bytes": 1650034625
+      "shards": 22,
+      "docs": 476990,
+      "tokens": 3057887426,
+      "bytes": 2824573521
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
@@ -340,6 +346,44 @@
       }
     },
     {
+      "path": "core/books/doab",
+      "name": "doab",
+      "title": "Directory of Open Access Books",
+      "description": "Peer-reviewed open-access scholarly books from the Directory of Open Access Books, via the Common Pile.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/doab_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/doab_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 26,
+      "docs": 403917,
+      "tokens": 2804023659,
+      "bytes": 4686288887,
+      "licenses": {
+        "CC-BY-3.0": {
+          "shards": 10,
+          "tokens": 1169234208
+        },
+        "CC-BY-4.0": {
+          "shards": 14,
+          "tokens": 1590097699
+        },
+        "CC-BY-SA-3.0": {
+          "shards": 1,
+          "tokens": 954453
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 1,
+          "tokens": 43737299
+        }
+      }
+    },
+    {
       "path": "science/plos",
       "name": "plos",
       "title": "PLOS Articles",
@@ -410,6 +454,32 @@
       }
     },
     {
+      "path": "government/uk-hansard",
+      "name": "uk-hansard",
+      "title": "UK Parliament Hansard",
+      "description": "Transcripts of debates in the UK House of Commons and House of Lords, via the Common Pile.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/uk_hansard_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/uk_hansard_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 18,
+      "docs": 47894,
+      "tokens": 2012229928,
+      "bytes": 3093635490,
+      "licenses": {
+        "LicenseRef-Open-Parliament-Licence---https-www.parliament.uk-site-information-copyright-parliament-open-parliament-licence": {
+          "shards": 18,
+          "tokens": 2012229928
+        }
+      }
+    },
+    {
       "path": "core/common-pile/ubuntu-irc",
       "name": "ubuntu-irc",
       "title": "Ubuntu IRC Logs",
@@ -432,6 +502,32 @@
         "LicenseRef-Public-Domain": {
           "shards": 10,
           "tokens": 1762060903
+        }
+      }
+    },
+    {
+      "path": "government/regulations",
+      "name": "regulations",
+      "title": "US Federal Rulemaking",
+      "description": "United States federal rulemaking documents and public comments from regulations.gov, via the Common Pile.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/regulations_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/regulations_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 10,
+      "docs": 192436,
+      "tokens": 1280967147,
+      "bytes": 1174538896,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 10,
+          "tokens": 1280967147
         }
       }
     },
