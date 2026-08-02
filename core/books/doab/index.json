@@ -1,0 +1,8 @@
+{
+  "kind": "index",
+  "schema": 2,
+  "path": "core/books/doab",
+  "entries": [
+    { "name": "doab.json", "type": "manifest" }
+  ]
+}
