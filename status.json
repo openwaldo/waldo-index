@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-02T17:17:12Z",
-  "index_commit": "57c2432",
-  "manifests": 17,
-  "shards": 867,
-  "docs": 66002184,
-  "tokens": 98705965395,
-  "bytes": 136890898226,
+  "generated": "2026-08-02T17:40:19Z",
+  "index_commit": "1460d5d",
+  "manifests": 16,
+  "shards": 908,
+  "docs": 67771256,
+  "tokens": 103186899357,
+  "bytes": 142630009595,
   "licenses": {
     "Apache-2.0": {
       "shards": 2,
@@ -79,17 +79,11 @@
       "tokens": 6197163,
       "bytes": 6396977
     },
-    "LicenseRef-Open-Parliament-Licence---https-www.parliament.uk-site-information-copyright-parliament-open-parliament-licence": {
-      "shards": 18,
-      "docs": 47894,
-      "tokens": 2012229928,
-      "bytes": 3093635490
-    },
     "LicenseRef-Public-Domain": {
-      "shards": 22,
-      "docs": 476990,
-      "tokens": 3057887426,
-      "bytes": 2824573521
+      "shards": 81,
+      "docs": 2293956,
+      "tokens": 9551051316,
+      "bytes": 11657320380
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
@@ -224,6 +218,32 @@
         "CC-BY-SA-4.0": {
           "shards": 118,
           "tokens": 14091099944
+        }
+      }
+    },
+    {
+      "path": "government/usgpo",
+      "name": "usgpo",
+      "title": "US Government Publishing Office",
+      "description": "United States government publications \u2014 bills, hearings, reports, and the Congressional Record \u2014 from the Government Publishing Office, via the Common Pile.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/usgpo_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/usgpo_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 69,
+      "docs": 2009402,
+      "tokens": 7774131037,
+      "bytes": 10007285755,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 69,
+          "tokens": 7774131037
         }
       }
     },
@@ -454,32 +474,6 @@
       }
     },
     {
-      "path": "government/uk-hansard",
-      "name": "uk-hansard",
-      "title": "UK Parliament Hansard",
-      "description": "Transcripts of debates in the UK House of Commons and House of Lords, via the Common Pile.",
-      "format": "parquet",
-      "sources": [
-        {
-          "name": "common-pile/uk_hansard_filtered",
-          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
-          "version": "v0.1",
-          "url": "https://huggingface.co/datasets/common-pile/uk_hansard_filtered"
-        }
-      ],
-      "converted_by": "waldo-ingest/jsonl",
-      "shards": 18,
-      "docs": 47894,
-      "tokens": 2012229928,
-      "bytes": 3093635490,
-      "licenses": {
-        "LicenseRef-Open-Parliament-Licence---https-www.parliament.uk-site-information-copyright-parliament-open-parliament-licence": {
-          "shards": 18,
-          "tokens": 2012229928
-        }
-      }
-    },
-    {
       "path": "core/common-pile/ubuntu-irc",
       "name": "ubuntu-irc",
       "title": "Ubuntu IRC Logs",
@@ -502,32 +496,6 @@
         "LicenseRef-Public-Domain": {
           "shards": 10,
           "tokens": 1762060903
-        }
-      }
-    },
-    {
-      "path": "government/regulations",
-      "name": "regulations",
-      "title": "US Federal Rulemaking",
-      "description": "United States federal rulemaking documents and public comments from regulations.gov, via the Common Pile.",
-      "format": "parquet",
-      "sources": [
-        {
-          "name": "common-pile/regulations_filtered",
-          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
-          "version": "v0.1",
-          "url": "https://huggingface.co/datasets/common-pile/regulations_filtered"
-        }
-      ],
-      "converted_by": "waldo-ingest/jsonl",
-      "shards": 10,
-      "docs": 192436,
-      "tokens": 1280967147,
-      "bytes": 1174538896,
-      "licenses": {
-        "LicenseRef-Public-Domain": {
-          "shards": 10,
-          "tokens": 1280967147
         }
       }
     },
