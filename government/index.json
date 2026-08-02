@@ -3,6 +3,8 @@
   "schema": 2,
   "path": "government",
   "entries": [
+    { "name": "regulations", "type": "dir" },
+    { "name": "uk-hansard", "type": "dir" },
     { "name": "usgpo", "type": "dir" }
   ]
 }
