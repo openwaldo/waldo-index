@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-02T17:40:19Z",
-  "index_commit": "1460d5d",
-  "manifests": 16,
-  "shards": 908,
-  "docs": 67771256,
-  "tokens": 103186899357,
-  "bytes": 142630009595,
+  "generated": "2026-08-03T03:46:10Z",
+  "index_commit": "ef8c403",
+  "manifests": 19,
+  "shards": 937,
+  "docs": 68203447,
+  "tokens": 106584104174,
+  "bytes": 146969290163,
   "licenses": {
     "Apache-2.0": {
-      "shards": 2,
-      "docs": 24214,
-      "tokens": 10232304,
-      "bytes": 15302936
+      "shards": 3,
+      "docs": 216075,
+      "tokens": 114240046,
+      "bytes": 86409118
     },
     "CC-BY-2.0": {
       "shards": 1,
@@ -79,11 +79,17 @@
       "tokens": 6197163,
       "bytes": 6396977
     },
+    "LicenseRef-Open-Parliament-Licence---https-www.parliament.uk-site-information-copyright-parliament-open-parliament-licence": {
+      "shards": 18,
+      "docs": 47894,
+      "tokens": 2012229928,
+      "bytes": 3093635490
+    },
     "LicenseRef-Public-Domain": {
-      "shards": 81,
-      "docs": 2293956,
-      "tokens": 9551051316,
-      "bytes": 11657320380
+      "shards": 91,
+      "docs": 2486392,
+      "tokens": 10832018463,
+      "bytes": 12831859276
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
@@ -474,6 +480,32 @@
       }
     },
     {
+      "path": "government/uk-hansard",
+      "name": "uk-hansard",
+      "title": "UK Parliament Hansard",
+      "description": "Transcripts of debates in the UK House of Commons and House of Lords, via the Common Pile.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/uk_hansard_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/uk_hansard_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 18,
+      "docs": 47894,
+      "tokens": 2012229928,
+      "bytes": 3093635490,
+      "licenses": {
+        "LicenseRef-Open-Parliament-Licence---https-www.parliament.uk-site-information-copyright-parliament-open-parliament-licence": {
+          "shards": 18,
+          "tokens": 2012229928
+        }
+      }
+    },
+    {
       "path": "core/common-pile/ubuntu-irc",
       "name": "ubuntu-irc",
       "title": "Ubuntu IRC Logs",
@@ -496,6 +528,58 @@
         "LicenseRef-Public-Domain": {
           "shards": 10,
           "tokens": 1762060903
+        }
+      }
+    },
+    {
+      "path": "government/regulations",
+      "name": "regulations",
+      "title": "US Federal Rulemaking",
+      "description": "United States federal rulemaking documents and public comments from regulations.gov, via the Common Pile.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/regulations_filtered",
+          "origin": "Common Pile v0.1 (huggingface.co/common-pile)",
+          "version": "v0.1",
+          "url": "https://huggingface.co/datasets/common-pile/regulations_filtered"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 10,
+      "docs": 192436,
+      "tokens": 1280967147,
+      "bytes": 1174538896,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 10,
+          "tokens": 1280967147
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/aya",
+      "name": "aya",
+      "title": "Aya Dataset",
+      "description": "Instruction and response pairs in 65 languages, written by hand by around 3,000 volunteer annotators for Cohere For AI's Aya initiative.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "CohereForAI/aya_dataset",
+          "origin": "Hugging Face (huggingface.co/datasets)",
+          "version": "f9ea04583f02a8f86404ff6c58bf75fe637df8a2",
+          "url": "https://huggingface.co/datasets/CohereForAI/aya_dataset"
+        }
+      ],
+      "converted_by": "waldo-ingest/deposit",
+      "shards": 1,
+      "docs": 191861,
+      "tokens": 104007742,
+      "bytes": 71106182,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 104007742
         }
       }
     },
