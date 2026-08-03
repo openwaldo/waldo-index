@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-03T03:46:10Z",
-  "index_commit": "ef8c403",
-  "manifests": 19,
-  "shards": 937,
-  "docs": 68203447,
-  "tokens": 106584104174,
-  "bytes": 146969290163,
+  "generated": "2026-08-03T15:46:03Z",
+  "index_commit": "92a229a",
+  "manifests": 20,
+  "shards": 1087,
+  "docs": 75122304,
+  "tokens": 124010554159,
+  "bytes": 169363482410,
   "licenses": {
     "Apache-2.0": {
       "shards": 3,
@@ -86,10 +86,10 @@
       "bytes": 3093635490
     },
     "LicenseRef-Public-Domain": {
-      "shards": 91,
-      "docs": 2486392,
-      "tokens": 10832018463,
-      "bytes": 12831859276
+      "shards": 241,
+      "docs": 9405249,
+      "tokens": 28258468448,
+      "bytes": 35226051523
     },
     "LicenseRef-http-CommonsAttributionLicense": {
       "shards": 1,
@@ -198,6 +198,32 @@
         "CC-BY-SA-4.0": {
           "shards": 77,
           "tokens": 9094898745
+        }
+      }
+    },
+    {
+      "path": "law/caselaw",
+      "name": "caselaw",
+      "title": "United States Caselaw",
+      "description": "Published decisions of United States federal, state, and territorial courts from the 1670s to 2019 \u2014 all 401 reporters of Harvard Law School's Caselaw Access Project \u2014 fetched volume by volume from static.case.law.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "harvard-cap",
+          "origin": "Harvard Caselaw Access Project (static.case.law)",
+          "version": "static-2024",
+          "url": "https://static.case.law/"
+        }
+      ],
+      "converted_by": "waldo-ingest/jsonl",
+      "shards": 150,
+      "docs": 6918857,
+      "tokens": 17426449985,
+      "bytes": 22394192247,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 150,
+          "tokens": 17426449985
         }
       }
     },
@@ -561,7 +587,7 @@
       "path": "post-train/sft/aya",
       "name": "aya",
       "title": "Aya Dataset",
-      "description": "Instruction and response pairs in 65 languages, written by hand by around 3,000 volunteer annotators for Cohere For AI's Aya initiative.",
+      "description": "Instruction and response pairs in 70 languages, written and reviewed by hand by volunteer annotators for Cohere For AI's Aya initiative.",
       "format": "parquet",
       "sources": [
         {
