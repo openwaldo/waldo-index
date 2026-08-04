@@ -6,7 +6,7 @@
   "description": "Community-contributed cooking and food articles from Foodista, via the Common Pile (CC-BY).",
   "license": "CC-BY-3.0",
   "sources": [
-    { "name": "common-pile/foodista_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/foodista_filtered", "sha256": "bdf3059a76b8fb7351aef2d37aa8b9a84f34135f54c863e39c60db53a3ef00b0" }
+    { "name": "common-pile/foodista_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/foodista_filtered", "category": "public", "collected_to": "2026-07", "sha256": "bdf3059a76b8fb7351aef2d37aa8b9a84f34135f54c863e39c60db53a3ef00b0" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

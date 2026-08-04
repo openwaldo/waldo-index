@@ -6,7 +6,7 @@
   "description": "Public-domain books from Project Gutenberg, fetched directly from gutenberg.org and cleaned into training documents. Long-form literature, largely pre-1929.",
   "license": "CC0-1.0",
   "sources": [
-    { "name": "gutenberg", "source": "Project Gutenberg", "version": "2026-07-31 catalog", "url": "https://www.gutenberg.org/", "sha256": "a72fc9d0678dd5874cea0b73a75e854e3722a14e7e0e056ebc90727f471ec2f8" }
+    { "name": "gutenberg", "source": "Project Gutenberg", "version": "2026-07-31 catalog", "url": "https://www.gutenberg.org/", "category": "public", "collected_to": "2026-07", "sha256": "a72fc9d0678dd5874cea0b73a75e854e3722a14e7e0e056ebc90727f471ec2f8" }
   ],
   "converted_by": { "tool": "waldo-ingest/auto", "version": "0.1.0-dev", "commit": "git:d576545", "collector": "waldo-fetch-gutenberg", "profile": "auto", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

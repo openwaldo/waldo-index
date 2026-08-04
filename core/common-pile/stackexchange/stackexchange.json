@@ -6,7 +6,7 @@
   "description": "Question-and-answer threads from across the Stack Exchange network, via the Common Pile. Community technical Q&A, licensed CC-BY-SA by the version in force when each contribution was made.",
   "license": "CC-BY-SA-4.0",
   "sources": [
-    { "name": "common-pile/stackexchange_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/stackexchange_filtered", "sha256": "2d4f1036d3a454e8d473ef6fb092076b26fae74794e58697078f9fe93416ee1b" }
+    { "name": "common-pile/stackexchange_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/stackexchange_filtered", "category": "public", "collected_to": "2026-07", "sha256": "2d4f1036d3a454e8d473ef6fb092076b26fae74794e58697078f9fe93416ee1b" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:4b6da36", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

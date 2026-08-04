@@ -6,7 +6,7 @@
   "description": "Transcripts of debates in the UK House of Commons and House of Lords, via the Common Pile.",
   "license": "LicenseRef-Open-Parliament-Licence---https-www.parliament.uk-site-information-copyright-parliament-open-parliament-licence",
   "sources": [
-    { "name": "common-pile/uk_hansard_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/uk_hansard_filtered", "sha256": "5095eee24d833902c9189ae35b5cecb22d243d329f6063d6a382964d45a47cb8" }
+    { "name": "common-pile/uk_hansard_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/uk_hansard_filtered", "category": "public", "collected_to": "2026-08", "sha256": "5095eee24d833902c9189ae35b5cecb22d243d329f6063d6a382964d45a47cb8" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:b811a0e", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

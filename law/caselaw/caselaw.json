@@ -6,7 +6,7 @@
   "description": "Published decisions of United States federal, state, and territorial courts from the 1670s to 2019 — all 401 reporters of Harvard Law School's Caselaw Access Project — fetched volume by volume from static.case.law.",
   "license": "LicenseRef-Public-Domain",
   "sources": [
-    { "name": "harvard-cap", "source": "Harvard Caselaw Access Project (static.case.law)", "version": "static-2024", "url": "https://static.case.law/", "sha256": "64a8f91c2f7175f433d331aaf87f26f2d990f3fb6860ee2cfafee8bc246805f4" }
+    { "name": "harvard-cap", "source": "Harvard Caselaw Access Project (static.case.law)", "version": "static-2024", "url": "https://static.case.law/", "category": "public", "collected_to": "2026-08", "sha256": "64a8f91c2f7175f433d331aaf87f26f2d990f3fb6860ee2cfafee8bc246805f4" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:1c93dae", "collector": "fetch-cap", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2/stream-ordered", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

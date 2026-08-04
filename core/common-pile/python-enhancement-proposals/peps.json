@@ -6,7 +6,7 @@
   "description": "Python Enhancement Proposals (PEPs) — the design documents of the Python language, via the Common Pile. Public domain.",
   "license": "CC0-1.0",
   "sources": [
-    { "name": "common-pile/python_enhancement_proposals_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/python_enhancement_proposals_filtered", "sha256": "0822c9afb9f647e2eced8aa8e9d19afb71e14b21ca387a7d47d036e16c7efa87" }
+    { "name": "common-pile/python_enhancement_proposals_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/python_enhancement_proposals_filtered", "category": "public", "collected_to": "2026-07", "sha256": "0822c9afb9f647e2eced8aa8e9d19afb71e14b21ca387a7d47d036e16c7efa87" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

@@ -6,7 +6,7 @@
   "description": "Open-access scientific papers — abstracts and full-text bodies from the scholarly literature (Semantic Scholar's peS2o corpus), via the Common Pile. The largest science corpus in the index.",
   "license": "CC-BY-4.0",
   "sources": [
-    { "name": "common-pile/peS2o_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/peS2o_filtered", "sha256": "01ce136a764a76517f5e6782271bd77b670c4b2aeadf031a2095eca112102aa0" }
+    { "name": "common-pile/peS2o_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/peS2o_filtered", "category": "public", "collected_to": "2026-07", "sha256": "01ce136a764a76517f5e6782271bd77b670c4b2aeadf031a2095eca112102aa0" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:fd02766", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

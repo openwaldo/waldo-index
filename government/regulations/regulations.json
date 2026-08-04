@@ -6,7 +6,7 @@
   "description": "United States federal rulemaking documents and public comments from regulations.gov, via the Common Pile.",
   "license": "LicenseRef-Public-Domain",
   "sources": [
-    { "name": "common-pile/regulations_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/regulations_filtered", "sha256": "5a2915cea3e623737716bcc40fa841e1b29b14e74b1b4fb9676ef54fccb611c3" }
+    { "name": "common-pile/regulations_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/regulations_filtered", "category": "public", "collected_to": "2026-08", "sha256": "5a2915cea3e623737716bcc40fa841e1b29b14e74b1b4fb9676ef54fccb611c3" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:33286ab", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

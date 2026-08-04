@@ -6,7 +6,7 @@
   "description": "Open-access biomedical and scientific research articles from the Public Library of Science, fetched directly from PLOS (JATS full text).",
   "license": "CC-BY-4.0",
   "sources": [
-    { "name": "plos", "source": "Public Library of Science (publisher-direct)", "version": "2026-07-30 fetch", "url": "https://allof.plos.org/allofplos.zip", "sha256": "b56714c2be0ec7994f6412935ce4ecf64ca66bc625608f9e69e840775c540690" }
+    { "name": "plos", "source": "Public Library of Science (publisher-direct)", "version": "2026-07-30 fetch", "url": "https://allof.plos.org/allofplos.zip", "category": "public", "collected_to": "2026-07", "sha256": "b56714c2be0ec7994f6412935ce4ecf64ca66bc625608f9e69e840775c540690" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "waldo-fetch-plos", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

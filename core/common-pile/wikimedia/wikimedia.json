@@ -6,7 +6,7 @@
   "description": "Encyclopedic and reference articles from Wikimedia projects, via the Common Pile. CC-BY-SA collaborative knowledge.",
   "license": "CC-BY-SA-4.0",
   "sources": [
-    { "name": "common-pile/wikimedia_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/wikimedia_filtered", "sha256": "ceed8b58e8d2ac7f35162e03ec6876ba07f22b13f650fe5fe2a4343a514b602e" }
+    { "name": "common-pile/wikimedia_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/wikimedia_filtered", "category": "public", "collected_to": "2026-07", "sha256": "ceed8b58e8d2ac7f35162e03ec6876ba07f22b13f650fe5fe2a4343a514b602e" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

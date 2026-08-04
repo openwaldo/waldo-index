@@ -6,7 +6,7 @@
   "description": "OpenAssistant Conversations, release 1 — human-written, human-ranked multi-turn assistant dialogue for instruction tuning (Apache-2.0).",
   "license": "Apache-2.0",
   "sources": [
-    { "name": "oasst1", "source": "OpenAssistant Conversations (OpenAssistant/oasst1)", "version": "2023-04-12", "url": "https://huggingface.co/datasets/OpenAssistant/oasst1", "sha256": "c43d058ad23cb76d5ffffa0baaa37ac21d6442883efa85a2950c1fe83f0841d1" }
+    { "name": "oasst1", "source": "OpenAssistant Conversations (OpenAssistant/oasst1)", "version": "2023-04-12", "url": "https://huggingface.co/datasets/OpenAssistant/oasst1", "category": "public", "collected_to": "2026-07", "sha256": "c43d058ad23cb76d5ffffa0baaa37ac21d6442883efa85a2950c1fe83f0841d1" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "waldo-fetch-conversations", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

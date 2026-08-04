@@ -6,7 +6,7 @@
   "description": "Community wiki text archived by WikiTeam, via the Common Pile; a mix of Creative Commons, public-domain, and GFDL licenses preserved per shard.",
   "license": "CC-BY-SA-3.0",
   "sources": [
-    { "name": "common-pile/wikiteam_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/wikiteam_filtered", "sha256": "96779e28ed80de557247fb18667dd2cabf3545c96a0a098092a00a1ffd8b8e82" }
+    { "name": "common-pile/wikiteam_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/wikiteam_filtered", "category": "public", "collected_to": "2026-07", "sha256": "96779e28ed80de557247fb18667dd2cabf3545c96a0a098092a00a1ffd8b8e82" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:c479744", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [

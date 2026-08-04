@@ -6,7 +6,7 @@
   "description": "United States government publications — bills, hearings, reports, and the Congressional Record — from the Government Publishing Office, via the Common Pile.",
   "license": "LicenseRef-Public-Domain",
   "sources": [
-    { "name": "common-pile/usgpo_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/usgpo_filtered", "sha256": "cb675f6892cde6fcb28f077dc8daf4f0f7b9cd7768d726a13d1cd2fb3c46cff0" }
+    { "name": "common-pile/usgpo_filtered", "source": "Common Pile v0.1 (huggingface.co/common-pile)", "version": "v0.1", "url": "https://huggingface.co/datasets/common-pile/usgpo_filtered", "category": "public", "collected_to": "2026-08", "sha256": "cb675f6892cde6fcb28f077dc8daf4f0f7b9cd7768d726a13d1cd2fb3c46cff0" }
   ],
   "converted_by": { "tool": "waldo-ingest/jsonl", "version": "0.1.0-dev", "commit": "git:b811a0e", "collector": "fetch-common-pile", "profile": "jsonl", "recipe": "parquet-go/0.30.1/zstd-best/page-4m/rg-64m/v2", "tokenizer": "tiktoken/cl100k_base" },
   "shards": [
