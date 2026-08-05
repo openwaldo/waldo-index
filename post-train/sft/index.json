@@ -1,6 +1,6 @@
 {
   "kind": "index",
-  "schema": 2,
+  "schema": 1,
   "path": "post-train/sft",
   "entries": [
     { "name": "aya", "type": "dir" },

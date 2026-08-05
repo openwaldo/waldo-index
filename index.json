@@ -1,6 +1,6 @@
 {
   "kind": "index",
-  "schema": 2,
+  "schema": 1,
   "path": "",
   "entries": [
     { "name": "core", "type": "dir" },

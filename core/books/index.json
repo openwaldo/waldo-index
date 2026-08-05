@@ -1,6 +1,6 @@
 {
   "kind": "index",
-  "schema": 2,
+  "schema": 1,
   "path": "core/books",
   "entries": [
     { "name": "doab", "type": "dir" },

@@ -1,6 +1,6 @@
 {
   "kind": "index",
-  "schema": 2,
+  "schema": 1,
   "path": "post-train/sft/aya",
   "entries": [
     { "name": "aya.json", "type": "manifest" }

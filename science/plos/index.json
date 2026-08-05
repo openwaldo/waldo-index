@@ -1,6 +1,6 @@
 {
   "kind": "index",
-  "schema": 2,
+  "schema": 1,
   "path": "science/plos",
   "entries": [
     { "name": "plos.json", "type": "manifest" }

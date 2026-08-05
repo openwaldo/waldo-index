@@ -1,6 +1,6 @@
 {
   "kind": "index",
-  "schema": 2,
+  "schema": 1,
   "path": "core/books/gutenberg",
   "entries": [
     { "name": "gutenberg.json", "type": "manifest" }

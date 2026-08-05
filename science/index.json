@@ -1,6 +1,6 @@
 {
   "kind": "index",
-  "schema": 2,
+  "schema": 1,
   "path": "science",
   "entries": [
     { "name": "pes2o", "type": "dir" },
