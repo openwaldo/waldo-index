@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: science/plos
+entries:
+  - name: plos.yaml
+    type: manifest

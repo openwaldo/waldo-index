@@ -1,0 +1,121 @@
+kind: manifest
+schema: 1
+name: plos
+title: PLOS Articles
+description: Peer-reviewed research articles published by the Public Library of Science.
+license: CC-BY-4.0
+sources:
+  - name: plos
+    source: plos
+    version: 2026-07-30 fetch
+    url: https://allof.plos.org/allofplos.zip
+    category: public-dataset
+    collected_to: 2026-07
+    sha256: d5a1f955f897459b2177ef88355ca1c271d5154fa864f9d99f1353f879d99f72
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@637eb2b93a7f982aeaa9e17bd7c72fc6b7186246:recipes/science/plos.yaml
+  profile: canonical-text-schema-1@sha256:2379ee1dae522fbc136eb7b92502576c380ff7bef87c1706f71d2f2a64964027
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/32/01/320145e13eedd520f68a56a2529157104ead587d2950e20f1eec1e587cac2c9c
+    sha256: 320145e13eedd520f68a56a2529157104ead587d2950e20f1eec1e587cac2c9c
+    sources:
+      - plos
+    docs: 23025
+    tokens: 197814928
+    bytes: 280910847
+  - url: s3://openwaldo/lookaside/74/53/7453a9478c8a84c43024a2a77e548f9e609f92084c98ea5407923bca20a01b3b
+    sha256: 7453a9478c8a84c43024a2a77e548f9e609f92084c98ea5407923bca20a01b3b
+    sources:
+      - plos
+    docs: 27182
+    tokens: 206777038
+    bytes: 282138518
+  - url: s3://openwaldo/lookaside/e3/fa/e3faa8b2caad7dbb2d087d38e8b0a900e575b2c5b657c20f2f5f6d7cde7222a5
+    sha256: e3faa8b2caad7dbb2d087d38e8b0a900e575b2c5b657c20f2f5f6d7cde7222a5
+    sources:
+      - plos
+    docs: 29360
+    tokens: 210298731
+    bytes: 286350393
+  - url: s3://openwaldo/lookaside/2c/b0/2cb0e29539be64571f2a4f2ac9435bafd7a37a3c69b9d5f3fe4d83c8de779bc8
+    sha256: 2cb0e29539be64571f2a4f2ac9435bafd7a37a3c69b9d5f3fe4d83c8de779bc8
+    sources:
+      - plos
+    docs: 29600
+    tokens: 211541018
+    bytes: 285918629
+  - url: s3://openwaldo/lookaside/78/72/78723276004020fa4cbb798fda5db02222170e159aa824b792cdc601ad1b2b37
+    sha256: 78723276004020fa4cbb798fda5db02222170e159aa824b792cdc601ad1b2b37
+    sources:
+      - plos
+    docs: 30135
+    tokens: 210731018
+    bytes: 286238268
+  - url: s3://openwaldo/lookaside/87/d9/87d975564dda019e00f8791b03871906e627972d88bcc7b406c9f78a9244ee23
+    sha256: 87d975564dda019e00f8791b03871906e627972d88bcc7b406c9f78a9244ee23
+    sources:
+      - plos
+    docs: 31875
+    tokens: 209938644
+    bytes: 285754073
+  - url: s3://openwaldo/lookaside/c9/03/c903279d75f269171662cd9a05bd818841cf13fa3f500bcfa287660f3b3e8c2d
+    sha256: c903279d75f269171662cd9a05bd818841cf13fa3f500bcfa287660f3b3e8c2d
+    sources:
+      - plos
+    docs: 32170
+    tokens: 208491533
+    bytes: 286997404
+  - url: s3://openwaldo/lookaside/e4/3d/e43d848bfecd1923d6d6f463eb0a792c80fd5e27cf782bf415bd3e766d939594
+    sha256: e43d848bfecd1923d6d6f463eb0a792c80fd5e27cf782bf415bd3e766d939594
+    sources:
+      - plos
+    docs: 31703
+    tokens: 207153715
+    bytes: 286714198
+  - url: s3://openwaldo/lookaside/83/87/8387ea114bc73e25408fe8bca6ad279c304ee2be6f60df7ec4a98e7af2cc3eba
+    sha256: 8387ea114bc73e25408fe8bca6ad279c304ee2be6f60df7ec4a98e7af2cc3eba
+    sources:
+      - plos
+    docs: 31162
+    tokens: 204328454
+    bytes: 285894057
+  - url: s3://openwaldo/lookaside/76/f7/76f72de5edf7a8218d91b03874f6c2e84001c29bee368341f0eef7e32e25e2c5
+    sha256: 76f72de5edf7a8218d91b03874f6c2e84001c29bee368341f0eef7e32e25e2c5
+    sources:
+      - plos
+    docs: 30581
+    tokens: 201393578
+    bytes: 284838122
+  - url: s3://openwaldo/lookaside/0b/54/0b544a0764e416d7ea42e40b60aa6c3b371ee261a1d00f99a46cca9752b9e7d0
+    sha256: 0b544a0764e416d7ea42e40b60aa6c3b371ee261a1d00f99a46cca9752b9e7d0
+    sources:
+      - plos
+    docs: 29568
+    tokens: 197836507
+    bytes: 282288193
+  - url: s3://openwaldo/lookaside/4b/8b/4b8b2ef7eb82fec9d05d5aebefe2cc5eae6fbf176f49cfc5550e7fee2163500a
+    sha256: 4b8b2ef7eb82fec9d05d5aebefe2cc5eae6fbf176f49cfc5550e7fee2163500a
+    sources:
+      - plos
+    docs: 28214
+    tokens: 194329893
+    bytes: 279671569
+  - url: s3://openwaldo/lookaside/0f/0e/0f0eb56567858f9316064fb9000b163c160356ea9daec0f814bce2401c0ca54b
+    sha256: 0f0eb56567858f9316064fb9000b163c160356ea9daec0f814bce2401c0ca54b
+    sources:
+      - plos
+    docs: 26652
+    tokens: 198242319
+    bytes: 278732272
+  - url: s3://openwaldo/lookaside/c5/0e/c50e2c89f89cb52d9c5588e6aa0240b675f9483fb521a015f4febd6b82b81546
+    sha256: c50e2c89f89cb52d9c5588e6aa0240b675f9483fb521a015f4febd6b82b81546
+    sources:
+      - plos
+    docs: 10243
+    tokens: 67658673
+    bytes: 86611510
