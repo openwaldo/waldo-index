@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Generate status.json — the index's public rollup.
 
-Walks the committed index.json files from the repo root (the same walk
-`waldo index summary` performs), aggregates every manifest's shards —
+Walks the committed index.yaml/index.json files from the repo root (the same
+walk `waldo index summary` performs), aggregates every manifest's shards —
 totals plus the per-license partition — and writes the JSON the website
 consumes. Emits both the tree-wide rollup and a `corpora` table: one row
-per manifest with its provenance (where it came from) and its stats. Pure
-stdlib; the numbers derive only from committed metadata, so the output is
-exactly as trustworthy as the tree it was run in.
+per manifest with its provenance (where it came from) and its stats. The
+numbers derive only from committed metadata, so the output is exactly as
+trustworthy as the tree it was run in.
 
 Usage: scripts/status.py [output-path]   (default: ./status.json)
 """
@@ -16,6 +16,38 @@ import os
 import subprocess
 import sys
 from datetime import datetime, timezone
+
+try:
+    import yaml
+except ImportError:
+    sys.exit("status.py requires PyYAML (python3 -m pip install PyYAML==6.0.2)")
+
+
+INDEX_FILENAMES = ("index.yaml", "index.yml", "index.json")
+
+
+def load_metadata(path):
+    """Read schema metadata in its YAML or legacy JSON representation."""
+    with open(path, encoding="utf-8") as f:
+        if path.endswith(".json"):
+            value = json.load(f)
+        elif path.endswith((".yaml", ".yml")):
+            value = yaml.safe_load(f)
+        else:
+            raise ValueError(f"unsupported metadata extension: {path}")
+    if not isinstance(value, dict):
+        raise ValueError(f"metadata document must be an object: {path}")
+    return value
+
+
+def find_index(dirpath):
+    """Prefer canonical YAML while retaining compatibility with old trees."""
+    for filename in INDEX_FILENAMES:
+        path = os.path.join(dirpath, filename)
+        if os.path.isfile(path):
+            return path
+    expected = ", ".join(INDEX_FILENAMES)
+    raise FileNotFoundError(f"no index metadata in {dirpath} ({expected})")
 
 
 def add(agg, license_id, shards, docs, tokens, nbytes):
@@ -32,15 +64,13 @@ def add(agg, license_id, shards, docs, tokens, nbytes):
 
 
 def walk(root, dirpath, agg, corpora):
-    with open(os.path.join(dirpath, "index.json")) as f:
-        ix = json.load(f)
+    ix = load_metadata(find_index(dirpath))
     for e in ix.get("entries", []):
         name, etype = e["name"], e["type"]
         if etype == "dir":
             walk(root, os.path.join(dirpath, name), agg, corpora)
         elif etype == "manifest":
-            with open(os.path.join(dirpath, name)) as f:
-                m = json.load(f)
+            m = load_metadata(os.path.join(dirpath, name))
             agg["manifests"] += 1
             default = m.get("license", "") or "(none declared)"
             # One table row per manifest: provenance + its own stats.
