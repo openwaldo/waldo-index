@@ -1,0 +1,51 @@
+kind: manifest
+schema: 1
+name: regulations
+title: US Federal Rulemaking
+description: Documents from United States federal rulemaking proceedings, via the filtered Common Pile v0.1 release.
+license: LicenseRef-Public-Domain
+sources:
+  - name: common-pile/regulations_filtered
+    source: common-pile/regulations_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/regulations_filtered
+    category: public-dataset
+    collected_to: 2026-08
+    sha256: 38f4646044ae5c9bd0411a91c945dbd39eff50109e6cab3b51077bdd163a24e8
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@e4af9007cf0b1204fa25e42875d5c9f7f04e318f:recipes/common-pile/regulations.yaml
+  profile: canonical-text-schema-1@sha256:7e273a6d86efc4be0e45f9b7a59a0f5656f1a92933469ed754e83b750687f4c4
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/fd/1d/fd1d098b6a15c4f9fff8016cf978ec2d87f400dbd13b6842694bf46b87a67dae
+    sha256: fd1d098b6a15c4f9fff8016cf978ec2d87f400dbd13b6842694bf46b87a67dae
+    sources:
+      - common-pile/regulations_filtered
+    docs: 42828
+    tokens: 430611052
+    bytes: 276634573
+  - url: s3://openwaldo/lookaside/1a/4f/1a4f2305c0b20a20a3ff4206a605b49c3303290aeacbf13c0bf7d2dc78eb04dd
+    sha256: 1a4f2305c0b20a20a3ff4206a605b49c3303290aeacbf13c0bf7d2dc78eb04dd
+    sources:
+      - common-pile/regulations_filtered
+    docs: 62559
+    tokens: 350891490
+    bytes: 275824992
+  - url: s3://openwaldo/lookaside/a5/7d/a57d1cc0fd4680a0191be2e5b0433ccb8b822b49cb5fa0beae44b672f273ca1a
+    sha256: a57d1cc0fd4680a0191be2e5b0433ccb8b822b49cb5fa0beae44b672f273ca1a
+    sources:
+      - common-pile/regulations_filtered
+    docs: 62275
+    tokens: 322274323
+    bytes: 271910953
+  - url: s3://openwaldo/lookaside/25/50/255075ddcbfc7f1c49532df1fa81e2f611621e4ed70e27d708fb361091baec5e
+    sha256: 255075ddcbfc7f1c49532df1fa81e2f611621e4ed70e27d708fb361091baec5e
+    sources:
+      - common-pile/regulations_filtered
+    docs: 24774
+    tokens: 177012962
+    bytes: 113135251

@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: government/regulations
+entries:
+  - name: regulations.yaml
+    type: manifest

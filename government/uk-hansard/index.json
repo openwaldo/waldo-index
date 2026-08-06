@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 1,
-  "path": "government/uk-hansard",
-  "entries": [
-    { "name": "uk-hansard.json", "type": "manifest" }
-  ]
-}

@@ -1,0 +1,100 @@
+kind: manifest
+schema: 1
+name: uk-hansard
+title: UK Parliament Hansard
+description: Official reports of debates in the United Kingdom Parliament, via the filtered Common Pile v0.1 release.
+license: LicenseRef-Open-Parliament-Licence
+sources:
+  - name: common-pile/uk_hansard_filtered
+    source: common-pile/uk_hansard_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/uk_hansard_filtered
+    category: public-dataset
+    collected_to: 2026-08
+    sha256: 3c3ba5234904bb2bb4254246671cbc43ad0194d4f94e4b7dc10b1c7a9ce9c364
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@e4af9007cf0b1204fa25e42875d5c9f7f04e318f:recipes/common-pile/uk-hansard.yaml
+  profile: canonical-text-schema-1@sha256:8085bc29d9715b1ec578deb81a6916a3f2f917de6004c59700c9f7d15b924ba8
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/9d/f6/9df61d318b4d532ca6d76b2d2328e3079626f53bd8382931b938f2bf039e3f8d
+    sha256: 9df61d318b4d532ca6d76b2d2328e3079626f53bd8382931b938f2bf039e3f8d
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 10701
+    tokens: 189083785
+    bytes: 275413644
+  - url: s3://openwaldo/lookaside/5e/51/5e51028ba341ce2343a93bba89241db1cd10df259de5fd88c853b68798a017f5
+    sha256: 5e51028ba341ce2343a93bba89241db1cd10df259de5fd88c853b68798a017f5
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 3516
+    tokens: 189177550
+    bytes: 283788403
+  - url: s3://openwaldo/lookaside/ed/84/ed84aa68a302c5deaf157b8b77e30740eaa5a7a0248762520b3143a3fc52b283
+    sha256: ed84aa68a302c5deaf157b8b77e30740eaa5a7a0248762520b3143a3fc52b283
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 5419
+    tokens: 196248541
+    bytes: 283267908
+  - url: s3://openwaldo/lookaside/d5/5d/d55d1d1fc84f1d868f15d1d1d49e5cdae0b57bb5273545a9b44772b425075510
+    sha256: d55d1d1fc84f1d868f15d1d1d49e5cdae0b57bb5273545a9b44772b425075510
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 2845
+    tokens: 197620135
+    bytes: 283741159
+  - url: s3://openwaldo/lookaside/a3/be/a3be9bacb0f68550a7fe48d7e905bf62674cff2d6e11182a7d347344cf2f8d55
+    sha256: a3be9bacb0f68550a7fe48d7e905bf62674cff2d6e11182a7d347344cf2f8d55
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 2804
+    tokens: 197071705
+    bytes: 283645116
+  - url: s3://openwaldo/lookaside/f9/9c/f99cce9b23c5286bd52e873c49d4f41f80cbdc0b4a0ec321affcbe69bfd3c527
+    sha256: f99cce9b23c5286bd52e873c49d4f41f80cbdc0b4a0ec321affcbe69bfd3c527
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 2763
+    tokens: 197123045
+    bytes: 283732985
+  - url: s3://openwaldo/lookaside/74/63/7463c2e65e8da65c832a14d7dd293e6b1c3d9c6b4a0f27bb2dd5f629de61b2ec
+    sha256: 7463c2e65e8da65c832a14d7dd293e6b1c3d9c6b4a0f27bb2dd5f629de61b2ec
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 2834
+    tokens: 197292632
+    bytes: 284069073
+  - url: s3://openwaldo/lookaside/2c/dd/2cddedba88d42b7418e7c890ce009c4bfa279041f84a5103dd66dcd20bc4d77f
+    sha256: 2cddedba88d42b7418e7c890ce009c4bfa279041f84a5103dd66dcd20bc4d77f
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 2821
+    tokens: 197141194
+    bytes: 283802989
+  - url: s3://openwaldo/lookaside/36/ad/36ade157fd6fa012526c421977da39e831c7c01e34d19baa5dfddecae4440002
+    sha256: 36ade157fd6fa012526c421977da39e831c7c01e34d19baa5dfddecae4440002
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 8347
+    tokens: 194831123
+    bytes: 271997755
+  - url: s3://openwaldo/lookaside/7b/e3/7be315b606243d024e3268dabc339d3794796b62ca1698124cfa3b24db69834f
+    sha256: 7be315b606243d024e3268dabc339d3794796b62ca1698124cfa3b24db69834f
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 5107
+    tokens: 217144673
+    bytes: 272405262
+  - url: s3://openwaldo/lookaside/ee/6c/ee6c2ad27f0f832f7ca34cabb3ec0336aea7f935ebbbed677eaf23cf408c2365
+    sha256: ee6c2ad27f0f832f7ca34cabb3ec0336aea7f935ebbbed677eaf23cf408c2365
+    sources:
+      - common-pile/uk_hansard_filtered
+    docs: 737
+    tokens: 39495545
+    bytes: 55665960

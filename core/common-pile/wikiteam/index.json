@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 1,
-  "path": "core/common-pile/wikiteam",
-  "entries": [
-    { "name": "wikiteam.json", "type": "manifest" }
-  ]
-}

@@ -1,0 +1,100 @@
+kind: manifest
+schema: 1
+name: wikiteam
+title: WikiTeam Archives
+description: Text recovered from independently archived wikis, via the filtered Common Pile v0.1 release.
+license: CC-BY-SA-3.0
+sources:
+  - name: common-pile/wikiteam_filtered
+    source: common-pile/wikiteam_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/wikiteam_filtered
+    category: public-dataset
+    collected_to: 2026-07
+    sha256: 53dfe4ac5a11ebb630af9963762eaef7b09f1c51e2bfffad470548fcfaec3fef
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@e4af9007cf0b1204fa25e42875d5c9f7f04e318f:recipes/common-pile/wikiteam.yaml
+  profile: canonical-text-schema-1
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/6e/e1/6ee13de2c9ef6ef97909b6366b27de9e6839fe9995d72accb2c88e0a45cb513e
+    sha256: 6ee13de2c9ef6ef97909b6366b27de9e6839fe9995d72accb2c88e0a45cb513e
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 852171
+    tokens: 293953810
+    bytes: 272698696
+  - url: s3://openwaldo/lookaside/a5/45/a545d17df0ffcbfefae3f9fe821c0c0bab835edc63c684a6ceedde18e75fe04c
+    sha256: a545d17df0ffcbfefae3f9fe821c0c0bab835edc63c684a6ceedde18e75fe04c
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 936226
+    tokens: 290709286
+    bytes: 274147557
+  - url: s3://openwaldo/lookaside/39/e9/39e9481944cff9c978b7173cfa2095204fec018016fbaafef32950b3c24bf6b6
+    sha256: 39e9481944cff9c978b7173cfa2095204fec018016fbaafef32950b3c24bf6b6
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 1190384
+    tokens: 307275874
+    bytes: 284393439
+  - url: s3://openwaldo/lookaside/1c/d0/1cd052bd5cb23b0290d13c7ae1e6bd2882b45610459b2bc4c6abe6183396d1da
+    sha256: 1cd052bd5cb23b0290d13c7ae1e6bd2882b45610459b2bc4c6abe6183396d1da
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 840734
+    tokens: 258097007
+    bytes: 275162381
+  - url: s3://openwaldo/lookaside/6c/d5/6cd5a2f712c8b55b735d6cd0512fa15b966350382bff5940300ea03af0f0eb61
+    sha256: 6cd5a2f712c8b55b735d6cd0512fa15b966350382bff5940300ea03af0f0eb61
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 791022
+    tokens: 243662863
+    bytes: 270729138
+  - url: s3://openwaldo/lookaside/c1/6c/c16c0017dcb5b64500ede628e012e9a53dafffc93f76ac38e8997214823761c2
+    sha256: c16c0017dcb5b64500ede628e012e9a53dafffc93f76ac38e8997214823761c2
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 1056022
+    tokens: 270657667
+    bytes: 269184365
+  - url: s3://openwaldo/lookaside/db/b1/dbb1b7e933e9235f2795fb27e6c3285e4dd5f153fb8cae734553c2947dccbcea
+    sha256: dbb1b7e933e9235f2795fb27e6c3285e4dd5f153fb8cae734553c2947dccbcea
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 861792
+    tokens: 287913683
+    bytes: 287332684
+  - url: s3://openwaldo/lookaside/d4/a9/d4a998900947f7f515799603c4ef7906efd29cf2d9a833cc40a044d6f04a4c3a
+    sha256: d4a998900947f7f515799603c4ef7906efd29cf2d9a833cc40a044d6f04a4c3a
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 947223
+    tokens: 292491063
+    bytes: 279923374
+  - url: s3://openwaldo/lookaside/33/11/3311ed41c1640e96566cfe0f560fa5e04812397e94239c09d41a446d26305566
+    sha256: 3311ed41c1640e96566cfe0f560fa5e04812397e94239c09d41a446d26305566
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 1064409
+    tokens: 259282128
+    bytes: 269161771
+  - url: s3://openwaldo/lookaside/be/3f/be3fbb0d211fdcfcf83d9194a239b9cefb70177cbb9d9fe64c823151dfa00d30
+    sha256: be3fbb0d211fdcfcf83d9194a239b9cefb70177cbb9d9fe64c823151dfa00d30
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 1048802
+    tokens: 279615089
+    bytes: 285378957
+  - url: s3://openwaldo/lookaside/20/4f/204fd8de609b1a7c5e26f186215cb17a7f387876f5f49900b62db4bb15c44e52
+    sha256: 204fd8de609b1a7c5e26f186215cb17a7f387876f5f49900b62db4bb15c44e52
+    sources:
+      - common-pile/wikiteam_filtered
+    docs: 641321
+    tokens: 159437218
+    bytes: 178004688
