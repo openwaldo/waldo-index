@@ -1,0 +1,107 @@
+kind: manifest
+schema: 1
+name: doab
+title: Directory of Open Access Books
+description: Open-access book text from the Directory of Open Access Books, via the filtered Common Pile v0.1 release.
+license: CC-BY-4.0
+sources:
+  - name: common-pile/doab_filtered
+    source: common-pile/doab_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/doab_filtered
+    category: public-dataset
+    collected_to: 2026-08
+    sha256: c55a3c612d4367305993fc8aaa9ec7cf440cfb809290060e54a611e76acd862a
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@be0317c16703cc84a09d25d855ad8aa687741d9b:recipes/books/doab.yaml
+  profile: canonical-text-schema-1@sha256:aa8a9ff90ee76287e44aa39dd51ca5b488afe8969b89e8c86a964d18357c3764
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/be/d8/bed8ed229fbbc8b82e69b6dd2140d18f3bbcc10a7a639429e7b1bcd6f147f45d
+    sha256: bed8ed229fbbc8b82e69b6dd2140d18f3bbcc10a7a639429e7b1bcd6f147f45d
+    sources:
+      - common-pile/doab_filtered
+    docs: 33547
+    tokens: 249034092
+    bytes: 279145475
+  - url: s3://openwaldo/lookaside/47/a2/47a251ff6fee85e5e9ff73941a9f2c5e6450ae865f5f86c55c8344f365cbd60a
+    sha256: 47a251ff6fee85e5e9ff73941a9f2c5e6450ae865f5f86c55c8344f365cbd60a
+    sources:
+      - common-pile/doab_filtered
+    docs: 35753
+    tokens: 249052113
+    bytes: 277303176
+  - url: s3://openwaldo/lookaside/44/8a/448a933f3714f25cf5a60b5fdbb0a6ce6d575801fab6395eae17232b288de351
+    sha256: 448a933f3714f25cf5a60b5fdbb0a6ce6d575801fab6395eae17232b288de351
+    sources:
+      - common-pile/doab_filtered
+    docs: 40715
+    tokens: 249605202
+    bytes: 279152456
+  - url: s3://openwaldo/lookaside/c8/39/c8393e7ef4691332e1a0ecef9166c7cf69967cd8e952f14d9af661eade8f19e0
+    sha256: c8393e7ef4691332e1a0ecef9166c7cf69967cd8e952f14d9af661eade8f19e0
+    sources:
+      - common-pile/doab_filtered
+    docs: 35710
+    tokens: 249245946
+    bytes: 281297034
+  - url: s3://openwaldo/lookaside/27/f3/27f3b0f080199cbda40aa1b5e4e6ac54ccdd5bc42adeae78c6e651d1e0113090
+    sha256: 27f3b0f080199cbda40aa1b5e4e6ac54ccdd5bc42adeae78c6e651d1e0113090
+    sources:
+      - common-pile/doab_filtered
+    docs: 33318
+    tokens: 248938680
+    bytes: 279083757
+  - url: s3://openwaldo/lookaside/e4/a9/e4a94f7ee1861b6887131ec93780e859ec0075913bbb609ee25aa04f4585d4ef
+    sha256: e4a94f7ee1861b6887131ec93780e859ec0075913bbb609ee25aa04f4585d4ef
+    sources:
+      - common-pile/doab_filtered
+    docs: 37777
+    tokens: 249319359
+    bytes: 279027645
+  - url: s3://openwaldo/lookaside/97/01/9701ab1dec8fbe1f71a0b56304550f1e7482672179543b3ea2141f3d89d34f7c
+    sha256: 9701ab1dec8fbe1f71a0b56304550f1e7482672179543b3ea2141f3d89d34f7c
+    sources:
+      - common-pile/doab_filtered
+    docs: 33889
+    tokens: 249898932
+    bytes: 280213462
+  - url: s3://openwaldo/lookaside/3b/49/3b49e5f7aac17a9465b609bc7a037c27674b059dc16fcdfd582bbe49eed83912
+    sha256: 3b49e5f7aac17a9465b609bc7a037c27674b059dc16fcdfd582bbe49eed83912
+    sources:
+      - common-pile/doab_filtered
+    docs: 34624
+    tokens: 249466841
+    bytes: 277539091
+  - url: s3://openwaldo/lookaside/1d/a8/1da888d12b6391d02ebae352774efbd26bc4352b8b6bfa6e5bfda8e5b2bae066
+    sha256: 1da888d12b6391d02ebae352774efbd26bc4352b8b6bfa6e5bfda8e5b2bae066
+    sources:
+      - common-pile/doab_filtered
+    docs: 36682
+    tokens: 251213404
+    bytes: 281516393
+  - url: s3://openwaldo/lookaside/a4/a9/a4a9b723d10bc2e916bdca47705ad9493c3fd44d93549b50cf4c0eda582908bb
+    sha256: a4a9b723d10bc2e916bdca47705ad9493c3fd44d93549b50cf4c0eda582908bb
+    sources:
+      - common-pile/doab_filtered
+    docs: 35190
+    tokens: 248471913
+    bytes: 277337709
+  - url: s3://openwaldo/lookaside/9c/a6/9ca68b2d98e0e7ac9dcc311f7809d0c73d0113113b169d9f0d308c5ef6e5a2ec
+    sha256: 9ca68b2d98e0e7ac9dcc311f7809d0c73d0113113b169d9f0d308c5ef6e5a2ec
+    sources:
+      - common-pile/doab_filtered
+    docs: 37637
+    tokens: 248049102
+    bytes: 279476534
+  - url: s3://openwaldo/lookaside/cf/9b/cf9bb5199e69521734ea4cba007748a818effc2d758017839bc4e065e9091759
+    sha256: cf9bb5199e69521734ea4cba007748a818effc2d758017839bc4e065e9091759
+    sources:
+      - common-pile/doab_filtered
+    docs: 9073
+    tokens: 61728073
+    bytes: 69144274
