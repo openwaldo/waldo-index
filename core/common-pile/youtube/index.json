@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 1,
-  "path": "core/common-pile/youtube",
-  "entries": [
-    { "name": "youtube.json", "type": "manifest" }
-  ]
-}

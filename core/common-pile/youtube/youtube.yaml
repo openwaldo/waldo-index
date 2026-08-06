@@ -1,0 +1,177 @@
+kind: manifest
+schema: 1
+name: youtube
+title: YouTube Transcripts
+description: Transcripts from Creative Commons-licensed YouTube videos, via the filtered Common Pile v0.1 release.
+license: CC-BY-3.0
+sources:
+  - name: common-pile/youtube_filtered
+    source: common-pile/youtube_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/youtube_filtered
+    category: public-dataset
+    collected_to: 2026-07
+    sha256: f6297f282d104e93f19a89c441ce33fe7642894947ad584644ab3b548efebeff
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@637eb2b93a7f982aeaa9e17bd7c72fc6b7186246:recipes/common-pile/youtube.yaml
+  profile: canonical-text-schema-1@sha256:91aff754b668feb7e584277221b859f2416b862fa1e828cb4aa22cbf16f84645
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/d0/fa/d0fa7c82058dcdeea1a22a4f41ca95492bdedf795b0563db8f9371584e0d1bbe
+    sha256: d0fa7c82058dcdeea1a22a4f41ca95492bdedf795b0563db8f9371584e0d1bbe
+    sources:
+      - common-pile/youtube_filtered
+    docs: 45792
+    tokens: 190758509
+    bytes: 289519645
+  - url: s3://openwaldo/lookaside/5b/90/5b90efadd80f7c21f3aed3048148f8e3ab4986a5c8338a40688f7a10ad4b6bc3
+    sha256: 5b90efadd80f7c21f3aed3048148f8e3ab4986a5c8338a40688f7a10ad4b6bc3
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46704
+    tokens: 190741144
+    bytes: 289931052
+  - url: s3://openwaldo/lookaside/19/bb/19bb6555a5c5314d4149622e884896785da0593e1d4fa4f80988bcede3b6823c
+    sha256: 19bb6555a5c5314d4149622e884896785da0593e1d4fa4f80988bcede3b6823c
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46130
+    tokens: 190646146
+    bytes: 289737926
+  - url: s3://openwaldo/lookaside/cc/d2/ccd2451adf3f97b327a14cf837cac4089416a97b20b5b0457d8c2622940afc93
+    sha256: ccd2451adf3f97b327a14cf837cac4089416a97b20b5b0457d8c2622940afc93
+    sources:
+      - common-pile/youtube_filtered
+    docs: 45902
+    tokens: 190721463
+    bytes: 289838471
+  - url: s3://openwaldo/lookaside/7a/05/7a056b0b579e7d540133333924727f0d4d6b0022af4e1e6059c048c6233f4810
+    sha256: 7a056b0b579e7d540133333924727f0d4d6b0022af4e1e6059c048c6233f4810
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46360
+    tokens: 190857230
+    bytes: 289767571
+  - url: s3://openwaldo/lookaside/0a/03/0a033ab7dacfc5f7ac6c484c488cd691c9bce00f10db550338b253f477810e1b
+    sha256: 0a033ab7dacfc5f7ac6c484c488cd691c9bce00f10db550338b253f477810e1b
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46069
+    tokens: 190759810
+    bytes: 289529712
+  - url: s3://openwaldo/lookaside/3d/84/3d84869b56c2df50f6491c384601ca8f9a0b589cad3fac7dcc28b9a2e0ed979f
+    sha256: 3d84869b56c2df50f6491c384601ca8f9a0b589cad3fac7dcc28b9a2e0ed979f
+    sources:
+      - common-pile/youtube_filtered
+    docs: 45929
+    tokens: 190700778
+    bytes: 290047163
+  - url: s3://openwaldo/lookaside/81/1c/811c9a83232d26f42cbd733eff66d6e1e6896098e5b19dd675b4a8661fd77749
+    sha256: 811c9a83232d26f42cbd733eff66d6e1e6896098e5b19dd675b4a8661fd77749
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46289
+    tokens: 190345947
+    bytes: 289709538
+  - url: s3://openwaldo/lookaside/3b/87/3b875fdd961b28dea4b1b2729fe320842d3fe891c69022b5dcc25fb4bccd0275
+    sha256: 3b875fdd961b28dea4b1b2729fe320842d3fe891c69022b5dcc25fb4bccd0275
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46192
+    tokens: 190671378
+    bytes: 290058318
+  - url: s3://openwaldo/lookaside/b6/52/b6527f6c3983dd392194402606e6360e970fb724863234238f933938402f78c0
+    sha256: b6527f6c3983dd392194402606e6360e970fb724863234238f933938402f78c0
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46364
+    tokens: 190793109
+    bytes: 290076594
+  - url: s3://openwaldo/lookaside/1a/c4/1ac4fef73488e5088ea2595a8b9720749a52b354dc733df37edd452ba1b3b5c5
+    sha256: 1ac4fef73488e5088ea2595a8b9720749a52b354dc733df37edd452ba1b3b5c5
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46177
+    tokens: 190549957
+    bytes: 290068781
+  - url: s3://openwaldo/lookaside/b4/e6/b4e61b524bed1e13a32f9df8908be44f5323640852828f7a1c695a8649873b98
+    sha256: b4e61b524bed1e13a32f9df8908be44f5323640852828f7a1c695a8649873b98
+    sources:
+      - common-pile/youtube_filtered
+    docs: 45607
+    tokens: 190601215
+    bytes: 289491793
+  - url: s3://openwaldo/lookaside/36/a8/36a86da00f454da9a859da947f460fe104d1d40e75a1890791b01575e6164477
+    sha256: 36a86da00f454da9a859da947f460fe104d1d40e75a1890791b01575e6164477
+    sources:
+      - common-pile/youtube_filtered
+    docs: 45774
+    tokens: 190871539
+    bytes: 290030719
+  - url: s3://openwaldo/lookaside/32/10/3210aba687ae7fc73c6142aa8dcf352d2979cc2e74705b9ebfc79e4ad6cec096
+    sha256: 3210aba687ae7fc73c6142aa8dcf352d2979cc2e74705b9ebfc79e4ad6cec096
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46515
+    tokens: 190817150
+    bytes: 289993745
+  - url: s3://openwaldo/lookaside/cb/da/cbdae8539c238a888a9763c59b44edce97e8fbe29534cfe67c86a6c9b060e3f6
+    sha256: cbdae8539c238a888a9763c59b44edce97e8fbe29534cfe67c86a6c9b060e3f6
+    sources:
+      - common-pile/youtube_filtered
+    docs: 45983
+    tokens: 190566091
+    bytes: 289552513
+  - url: s3://openwaldo/lookaside/3d/82/3d82daf79dac832553cf379df7385319b6f3909a60d20cd61c4a2e05dea0c566
+    sha256: 3d82daf79dac832553cf379df7385319b6f3909a60d20cd61c4a2e05dea0c566
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46225
+    tokens: 190879193
+    bytes: 290097019
+  - url: s3://openwaldo/lookaside/4b/24/4b2449136c223bc2ba51ac5e746dc16e5b76beff7068d38ba2ff1c1e9722cb69
+    sha256: 4b2449136c223bc2ba51ac5e746dc16e5b76beff7068d38ba2ff1c1e9722cb69
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46135
+    tokens: 190752866
+    bytes: 289655373
+  - url: s3://openwaldo/lookaside/16/c3/16c3ebef0c046a08c9a015ac0a95301a13d0ce51af0735f79c5a3995d091d65b
+    sha256: 16c3ebef0c046a08c9a015ac0a95301a13d0ce51af0735f79c5a3995d091d65b
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46433
+    tokens: 190790193
+    bytes: 289843395
+  - url: s3://openwaldo/lookaside/2f/43/2f4301a333986f885d65607d7410904aa82d7910f2d31604617e6330b00ac287
+    sha256: 2f4301a333986f885d65607d7410904aa82d7910f2d31604617e6330b00ac287
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46447
+    tokens: 190663527
+    bytes: 289823736
+  - url: s3://openwaldo/lookaside/4a/cd/4acd3807a74edbe298a1f419a30f4bc193b8c3c074c6eeaaf7ca15e8860497ec
+    sha256: 4acd3807a74edbe298a1f419a30f4bc193b8c3c074c6eeaaf7ca15e8860497ec
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46182
+    tokens: 190979947
+    bytes: 289998306
+  - url: s3://openwaldo/lookaside/6b/70/6b703ea91b0576501e1e5b88ce3b2fccfdbe743cfe143c968dd7030d3c161746
+    sha256: 6b703ea91b0576501e1e5b88ce3b2fccfdbe743cfe143c968dd7030d3c161746
+    sources:
+      - common-pile/youtube_filtered
+    docs: 46785
+    tokens: 190846784
+    bytes: 290075372
+  - url: s3://openwaldo/lookaside/17/5c/175cebe242da5313f621bcd387602ebf2c5dd52ff1e435308a5172e984e12fe4
+    sha256: 175cebe242da5313f621bcd387602ebf2c5dd52ff1e435308a5172e984e12fe4
+    sources:
+      - common-pile/youtube_filtered
+    docs: 16373
+    tokens: 68048601
+    bytes: 103311838
