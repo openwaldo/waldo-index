@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 1,
-  "path": "core/common-pile/python-enhancement-proposals",
-  "entries": [
-    { "name": "peps.json", "type": "manifest" }
-  ]
-}
