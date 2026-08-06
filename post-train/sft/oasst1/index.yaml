@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/oasst1
+entries:
+  - name: oasst1.yaml
+    type: manifest
