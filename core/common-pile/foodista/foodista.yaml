@@ -1,0 +1,30 @@
+kind: manifest
+schema: 1
+name: foodista
+title: Foodista
+description: Community-contributed cooking and food articles from Foodista, via the filtered Common Pile v0.1 release.
+license: CC-BY-3.0
+sources:
+  - name: common-pile/foodista_filtered
+    source: common-pile/foodista_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/foodista_filtered
+    category: public-dataset
+    collected_to: 2026-07
+    sha256: 5efd1cc9d922b79bb23e2e72708170759234bd2e18a660e53ce11b8b5597be3c
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@fea90caa2c57a27f4af2d12d02363249cde4e07c:recipes/common-pile/foodista.yaml
+  profile: canonical-text-schema-1
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/98/92/989211731c62baa6c47278b0b7097cdc9efa418127a86dfb4ce4e098e9a350f4
+    sha256: 989211731c62baa6c47278b0b7097cdc9efa418127a86dfb4ce4e098e9a350f4
+    sources:
+      - common-pile/foodista_filtered
+    docs: 65640
+    tokens: 20967715
+    bytes: 30318871

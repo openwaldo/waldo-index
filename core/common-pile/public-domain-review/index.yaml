@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: core/common-pile/public-domain-review
+entries:
+  - name: public-domain-review.yaml
+    type: manifest
