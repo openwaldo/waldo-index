@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/dolly
+entries:
+  - name: dolly.yaml
+    type: manifest
