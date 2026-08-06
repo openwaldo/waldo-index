@@ -1,0 +1,72 @@
+kind: manifest
+schema: 1
+name: ubuntu-irc
+title: Ubuntu IRC Logs
+description: Public Ubuntu community IRC conversations, via the filtered Common Pile v0.1 release.
+license: CC0-1.0
+sources:
+  - name: common-pile/ubuntu_irc_filtered
+    source: common-pile/ubuntu_irc_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/ubuntu_irc_filtered
+    category: public-dataset
+    collected_to: 2026-07
+    sha256: 4902a4b0c037eb05ea8b9f9cdaf47b497c6b11afc204fa1e7bedd654900099d0
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@be0317c16703cc84a09d25d855ad8aa687741d9b:recipes/common-pile/ubuntu-irc.yaml
+  profile: canonical-text-schema-1@sha256:b62e063f30ae9e573f45ff1173de529429bc4bebd64ea28dbb4da83cf4a49a55
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/61/d4/61d4f7819f0aae3276ce1c06a5f3cfd0172c18e46debe722a210003eb65e9d6e
+    sha256: 61d4f7819f0aae3276ce1c06a5f3cfd0172c18e46debe722a210003eb65e9d6e
+    sources:
+      - common-pile/ubuntu_irc_filtered
+    docs: 34667
+    tokens: 266465080
+    bytes: 269596054
+  - url: s3://openwaldo/lookaside/04/ff/04ffb528447cc9840575ad7ed605b801caa042353827969d6c74f0dec8f52337
+    sha256: 04ffb528447cc9840575ad7ed605b801caa042353827969d6c74f0dec8f52337
+    sources:
+      - common-pile/ubuntu_irc_filtered
+    docs: 45458
+    tokens: 287090706
+    bytes: 288007155
+  - url: s3://openwaldo/lookaside/d2/46/d246b6b61c5323c05c6999138219b23b70d5cb4cf31c93204fc8f5208b5cc0df
+    sha256: d246b6b61c5323c05c6999138219b23b70d5cb4cf31c93204fc8f5208b5cc0df
+    sources:
+      - common-pile/ubuntu_irc_filtered
+    docs: 25141
+    tokens: 290555161
+    bytes: 278403081
+  - url: s3://openwaldo/lookaside/63/d9/63d928b2cbb2b7b15172e2a00d9448c3a01dfaba307b483c5a963f4c94da495a
+    sha256: 63d928b2cbb2b7b15172e2a00d9448c3a01dfaba307b483c5a963f4c94da495a
+    sources:
+      - common-pile/ubuntu_irc_filtered
+    docs: 26748
+    tokens: 289847428
+    bytes: 286464380
+  - url: s3://openwaldo/lookaside/23/7a/237a6599f29afd7595284467c118fe7e0d8b595ffb299d8d468d873980221bf7
+    sha256: 237a6599f29afd7595284467c118fe7e0d8b595ffb299d8d468d873980221bf7
+    sources:
+      - common-pile/ubuntu_irc_filtered
+    docs: 34332
+    tokens: 267583273
+    bytes: 270397836
+  - url: s3://openwaldo/lookaside/04/73/04738c68002c53d6e452f0b9146e9083ebb1ac5a625b85b7315bf600d44a65cc
+    sha256: 04738c68002c53d6e452f0b9146e9083ebb1ac5a625b85b7315bf600d44a65cc
+    sources:
+      - common-pile/ubuntu_irc_filtered
+    docs: 46091
+    tokens: 266365586
+    bytes: 270896415
+  - url: s3://openwaldo/lookaside/5d/26/5d26e1cac6f2bcd9db3da286fce1384c22417ce880bd34fa57630870ff263f1e
+    sha256: 5d26e1cac6f2bcd9db3da286fce1384c22417ce880bd34fa57630870ff263f1e
+    sources:
+      - common-pile/ubuntu_irc_filtered
+    docs: 2520
+    tokens: 94153458
+    bytes: 88854348
