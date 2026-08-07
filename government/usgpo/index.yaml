@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: government/usgpo
+entries:
+  - name: usgpo.yaml
+    type: manifest
