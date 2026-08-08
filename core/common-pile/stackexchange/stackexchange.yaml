@@ -1,0 +1,814 @@
+kind: manifest
+schema: 1
+name: stackexchange
+title: Stack Exchange
+description: Questions, answers, and community posts from Stack Exchange sites, via the filtered Common Pile v0.1 release.
+license: CC-BY-SA-4.0
+sources:
+  - name: common-pile/stackexchange_filtered
+    source: common-pile/stackexchange_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/stackexchange_filtered
+    category: public-dataset
+    collected_to: 2026-07
+    sha256: d7dc48c172cc77aece7df82ae72c81ec83405dfa7ca2bf5414bdd887ebe32df9
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@637eb2b93a7f982aeaa9e17bd7c72fc6b7186246:recipes/common-pile/stackexchange.yaml
+  profile: canonical-text-schema-1@sha256:4b83b29d9366444d739240e3da688934cb12f5c2bd77cd2118cc2056461c67d8
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/8c/05/8c05838112d5d66b7d7d66a688fe15c9003a4834cfdf6586514f212e29bd58ca
+    sha256: 8c05838112d5d66b7d7d66a688fe15c9003a4834cfdf6586514f212e29bd58ca
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285604
+    tokens: 182108910
+    bytes: 290057276
+  - url: s3://openwaldo/lookaside/44/bd/44bdb881aca0bb4e4cf4f15e06056892a55d2fe0eaa818921e054e54561b1706
+    sha256: 44bdb881aca0bb4e4cf4f15e06056892a55d2fe0eaa818921e054e54561b1706
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 332096
+    tokens: 202819813
+    bytes: 285345230
+  - url: s3://openwaldo/lookaside/64/64/6464d83bbeace46bf3b11ecc8f3e6c593cb182f0ee9c639714b12ae6ec057570
+    sha256: 6464d83bbeace46bf3b11ecc8f3e6c593cb182f0ee9c639714b12ae6ec057570
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 282875
+    tokens: 191404107
+    bytes: 288453000
+  - url: s3://openwaldo/lookaside/40/b9/40b981d5b1f1365e4240c7cdf5fde0e449d1e234009eaed35a83b31eb172c273
+    sha256: 40b981d5b1f1365e4240c7cdf5fde0e449d1e234009eaed35a83b31eb172c273
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 230608
+    tokens: 198774991
+    bytes: 292583340
+  - url: s3://openwaldo/lookaside/1f/33/1f337e2c2a3caebcc055035c2bd3d7089e4f186172f90c26538209a894d0386c
+    sha256: 1f337e2c2a3caebcc055035c2bd3d7089e4f186172f90c26538209a894d0386c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 140910
+    tokens: 210075976
+    bytes: 280454021
+  - url: s3://openwaldo/lookaside/70/ec/70ec7a83e015c9cd484dd6c61ca458119108a5a8abc45235c3a309e8ece44d62
+    sha256: 70ec7a83e015c9cd484dd6c61ca458119108a5a8abc45235c3a309e8ece44d62
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 253606
+    tokens: 194335546
+    bytes: 281395496
+  - url: s3://openwaldo/lookaside/8b/8b/8b8bf64ad74b469c7b2219ce7919a8ffe064a67da94ec7e8200716dd62e7b389
+    sha256: 8b8bf64ad74b469c7b2219ce7919a8ffe064a67da94ec7e8200716dd62e7b389
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 271110
+    tokens: 187646500
+    bytes: 292643276
+  - url: s3://openwaldo/lookaside/cc/ed/cced9f330e845b53c52fef9a5cc551e35bb62cdc443ef78259c2db2d3da85652
+    sha256: cced9f330e845b53c52fef9a5cc551e35bb62cdc443ef78259c2db2d3da85652
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 223436
+    tokens: 173843362
+    bytes: 270378740
+  - url: s3://openwaldo/lookaside/68/26/6826c8b9dff371c13f72284c52e682fea1452d60f4b3b8edcbeadac097471201
+    sha256: 6826c8b9dff371c13f72284c52e682fea1452d60f4b3b8edcbeadac097471201
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 253270
+    tokens: 169594994
+    bytes: 269125641
+  - url: s3://openwaldo/lookaside/7a/b2/7ab2481ff8bb3726f1e6cca8389d068438fd023df7f51d756b0cee11298c4f7d
+    sha256: 7ab2481ff8bb3726f1e6cca8389d068438fd023df7f51d756b0cee11298c4f7d
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 308913
+    tokens: 185654856
+    bytes: 292490177
+  - url: s3://openwaldo/lookaside/b0/b0/b0b0b7b4e09bda557e2e478139adb765ce28c304abedf799388e2ebedc0f2909
+    sha256: b0b0b7b4e09bda557e2e478139adb765ce28c304abedf799388e2ebedc0f2909
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 237337
+    tokens: 178814527
+    bytes: 270955831
+  - url: s3://openwaldo/lookaside/59/68/59687e19708b9d4dd8cca1eb92ef815428447b521bfec4ecd93d4e03c4022006
+    sha256: 59687e19708b9d4dd8cca1eb92ef815428447b521bfec4ecd93d4e03c4022006
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 199732
+    tokens: 176107200
+    bytes: 272699307
+  - url: s3://openwaldo/lookaside/43/f8/43f89b845506982045a958d0c3bfa3c572825b526d5e7d2c51a8f9ca6b7aad91
+    sha256: 43f89b845506982045a958d0c3bfa3c572825b526d5e7d2c51a8f9ca6b7aad91
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 308300
+    tokens: 225755228
+    bytes: 285502523
+  - url: s3://openwaldo/lookaside/c0/90/c090e8ba5fcfd14935b0640b698c04a3007cb25ec405ad0c5f6362f0704f35a5
+    sha256: c090e8ba5fcfd14935b0640b698c04a3007cb25ec405ad0c5f6362f0704f35a5
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 324769
+    tokens: 232249088
+    bytes: 271115044
+  - url: s3://openwaldo/lookaside/15/e4/15e40ea3eb8aae41de33494c7084ce89f58f9591ddc39f4d3575cb52076d3c86
+    sha256: 15e40ea3eb8aae41de33494c7084ce89f58f9591ddc39f4d3575cb52076d3c86
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 321299
+    tokens: 234038502
+    bytes: 270113858
+  - url: s3://openwaldo/lookaside/e2/4f/e24f1317407e257d1a9b04aadc01cc86864c55dfc8bcb3183605976d26303d88
+    sha256: e24f1317407e257d1a9b04aadc01cc86864c55dfc8bcb3183605976d26303d88
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 318667
+    tokens: 234809006
+    bytes: 268841053
+  - url: s3://openwaldo/lookaside/3b/9b/3b9bb7ab2a062b5858557ab3392e2453adbb47afec856d2be9f1678539a00798
+    sha256: 3b9bb7ab2a062b5858557ab3392e2453adbb47afec856d2be9f1678539a00798
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 318695
+    tokens: 254152824
+    bytes: 289568389
+  - url: s3://openwaldo/lookaside/a0/79/a0792aae1ad5027bfd3d2accb2a6f4c751ccf8827d65f449cf424cd236dbfcbd
+    sha256: a0792aae1ad5027bfd3d2accb2a6f4c751ccf8827d65f449cf424cd236dbfcbd
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 273357
+    tokens: 248445104
+    bytes: 287854412
+  - url: s3://openwaldo/lookaside/d3/1e/d31e2a536dabf7b3310ffadbf1c55473a71ba7f89f34021543f26da38d1f8ff6
+    sha256: d31e2a536dabf7b3310ffadbf1c55473a71ba7f89f34021543f26da38d1f8ff6
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 235498
+    tokens: 214137277
+    bytes: 290273506
+  - url: s3://openwaldo/lookaside/4c/0a/4c0a9eca4d2b7dd0bd554d56fe7a503014f0974ad3779a6f10465b960db73076
+    sha256: 4c0a9eca4d2b7dd0bd554d56fe7a503014f0974ad3779a6f10465b960db73076
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 217822
+    tokens: 179528652
+    bytes: 290220067
+  - url: s3://openwaldo/lookaside/ea/78/ea781791f6b3bccf34c26ca8349343d6b7eadacad9ece91123f32091b4dcc7ad
+    sha256: ea781791f6b3bccf34c26ca8349343d6b7eadacad9ece91123f32091b4dcc7ad
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 180657
+    tokens: 182767500
+    bytes: 284442901
+  - url: s3://openwaldo/lookaside/bc/c4/bcc47fb2bec549bc7e0af66dd30fc93c983480bb0daa1b4752ec50ee61a5ec81
+    sha256: bcc47fb2bec549bc7e0af66dd30fc93c983480bb0daa1b4752ec50ee61a5ec81
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 212250
+    tokens: 191707397
+    bytes: 279283081
+  - url: s3://openwaldo/lookaside/44/7e/447e27e4ee1c876d6b738010931c8f15b093015ba71c0f9a54b5fd2fc8a0b117
+    sha256: 447e27e4ee1c876d6b738010931c8f15b093015ba71c0f9a54b5fd2fc8a0b117
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 210881
+    tokens: 195969454
+    bytes: 285062175
+  - url: s3://openwaldo/lookaside/ae/ea/aeea242ee9055454baa23eea4fb7b517e2c93f2e4a1b526c1c54c90832478a33
+    sha256: aeea242ee9055454baa23eea4fb7b517e2c93f2e4a1b526c1c54c90832478a33
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 244992
+    tokens: 183465688
+    bytes: 287838691
+  - url: s3://openwaldo/lookaside/a2/f4/a2f478725627f83536f583298adadc8b5fd5e5442afad2e302fc8fd6c4549c32
+    sha256: a2f478725627f83536f583298adadc8b5fd5e5442afad2e302fc8fd6c4549c32
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 239468
+    tokens: 172157263
+    bytes: 269591839
+  - url: s3://openwaldo/lookaside/8a/80/8a8050504ac6d70dfd7abdd9739788a24ebd126587db12afa6132c5dc9544b3c
+    sha256: 8a8050504ac6d70dfd7abdd9739788a24ebd126587db12afa6132c5dc9544b3c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 293334
+    tokens: 190250012
+    bytes: 283552677
+  - url: s3://openwaldo/lookaside/c0/90/c090af3389cc673bb5293f72f474364aeb1aa5e7916112d5550367a12a5e6d04
+    sha256: c090af3389cc673bb5293f72f474364aeb1aa5e7916112d5550367a12a5e6d04
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 186503
+    tokens: 178425847
+    bytes: 289201579
+  - url: s3://openwaldo/lookaside/d0/46/d0466070159552711f926f3094b3d9ee26d3f92991832e973f14e27f584dc1e8
+    sha256: d0466070159552711f926f3094b3d9ee26d3f92991832e973f14e27f584dc1e8
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 214780
+    tokens: 185253077
+    bytes: 291645256
+  - url: s3://openwaldo/lookaside/98/d6/98d69c43a6d6c54d8db40f037dc8ea1078262b0e1d46bfbf66ce6f3cdfe4c507
+    sha256: 98d69c43a6d6c54d8db40f037dc8ea1078262b0e1d46bfbf66ce6f3cdfe4c507
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 232449
+    tokens: 171027569
+    bytes: 269211775
+  - url: s3://openwaldo/lookaside/c9/98/c998f9b52c8e3ede9b3d446ff521219487aa0ef6bffba5ba4d73579f6d7ca119
+    sha256: c998f9b52c8e3ede9b3d446ff521219487aa0ef6bffba5ba4d73579f6d7ca119
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 252362
+    tokens: 171526721
+    bytes: 269610164
+  - url: s3://openwaldo/lookaside/5d/30/5d30a25e3f52fec61fecb3efdca995eaaeb1212bb82e37837f4bf842efd30435
+    sha256: 5d30a25e3f52fec61fecb3efdca995eaaeb1212bb82e37837f4bf842efd30435
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 257499
+    tokens: 171870539
+    bytes: 269316363
+  - url: s3://openwaldo/lookaside/12/c9/12c903cdbc4be8b42a14f43020968fa821ece17bd0ea2f3764fce7b2f713e157
+    sha256: 12c903cdbc4be8b42a14f43020968fa821ece17bd0ea2f3764fce7b2f713e157
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 259235
+    tokens: 172153866
+    bytes: 268596495
+  - url: s3://openwaldo/lookaside/6d/72/6d725c5171cb9ba022a7227e7395b856bec6adaa5bafe58076f1724e28ef689b
+    sha256: 6d725c5171cb9ba022a7227e7395b856bec6adaa5bafe58076f1724e28ef689b
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285423
+    tokens: 188163037
+    bytes: 291685888
+  - url: s3://openwaldo/lookaside/9f/02/9f0228de2ca4c24b975f9152c4bb7fdaee7d531145f9e827d6722eb70f47881f
+    sha256: 9f0228de2ca4c24b975f9152c4bb7fdaee7d531145f9e827d6722eb70f47881f
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288846
+    tokens: 188060431
+    bytes: 291395464
+  - url: s3://openwaldo/lookaside/ce/45/ce45316d12b5def302ab6180b43c2a57e6924aef95282065b19054010b7aea7b
+    sha256: ce45316d12b5def302ab6180b43c2a57e6924aef95282065b19054010b7aea7b
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289498
+    tokens: 188775168
+    bytes: 290946290
+  - url: s3://openwaldo/lookaside/04/e9/04e94f31da593be82c6214c220a188b080afddc93a85579ef0e04f29dadbda6c
+    sha256: 04e94f31da593be82c6214c220a188b080afddc93a85579ef0e04f29dadbda6c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285684
+    tokens: 188878916
+    bytes: 290234914
+  - url: s3://openwaldo/lookaside/0d/88/0d88ed710cfec104705bc3095f12fb9bc55d6824d36e9fe504bdc3d08d758015
+    sha256: 0d88ed710cfec104705bc3095f12fb9bc55d6824d36e9fe504bdc3d08d758015
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285552
+    tokens: 189260691
+    bytes: 289589380
+  - url: s3://openwaldo/lookaside/2d/85/2d8557e225f4a66c2bb58560457b7c709fc7613df3e220cc66f37ba0477871a8
+    sha256: 2d8557e225f4a66c2bb58560457b7c709fc7613df3e220cc66f37ba0477871a8
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285689
+    tokens: 189273852
+    bytes: 289272327
+  - url: s3://openwaldo/lookaside/fc/44/fc4445cb2205744a2923b6d24039a9bccb947ad4a07fc771f07d95ee9fbb167a
+    sha256: fc4445cb2205744a2923b6d24039a9bccb947ad4a07fc771f07d95ee9fbb167a
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289249
+    tokens: 189654160
+    bytes: 289192994
+  - url: s3://openwaldo/lookaside/82/08/820806135c5951b6822f5ca7222065185f2676ed867aee4c7c034ce98fcdb730
+    sha256: 820806135c5951b6822f5ca7222065185f2676ed867aee4c7c034ce98fcdb730
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289094
+    tokens: 190333676
+    bytes: 288449956
+  - url: s3://openwaldo/lookaside/b6/05/b605e78620f978a906839ce53158238afa11a05f9164544bd983c14ab5d45476
+    sha256: b605e78620f978a906839ce53158238afa11a05f9164544bd983c14ab5d45476
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 283282
+    tokens: 190355998
+    bytes: 287880721
+  - url: s3://openwaldo/lookaside/59/e9/59e9007480e2eeb748927e3de0eead6491184d945aa98717d6d23109945abd5e
+    sha256: 59e9007480e2eeb748927e3de0eead6491184d945aa98717d6d23109945abd5e
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 284541
+    tokens: 190975983
+    bytes: 287004167
+  - url: s3://openwaldo/lookaside/07/ed/07ed7e576b110aaa54053cc1c0898ee1171602500d268263d05da8da3128c2f1
+    sha256: 07ed7e576b110aaa54053cc1c0898ee1171602500d268263d05da8da3128c2f1
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285262
+    tokens: 191285866
+    bytes: 286848635
+  - url: s3://openwaldo/lookaside/76/24/7624bb2705562da25567c055b85b66b2a090499cad508a65fc2a746ca64b4f07
+    sha256: 7624bb2705562da25567c055b85b66b2a090499cad508a65fc2a746ca64b4f07
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287570
+    tokens: 191383937
+    bytes: 287141110
+  - url: s3://openwaldo/lookaside/13/78/13786c3d403a10fb1d3c858125c474bec71db58522829797ef43ec5fb90fabd3
+    sha256: 13786c3d403a10fb1d3c858125c474bec71db58522829797ef43ec5fb90fabd3
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 284303
+    tokens: 191431705
+    bytes: 286280257
+  - url: s3://openwaldo/lookaside/25/53/255351f7a8938dfcd0e4f89ae6ad59799847c7bef4404eed2c5e14ba90547302
+    sha256: 255351f7a8938dfcd0e4f89ae6ad59799847c7bef4404eed2c5e14ba90547302
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287354
+    tokens: 191952817
+    bytes: 285999247
+  - url: s3://openwaldo/lookaside/77/73/777397426d01fbd4704d65749eadecf2722ec211b2dc3532af9a244077e6f1f2
+    sha256: 777397426d01fbd4704d65749eadecf2722ec211b2dc3532af9a244077e6f1f2
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 282322
+    tokens: 191938351
+    bytes: 285614354
+  - url: s3://openwaldo/lookaside/ba/92/ba92d3b2b5f05374e8b18026d2c6c74547381b271c2343e2eab57fafd7c11f07
+    sha256: ba92d3b2b5f05374e8b18026d2c6c74547381b271c2343e2eab57fafd7c11f07
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289860
+    tokens: 192130396
+    bytes: 286122072
+  - url: s3://openwaldo/lookaside/27/dd/27dd33ca1c166c1753d75d5fe23b7a2ab2590cb926c9d5c99c903e87f8056b22
+    sha256: 27dd33ca1c166c1753d75d5fe23b7a2ab2590cb926c9d5c99c903e87f8056b22
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 294822
+    tokens: 192338898
+    bytes: 285888901
+  - url: s3://openwaldo/lookaside/40/4f/404f9fbc5e267b4c29277058b7f739e510b474b526b102e4a4bc2b0bd98fabcd
+    sha256: 404f9fbc5e267b4c29277058b7f739e510b474b526b102e4a4bc2b0bd98fabcd
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289460
+    tokens: 192238033
+    bytes: 285782354
+  - url: s3://openwaldo/lookaside/35/85/35854a99a01c9df00a830d32a69c2db2063a067f5c4bb3b7d038acc2d75882b4
+    sha256: 35854a99a01c9df00a830d32a69c2db2063a067f5c4bb3b7d038acc2d75882b4
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288066
+    tokens: 191839487
+    bytes: 285347108
+  - url: s3://openwaldo/lookaside/26/3f/263f6577f57a59231ba2bc316268458909dbc2b6093ccb712e7bb019f832572d
+    sha256: 263f6577f57a59231ba2bc316268458909dbc2b6093ccb712e7bb019f832572d
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 291449
+    tokens: 192250588
+    bytes: 285655951
+  - url: s3://openwaldo/lookaside/0b/44/0b4426a1873efa6773d03f317626fcf902e7c12a9280762e5b3ec436d4182607
+    sha256: 0b4426a1873efa6773d03f317626fcf902e7c12a9280762e5b3ec436d4182607
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 293684
+    tokens: 192803058
+    bytes: 285232379
+  - url: s3://openwaldo/lookaside/ef/41/ef41cd8af123b888f646db461f45367c923629b5a1eda1d26a4af4f0b939cdec
+    sha256: ef41cd8af123b888f646db461f45367c923629b5a1eda1d26a4af4f0b939cdec
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 286634
+    tokens: 192447612
+    bytes: 285010592
+  - url: s3://openwaldo/lookaside/41/78/41787123db92e4bb696e2b080835ba7347adc97787e4f06d0a0dfd9f79e1456a
+    sha256: 41787123db92e4bb696e2b080835ba7347adc97787e4f06d0a0dfd9f79e1456a
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 292330
+    tokens: 192792737
+    bytes: 285017947
+  - url: s3://openwaldo/lookaside/a6/88/a6889bd06c9288bc62bdad59b7426a4542e8287e70dcb6971889fe555e6a8204
+    sha256: a6889bd06c9288bc62bdad59b7426a4542e8287e70dcb6971889fe555e6a8204
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 283934
+    tokens: 192669444
+    bytes: 283966581
+  - url: s3://openwaldo/lookaside/80/dc/80dc67d93fef998ff3f783873b0ee0f24a0587dc981685617956c351680ef85a
+    sha256: 80dc67d93fef998ff3f783873b0ee0f24a0587dc981685617956c351680ef85a
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289495
+    tokens: 192620718
+    bytes: 284312433
+  - url: s3://openwaldo/lookaside/11/ab/11ab617fb90c3089b5c74d87f129a2d3c235b49d3f9c7ceb1e7b0793405c0d6a
+    sha256: 11ab617fb90c3089b5c74d87f129a2d3c235b49d3f9c7ceb1e7b0793405c0d6a
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287343
+    tokens: 192569610
+    bytes: 283911393
+  - url: s3://openwaldo/lookaside/f7/c8/f7c8f0303e68eaa6e60c35438db8e9838b03d706ef8cd2b00f866cbff1b48399
+    sha256: f7c8f0303e68eaa6e60c35438db8e9838b03d706ef8cd2b00f866cbff1b48399
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288489
+    tokens: 192921354
+    bytes: 283861532
+  - url: s3://openwaldo/lookaside/9f/f0/9ff09658c8c8f62ea7c09e3b8d28ac3227ff6e1d6ae6ab27965699919b083dad
+    sha256: 9ff09658c8c8f62ea7c09e3b8d28ac3227ff6e1d6ae6ab27965699919b083dad
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287073
+    tokens: 193308900
+    bytes: 283569595
+  - url: s3://openwaldo/lookaside/c3/24/c32486f65248a287da0a1b814e342214e6190a0bbc2b9b0c4c19b19870c8f648
+    sha256: c32486f65248a287da0a1b814e342214e6190a0bbc2b9b0c4c19b19870c8f648
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 283201
+    tokens: 192832260
+    bytes: 283513375
+  - url: s3://openwaldo/lookaside/39/1f/391ffd433b42e709700778a78dc6c8d3a5d741c5cfb6b051b4fa3b3e41e54e15
+    sha256: 391ffd433b42e709700778a78dc6c8d3a5d741c5cfb6b051b4fa3b3e41e54e15
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287625
+    tokens: 193225969
+    bytes: 283633492
+  - url: s3://openwaldo/lookaside/00/65/00651deade1156cc71fe8169b68c9a3de40b56fc9720afc3daa5849321297dce
+    sha256: 00651deade1156cc71fe8169b68c9a3de40b56fc9720afc3daa5849321297dce
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288850
+    tokens: 193418681
+    bytes: 283549624
+  - url: s3://openwaldo/lookaside/36/44/3644a29a676494f33bb558fe71c5e34e5da87216ff0103d0c29c536968eb339d
+    sha256: 3644a29a676494f33bb558fe71c5e34e5da87216ff0103d0c29c536968eb339d
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289704
+    tokens: 193305289
+    bytes: 283889818
+  - url: s3://openwaldo/lookaside/55/07/5507be857a3e50b006e7fe5cd489a6f759b2afdfb49e64b0aae33c4c7c8fb3ca
+    sha256: 5507be857a3e50b006e7fe5cd489a6f759b2afdfb49e64b0aae33c4c7c8fb3ca
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288626
+    tokens: 193146645
+    bytes: 283619846
+  - url: s3://openwaldo/lookaside/74/51/7451e73d6f1e75547338a71f27197ead00a15b3589e63cc3982fb7b3943ce921
+    sha256: 7451e73d6f1e75547338a71f27197ead00a15b3589e63cc3982fb7b3943ce921
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 290357
+    tokens: 193776231
+    bytes: 283539102
+  - url: s3://openwaldo/lookaside/35/b6/35b6a71b3d5a967a09a88c53eee424de2898f16cb1da59c5a507011e82ece3ef
+    sha256: 35b6a71b3d5a967a09a88c53eee424de2898f16cb1da59c5a507011e82ece3ef
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287756
+    tokens: 193840049
+    bytes: 283007778
+  - url: s3://openwaldo/lookaside/e9/86/e986b32ae0f2610e7d0c97b9c3a5e12b4ef05c36c4e150bb9296778c5b92bda9
+    sha256: e986b32ae0f2610e7d0c97b9c3a5e12b4ef05c36c4e150bb9296778c5b92bda9
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287234
+    tokens: 193782023
+    bytes: 283423648
+  - url: s3://openwaldo/lookaside/44/50/445064c634c1f55b7006f2625e843ec5acd8f4c4034234e70dd0f6cf1b8e467b
+    sha256: 445064c634c1f55b7006f2625e843ec5acd8f4c4034234e70dd0f6cf1b8e467b
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 290734
+    tokens: 194416684
+    bytes: 283279108
+  - url: s3://openwaldo/lookaside/61/88/6188b7c3e3238ad6234954185c40c034b31709a69bd3508c63a79e568b5bbe95
+    sha256: 6188b7c3e3238ad6234954185c40c034b31709a69bd3508c63a79e568b5bbe95
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 290063
+    tokens: 194231140
+    bytes: 282823270
+  - url: s3://openwaldo/lookaside/e3/3e/e33eeef1ed924489ca5de77b1efb895753b58bc5c93e3debdb04cd39c85578cb
+    sha256: e33eeef1ed924489ca5de77b1efb895753b58bc5c93e3debdb04cd39c85578cb
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288128
+    tokens: 194003844
+    bytes: 282922291
+  - url: s3://openwaldo/lookaside/de/7a/de7aef62b4b1c4bb7a6ab44d8c7465e2191d8fc5202e8f86590cccd9712cfa05
+    sha256: de7aef62b4b1c4bb7a6ab44d8c7465e2191d8fc5202e8f86590cccd9712cfa05
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288459
+    tokens: 194302914
+    bytes: 283152981
+  - url: s3://openwaldo/lookaside/b3/ff/b3ff4d9501da830db0a21f50d9ac4e5acfa7b9478c4e0adf5072a3ddb9992381
+    sha256: b3ff4d9501da830db0a21f50d9ac4e5acfa7b9478c4e0adf5072a3ddb9992381
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 290036
+    tokens: 194952478
+    bytes: 283242561
+  - url: s3://openwaldo/lookaside/0f/5f/0f5f4d27e89104376bf1259cd8efe5847c8ff17cc9bbd2ad6143128cc1085e9f
+    sha256: 0f5f4d27e89104376bf1259cd8efe5847c8ff17cc9bbd2ad6143128cc1085e9f
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 284696
+    tokens: 194556275
+    bytes: 283094665
+  - url: s3://openwaldo/lookaside/7d/62/7d6292409455d80187240a3d9f003f9bd4a67326d72bf9da12e80eed41f004d1
+    sha256: 7d6292409455d80187240a3d9f003f9bd4a67326d72bf9da12e80eed41f004d1
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 286060
+    tokens: 194778031
+    bytes: 282950816
+  - url: s3://openwaldo/lookaside/3f/de/3fde3c3490502d2f7851bcc7925c3cd00393376b71054814a43680445cdd4b5c
+    sha256: 3fde3c3490502d2f7851bcc7925c3cd00393376b71054814a43680445cdd4b5c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 286204
+    tokens: 194928194
+    bytes: 282796880
+  - url: s3://openwaldo/lookaside/e0/0a/e00afa68bd121107c0f61e3792d03e67c45e6eaff272863d59a0d7ae0b39c33b
+    sha256: e00afa68bd121107c0f61e3792d03e67c45e6eaff272863d59a0d7ae0b39c33b
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288698
+    tokens: 194720108
+    bytes: 282901986
+  - url: s3://openwaldo/lookaside/22/f0/22f06019337b4bea6c32d4c75b4b48584f1520f9b8cf54d9958dd0d105a2ed47
+    sha256: 22f06019337b4bea6c32d4c75b4b48584f1520f9b8cf54d9958dd0d105a2ed47
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 283884
+    tokens: 194716062
+    bytes: 282245741
+  - url: s3://openwaldo/lookaside/ef/67/ef6716411478ad84284e997f33a902dd0632de394e6135f8a9e401e0e79b8ab4
+    sha256: ef6716411478ad84284e997f33a902dd0632de394e6135f8a9e401e0e79b8ab4
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 287993
+    tokens: 195270795
+    bytes: 282799385
+  - url: s3://openwaldo/lookaside/12/8c/128ce6bc20a6dd587c8aaba0e0f5d16150f222870fe6f457bd58604a777f1404
+    sha256: 128ce6bc20a6dd587c8aaba0e0f5d16150f222870fe6f457bd58604a777f1404
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 278817
+    tokens: 194942907
+    bytes: 281398020
+  - url: s3://openwaldo/lookaside/7a/9f/7a9f2ef822b3736022911a12601c589d2093cb724f0fa3bac07a4b0929ff4d28
+    sha256: 7a9f2ef822b3736022911a12601c589d2093cb724f0fa3bac07a4b0929ff4d28
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 284183
+    tokens: 195488702
+    bytes: 281335482
+  - url: s3://openwaldo/lookaside/dc/96/dc96d89ebdc725b2f6518576984b6043ff0bf61b66a971ff9e2cee87b283e605
+    sha256: dc96d89ebdc725b2f6518576984b6043ff0bf61b66a971ff9e2cee87b283e605
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 281831
+    tokens: 195133273
+    bytes: 280988659
+  - url: s3://openwaldo/lookaside/e5/8e/e58e499afc52a463ed5956eb9b0b770164c60b0def2cfd2282cce2e2a8932b14
+    sha256: e58e499afc52a463ed5956eb9b0b770164c60b0def2cfd2282cce2e2a8932b14
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 280296
+    tokens: 195004448
+    bytes: 280467497
+  - url: s3://openwaldo/lookaside/b0/ce/b0ce8f12277b06ce7722be203211cd4e4cdf71113de3df08d1f221008ed8b205
+    sha256: b0ce8f12277b06ce7722be203211cd4e4cdf71113de3df08d1f221008ed8b205
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 284190
+    tokens: 195213399
+    bytes: 280732184
+  - url: s3://openwaldo/lookaside/a1/95/a195ff10355b1ea141e6602c0c43a1b3724ea0f51a454b8cb06874c13184047a
+    sha256: a195ff10355b1ea141e6602c0c43a1b3724ea0f51a454b8cb06874c13184047a
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 282093
+    tokens: 195534063
+    bytes: 280060162
+  - url: s3://openwaldo/lookaside/88/eb/88eb358e0cf13f08080feac8d26975412a936f0e3838286af9c1a3f715250aae
+    sha256: 88eb358e0cf13f08080feac8d26975412a936f0e3838286af9c1a3f715250aae
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 284589
+    tokens: 195654564
+    bytes: 280180850
+  - url: s3://openwaldo/lookaside/aa/4f/aa4f2636a47c32e9cad3b6db2884ce27937f83c0610380609c5f7a07e83f951b
+    sha256: aa4f2636a47c32e9cad3b6db2884ce27937f83c0610380609c5f7a07e83f951b
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 292259
+    tokens: 196186441
+    bytes: 280759895
+  - url: s3://openwaldo/lookaside/f0/41/f0416f1a1e9453cc6b61da62c54b7fd4ed2fcd3ddf49e82299d5bf0e313e049c
+    sha256: f0416f1a1e9453cc6b61da62c54b7fd4ed2fcd3ddf49e82299d5bf0e313e049c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 291388
+    tokens: 196035239
+    bytes: 280355583
+  - url: s3://openwaldo/lookaside/5a/b6/5ab6b13faad2a20b73e5634a15f7362eceb9fac3a9f4f4d1565119588095b5fd
+    sha256: 5ab6b13faad2a20b73e5634a15f7362eceb9fac3a9f4f4d1565119588095b5fd
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285435
+    tokens: 195423291
+    bytes: 278948160
+  - url: s3://openwaldo/lookaside/a2/a2/a2a2a3e8345ad8d98768b7f39d0fe5379f0295078b59554122a74dba0f85b51c
+    sha256: a2a2a3e8345ad8d98768b7f39d0fe5379f0295078b59554122a74dba0f85b51c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 288821
+    tokens: 196769136
+    bytes: 279473896
+  - url: s3://openwaldo/lookaside/68/94/68940d360ae96c170cadacbbd6cb68cbac932b83fd59d5428b29af01e9ec3a39
+    sha256: 68940d360ae96c170cadacbbd6cb68cbac932b83fd59d5428b29af01e9ec3a39
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 285356
+    tokens: 196917134
+    bytes: 279130830
+  - url: s3://openwaldo/lookaside/33/01/33015eba16fe2d0eb62c705032a428db626e9ea12e7156dd7b334d4b70b3bc85
+    sha256: 33015eba16fe2d0eb62c705032a428db626e9ea12e7156dd7b334d4b70b3bc85
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 289954
+    tokens: 196955075
+    bytes: 280224393
+  - url: s3://openwaldo/lookaside/35/ae/35ae7b63e57bc6ffe590832522e255a2f109b9acb259396fce3373c65cc76a1c
+    sha256: 35ae7b63e57bc6ffe590832522e255a2f109b9acb259396fce3373c65cc76a1c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 291509
+    tokens: 196774035
+    bytes: 279612926
+  - url: s3://openwaldo/lookaside/cd/98/cd9893bd4d0e7a0488d39c7ca07d5190afe0d4bc2b4fe03abcfcdfee3f0842d0
+    sha256: cd9893bd4d0e7a0488d39c7ca07d5190afe0d4bc2b4fe03abcfcdfee3f0842d0
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 290158
+    tokens: 196532407
+    bytes: 279388533
+  - url: s3://openwaldo/lookaside/97/79/9779a01aaffb6ed52e48f4e6e039366377bba1656b148a4093a46a0bcb82078c
+    sha256: 9779a01aaffb6ed52e48f4e6e039366377bba1656b148a4093a46a0bcb82078c
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 290354
+    tokens: 197338222
+    bytes: 279589122
+  - url: s3://openwaldo/lookaside/85/aa/85aa8e78b6fde46f17f85e53967d7320728b69d72ae8e1050d6f3756c2f4ef6e
+    sha256: 85aa8e78b6fde46f17f85e53967d7320728b69d72ae8e1050d6f3756c2f4ef6e
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 290491
+    tokens: 197100582
+    bytes: 279948825
+  - url: s3://openwaldo/lookaside/63/7e/637ea5bbc09ba7f0a83a99fa1b13bd4da574a5ba84e6ab0980bd854e160259ca
+    sha256: 637ea5bbc09ba7f0a83a99fa1b13bd4da574a5ba84e6ab0980bd854e160259ca
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 296118
+    tokens: 197359853
+    bytes: 279686188
+  - url: s3://openwaldo/lookaside/96/63/966343e6bbeaf79f1d261d391847cd5ac9276a83adbdedd35f5463b6d5e4a895
+    sha256: 966343e6bbeaf79f1d261d391847cd5ac9276a83adbdedd35f5463b6d5e4a895
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 295000
+    tokens: 197076941
+    bytes: 279641765
+  - url: s3://openwaldo/lookaside/e0/48/e048e5b5da092bd15414364bb1d5eb5e316d53e200527bfda6636548cb840ed2
+    sha256: e048e5b5da092bd15414364bb1d5eb5e316d53e200527bfda6636548cb840ed2
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 295779
+    tokens: 197539122
+    bytes: 279555850
+  - url: s3://openwaldo/lookaside/b9/af/b9af88eb5574855300fc372f074d1083f3c35ba363570701a2c5ab4736e8869b
+    sha256: b9af88eb5574855300fc372f074d1083f3c35ba363570701a2c5ab4736e8869b
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 283449
+    tokens: 196954821
+    bytes: 278270316
+  - url: s3://openwaldo/lookaside/39/a2/39a26ca33b878edd65ce1c4cee4074ec73c556f5498d0ab891c23fc06c027c32
+    sha256: 39a26ca33b878edd65ce1c4cee4074ec73c556f5498d0ab891c23fc06c027c32
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 270216
+    tokens: 195922569
+    bytes: 276619994
+  - url: s3://openwaldo/lookaside/47/4c/474c4cfd5649987dbe3fb2a81194cb1807ce4d6c166d811193387c8fc68ec362
+    sha256: 474c4cfd5649987dbe3fb2a81194cb1807ce4d6c166d811193387c8fc68ec362
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 260842
+    tokens: 195092807
+    bytes: 276181354
+  - url: s3://openwaldo/lookaside/bb/33/bb33b3192c047b8ce177b442d19929fe1db82c75b92bf61a2fef60082fc86e03
+    sha256: bb33b3192c047b8ce177b442d19929fe1db82c75b92bf61a2fef60082fc86e03
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 281650
+    tokens: 194469561
+    bytes: 277219903
+  - url: s3://openwaldo/lookaside/21/8b/218b6f575da049ae815e9ac78c9fcccbd139f0c6a21723c3e3e17e3a95ebbc54
+    sha256: 218b6f575da049ae815e9ac78c9fcccbd139f0c6a21723c3e3e17e3a95ebbc54
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 262767
+    tokens: 192166702
+    bytes: 279628087
+  - url: s3://openwaldo/lookaside/a9/60/a96071b8f601de2da018f7be1503faf34dcc7ed327b605b9f94e70b39fa740ec
+    sha256: a96071b8f601de2da018f7be1503faf34dcc7ed327b605b9f94e70b39fa740ec
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 283081
+    tokens: 192526343
+    bytes: 281561774
+  - url: s3://openwaldo/lookaside/f7/a8/f7a8a6a08d2a20ac034e928d4c26e9eceabdbf88b1954e7f3b6240c34e9425c1
+    sha256: f7a8a6a08d2a20ac034e928d4c26e9eceabdbf88b1954e7f3b6240c34e9425c1
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 337460
+    tokens: 194443934
+    bytes: 280854097
+  - url: s3://openwaldo/lookaside/96/be/96be1d2153a14827397cbb6e23811ec8048d2de42e8adb122c0b6f3f2b263d07
+    sha256: 96be1d2153a14827397cbb6e23811ec8048d2de42e8adb122c0b6f3f2b263d07
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 279053
+    tokens: 199434437
+    bytes: 290979161
+  - url: s3://openwaldo/lookaside/b2/e2/b2e200389e141de6968d36a12d87b849965155674ae971099b9f753a4a151df8
+    sha256: b2e200389e141de6968d36a12d87b849965155674ae971099b9f753a4a151df8
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 310852
+    tokens: 176821948
+    bytes: 278275796
+  - url: s3://openwaldo/lookaside/53/19/5319f4c760e0d39de5b9fc72adf10296368455f78f0579f2410f53d7d009ca9b
+    sha256: 5319f4c760e0d39de5b9fc72adf10296368455f78f0579f2410f53d7d009ca9b
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 269572
+    tokens: 214436235
+    bytes: 274217702
+  - url: s3://openwaldo/lookaside/42/8f/428f351dedcafd8b55ee98743656710dc5ec74fe9c53a6d0ec6dce2dd690a77f
+    sha256: 428f351dedcafd8b55ee98743656710dc5ec74fe9c53a6d0ec6dce2dd690a77f
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 249648
+    tokens: 210336262
+    bytes: 273625791
+  - url: s3://openwaldo/lookaside/1c/17/1c17b8e20baa8c1813d180874f55c4dc8989bbc0252c34d291efb89bcacbfacb
+    sha256: 1c17b8e20baa8c1813d180874f55c4dc8989bbc0252c34d291efb89bcacbfacb
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 293025
+    tokens: 197786483
+    bytes: 290699897
+  - url: s3://openwaldo/lookaside/d5/38/d53851e4028c69851590029ae8cf8ff130eae853b4dff09ad027739719ac51fd
+    sha256: d53851e4028c69851590029ae8cf8ff130eae853b4dff09ad027739719ac51fd
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 166827
+    tokens: 178468890
+    bytes: 281744124
+  - url: s3://openwaldo/lookaside/4c/79/4c793810f3b286a0be6a77ff21bd7f3e9941571aed741b928cbeafe141e9f7aa
+    sha256: 4c793810f3b286a0be6a77ff21bd7f3e9941571aed741b928cbeafe141e9f7aa
+    sources:
+      - common-pile/stackexchange_filtered
+    docs: 33460
+    tokens: 64742171
+    bytes: 110024318

@@ -1,0 +1,534 @@
+kind: manifest
+schema: 1
+name: wikimedia
+title: Wikimedia
+description: Articles and other text from Wikimedia projects, via the filtered Common Pile v0.1 release.
+license: CC-BY-SA-4.0
+sources:
+  - name: common-pile/wikimedia_filtered
+    source: common-pile/wikimedia_filtered
+    version: v0.1
+    url: https://huggingface.co/datasets/common-pile/wikimedia_filtered
+    category: public-dataset
+    collected_to: 2026-07
+    sha256: 21f8cc0efa749b72d8f6f3d456cbdb3abea132e3c57900b0d30fdfe6ffd9614b
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@e4af9007cf0b1204fa25e42875d5c9f7f04e318f:recipes/common-pile/wikimedia.yaml
+  profile: canonical-text-schema-1
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/3f/77/3f77b268c472c80aba617391979ebdde1aa19ac823985e2010ebdbb82be12658
+    sha256: 3f77b268c472c80aba617391979ebdde1aa19ac823985e2010ebdbb82be12658
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 157062
+    tokens: 182898340
+    bytes: 281880261
+  - url: s3://openwaldo/lookaside/ad/a0/ada0df4df368bed3933a502073abe174559ffc421b89131c7201d76ecec9d701
+    sha256: ada0df4df368bed3933a502073abe174559ffc421b89131c7201d76ecec9d701
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 78278
+    tokens: 174778878
+    bytes: 269120659
+  - url: s3://openwaldo/lookaside/e8/6c/e86cbe24c992b70ab9d7fedff244357bce841ffa6b9574ad7dfb9fe43706fb8a
+    sha256: e86cbe24c992b70ab9d7fedff244357bce841ffa6b9574ad7dfb9fe43706fb8a
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 133976
+    tokens: 205030824
+    bytes: 283597498
+  - url: s3://openwaldo/lookaside/c6/d3/c6d30d5d8a916a3681e05bd1ddc18d195360b80bf31073478903aee612448f10
+    sha256: c6d30d5d8a916a3681e05bd1ddc18d195360b80bf31073478903aee612448f10
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 252755
+    tokens: 196743479
+    bytes: 284555257
+  - url: s3://openwaldo/lookaside/08/96/0896446f24c88cdfcf95aa65f0cc19cecadbe43a00e538ee82a296d92179b57b
+    sha256: 0896446f24c88cdfcf95aa65f0cc19cecadbe43a00e538ee82a296d92179b57b
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 207583
+    tokens: 196073244
+    bytes: 278700652
+  - url: s3://openwaldo/lookaside/3a/3b/3a3b09e01a5b999e8ccff1f027a341dc5e6f175c334c3f870c08b5805ff49095
+    sha256: 3a3b09e01a5b999e8ccff1f027a341dc5e6f175c334c3f870c08b5805ff49095
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 236805
+    tokens: 198552211
+    bytes: 270208860
+  - url: s3://openwaldo/lookaside/02/1c/021cef1f51c2f2e40853c0bd760f807b75e5ecc36fb7a0293b4f5043760861b4
+    sha256: 021cef1f51c2f2e40853c0bd760f807b75e5ecc36fb7a0293b4f5043760861b4
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 179886
+    tokens: 187805251
+    bytes: 285509903
+  - url: s3://openwaldo/lookaside/be/c2/bec2f9c60a89c8e3127f242ed90c2f012d37f3c394ae9284518b2143a7455962
+    sha256: bec2f9c60a89c8e3127f242ed90c2f012d37f3c394ae9284518b2143a7455962
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 248945
+    tokens: 200961518
+    bytes: 277220393
+  - url: s3://openwaldo/lookaside/92/85/92859f7b02c22a73e874c15f967ee2a34d3448b032a97821bed5f8fa78387c00
+    sha256: 92859f7b02c22a73e874c15f967ee2a34d3448b032a97821bed5f8fa78387c00
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 224935
+    tokens: 206859887
+    bytes: 276803169
+  - url: s3://openwaldo/lookaside/fe/fe/fefebba9df4aaf166fd02cc1697f12409d2ede88cd01871162efa2c59caf157c
+    sha256: fefebba9df4aaf166fd02cc1697f12409d2ede88cd01871162efa2c59caf157c
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 251708
+    tokens: 188962025
+    bytes: 293841292
+  - url: s3://openwaldo/lookaside/cd/4d/cd4d1ec47ec328e763c09c8f5c0c1f95a4c03310311afde1f260b59dda951f5c
+    sha256: cd4d1ec47ec328e763c09c8f5c0c1f95a4c03310311afde1f260b59dda951f5c
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 262729
+    tokens: 190466226
+    bytes: 291208843
+  - url: s3://openwaldo/lookaside/e9/80/e9808d1285912e1350fda81987d424a6e6fb0608bf1a5f0e32118b0b6e73cab6
+    sha256: e9808d1285912e1350fda81987d424a6e6fb0608bf1a5f0e32118b0b6e73cab6
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 273757
+    tokens: 178432264
+    bytes: 269615560
+  - url: s3://openwaldo/lookaside/fb/48/fb480a92b9855129347ee8b64d843fd2a49e34fcd24731de02ace46f2d00e129
+    sha256: fb480a92b9855129347ee8b64d843fd2a49e34fcd24731de02ace46f2d00e129
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 278446
+    tokens: 192127805
+    bytes: 291721661
+  - url: s3://openwaldo/lookaside/4c/90/4c90157509f4b8a04ffb1ba30bab2356ab1dc7ce48cb235927104f050770d43e
+    sha256: 4c90157509f4b8a04ffb1ba30bab2356ab1dc7ce48cb235927104f050770d43e
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 229363
+    tokens: 177348643
+    bytes: 277010721
+  - url: s3://openwaldo/lookaside/a3/c2/a3c27ad0aab0176099ded807dcf36f91e4ab26386584fe68df0c874f5c373aab
+    sha256: a3c27ad0aab0176099ded807dcf36f91e4ab26386584fe68df0c874f5c373aab
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 225955
+    tokens: 177056843
+    bytes: 270025647
+  - url: s3://openwaldo/lookaside/9c/9e/9c9eddd5a43b1d0ec100859218bcaee3aaf6bf7f4db5e128ff7a84c5cc3ff404
+    sha256: 9c9eddd5a43b1d0ec100859218bcaee3aaf6bf7f4db5e128ff7a84c5cc3ff404
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 195251
+    tokens: 188747697
+    bytes: 278406093
+  - url: s3://openwaldo/lookaside/aa/8e/aa8e805d309a5bac360be501fd67746048ef4795082ea95e6608adafd11b836f
+    sha256: aa8e805d309a5bac360be501fd67746048ef4795082ea95e6608adafd11b836f
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 168628
+    tokens: 179554706
+    bytes: 273627688
+  - url: s3://openwaldo/lookaside/6d/85/6d854f6c37e3bbbb5cfe131509affeac84a57e66a99490dc5e115055ee10fcb4
+    sha256: 6d854f6c37e3bbbb5cfe131509affeac84a57e66a99490dc5e115055ee10fcb4
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 264114
+    tokens: 177459345
+    bytes: 273235158
+  - url: s3://openwaldo/lookaside/5d/80/5d80536b90e5e081e418cfc7f2876e36a97c2ca3852876571f1230d6d937acff
+    sha256: 5d80536b90e5e081e418cfc7f2876e36a97c2ca3852876571f1230d6d937acff
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 276410
+    tokens: 175535049
+    bytes: 271926496
+  - url: s3://openwaldo/lookaside/ac/bf/acbf3b3278082906b48896000638686e2c8f530e939f85399d48e675300f03a0
+    sha256: acbf3b3278082906b48896000638686e2c8f530e939f85399d48e675300f03a0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 243851
+    tokens: 173912507
+    bytes: 274014863
+  - url: s3://openwaldo/lookaside/b6/5c/b65c7858226b1f27d585d0fcd283bb4506f829cae2738510a44a7b19f9e2ed8a
+    sha256: b65c7858226b1f27d585d0fcd283bb4506f829cae2738510a44a7b19f9e2ed8a
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 235960
+    tokens: 173466362
+    bytes: 273691474
+  - url: s3://openwaldo/lookaside/32/67/3267d0140e0cbbd69945ddbbed33ef580f94424cb259d4fb1f6ba60ef15be1cb
+    sha256: 3267d0140e0cbbd69945ddbbed33ef580f94424cb259d4fb1f6ba60ef15be1cb
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 161171
+    tokens: 176301551
+    bytes: 271899007
+  - url: s3://openwaldo/lookaside/bd/17/bd174b610418118ecde38008226f2f03878f7cbbedeef8b168e0f9a5a6dc7d28
+    sha256: bd174b610418118ecde38008226f2f03878f7cbbedeef8b168e0f9a5a6dc7d28
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 148338
+    tokens: 175956227
+    bytes: 270679062
+  - url: s3://openwaldo/lookaside/da/e5/dae572bd0748f64c4f1892484cb079d6d46b6cd7db7977fadc1f7bda96625620
+    sha256: dae572bd0748f64c4f1892484cb079d6d46b6cd7db7977fadc1f7bda96625620
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 157152
+    tokens: 176848120
+    bytes: 270304547
+  - url: s3://openwaldo/lookaside/1e/f9/1ef9bdc66323f2a6eda89da409aaeb43397046cb622902a8a2ac86dca7afa191
+    sha256: 1ef9bdc66323f2a6eda89da409aaeb43397046cb622902a8a2ac86dca7afa191
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 162773
+    tokens: 177295434
+    bytes: 268575643
+  - url: s3://openwaldo/lookaside/00/50/005027a858b210061b4ef56e7e4b2ca14a191bca0788f480bf32d7f51574eb12
+    sha256: 005027a858b210061b4ef56e7e4b2ca14a191bca0788f480bf32d7f51574eb12
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 170514
+    tokens: 177261151
+    bytes: 269321051
+  - url: s3://openwaldo/lookaside/5f/47/5f476413ede597f4d68e792b96e867f4ad132eefd42bfd5065251058ee7e2a9f
+    sha256: 5f476413ede597f4d68e792b96e867f4ad132eefd42bfd5065251058ee7e2a9f
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 198227
+    tokens: 194707943
+    bytes: 292525693
+  - url: s3://openwaldo/lookaside/fc/bf/fcbf403a33389893910225cf559c9724538219466b425ed60caa9e6930ecf66a
+    sha256: fcbf403a33389893910225cf559c9724538219466b425ed60caa9e6930ecf66a
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 245977
+    tokens: 196575321
+    bytes: 282946836
+  - url: s3://openwaldo/lookaside/95/2f/952fe4022a3a0ef079f0b48f7d0f25e5780eceb001366729469bc620be928373
+    sha256: 952fe4022a3a0ef079f0b48f7d0f25e5780eceb001366729469bc620be928373
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 213772
+    tokens: 196424994
+    bytes: 287821517
+  - url: s3://openwaldo/lookaside/5e/98/5e988ad7e4e5b1dc47894b016573787c0d3ba5cee6871d760fc8053a5b2dc3fd
+    sha256: 5e988ad7e4e5b1dc47894b016573787c0d3ba5cee6871d760fc8053a5b2dc3fd
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 220907
+    tokens: 194699817
+    bytes: 289214403
+  - url: s3://openwaldo/lookaside/83/32/83323bb6281b1393371620b24b49cbde4a3d04d438dfde32e021a8762c5c6184
+    sha256: 83323bb6281b1393371620b24b49cbde4a3d04d438dfde32e021a8762c5c6184
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 240166
+    tokens: 197537492
+    bytes: 282949684
+  - url: s3://openwaldo/lookaside/47/de/47de782b94a2c8d650335e5ee00655db3cc69aa64466cea051cfa0ce12eb9fc0
+    sha256: 47de782b94a2c8d650335e5ee00655db3cc69aa64466cea051cfa0ce12eb9fc0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 224531
+    tokens: 199701238
+    bytes: 278732393
+  - url: s3://openwaldo/lookaside/4c/7d/4c7db04a686828f58efc61b6dd2de4d8c728659920f008ce433b0a1f266911b2
+    sha256: 4c7db04a686828f58efc61b6dd2de4d8c728659920f008ce433b0a1f266911b2
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 238104
+    tokens: 200526567
+    bytes: 270653908
+  - url: s3://openwaldo/lookaside/a8/01/a801e802bfa3b2d383d244e03f3d5376b80f9aaba3a152fcf04dc2a964854793
+    sha256: a801e802bfa3b2d383d244e03f3d5376b80f9aaba3a152fcf04dc2a964854793
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 214604
+    tokens: 206979855
+    bytes: 272444786
+  - url: s3://openwaldo/lookaside/b1/e9/b1e9b1871e562e994b3d82499d4f4fdcc5bdca4400e5d6558a2d1f9cff5fefed
+    sha256: b1e9b1871e562e994b3d82499d4f4fdcc5bdca4400e5d6558a2d1f9cff5fefed
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 229722
+    tokens: 204819925
+    bytes: 273377858
+  - url: s3://openwaldo/lookaside/a4/2e/a42e3815c14c4297449efb1202f5457caeea7202637bab6f11fcea6384b330bc
+    sha256: a42e3815c14c4297449efb1202f5457caeea7202637bab6f11fcea6384b330bc
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 222346
+    tokens: 204421084
+    bytes: 273570909
+  - url: s3://openwaldo/lookaside/80/6b/806b95d021f15416a0604a7ebfa55910a595d584062eec70dbd9d28de8ca4951
+    sha256: 806b95d021f15416a0604a7ebfa55910a595d584062eec70dbd9d28de8ca4951
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 226181
+    tokens: 202252783
+    bytes: 278706875
+  - url: s3://openwaldo/lookaside/e4/82/e48220aa51192455c1fc98c33a59d42c7c81d1d2b6a3e482a214005f82013d3a
+    sha256: e48220aa51192455c1fc98c33a59d42c7c81d1d2b6a3e482a214005f82013d3a
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 225783
+    tokens: 199819601
+    bytes: 279003376
+  - url: s3://openwaldo/lookaside/48/d6/48d6d464be64a0eca2e1c2315102f1b87b500952c01c12633b659d9a1ce5e89a
+    sha256: 48d6d464be64a0eca2e1c2315102f1b87b500952c01c12633b659d9a1ce5e89a
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 237548
+    tokens: 201440629
+    bytes: 278808515
+  - url: s3://openwaldo/lookaside/29/8d/298db6aa645f6c0caf7d986dadafaf5352d6f67585ad6af2c3ab2114941164f7
+    sha256: 298db6aa645f6c0caf7d986dadafaf5352d6f67585ad6af2c3ab2114941164f7
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 227017
+    tokens: 202423262
+    bytes: 276693242
+  - url: s3://openwaldo/lookaside/98/dc/98dc7e086e8ebe7eb856d9da2921aa83afb7305915fd15264ccf4884862887ff
+    sha256: 98dc7e086e8ebe7eb856d9da2921aa83afb7305915fd15264ccf4884862887ff
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 208893
+    tokens: 203437287
+    bytes: 276654899
+  - url: s3://openwaldo/lookaside/5e/5f/5e5fd2d6265cf7fa7e3be36ac1dae847af8799ba96f639950868936a9ae05ef8
+    sha256: 5e5fd2d6265cf7fa7e3be36ac1dae847af8799ba96f639950868936a9ae05ef8
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 210470
+    tokens: 202765338
+    bytes: 275700942
+  - url: s3://openwaldo/lookaside/ae/0d/ae0d3d674e11ae0d18dec4c2a453648607dd78f4ae6fedc45cdfa37cd2a83e4d
+    sha256: ae0d3d674e11ae0d18dec4c2a453648607dd78f4ae6fedc45cdfa37cd2a83e4d
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 195422
+    tokens: 199000115
+    bytes: 277523125
+  - url: s3://openwaldo/lookaside/56/b6/56b66b6c33819c18e02a4bab4482e7a9bfec88fe576114c02783150cbd291509
+    sha256: 56b66b6c33819c18e02a4bab4482e7a9bfec88fe576114c02783150cbd291509
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 222568
+    tokens: 201095088
+    bytes: 277839316
+  - url: s3://openwaldo/lookaside/3b/e8/3be85c990bbef46ce0f99c0fc06a010bd294f31b3ce392a5a19d4af95c45a281
+    sha256: 3be85c990bbef46ce0f99c0fc06a010bd294f31b3ce392a5a19d4af95c45a281
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 203503
+    tokens: 199419348
+    bytes: 277805272
+  - url: s3://openwaldo/lookaside/74/39/743944af810e8ecfe72f83c58b171e5f380126993fa19e73e8cc3702dabb19a4
+    sha256: 743944af810e8ecfe72f83c58b171e5f380126993fa19e73e8cc3702dabb19a4
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 223274
+    tokens: 200870659
+    bytes: 270022535
+  - url: s3://openwaldo/lookaside/4e/b7/4eb7100fc99b5af5aab533cefd1258aff97861508c9c307949defd86080c5fde
+    sha256: 4eb7100fc99b5af5aab533cefd1258aff97861508c9c307949defd86080c5fde
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 201309
+    tokens: 199350094
+    bytes: 275072332
+  - url: s3://openwaldo/lookaside/2b/1d/2b1d945464bd28446555859ddd57a166d8fbf7e2016d90362815fb409e736268
+    sha256: 2b1d945464bd28446555859ddd57a166d8fbf7e2016d90362815fb409e736268
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 243253
+    tokens: 197957299
+    bytes: 280276098
+  - url: s3://openwaldo/lookaside/63/c0/63c05ffe632bbec1b92b095791dd62dd7bfbf307d702f2601b3aabe46cfbbc53
+    sha256: 63c05ffe632bbec1b92b095791dd62dd7bfbf307d702f2601b3aabe46cfbbc53
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 244135
+    tokens: 196548846
+    bytes: 281446039
+  - url: s3://openwaldo/lookaside/11/ea/11ea0bdcc072e1a496c06be6ed36473812899acb24973d4bb1ebb4c0fcdf8d95
+    sha256: 11ea0bdcc072e1a496c06be6ed36473812899acb24973d4bb1ebb4c0fcdf8d95
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 253450
+    tokens: 200766689
+    bytes: 283060651
+  - url: s3://openwaldo/lookaside/8f/76/8f76690ee76b0cd091322b51e8799ff7e1a8150e8251aa6268f15699375b458f
+    sha256: 8f76690ee76b0cd091322b51e8799ff7e1a8150e8251aa6268f15699375b458f
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 228300
+    tokens: 204049576
+    bytes: 282114054
+  - url: s3://openwaldo/lookaside/ab/4c/ab4c6d487b9c1d0e0c38d079e7dad3298ef17b1a958fec8d6be9b12bca37b65c
+    sha256: ab4c6d487b9c1d0e0c38d079e7dad3298ef17b1a958fec8d6be9b12bca37b65c
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 232603
+    tokens: 196860655
+    bytes: 285894676
+  - url: s3://openwaldo/lookaside/3f/24/3f24f7a3bec0417bd50fc33a3634492065264b246e5c92e74492928cc87566d2
+    sha256: 3f24f7a3bec0417bd50fc33a3634492065264b246e5c92e74492928cc87566d2
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 259099
+    tokens: 199346228
+    bytes: 283544325
+  - url: s3://openwaldo/lookaside/1b/ad/1bad7743bfddf5a96cc7b8c0853b043a95c54d0e17223dbd83d03d0f74fecb6d
+    sha256: 1bad7743bfddf5a96cc7b8c0853b043a95c54d0e17223dbd83d03d0f74fecb6d
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 249023
+    tokens: 200574814
+    bytes: 284036885
+  - url: s3://openwaldo/lookaside/1c/d3/1cd37f06c41ce74b9f164fe2c44738d435e22ce104f8a5da01da868634175cd4
+    sha256: 1cd37f06c41ce74b9f164fe2c44738d435e22ce104f8a5da01da868634175cd4
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 264656
+    tokens: 202721834
+    bytes: 283583300
+  - url: s3://openwaldo/lookaside/b0/d9/b0d99993fce1823e330b19fb31fa2815e709bc2adb6c61cd8f62456cd551ca56
+    sha256: b0d99993fce1823e330b19fb31fa2815e709bc2adb6c61cd8f62456cd551ca56
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 251798
+    tokens: 202369273
+    bytes: 283653034
+  - url: s3://openwaldo/lookaside/89/9a/899aa9bdc2bc9d22ff2d465bcbabc41588ed430936a921cfa53ad8344fd535b4
+    sha256: 899aa9bdc2bc9d22ff2d465bcbabc41588ed430936a921cfa53ad8344fd535b4
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 246826
+    tokens: 200283885
+    bytes: 281721460
+  - url: s3://openwaldo/lookaside/e7/07/e70756ff8c2c48af1f26cf9294eb1475b2eea3c72ea1e600191f2c142aeb58c5
+    sha256: e70756ff8c2c48af1f26cf9294eb1475b2eea3c72ea1e600191f2c142aeb58c5
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 246940
+    tokens: 200232353
+    bytes: 285021235
+  - url: s3://openwaldo/lookaside/33/94/3394e48b3a7c3dd3976114e554c0c26117c00b67ba02eebe44dc69235142e7de
+    sha256: 3394e48b3a7c3dd3976114e554c0c26117c00b67ba02eebe44dc69235142e7de
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 260801
+    tokens: 199838359
+    bytes: 281036634
+  - url: s3://openwaldo/lookaside/b9/be/b9be92aca11d0c7b229bed2510076d76fe9635310382a2c292c55b5a3e04610c
+    sha256: b9be92aca11d0c7b229bed2510076d76fe9635310382a2c292c55b5a3e04610c
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 255834
+    tokens: 198361168
+    bytes: 282734530
+  - url: s3://openwaldo/lookaside/02/60/026054fecc0e2ef1c046dff8c83b1ca77f7a86162880828260d1e3c62040da3f
+    sha256: 026054fecc0e2ef1c046dff8c83b1ca77f7a86162880828260d1e3c62040da3f
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 264100
+    tokens: 197382497
+    bytes: 283972422
+  - url: s3://openwaldo/lookaside/e9/36/e9368e280373178404e531769901c6bb7e03f5fdc576efd2ebe41993f131430b
+    sha256: e9368e280373178404e531769901c6bb7e03f5fdc576efd2ebe41993f131430b
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 286705
+    tokens: 199821717
+    bytes: 283627125
+  - url: s3://openwaldo/lookaside/e0/6b/e06bfdbab7bf7cafb0b0b1a2a4b3cfcb450e117fe71402a85edd2c30b56704b5
+    sha256: e06bfdbab7bf7cafb0b0b1a2a4b3cfcb450e117fe71402a85edd2c30b56704b5
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 250712
+    tokens: 199769472
+    bytes: 278926409
+  - url: s3://openwaldo/lookaside/30/5f/305f03cde11de01a98fcb01802234543b4ab96baf04e5f2ad4a40c484d9e961d
+    sha256: 305f03cde11de01a98fcb01802234543b4ab96baf04e5f2ad4a40c484d9e961d
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 261597
+    tokens: 201548833
+    bytes: 281061734
+  - url: s3://openwaldo/lookaside/6d/bb/6dbb7fdbc7b7872a6d9ffe2c189eef30b49d321dc425dbd3a34d04e7f4b9e53e
+    sha256: 6dbb7fdbc7b7872a6d9ffe2c189eef30b49d321dc425dbd3a34d04e7f4b9e53e
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 241644
+    tokens: 201549293
+    bytes: 276470389
+  - url: s3://openwaldo/lookaside/ac/b3/acb3fe02d8655445bc623f7f3b1c84ac58410cf179a50adace62283bfe0bc3f3
+    sha256: acb3fe02d8655445bc623f7f3b1c84ac58410cf179a50adace62283bfe0bc3f3
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 242602
+    tokens: 199061680
+    bytes: 276323774
+  - url: s3://openwaldo/lookaside/c7/14/c714bf5a85b7a959fad67749528411fa45dd1e4f327e133b8d5b7b3a1a247405
+    sha256: c714bf5a85b7a959fad67749528411fa45dd1e4f327e133b8d5b7b3a1a247405
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 244640
+    tokens: 199843184
+    bytes: 279702690
+  - url: s3://openwaldo/lookaside/d5/7b/d57b098fd539c07a475b7c75f0e3d643c6afef0d22e7f3cf3b33f4ca2cfcec50
+    sha256: d57b098fd539c07a475b7c75f0e3d643c6afef0d22e7f3cf3b33f4ca2cfcec50
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 245628
+    tokens: 220019300
+    bytes: 290511393
+  - url: s3://openwaldo/lookaside/a3/3a/a33a565ed9ccef0b78e75fce36e18ff87f0436596be145f0e593f38823408486
+    sha256: a33a565ed9ccef0b78e75fce36e18ff87f0436596be145f0e593f38823408486
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 220396
+    tokens: 200734524
+    bytes: 278214172
+  - url: s3://openwaldo/lookaside/4c/34/4c34520337bfb3732ab68f195c06084463fa57779cf480c5d657f035d836f153
+    sha256: 4c34520337bfb3732ab68f195c06084463fa57779cf480c5d657f035d836f153
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 214568
+    tokens: 207974185
+    bytes: 278170868
+  - url: s3://openwaldo/lookaside/a9/76/a976df0272763d1c6e404a6324ce1f14b65ca97f05725c9490545c2648a3c505
+    sha256: a976df0272763d1c6e404a6324ce1f14b65ca97f05725c9490545c2648a3c505
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 219435
+    tokens: 200032351
+    bytes: 277994432
+  - url: s3://openwaldo/lookaside/7e/2d/7e2daf13a81f76a8e557d12dde5677f9027515f879a0201e1bfb5231a442c062
+    sha256: 7e2daf13a81f76a8e557d12dde5677f9027515f879a0201e1bfb5231a442c062
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 222621
+    tokens: 200307372
+    bytes: 280760896
+  - url: s3://openwaldo/lookaside/30/48/3048e8ba3a341e48cb218f6704c9ae9d8e98e09e428ca9108bff2caf303cdafd
+    sha256: 3048e8ba3a341e48cb218f6704c9ae9d8e98e09e428ca9108bff2caf303cdafd
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 62363
+    tokens: 48440530
+    bytes: 68797671
