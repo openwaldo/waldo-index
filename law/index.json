@@ -1,8 +1,0 @@
-{
-  "kind": "index",
-  "schema": 1,
-  "path": "law",
-  "entries": [
-    { "name": "caselaw", "type": "dir" }
-  ]
-}

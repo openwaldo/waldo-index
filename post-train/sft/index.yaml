@@ -1,0 +1,12 @@
+kind: index
+schema: 1
+path: post-train/sft
+entries:
+  - name: aya
+    type: dir
+  - name: dolly
+    type: dir
+  - name: oasst1
+    type: dir
+  - name: oasst2
+    type: dir

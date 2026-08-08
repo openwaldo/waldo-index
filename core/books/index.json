@@ -1,9 +1,0 @@
-{
-  "kind": "index",
-  "schema": 1,
-  "path": "core/books",
-  "entries": [
-    { "name": "doab", "type": "dir" },
-    { "name": "gutenberg", "type": "dir" }
-  ]
-}

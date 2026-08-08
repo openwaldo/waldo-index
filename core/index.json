@@ -1,9 +1,0 @@
-{
-  "kind": "index",
-  "schema": 1,
-  "path": "core",
-  "entries": [
-    { "name": "books", "type": "dir" },
-    { "name": "common-pile", "type": "dir" }
-  ]
-}

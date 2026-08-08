@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: core/books/gutenberg
+entries:
+  - name: gutenberg.yaml
+    type: manifest
