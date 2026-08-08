@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: law/caselaw
+entries:
+  - name: caselaw.yaml
+    type: manifest

@@ -1,0 +1,177 @@
+kind: manifest
+schema: 1
+name: caselaw
+title: United States Caselaw
+description: Published decisions of United States federal and state courts, digitized by the Harvard Law School Library.
+license: LicenseRef-Public-Domain
+sources:
+  - name: harvard-cap
+    source: harvard-cap
+    version: static-2024
+    url: https://static.case.law/
+    category: public-dataset
+    collected_to: 2026-08
+    sha256: 1335a4a44964b378981e3acd96945baf4fab1c64db73909091bdf5393a329c23
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@9317ea2b51d0a83906613394828eb74c0c14d111:recipes/law/caselaw.yaml
+  profile: canonical-text-schema-1@sha256:20a1ae716c259b4ff4c22199dcefd9bf37da6967929b4ad385abc3e5b954a4cd
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/47/cd/47cdc488b5286ff7edb316986b2b5177025a44e7dc5e7268bae76d9ab06b274a
+    sha256: 47cdc488b5286ff7edb316986b2b5177025a44e7dc5e7268bae76d9ab06b274a
+    sources:
+      - harvard-cap
+    docs: 176878
+    tokens: 209075790
+    bytes: 278294572
+  - url: s3://openwaldo/lookaside/93/26/9326a4e554dda6441726431674d21884f377872f30d913383842db1f439414a4
+    sha256: 9326a4e554dda6441726431674d21884f377872f30d913383842db1f439414a4
+    sources:
+      - harvard-cap
+    docs: 74785
+    tokens: 210729999
+    bytes: 275671963
+  - url: s3://openwaldo/lookaside/c0/66/c066050d8a2d031ea640140b2301f4868d0bd0e36f2a0a30d756d146c766c8ba
+    sha256: c066050d8a2d031ea640140b2301f4868d0bd0e36f2a0a30d756d146c766c8ba
+    sources:
+      - harvard-cap
+    docs: 73832
+    tokens: 206746451
+    bytes: 275212280
+  - url: s3://openwaldo/lookaside/57/1a/571a947c5627c52310c4d60839c8d9d567ecd78231dcb36d009f7970d55afb6f
+    sha256: 571a947c5627c52310c4d60839c8d9d567ecd78231dcb36d009f7970d55afb6f
+    sources:
+      - harvard-cap
+    docs: 69226
+    tokens: 208868812
+    bytes: 286084353
+  - url: s3://openwaldo/lookaside/eb/d9/ebd99d1e1462f48c7fb119a86adcba28ea870f59be5ab27feebb1d19b9db0c06
+    sha256: ebd99d1e1462f48c7fb119a86adcba28ea870f59be5ab27feebb1d19b9db0c06
+    sources:
+      - harvard-cap
+    docs: 40939
+    tokens: 217395586
+    bytes: 281990446
+  - url: s3://openwaldo/lookaside/6a/82/6a82026039e29339307b5f4fffb0bb44106102450c5f33e692da42df0dab9776
+    sha256: 6a82026039e29339307b5f4fffb0bb44106102450c5f33e692da42df0dab9776
+    sources:
+      - harvard-cap
+    docs: 97716
+    tokens: 209659262
+    bytes: 276713910
+  - url: s3://openwaldo/lookaside/c1/d7/c1d79e708fe31cb5b4a191cbe460163386057a35e00aa58a32b509c8116004f5
+    sha256: c1d79e708fe31cb5b4a191cbe460163386057a35e00aa58a32b509c8116004f5
+    sources:
+      - harvard-cap
+    docs: 96883
+    tokens: 207987711
+    bytes: 271959565
+  - url: s3://openwaldo/lookaside/28/6a/286aef15997522848e6c2469656d9c3039140838a18df4d9842f0cd9e121c4c3
+    sha256: 286aef15997522848e6c2469656d9c3039140838a18df4d9842f0cd9e121c4c3
+    sources:
+      - harvard-cap
+    docs: 87644
+    tokens: 207856955
+    bytes: 284218894
+  - url: s3://openwaldo/lookaside/e4/e1/e4e11c8a8b650ed99e5c3022e53a89350b39449ecb5876034ecfd4661bd2ed75
+    sha256: e4e11c8a8b650ed99e5c3022e53a89350b39449ecb5876034ecfd4661bd2ed75
+    sources:
+      - harvard-cap
+    docs: 93678
+    tokens: 207915582
+    bytes: 276989892
+  - url: s3://openwaldo/lookaside/82/aa/82aaeae4783f15f15593cf5dbb467461d454f3578f8d573567ef13d89da79158
+    sha256: 82aaeae4783f15f15593cf5dbb467461d454f3578f8d573567ef13d89da79158
+    sources:
+      - harvard-cap
+    docs: 71841
+    tokens: 207180257
+    bytes: 279699844
+  - url: s3://openwaldo/lookaside/7e/ed/7eed2fa9c8a9953b18b0f474f0a5090af7c8b8b1ad25775cab81d4a24ce0138f
+    sha256: 7eed2fa9c8a9953b18b0f474f0a5090af7c8b8b1ad25775cab81d4a24ce0138f
+    sources:
+      - harvard-cap
+    docs: 72655
+    tokens: 219173623
+    bytes: 288059784
+  - url: s3://openwaldo/lookaside/bf/c5/bfc5fb1ff41a7eb2d7f498d889e09e8b220961bfe93facfe8873410c8e51bc8b
+    sha256: bfc5fb1ff41a7eb2d7f498d889e09e8b220961bfe93facfe8873410c8e51bc8b
+    sources:
+      - harvard-cap
+    docs: 71629
+    tokens: 209812384
+    bytes: 281010876
+  - url: s3://openwaldo/lookaside/2b/1c/2b1c8a76c2f9699423ae16fd40f4c8e19c5fe232aba95b666245ba4a05b34f99
+    sha256: 2b1c8a76c2f9699423ae16fd40f4c8e19c5fe232aba95b666245ba4a05b34f99
+    sources:
+      - harvard-cap
+    docs: 91169
+    tokens: 212576086
+    bytes: 280401347
+  - url: s3://openwaldo/lookaside/98/a1/98a1ac969a74b0e4db6a162e4a54dccfffca6c10c74fad534d899cfe31842d0e
+    sha256: 98a1ac969a74b0e4db6a162e4a54dccfffca6c10c74fad534d899cfe31842d0e
+    sources:
+      - harvard-cap
+    docs: 79907
+    tokens: 211297288
+    bytes: 274106056
+  - url: s3://openwaldo/lookaside/7b/ba/7bbaca456b1655110c0afa1cdd1665d38b99d5b301f1280c028aefdc1b6a14f7
+    sha256: 7bbaca456b1655110c0afa1cdd1665d38b99d5b301f1280c028aefdc1b6a14f7
+    sources:
+      - harvard-cap
+    docs: 100311
+    tokens: 211769271
+    bytes: 279989750
+  - url: s3://openwaldo/lookaside/c5/47/c5472d72653f801f348a4f64fbed1f7a2ce591f82c23113e2574a91cc3e06527
+    sha256: c5472d72653f801f348a4f64fbed1f7a2ce591f82c23113e2574a91cc3e06527
+    sources:
+      - harvard-cap
+    docs: 176113
+    tokens: 208234614
+    bytes: 282133381
+  - url: s3://openwaldo/lookaside/af/06/af06a983085319019b3607000f699f091ab56a40fbba506aeeb34b71b0e54d7e
+    sha256: af06a983085319019b3607000f699f091ab56a40fbba506aeeb34b71b0e54d7e
+    sources:
+      - harvard-cap
+    docs: 96288
+    tokens: 208615137
+    bytes: 278560249
+  - url: s3://openwaldo/lookaside/df/92/df926fc1b7690cbf1d13c12fdf3eeaad896b6a544bab69db4f9d584cb3e3313e
+    sha256: df926fc1b7690cbf1d13c12fdf3eeaad896b6a544bab69db4f9d584cb3e3313e
+    sources:
+      - harvard-cap
+    docs: 136217
+    tokens: 214824651
+    bytes: 279590270
+  - url: s3://openwaldo/lookaside/86/ba/86baddec66b250e350ae1573b32cc21e4c5724c3a98fd1d858db7d908b7c97b7
+    sha256: 86baddec66b250e350ae1573b32cc21e4c5724c3a98fd1d858db7d908b7c97b7
+    sources:
+      - harvard-cap
+    docs: 106738
+    tokens: 214210723
+    bytes: 275890750
+  - url: s3://openwaldo/lookaside/10/22/10221350508a3926dc5bcb31c6fb1b85466a930b81569a82474882553cf47664
+    sha256: 10221350508a3926dc5bcb31c6fb1b85466a930b81569a82474882553cf47664
+    sources:
+      - harvard-cap
+    docs: 72163
+    tokens: 210176185
+    bytes: 273526043
+  - url: s3://openwaldo/lookaside/22/49/22493101466c795cbe7c146b73854a59089d685094416596ce75fea2fd644f84
+    sha256: 22493101466c795cbe7c146b73854a59089d685094416596ce75fea2fd644f84
+    sources:
+      - harvard-cap
+    docs: 67438
+    tokens: 208578428
+    bytes: 276090730
+  - url: s3://openwaldo/lookaside/20/fc/20fcfc5f299a53aa23a18a6f839c07e73deb6c7863fa27dc2d34d8bbd8547f1a
+    sha256: 20fcfc5f299a53aa23a18a6f839c07e73deb6c7863fa27dc2d34d8bbd8547f1a
+    sources:
+      - harvard-cap
+    docs: 66796
+    tokens: 198386451
+    bytes: 266432518
