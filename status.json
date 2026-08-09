@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-09T16:31:30Z",
-  "index_commit": "e17c0e1",
-  "manifests": 23,
-  "shards": 592,
-  "docs": 71409939,
-  "tokens": 124207839676,
-  "bytes": 161696557417,
+  "generated": "2026-08-09T16:56:50Z",
+  "index_commit": "881d878",
+  "manifests": 24,
+  "shards": 593,
+  "docs": 71415183,
+  "tokens": 124218658828,
+  "bytes": 161712724967,
   "licenses": {
     "(none declared)": {
-      "shards": 24,
-      "docs": 1128113,
-      "tokens": 8486974445,
-      "bytes": 6637090022
+      "shards": 25,
+      "docs": 1133357,
+      "tokens": 8497793597,
+      "bytes": 6653257572
     },
     "Apache-2.0": {
       "shards": 4,
@@ -2550,6 +2550,32 @@
         "CC-BY-3.0": {
           "shards": 1,
           "tokens": 20967715
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/oercommons",
+      "name": "oercommons",
+      "title": "OER Commons",
+      "description": "Open educational resources from OER Commons, via the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/oercommons_filtered",
+          "origin": "common-pile/oercommons_filtered",
+          "version": "506b6159dadcbc0dc67611cea024eedb04232fb2",
+          "url": "https://huggingface.co/datasets/common-pile/oercommons_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 5244,
+      "tokens": 10819152,
+      "bytes": 16167550,
+      "licenses": {
+        "(none declared)": {
+          "shards": 1,
+          "tokens": 10819152
         }
       }
     },
