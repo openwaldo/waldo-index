@@ -1,71 +1,101 @@
 {
-  "generated": "2026-08-10T02:49:16Z",
-  "index_commit": "4623801",
-  "manifests": 35,
-  "shards": 679,
-  "docs": 74587504,
-  "tokens": 144869728181,
-  "bytes": 183687156227,
+  "generated": "2026-08-10T04:34:37Z",
+  "index_commit": "eb02b49",
+  "manifests": 36,
+  "shards": 680,
+  "docs": 74588222,
+  "tokens": 145048319074,
+  "bytes": 183757990672,
   "licenses": {
-    "(none declared)": {
-      "shards": 50,
-      "docs": 1649939,
-      "tokens": 14876404759,
-      "bytes": 12881720019
-    },
     "Apache-2.0": {
-      "shards": 4,
-      "docs": 225689,
-      "tokens": 146689747,
+      "shards": 20,
+      "docs": 597226,
+      "tokens": 2855167709,
       "bytes": 119443743
     },
+    "BSD-2-Clause": {
+      "shards": 12,
+      "docs": 78805,
+      "tokens": 387092104,
+      "bytes": 0
+    },
+    "BSD-3-Clause": {
+      "shards": 14,
+      "docs": 130644,
+      "tokens": 681811243,
+      "bytes": 0
+    },
     "CC-BY-3.0": {
-      "shards": 23,
-      "docs": 1052007,
-      "tokens": 4094330292,
+      "shards": 26,
+      "docs": 1058646,
+      "tokens": 4183711146,
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 221,
-      "docs": 6904367,
-      "tokens": 45082907468,
+      "shards": 246,
+      "docs": 7346411,
+      "tokens": 50763794378,
       "bytes": 61429911456
     },
+    "CC-BY-SA-2.5": {
+      "shards": 1,
+      "docs": 3,
+      "tokens": 5037,
+      "bytes": 0
+    },
     "CC-BY-SA-3.0": {
-      "shards": 12,
-      "docs": 10245102,
-      "tokens": 2945743098,
+      "shards": 13,
+      "docs": 10245794,
+      "tokens": 2946992022,
       "bytes": 2950954742
     },
     "CC-BY-SA-4.0": {
-      "shards": 187,
-      "docs": 47259257,
-      "tokens": 35904921160,
+      "shards": 212,
+      "docs": 47311075,
+      "tokens": 36245083618,
       "bytes": 51910570074
     },
     "CC0-1.0": {
-      "shards": 48,
-      "docs": 2796731,
-      "tokens": 9780473630,
+      "shards": 70,
+      "docs": 2810479,
+      "tokens": 10015456913,
       "bytes": 12960270164
     },
+    "GNU Free Documentation License": {
+      "shards": 1,
+      "docs": 757,
+      "tokens": 1150173,
+      "bytes": 0
+    },
     "GPL-2.0-only": {
-      "shards": 2,
-      "docs": 17716,
-      "tokens": 1651945005,
+      "shards": 10,
+      "docs": 247118,
+      "tokens": 3187545414,
       "bytes": 546607701
     },
     "GPL-3.0-only": {
-      "shards": 3,
-      "docs": 7421,
-      "tokens": 633291010,
+      "shards": 11,
+      "docs": 114990,
+      "tokens": 2074891537,
       "bytes": 557600448
+    },
+    "GPL-3.0-or-later": {
+      "shards": 1,
+      "docs": 27204,
+      "tokens": 105235183,
+      "bytes": 0
     },
     "LicenseRef-Apache-Public-Forum": {
       "shards": 1,
       "docs": 36,
       "tokens": 9754829,
       "bytes": 4631176
+    },
+    "LicenseRef-OSI-Public-Forum": {
+      "shards": 1,
+      "docs": 22,
+      "tokens": 858654,
+      "bytes": 0
     },
     "LicenseRef-Open-Parliament-Licence": {
       "shards": 11,
@@ -74,21 +104,21 @@
       "bytes": 2861530254
     },
     "LicenseRef-Public-Domain": {
-      "shards": 105,
-      "docs": 4352025,
-      "tokens": 21741031963,
+      "shards": 110,
+      "docs": 4358122,
+      "tokens": 21781770724,
       "bytes": 28207347254
     },
     "LicenseRef-Publicly-Archived-Forum": {
-      "shards": 11,
-      "docs": 22830,
-      "tokens": 5674508844,
-      "bytes": 2736895253
+      "shards": 13,
+      "docs": 23554,
+      "tokens": 5853114997,
+      "bytes": 2807729698
     },
     "MIT": {
-      "shards": 1,
-      "docs": 6490,
-      "tokens": 315496448,
+      "shards": 16,
+      "docs": 189442,
+      "tokens": 1942653465,
       "bytes": 299196492
     }
   },
@@ -269,9 +299,25 @@
       "tokens": 6113038318,
       "bytes": 5847430203,
       "licenses": {
-        "(none declared)": {
+        "CC-BY-3.0": {
+          "shards": 2,
+          "tokens": 86222835
+        },
+        "CC-BY-4.0": {
           "shards": 21,
-          "tokens": 6113038318
+          "tokens": 5475109760
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 21,
+          "tokens": 290296361
+        },
+        "CC0-1.0": {
+          "shards": 21,
+          "tokens": 233295819
+        },
+        "LicenseRef-Public-Domain": {
+          "shards": 2,
+          "tokens": 28113543
         }
       }
     },
@@ -1489,13 +1535,21 @@
       "tokens": 5720034774,
       "bytes": 4694156606,
       "licenses": {
-        "(none declared)": {
+        "Apache-2.0": {
           "shards": 16,
-          "tokens": 5404538326
+          "tokens": 2708477962
+        },
+        "BSD-2-Clause": {
+          "shards": 12,
+          "tokens": 387092104
+        },
+        "BSD-3-Clause": {
+          "shards": 14,
+          "tokens": 681811243
         },
         "MIT": {
-          "shards": 1,
-          "tokens": 315496448
+          "shards": 16,
+          "tokens": 1942653465
         }
       }
     },
@@ -2317,17 +2371,17 @@
       "tokens": 5367672134,
       "bytes": 3346338057,
       "licenses": {
-        "(none declared)": {
-          "shards": 8,
-          "tokens": 3082436119
-        },
         "GPL-2.0-only": {
-          "shards": 2,
-          "tokens": 1651945005
+          "shards": 10,
+          "tokens": 3187545414
         },
         "GPL-3.0-only": {
-          "shards": 3,
-          "tokens": 633291010
+          "shards": 11,
+          "tokens": 2074891537
+        },
+        "GPL-3.0-or-later": {
+          "shards": 1,
+          "tokens": 105235183
         }
       }
     },
@@ -2618,6 +2672,38 @@
       }
     },
     {
+      "path": "community/glibc-mailing-lists",
+      "name": "glibc-mailing-lists",
+      "title": "glibc Development and Help Mailing Lists",
+      "description": "Calendar-year 2025 glibc development, patch review, and user-help messages from the official Sourceware public archives.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "libc-alpha@sourceware.org",
+          "origin": "libc-alpha@sourceware.org",
+          "version": "2025",
+          "url": "https://inbox.sourceware.org/libc-alpha/"
+        },
+        {
+          "name": "libc-help@sourceware.org",
+          "origin": "libc-help@sourceware.org",
+          "version": "2025",
+          "url": "https://inbox.sourceware.org/libc-help/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 718,
+      "tokens": 178590893,
+      "bytes": 70834445,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 178590893
+        }
+      }
+    },
+    {
       "path": "core/common-pile/pressbooks",
       "name": "pressbooks",
       "title": "PressBooks",
@@ -2637,9 +2723,21 @@
       "tokens": 125805922,
       "bytes": 180725993,
       "licenses": {
-        "(none declared)": {
+        "CC-BY-4.0": {
           "shards": 1,
-          "tokens": 125805922
+          "tokens": 96696949
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 1,
+          "tokens": 19028666
+        },
+        "CC0-1.0": {
+          "shards": 1,
+          "tokens": 1687464
+        },
+        "LicenseRef-Public-Domain": {
+          "shards": 1,
+          "tokens": 8392843
         }
       }
     },
@@ -2721,9 +2819,33 @@
       "tokens": 84274363,
       "bytes": 109222781,
       "licenses": {
-        "(none declared)": {
+        "CC-BY-3.0": {
           "shards": 1,
-          "tokens": 84274363
+          "tokens": 3158019
+        },
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 51329700
+        },
+        "CC-BY-SA-2.5": {
+          "shards": 1,
+          "tokens": 5037
+        },
+        "CC-BY-SA-3.0": {
+          "shards": 1,
+          "tokens": 1248924
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 1,
+          "tokens": 23400900
+        },
+        "GNU Free Documentation License": {
+          "shards": 1,
+          "tokens": 1150173
+        },
+        "LicenseRef-Public-Domain": {
+          "shards": 1,
+          "tokens": 3981610
         }
       }
     },
@@ -2747,9 +2869,13 @@
       "tokens": 54618645,
       "bytes": 90576007,
       "licenses": {
-        "(none declared)": {
+        "CC-BY-4.0": {
           "shards": 1,
-          "tokens": 54618645
+          "tokens": 47869118
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 1,
+          "tokens": 6749527
         }
       }
     },
@@ -2825,9 +2951,17 @@
       "tokens": 10819152,
       "bytes": 16167550,
       "licenses": {
-        "(none declared)": {
+        "CC-BY-4.0": {
           "shards": 1,
-          "tokens": 10819152
+          "tokens": 9881383
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 1,
+          "tokens": 687004
+        },
+        "LicenseRef-Public-Domain": {
+          "shards": 1,
+          "tokens": 250765
         }
       }
     },
@@ -3031,9 +3165,13 @@
       "tokens": 873914,
       "bytes": 507463,
       "licenses": {
-        "(none declared)": {
+        "LicenseRef-OSI-Public-Forum": {
           "shards": 1,
-          "tokens": 873914
+          "tokens": 858654
+        },
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 15260
         }
       }
     }
