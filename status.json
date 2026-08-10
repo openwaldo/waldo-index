@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-09T16:56:50Z",
-  "index_commit": "881d878",
-  "manifests": 24,
-  "shards": 593,
-  "docs": 71415183,
-  "tokens": 124218658828,
-  "bytes": 161712724967,
+  "generated": "2026-08-10T02:49:16Z",
+  "index_commit": "4623801",
+  "manifests": 35,
+  "shards": 679,
+  "docs": 74587504,
+  "tokens": 144869728181,
+  "bytes": 183687156227,
   "licenses": {
     "(none declared)": {
-      "shards": 25,
-      "docs": 1133357,
-      "tokens": 8497793597,
-      "bytes": 6653257572
+      "shards": 50,
+      "docs": 1649939,
+      "tokens": 14876404759,
+      "bytes": 12881720019
     },
     "Apache-2.0": {
       "shards": 4,
@@ -44,10 +44,10 @@
       "bytes": 51910570074
     },
     "CC0-1.0": {
-      "shards": 44,
-      "docs": 292544,
-      "tokens": 9258382951,
-      "bytes": 12040692456
+      "shards": 48,
+      "docs": 2796731,
+      "tokens": 9780473630,
+      "bytes": 12960270164
     },
     "GPL-2.0-only": {
       "shards": 2,
@@ -61,6 +61,12 @@
       "tokens": 633291010,
       "bytes": 557600448
     },
+    "LicenseRef-Apache-Public-Forum": {
+      "shards": 1,
+      "docs": 36,
+      "tokens": 9754829,
+      "bytes": 4631176
+    },
     "LicenseRef-Open-Parliament-Licence": {
       "shards": 11,
       "docs": 47894,
@@ -68,10 +74,16 @@
       "bytes": 2861530254
     },
     "LicenseRef-Public-Domain": {
-      "shards": 60,
-      "docs": 4223339,
-      "tokens": 13674928124,
-      "bytes": 16122482578
+      "shards": 105,
+      "docs": 4352025,
+      "tokens": 21741031963,
+      "bytes": 28207347254
+    },
+    "LicenseRef-Publicly-Archived-Forum": {
+      "shards": 11,
+      "docs": 22830,
+      "tokens": 5674508844,
+      "bytes": 2736895253
     },
     "MIT": {
       "shards": 1,
@@ -160,6 +172,32 @@
       }
     },
     {
+      "path": "government/library-of-congress",
+      "name": "library-of-congress",
+      "title": "Library of Congress Books",
+      "description": "Public-domain Library of Congress book text from the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/library_of_congress_filtered",
+          "origin": "common-pile/library_of_congress_filtered",
+          "version": "56725c7aa1bb320703e22eb5f42903173d5bac3d",
+          "url": "https://huggingface.co/datasets/common-pile/library_of_congress_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 45,
+      "docs": 128686,
+      "tokens": 8066103839,
+      "bytes": 12084864676,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 45,
+          "tokens": 8066103839
+        }
+      }
+    },
+    {
       "path": "government/usgpo",
       "name": "usgpo",
       "title": "US Government Publishing Office",
@@ -208,6 +246,32 @@
         "CC0-1.0": {
           "shards": 37,
           "tokens": 7496322259
+        }
+      }
+    },
+    {
+      "path": "science/arxiv-papers",
+      "name": "arxiv-papers",
+      "title": "ArXiv Papers",
+      "description": "Full openly licensed ArXiv paper text from the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/arxiv_papers_filtered",
+          "origin": "common-pile/arxiv_papers_filtered",
+          "version": "033cf7f53f9b348deec868c1a5a48484f3ee9e52",
+          "url": "https://huggingface.co/datasets/common-pile/arxiv_papers_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 21,
+      "docs": 295414,
+      "tokens": 6113038318,
+      "bytes": 5847430203,
+      "licenses": {
+        "(none declared)": {
+          "shards": 21,
+          "tokens": 6113038318
         }
       }
     },
@@ -2268,6 +2332,32 @@
       }
     },
     {
+      "path": "community/linux-kernel-mailing-list",
+      "name": "linux-kernel-mailing-list",
+      "title": "Linux Kernel Mailing List",
+      "description": "Calendar-year 2025 Linux kernel development messages from the official lore.kernel.org public archive.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "linux-kernel@vger.kernel.org",
+          "origin": "linux-kernel@vger.kernel.org",
+          "version": "2025",
+          "url": "https://lore.kernel.org/lkml/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 9,
+      "docs": 21154,
+      "tokens": 5254474361,
+      "bytes": 2480872199,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 9,
+          "tokens": 5254474361
+        }
+      }
+    },
+    {
       "path": "law/caselaw",
       "name": "caselaw",
       "title": "United States Caselaw",
@@ -2476,6 +2566,116 @@
       }
     },
     {
+      "path": "science/arxiv-abstracts",
+      "name": "arxiv-abstracts",
+      "title": "ArXiv Abstracts",
+      "description": "Paper titles and abstracts from ArXiv metadata, via the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/arxiv_abstracts_filtered",
+          "origin": "common-pile/arxiv_abstracts_filtered",
+          "version": "dc1ceab4755eb037ec61e49cf1350dab7ceee6e7",
+          "url": "https://huggingface.co/datasets/common-pile/arxiv_abstracts_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 4,
+      "docs": 2504187,
+      "tokens": 522090679,
+      "bytes": 919577708,
+      "licenses": {
+        "CC0-1.0": {
+          "shards": 4,
+          "tokens": 522090679
+        }
+      }
+    },
+    {
+      "path": "community/git-mailing-list",
+      "name": "git-mailing-list",
+      "title": "Git Development Mailing List",
+      "description": "Calendar-year 2025 Git development and review messages from the official lore.kernel.org public archive.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "git@vger.kernel.org",
+          "origin": "git@vger.kernel.org",
+          "version": "2025",
+          "url": "https://lore.kernel.org/git/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 1232,
+      "tokens": 307929464,
+      "bytes": 158673873,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 307929464
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/pressbooks",
+      "name": "pressbooks",
+      "title": "PressBooks",
+      "description": "Open-access book sections from PressBooks, via the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/pressbooks_filtered",
+          "origin": "common-pile/pressbooks_filtered",
+          "version": "1a1d3b50d77f834370f8eb4c0d174668dd1676bb",
+          "url": "https://huggingface.co/datasets/common-pile/pressbooks_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 54434,
+      "tokens": 125805922,
+      "bytes": 180725993,
+      "licenses": {
+        "(none declared)": {
+          "shards": 1,
+          "tokens": 125805922
+        }
+      }
+    },
+    {
+      "path": "community/gcc-mailing-lists",
+      "name": "gcc-mailing-lists",
+      "title": "GCC Development and Help Mailing Lists",
+      "description": "Calendar-year 2025 GCC development, patch review, and user-help messages from the official Sourceware public archives.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "gcc@gcc.gnu.org",
+          "origin": "gcc@gcc.gnu.org",
+          "version": "2025",
+          "url": "https://inbox.sourceware.org/gcc/"
+        },
+        {
+          "name": "gcc-help@gcc.gnu.org",
+          "origin": "gcc-help@gcc.gnu.org",
+          "version": "2025",
+          "url": "https://inbox.sourceware.org/gcc-help/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 444,
+      "tokens": 112105019,
+      "bytes": 97349181,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 112105019
+        }
+      }
+    },
+    {
       "path": "post-train/sft/aya",
       "name": "aya",
       "title": "Aya Dataset",
@@ -2498,6 +2698,58 @@
         "Apache-2.0": {
           "shards": 1,
           "tokens": 104293685
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/libretexts",
+      "name": "libretexts",
+      "title": "LibreTexts",
+      "description": "Open textbook sections from LibreTexts, via the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/libretexts_filtered",
+          "origin": "common-pile/libretexts_filtered",
+          "version": "70388bca52b4a93515e14b1d56618fd7944988fd",
+          "url": "https://huggingface.co/datasets/common-pile/libretexts_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 40042,
+      "tokens": 84274363,
+      "bytes": 109222781,
+      "licenses": {
+        "(none declared)": {
+          "shards": 1,
+          "tokens": 84274363
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/news",
+      "name": "news",
+      "title": "Common Pile News",
+      "description": "Openly licensed news articles from seventeen publishers, via the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/news_filtered",
+          "origin": "common-pile/news_filtered",
+          "version": "59aaa8f104e189e6fb8033f0ed319c5c343a03b1",
+          "url": "https://huggingface.co/datasets/common-pile/news_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 126664,
+      "tokens": 54618645,
+      "bytes": 90576007,
+      "licenses": {
+        "(none declared)": {
+          "shards": 1,
+          "tokens": 54618645
         }
       }
     },
@@ -2576,6 +2828,44 @@
         "(none declared)": {
           "shards": 1,
           "tokens": 10819152
+        }
+      }
+    },
+    {
+      "path": "community/apache-mailing-lists",
+      "name": "apache-mailing-lists",
+      "title": "Apache Project Development Mailing Lists",
+      "description": "Checksum-pinned 2025 public development discussions for Apache HTTP Server, Subversion, and Commons.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "dev@httpd.apache.org",
+          "origin": "dev@httpd.apache.org",
+          "version": "2025",
+          "url": "https://lists.apache.org/list.html?dev@httpd.apache.org"
+        },
+        {
+          "name": "dev@subversion.apache.org",
+          "origin": "dev@subversion.apache.org",
+          "version": "2025",
+          "url": "https://lists.apache.org/list.html?dev@subversion.apache.org"
+        },
+        {
+          "name": "dev@commons.apache.org",
+          "origin": "dev@commons.apache.org",
+          "version": "2025",
+          "url": "https://lists.apache.org/list.html?dev@commons.apache.org"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 36,
+      "tokens": 9754829,
+      "bytes": 4631176,
+      "licenses": {
+        "LicenseRef-Apache-Public-Forum": {
+          "shards": 1,
+          "tokens": 9754829
         }
       }
     },
@@ -2706,6 +2996,44 @@
         "CC-BY-SA-4.0": {
           "shards": 1,
           "tokens": 1508728
+        }
+      }
+    },
+    {
+      "path": "community/opensource-mailing-lists",
+      "name": "opensource-mailing-lists",
+      "title": "Open Source Community Mailing Lists",
+      "description": "Checksum-pinned 2025 public discussions from the Beowulf and Open Source Initiative communities.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "Beowulf Mailing List",
+          "origin": "Beowulf Mailing List",
+          "version": "2025",
+          "url": "https://beowulf.org/pipermail/beowulf/"
+        },
+        {
+          "name": "OSI License Review",
+          "origin": "OSI License Review",
+          "version": "2025",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/"
+        },
+        {
+          "name": "OSI License Discuss",
+          "origin": "OSI License Discuss",
+          "version": "2025",
+          "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 28,
+      "tokens": 873914,
+      "bytes": 507463,
+      "licenses": {
+        "(none declared)": {
+          "shards": 1,
+          "tokens": 873914
         }
       }
     }
