@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-10T05:33:32Z",
-  "index_commit": "3030683",
-  "manifests": 38,
-  "shards": 683,
-  "docs": 75021901,
-  "tokens": 146669812991,
-  "bytes": 184514152828,
+  "generated": "2026-08-10T19:30:46Z",
+  "index_commit": "6382923",
+  "manifests": 42,
+  "shards": 687,
+  "docs": 75232532,
+  "tokens": 147315231925,
+  "bytes": 184911156830,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -152,10 +152,10 @@
       "bytes": 28207347254
     },
     "LicenseRef-Publicly-Archived-Forum": {
-      "shards": 13,
-      "docs": 23554,
-      "tokens": 5853114997,
-      "bytes": 2807729698
+      "shards": 17,
+      "docs": 234185,
+      "tokens": 6498533931,
+      "bytes": 3204733700
     },
     "MIT": {
       "shards": 17,
@@ -2966,6 +2966,32 @@
       }
     },
     {
+      "path": "community/qemu-devel-mailing-list",
+      "name": "qemu-devel-mailing-list",
+      "title": "QEMU Development Mailing List",
+      "description": "Calendar-year 2025 QEMU development messages from the official lore.kernel.org public archive.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "qemu-devel@nongnu.org",
+          "origin": "qemu-devel@nongnu.org",
+          "version": "2025-epoch-3-45ee738fd37099fe42f420873b0205f1b0fb2af3",
+          "url": "https://lore.kernel.org/qemu-devel/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 73381,
+      "tokens": 338940756,
+      "bytes": 199574099,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 338940756
+        }
+      }
+    },
+    {
       "path": "community/git-mailing-list",
       "name": "git-mailing-list",
       "title": "Git Development Mailing List",
@@ -3020,6 +3046,82 @@
         "LicenseRef-Publicly-Archived-Forum": {
           "shards": 1,
           "tokens": 178590893
+        }
+      }
+    },
+    {
+      "path": "community/gnu-mailing-lists",
+      "name": "gnu-mailing-lists",
+      "title": "GNU Development and User Mailing Lists",
+      "description": "Checksum-pinned calendar-year 2025 messages from three official GNU monthly raw-mbox archives.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "emacs-devel@gnu.org",
+          "origin": "emacs-devel@gnu.org",
+          "version": "2025",
+          "url": "https://lists.gnu.org/archive/html/emacs-devel/"
+        },
+        {
+          "name": "bug-bash@gnu.org",
+          "origin": "bug-bash@gnu.org",
+          "version": "2025",
+          "url": "https://lists.gnu.org/archive/html/bug-bash/"
+        },
+        {
+          "name": "bug-coreutils@gnu.org",
+          "origin": "bug-coreutils@gnu.org",
+          "version": "2025",
+          "url": "https://lists.gnu.org/archive/html/bug-coreutils/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 559,
+      "tokens": 144538843,
+      "bytes": 74003441,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 144538843
+        }
+      }
+    },
+    {
+      "path": "community/python-mailing-lists",
+      "name": "python-mailing-lists",
+      "title": "Python Community Mailing Lists",
+      "description": "Checksum-pinned Python development, user, and learning-support discussions from official monthly HyperKitty mbox exports.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "python-list@python.org",
+          "origin": "python-list@python.org",
+          "version": "2015-01..2025-12",
+          "url": "https://mail.python.org/archives/list/python-list@python.org/"
+        },
+        {
+          "name": "tutor@python.org",
+          "origin": "tutor@python.org",
+          "version": "2015-01..2025-12",
+          "url": "https://mail.python.org/archives/list/tutor@python.org/"
+        },
+        {
+          "name": "python-dev@python.org",
+          "origin": "python-dev@python.org",
+          "version": "2015-01..2022-12",
+          "url": "https://mail.python.org/archives/list/python-dev@python.org/"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 128485,
+      "tokens": 140127647,
+      "bytes": 107638030,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 140127647
         }
       }
     },
@@ -3222,6 +3324,32 @@
         "Apache-2.0": {
           "shards": 1,
           "tokens": 32163758
+        }
+      }
+    },
+    {
+      "path": "community/alpine-linux-mailing-list",
+      "name": "alpine-linux-mailing-list",
+      "title": "Alpine Linux Development Mailing List",
+      "description": "Canonicalized complete public Alpine Linux development-list archive from the official bulk mbox export.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "alpine-devel@lists.alpinelinux.org",
+          "origin": "alpine-devel@lists.alpinelinux.org",
+          "version": "2006-2026-snapshot-2026-08-10",
+          "url": "https://lists.alpinelinux.org/~alpine/devel"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 8206,
+      "tokens": 21811688,
+      "bytes": 15788432,
+      "licenses": {
+        "LicenseRef-Publicly-Archived-Forum": {
+          "shards": 1,
+          "tokens": 21811688
         }
       }
     },
