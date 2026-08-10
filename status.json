@@ -1,12 +1,18 @@
 {
-  "generated": "2026-08-10T04:34:37Z",
-  "index_commit": "eb02b49",
-  "manifests": 36,
-  "shards": 680,
-  "docs": 74588222,
-  "tokens": 145048319074,
-  "bytes": 183757990672,
+  "generated": "2026-08-10T05:33:32Z",
+  "index_commit": "3030683",
+  "manifests": 38,
+  "shards": 683,
+  "docs": 75021901,
+  "tokens": 146669812991,
+  "bytes": 184514152828,
   "licenses": {
+    "0BSD": {
+      "shards": 1,
+      "docs": 592,
+      "tokens": 3573356,
+      "bytes": 0
+    },
     "Apache-2.0": {
       "shards": 20,
       "docs": 597226,
@@ -14,15 +20,15 @@
       "bytes": 119443743
     },
     "BSD-2-Clause": {
-      "shards": 12,
-      "docs": 78805,
-      "tokens": 387092104,
+      "shards": 13,
+      "docs": 116481,
+      "tokens": 624068117,
       "bytes": 0
     },
     "BSD-3-Clause": {
-      "shards": 14,
-      "docs": 130644,
-      "tokens": 681811243,
+      "shards": 15,
+      "docs": 130729,
+      "tokens": 681996830,
       "bytes": 0
     },
     "CC-BY-3.0": {
@@ -68,10 +74,22 @@
       "bytes": 0
     },
     "GPL-2.0-only": {
-      "shards": 10,
-      "docs": 247118,
-      "tokens": 3187545414,
+      "shards": 12,
+      "docs": 340472,
+      "tokens": 3663114737,
       "bytes": 546607701
+    },
+    "GPL-2.0-or-later": {
+      "shards": 2,
+      "docs": 4233,
+      "tokens": 6882204,
+      "bytes": 0
+    },
+    "GPL-2.0-or-later AND LGPL-2.1-or-later": {
+      "shards": 2,
+      "docs": 499,
+      "tokens": 3358059,
+      "bytes": 0
     },
     "GPL-3.0-only": {
       "shards": 11,
@@ -80,9 +98,15 @@
       "bytes": 557600448
     },
     "GPL-3.0-or-later": {
+      "shards": 3,
+      "docs": 211886,
+      "tokens": 521660603,
+      "bytes": 0
+    },
+    "LGPL-2.1-or-later": {
       "shards": 1,
-      "docs": 27204,
-      "tokens": 105235183,
+      "docs": 19488,
+      "tokens": 113027735,
       "bytes": 0
     },
     "LicenseRef-Apache-Public-Forum": {
@@ -90,6 +114,18 @@
       "docs": 36,
       "tokens": 9754829,
       "bytes": 4631176
+    },
+    "LicenseRef-FreeBSD-permissive": {
+      "shards": 1,
+      "docs": 325,
+      "tokens": 280057,
+      "bytes": 0
+    },
+    "LicenseRef-NetBSD-permissive": {
+      "shards": 1,
+      "docs": 44590,
+      "tokens": 121180020,
+      "bytes": 0
     },
     "LicenseRef-OSI-Public-Forum": {
       "shards": 1,
@@ -102,6 +138,12 @@
       "docs": 47894,
       "tokens": 2012229928,
       "bytes": 2861530254
+    },
+    "LicenseRef-OpenBSD-permissive": {
+      "shards": 1,
+      "docs": 45204,
+      "tokens": 242429631,
+      "bytes": 0
     },
     "LicenseRef-Public-Domain": {
       "shards": 110,
@@ -116,9 +158,9 @@
       "bytes": 2807729698
     },
     "MIT": {
-      "shards": 16,
-      "docs": 189442,
-      "tokens": 1942653465,
+      "shards": 17,
+      "docs": 192393,
+      "tokens": 1944259977,
       "bytes": 299196492
     }
   },
@@ -2616,6 +2658,284 @@
         "LicenseRef-Public-Domain": {
           "shards": 4,
           "tokens": 1280789827
+        }
+      }
+    },
+    {
+      "path": "code/copyleft/linux-core",
+      "name": "linux-core",
+      "title": "Linux Core \u2014 Copyleft",
+      "description": "Pinned copyleft source for the Linux kernel and foundational GNU/Linux toolchain, boot, module, networking, filesystem, and process projects not already represented in code/copyleft.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "linux/kernel",
+          "origin": "linux/kernel",
+          "version": "038d61fd642278bab63ee8ef722c50d10ab01e8f",
+          "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git"
+        },
+        {
+          "name": "kernel/kmod",
+          "origin": "kernel/kmod",
+          "version": "13330c958deef15c227a9c83d8ba72106152fd7f",
+          "url": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git"
+        },
+        {
+          "name": "kernel/iproute2",
+          "origin": "kernel/iproute2",
+          "version": "915d3eafcc19706c27b220134b25c24a5b9913b3",
+          "url": "https://git.kernel.org/pub/scm/network/iproute2/iproute2.git"
+        },
+        {
+          "name": "netfilter/nftables",
+          "origin": "netfilter/nftables",
+          "version": "5fb748243550f857bb82cddcdce642f8bf269026",
+          "url": "https://git.netfilter.org/nftables"
+        },
+        {
+          "name": "netfilter/iptables",
+          "origin": "netfilter/iptables",
+          "version": "0506bea1dcc8f12d94e7c32bf2fb04abb3fdd269",
+          "url": "https://git.netfilter.org/iptables"
+        },
+        {
+          "name": "kernel/btrfs-progs",
+          "origin": "kernel/btrfs-progs",
+          "version": "54694de98fdc4ea5678cdd77b920c044bbf64f26",
+          "url": "https://git.kernel.org/pub/scm/linux/kernel/git/kdave/btrfs-progs.git"
+        },
+        {
+          "name": "kernel/xfsprogs",
+          "origin": "kernel/xfsprogs",
+          "version": "1d287f3d958ebc425275d6a08ad6977e13e52fac",
+          "url": "https://git.kernel.org/pub/scm/fs/xfs/xfsprogs-dev.git"
+        },
+        {
+          "name": "busybox/busybox",
+          "origin": "busybox/busybox",
+          "version": "be7d1b7b1701d225379bc1665487ed0871b592a5",
+          "url": "https://git.busybox.net/busybox"
+        },
+        {
+          "name": "gnu/glibc",
+          "origin": "gnu/glibc",
+          "version": "d2097651cc57834dbfcaa102ddfacae0d86cfb66",
+          "url": "https://sourceware.org/git/glibc.git"
+        },
+        {
+          "name": "gnu/gcc",
+          "origin": "gnu/gcc",
+          "version": "5115c7e447fc07457443df874bf57840e8316d5f",
+          "url": "https://gcc.gnu.org/git/gcc.git"
+        },
+        {
+          "name": "gnu/binutils-gdb",
+          "origin": "gnu/binutils-gdb",
+          "version": "2bc7af1ff7732451b6a7b09462a815c3284f9613",
+          "url": "https://sourceware.org/git/binutils-gdb.git"
+        },
+        {
+          "name": "gnu/grub",
+          "origin": "gnu/grub",
+          "version": "5ca9db22e8ed0dbebb2aec53722972de0680a463",
+          "url": "https://git.savannah.gnu.org/cgit/grub.git"
+        },
+        {
+          "name": "gnu/autoconf",
+          "origin": "gnu/autoconf",
+          "version": "6199cff2909e0ac84c9391aa49ed097d6a33268d",
+          "url": "https://git.savannah.gnu.org/cgit/autoconf.git"
+        },
+        {
+          "name": "gnu/automake",
+          "origin": "gnu/automake",
+          "version": "153298e27fa9414b25453440a2f36e1bb7bedfc1",
+          "url": "https://git.savannah.gnu.org/cgit/automake.git"
+        },
+        {
+          "name": "gnu/m4",
+          "origin": "gnu/m4",
+          "version": "8103916f2cbf885cae4f6c7c6e6f142f4b8c43f2",
+          "url": "https://git.savannah.gnu.org/cgit/m4.git"
+        },
+        {
+          "name": "gnu/bison",
+          "origin": "gnu/bison",
+          "version": "9beba1919cad5dd08b0cac277c27896808719e4b",
+          "url": "https://git.savannah.gnu.org/cgit/bison.git"
+        },
+        {
+          "name": "gnu/gettext",
+          "origin": "gnu/gettext",
+          "version": "d16c3c8f0554be9a6983bb14fae4987340f8f4c6",
+          "url": "https://git.savannah.gnu.org/cgit/gettext.git"
+        },
+        {
+          "name": "gnu/libtool",
+          "origin": "gnu/libtool",
+          "version": "db22f7fce768951ac89a83ea3ddedbb8a46511f7",
+          "url": "https://git.savannah.gnu.org/cgit/libtool.git"
+        },
+        {
+          "name": "gnu/inetutils",
+          "origin": "gnu/inetutils",
+          "version": "380e69a57239bce9cc6a9a9318bb92e001f31cac",
+          "url": "https://git.savannah.gnu.org/cgit/inetutils.git"
+        },
+        {
+          "name": "gnu/gperf",
+          "origin": "gnu/gperf",
+          "version": "d2aeec9b9c1fd04dbf747afe4ada8e772d315ccd",
+          "url": "https://git.savannah.gnu.org/cgit/gperf.git"
+        },
+        {
+          "name": "procps-ng/procps",
+          "origin": "procps-ng/procps",
+          "version": "f46b2f7929cdfe2913ed0a7f585b09d6adbf994e",
+          "url": "https://gitlab.com/procps-ng/procps"
+        },
+        {
+          "name": "psmisc/psmisc",
+          "origin": "psmisc/psmisc",
+          "version": "9091d6dbcce3d8fb87adf9249a2eb346d25a562c",
+          "url": "https://gitlab.com/psmisc/psmisc"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 2,
+      "docs": 302256,
+      "tokens": 1015262741,
+      "bytes": 486920200,
+      "licenses": {
+        "GPL-2.0-only": {
+          "shards": 2,
+          "tokens": 475569323
+        },
+        "GPL-2.0-or-later": {
+          "shards": 2,
+          "tokens": 6882204
+        },
+        "GPL-2.0-or-later AND LGPL-2.1-or-later": {
+          "shards": 2,
+          "tokens": 3358059
+        },
+        "GPL-3.0-or-later": {
+          "shards": 2,
+          "tokens": 416425420
+        },
+        "LGPL-2.1-or-later": {
+          "shards": 1,
+          "tokens": 113027735
+        }
+      }
+    },
+    {
+      "path": "code/permissive/linux-core",
+      "name": "linux-core",
+      "title": "Linux Core \u2014 Permissive Alternatives and BSD",
+      "description": "Pinned permissively licensed libc, shell, userland, init/package tooling, and BSD base-system source selected without copyleft imported trees.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "musl/libc",
+          "origin": "musl/libc",
+          "version": "0784374d561435f7c787a555aeab8ede699ed298",
+          "url": "https://git.musl-libc.org/cgit/musl"
+        },
+        {
+          "name": "landley/toybox",
+          "origin": "landley/toybox",
+          "version": "7eaddbdb9c1712801ddf131ed79ead0c981ffcb1",
+          "url": "https://landley.net/toybox"
+        },
+        {
+          "name": "kernel/dash",
+          "origin": "kernel/dash",
+          "version": "4bbf8721a3ac6401ced6a0454956801f6ba37256",
+          "url": "https://git.kernel.org/pub/scm/utils/dash/dash.git"
+        },
+        {
+          "name": "suckless/sbase",
+          "origin": "suckless/sbase",
+          "version": "c546c3a5724c81cee9a11d816a38ccdf17472129",
+          "url": "https://core.suckless.org/sbase"
+        },
+        {
+          "name": "suckless/ubase",
+          "origin": "suckless/ubase",
+          "version": "e8249b49ca3e02032dece5e0cdac3d236667a6d9",
+          "url": "https://core.suckless.org/ubase"
+        },
+        {
+          "name": "OpenRC/openrc",
+          "origin": "OpenRC/openrc",
+          "version": "f232308ad67cc94bd95e98a6af4a47fc58912b70",
+          "url": "https://github.com/OpenRC/openrc"
+        },
+        {
+          "name": "void-linux/xbps",
+          "origin": "void-linux/xbps",
+          "version": "364428243685bd3f85e27e140f98981790e7295e",
+          "url": "https://github.com/void-linux/xbps"
+        },
+        {
+          "name": "openssh/openssh-portable",
+          "origin": "openssh/openssh-portable",
+          "version": "e8dd756725e8800fcd0b3fd71ee6b4382d1e8fab",
+          "url": "https://github.com/openssh/openssh-portable"
+        },
+        {
+          "name": "FreeBSD/src",
+          "origin": "FreeBSD/src",
+          "version": "7aedc8de6446ad5a10d553b926423c689f0a3363",
+          "url": "https://github.com/freebsd/freebsd-src"
+        },
+        {
+          "name": "OpenBSD/src",
+          "origin": "OpenBSD/src",
+          "version": "003d9ff8ec54f3f15e165d831f1972e2a710cfce",
+          "url": "https://github.com/openbsd/src"
+        },
+        {
+          "name": "NetBSD/src",
+          "origin": "NetBSD/src",
+          "version": "1d2eff37050c088093399be0526404544f166cab",
+          "url": "https://github.com/NetBSD/src"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 131423,
+      "tokens": 606231176,
+      "bytes": 269241956,
+      "licenses": {
+        "0BSD": {
+          "shards": 1,
+          "tokens": 3573356
+        },
+        "BSD-2-Clause": {
+          "shards": 1,
+          "tokens": 236976013
+        },
+        "BSD-3-Clause": {
+          "shards": 1,
+          "tokens": 185587
+        },
+        "LicenseRef-FreeBSD-permissive": {
+          "shards": 1,
+          "tokens": 280057
+        },
+        "LicenseRef-NetBSD-permissive": {
+          "shards": 1,
+          "tokens": 121180020
+        },
+        "LicenseRef-OpenBSD-permissive": {
+          "shards": 1,
+          "tokens": 242429631
+        },
+        "MIT": {
+          "shards": 1,
+          "tokens": 1606512
         }
       }
     },
