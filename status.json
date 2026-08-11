@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-10T19:30:46Z",
-  "index_commit": "6382923",
-  "manifests": 42,
-  "shards": 687,
-  "docs": 75232532,
-  "tokens": 147315231925,
-  "bytes": 184911156830,
+  "generated": "2026-08-11T06:24:04Z",
+  "index_commit": "3dd7920",
+  "manifests": 46,
+  "shards": 799,
+  "docs": 93943620,
+  "tokens": 167330910512,
+  "bytes": 214941284372,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,34 +14,160 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 20,
-      "docs": 597226,
-      "tokens": 2855167709,
-      "bytes": 119443743
+      "shards": 24,
+      "docs": 1370987,
+      "tokens": 2947507849,
+      "bytes": 133005459
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
+      "shards": 1,
+      "docs": 101,
+      "tokens": 34267,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+      "shards": 1,
+      "docs": 19,
+      "tokens": 5422,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 761,
+      "tokens": 278790,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND MIT": {
+      "shards": 1,
+      "docs": 2,
+      "tokens": 1287,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause": {
+      "shards": 1,
+      "docs": 56201,
+      "tokens": 1157410,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 22,
+      "tokens": 6015,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 180,
+      "tokens": 69272,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CC-BY-3.0": {
+      "shards": 1,
+      "docs": 1000,
+      "tokens": 13206,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CC-BY-4.0": {
+      "shards": 5,
+      "docs": 213997,
+      "tokens": 31376308,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CC-BY-SA-3.0": {
+      "shards": 5,
+      "docs": 463220,
+      "tokens": 154794200,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CC-BY-SA-4.0": {
+      "shards": 3,
+      "docs": 195321,
+      "tokens": 17770843,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CC0-1.0": {
+      "shards": 2,
+      "docs": 1099,
+      "tokens": 315677,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 37,
+      "tokens": 14625,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CDLA-Permissive-1.0": {
+      "shards": 1,
+      "docs": 59447,
+      "tokens": 12223993,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT": {
+      "shards": 2,
+      "docs": 327108,
+      "tokens": 49618936,
+      "bytes": 0
     },
     "BSD-2-Clause": {
-      "shards": 13,
-      "docs": 116481,
-      "tokens": 624068117,
+      "shards": 15,
+      "docs": 119103,
+      "tokens": 624534253,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 66,
+      "tokens": 30192,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 21,
+      "tokens": 9302,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND ISC AND MIT": {
+      "shards": 1,
+      "docs": 3,
+      "tokens": 1597,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT": {
+      "shards": 1,
+      "docs": 27,
+      "tokens": 12621,
       "bytes": 0
     },
     "BSD-3-Clause": {
-      "shards": 15,
-      "docs": 130729,
-      "tokens": 681996830,
+      "shards": 16,
+      "docs": 168504,
+      "tokens": 689236674,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 53,
+      "tokens": 19120,
       "bytes": 0
     },
     "CC-BY-3.0": {
-      "shards": 26,
-      "docs": 1058646,
-      "tokens": 4183711146,
+      "shards": 29,
+      "docs": 1103120,
+      "tokens": 4236987977,
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 246,
-      "docs": 7346411,
-      "tokens": 50763794378,
+      "shards": 251,
+      "docs": 7537355,
+      "tokens": 50840237293,
       "bytes": 61429911456
+    },
+    "CC-BY-4.0 AND MIT": {
+      "shards": 1,
+      "docs": 12916,
+      "tokens": 1214252,
+      "bytes": 0
     },
     "CC-BY-SA-2.5": {
       "shards": 1,
@@ -50,22 +176,40 @@
       "bytes": 0
     },
     "CC-BY-SA-3.0": {
-      "shards": 13,
-      "docs": 10245794,
-      "tokens": 2946992022,
+      "shards": 16,
+      "docs": 10383171,
+      "tokens": 3045548354,
       "bytes": 2950954742
     },
+    "CC-BY-SA-3.0 AND MIT": {
+      "shards": 1,
+      "docs": 274,
+      "tokens": 38776,
+      "bytes": 0
+    },
     "CC-BY-SA-4.0": {
-      "shards": 212,
-      "docs": 47311075,
-      "tokens": 36245083618,
+      "shards": 217,
+      "docs": 47757544,
+      "tokens": 36386467888,
       "bytes": 51910570074
     },
+    "CC-BY-SA-4.0 AND MIT": {
+      "shards": 1,
+      "docs": 106195,
+      "tokens": 23447805,
+      "bytes": 0
+    },
     "CC0-1.0": {
-      "shards": 70,
-      "docs": 2810479,
-      "tokens": 10015456913,
+      "shards": 74,
+      "docs": 2979606,
+      "tokens": 10045267721,
       "bytes": 12960270164
+    },
+    "CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 242,
+      "bytes": 0
     },
     "GNU Free Documentation License": {
       "shards": 1,
@@ -101,6 +245,12 @@
       "shards": 3,
       "docs": 211886,
       "tokens": 521660603,
+      "bytes": 0
+    },
+    "ISC AND MIT": {
+      "shards": 1,
+      "docs": 7,
+      "tokens": 2709,
       "bytes": 0
     },
     "LGPL-2.1-or-later": {
@@ -146,10 +296,10 @@
       "bytes": 0
     },
     "LicenseRef-Public-Domain": {
-      "shards": 110,
-      "docs": 4358122,
-      "tokens": 21781770724,
-      "bytes": 28207347254
+      "shards": 216,
+      "docs": 19592987,
+      "tokens": 40966216757,
+      "bytes": 57075213303
     },
     "LicenseRef-Publicly-Archived-Forum": {
       "shards": 17,
@@ -158,9 +308,9 @@
       "bytes": 3204733700
     },
     "MIT": {
-      "shards": 17,
-      "docs": 192393,
-      "tokens": 1944259977,
+      "shards": 19,
+      "docs": 427989,
+      "tokens": 1983518388,
       "bytes": 299196492
     }
   },
@@ -240,6 +390,58 @@
         "CC-BY-SA-4.0": {
           "shards": 73,
           "tokens": 14091099944
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/pre-1929-books",
+      "name": "pre-1929-books",
+      "title": "Pre-1929 Public Library Books",
+      "description": "Public-domain scans of books published before 1929 from the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/pre_1929_books_filtered",
+          "origin": "common-pile/pre_1929_books_filtered",
+          "version": "23f9d96dbb1db3324bbc9fbfe1f8299cc799c4d1",
+          "url": "https://huggingface.co/datasets/common-pile/pre_1929_books_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 58,
+      "docs": 124898,
+      "tokens": 10571397129,
+      "bytes": 15648724315,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 58,
+          "tokens": 10571397129
+        }
+      }
+    },
+    {
+      "path": "core/common-pile/biodiversity-heritage-library",
+      "name": "biodiversity-heritage-library",
+      "title": "Biodiversity Heritage Library",
+      "description": "Public-domain biodiversity books, journals, and archival documents from the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/biodiversity_heritage_library_filtered",
+          "origin": "common-pile/biodiversity_heritage_library_filtered",
+          "version": "0486ed637d0d7aaff264bc77fe21a7444e0215cd",
+          "url": "https://huggingface.co/datasets/common-pile/biodiversity_heritage_library_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 48,
+      "docs": 15109967,
+      "tokens": 8613048904,
+      "bytes": 13219141734,
+      "licenses": {
+        "LicenseRef-Public-Domain": {
+          "shards": 48,
+          "tokens": 8613048904
         }
       }
     },
@@ -2830,6 +3032,164 @@
       }
     },
     {
+      "path": "core/common-pile/data-provenance-initiative",
+      "name": "data-provenance-initiative",
+      "title": "Data Provenance Initiative",
+      "description": "Openly licensed English and code datasets audited by the Data Provenance Initiative, via the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/data_provenance_initiative_filtered",
+          "origin": "common-pile/data_provenance_initiative_filtered",
+          "version": "8f5afcf585e4618ff12f5b6d49cb5242faf5afbd",
+          "url": "https://huggingface.co/datasets/common-pile/data_provenance_initiative_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 5,
+      "docs": 3472051,
+      "tokens": 814816559,
+      "bytes": 1148699777,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 3,
+          "tokens": 75924145
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
+          "shards": 1,
+          "tokens": 34267
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+          "shards": 1,
+          "tokens": 5422
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 278790
+        },
+        "Apache-2.0 AND BSD-2-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 1287
+        },
+        "Apache-2.0 AND BSD-3-Clause": {
+          "shards": 1,
+          "tokens": 1157410
+        },
+        "Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 6015
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 69272
+        },
+        "Apache-2.0 AND CC-BY-3.0": {
+          "shards": 1,
+          "tokens": 13206
+        },
+        "Apache-2.0 AND CC-BY-4.0": {
+          "shards": 5,
+          "tokens": 31376308
+        },
+        "Apache-2.0 AND CC-BY-SA-3.0": {
+          "shards": 5,
+          "tokens": 154794200
+        },
+        "Apache-2.0 AND CC-BY-SA-4.0": {
+          "shards": 3,
+          "tokens": 17770843
+        },
+        "Apache-2.0 AND CC0-1.0": {
+          "shards": 2,
+          "tokens": 315677
+        },
+        "Apache-2.0 AND CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 14625
+        },
+        "Apache-2.0 AND CDLA-Permissive-1.0": {
+          "shards": 1,
+          "tokens": 12223993
+        },
+        "Apache-2.0 AND MIT": {
+          "shards": 2,
+          "tokens": 49618936
+        },
+        "BSD-2-Clause": {
+          "shards": 2,
+          "tokens": 466136
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 30192
+        },
+        "BSD-2-Clause AND CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 9302
+        },
+        "BSD-2-Clause AND ISC AND MIT": {
+          "shards": 1,
+          "tokens": 1597
+        },
+        "BSD-2-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 12621
+        },
+        "BSD-3-Clause": {
+          "shards": 1,
+          "tokens": 7239844
+        },
+        "BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 19120
+        },
+        "CC-BY-3.0": {
+          "shards": 3,
+          "tokens": 53276831
+        },
+        "CC-BY-4.0": {
+          "shards": 5,
+          "tokens": 76442915
+        },
+        "CC-BY-4.0 AND MIT": {
+          "shards": 1,
+          "tokens": 1214252
+        },
+        "CC-BY-SA-3.0": {
+          "shards": 3,
+          "tokens": 98556332
+        },
+        "CC-BY-SA-3.0 AND MIT": {
+          "shards": 1,
+          "tokens": 38776
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 5,
+          "tokens": 141384270
+        },
+        "CC-BY-SA-4.0 AND MIT": {
+          "shards": 1,
+          "tokens": 23447805
+        },
+        "CC0-1.0": {
+          "shards": 4,
+          "tokens": 29810808
+        },
+        "CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 242
+        },
+        "ISC AND MIT": {
+          "shards": 1,
+          "tokens": 2709
+        },
+        "MIT": {
+          "shards": 2,
+          "tokens": 39258411
+        }
+      }
+    },
+    {
       "path": "code/permissive/linux-core",
       "name": "linux-core",
       "title": "Linux Core \u2014 Permissive Alternatives and BSD",
@@ -3376,6 +3736,44 @@
         "CC-BY-3.0": {
           "shards": 1,
           "tokens": 20967715
+        }
+      }
+    },
+    {
+      "path": "code/cloud-native-core",
+      "name": "cloud-native-core",
+      "title": "Cloud Native Core \u2014 Permissive",
+      "description": "Project-owned source from immutable Apache-licensed releases of etcd, Prometheus, and containerd.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "etcd-io/etcd",
+          "origin": "etcd-io/etcd",
+          "version": "5e7fd0de9a57db03ecc11794dc40403a734c07bb",
+          "url": "https://github.com/etcd-io/etcd"
+        },
+        {
+          "name": "prometheus/prometheus",
+          "origin": "prometheus/prometheus",
+          "version": "bb5dff00cf8fdfbf5c65e0531aa835fa238a43a2",
+          "url": "https://github.com/prometheus/prometheus"
+        },
+        {
+          "name": "containerd/containerd",
+          "origin": "containerd/containerd",
+          "version": "aad11006b869517fcd3009450b6f82da282e1a9b",
+          "url": "https://github.com/containerd/containerd"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 4172,
+      "tokens": 16415995,
+      "bytes": 13561716,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 16415995
         }
       }
     },
