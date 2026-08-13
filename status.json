@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-12T05:15:03Z",
-  "index_commit": "9f1cf4e",
-  "manifests": 46,
-  "shards": 799,
-  "docs": 93943620,
-  "tokens": 167330910512,
-  "bytes": 214941284372,
+  "generated": "2026-08-13T00:49:48Z",
+  "index_commit": "6f07b0b",
+  "manifests": 47,
+  "shards": 949,
+  "docs": 97741086,
+  "tokens": 202834581119,
+  "bytes": 256568962526,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -158,9 +158,9 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 251,
-      "docs": 7537355,
-      "tokens": 50840237293,
+      "shards": 401,
+      "docs": 11300053,
+      "tokens": 86050303296,
       "bytes": 61429911456
     },
     "CC-BY-4.0 AND MIT": {
@@ -188,9 +188,9 @@
       "bytes": 0
     },
     "CC-BY-SA-4.0": {
-      "shards": 217,
-      "docs": 47757544,
-      "tokens": 36386467888,
+      "shards": 325,
+      "docs": 47758694,
+      "tokens": 36393353518,
       "bytes": 51910570074
     },
     "CC-BY-SA-4.0 AND MIT": {
@@ -200,9 +200,9 @@
       "bytes": 0
     },
     "CC0-1.0": {
-      "shards": 74,
-      "docs": 2979606,
-      "tokens": 10045267721,
+      "shards": 224,
+      "docs": 3013224,
+      "tokens": 10331986695,
       "bytes": 12960270164
     },
     "CC0-1.0 AND MIT": {
@@ -338,6 +338,40 @@
         "CC-BY-4.0": {
           "shards": 195,
           "tokens": 39552347762
+        }
+      }
+    },
+    {
+      "path": "science/pubmed",
+      "name": "pubmed",
+      "title": "PubMed Central Open-Access Articles",
+      "description": "Openly licensed PubMed Central article text from the filtered Common Pile release.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "common-pile/pubmed_filtered",
+          "origin": "common-pile/pubmed_filtered",
+          "version": "c156f0569a92d8f2edc33cebe1f72f7d3e1cae84",
+          "url": "https://huggingface.co/datasets/common-pile/pubmed_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 150,
+      "docs": 3797466,
+      "tokens": 35503670607,
+      "bytes": 41627678154,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 150,
+          "tokens": 35210066003
+        },
+        "CC-BY-SA-4.0": {
+          "shards": 108,
+          "tokens": 6885630
+        },
+        "CC0-1.0": {
+          "shards": 150,
+          "tokens": 286718974
         }
       }
     },
