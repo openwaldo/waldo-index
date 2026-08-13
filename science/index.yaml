@@ -10,3 +10,5 @@ entries:
     type: dir
   - name: plos
     type: dir
+  - name: pubmed
+    type: dir

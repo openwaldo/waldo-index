@@ -1,0 +1,3837 @@
+kind: manifest
+schema: 2
+name: pubmed
+title: PubMed Central Open-Access Articles
+description: Openly licensed PubMed Central article text from the filtered Common Pile release.
+licenses:
+  - CC-BY-4.0
+  - CC-BY-SA-4.0
+  - CC0-1.0
+sources:
+  - name: common-pile/pubmed_filtered
+    source: common-pile/pubmed_filtered
+    version: c156f0569a92d8f2edc33cebe1f72f7d3e1cae84
+    license: LicenseRef-Mixed
+    license_evidence:
+      url: https://huggingface.co/datasets/common-pile/pubmed_filtered/blob/c156f0569a92d8f2edc33cebe1f72f7d3e1cae84/README.md
+    url: https://huggingface.co/datasets/common-pile/pubmed_filtered
+    category: public-dataset
+    sha256: 643a9f026c7cb8b03b6b080cea5e87c44019ba4f5ccfeff37db3a69f86d1de7a
+    content:
+      types:
+        - academic papers
+        - biomedical literature
+      languages:
+        - multilingual
+      selection: All 17 gzip JSONL artifacts at the pinned filtered Common Pile revision; 3,797,568 records have complete PubMed Central identity, original URL, provenance, and one of three enumerated open licenses. The 11,870 metadata-rich rows with empty article text use their journal citation, then original PMC URL, as deterministic fallback.
+      copyrighted: yes
+      machine_generated: no
+    acquisition:
+      basis: Public filtered dataset at the pinned revision with exact per-record open-license declarations and original PubMed Central URLs.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: local@uncommitted:pubmed.yaml#sha256=0f4f7e3465b3a6add9bbd544c4453496b210b2a4f0dca897700d3bd1f6521be2
+  profile: canonical-text-schema-1@sha256:4bb2c6a37ba448e2604e7b627414f81ef663a98bc50780b43b2a31e8e7749b66
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v5-bom
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+shards:
+  - url: s3://openwaldo/lookaside/bf/4a/bf4aa81a718b6312b42d332490374ca9df619617ebde653327554eb6af1df145
+    sha256: bf4aa81a718b6312b42d332490374ca9df619617ebde653327554eb6af1df145
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 35165
+        tokens: 204266697
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 2398
+        tokens: 12928669
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 37563
+    tokens: 217195366
+    bytes: 274312471
+  - url: s3://openwaldo/lookaside/a1/9b/a19beac19ecec15f41e0abb7755952ab274b8e583a640f1f6079dc81a2ef7555
+    sha256: a19beac19ecec15f41e0abb7755952ab274b8e583a640f1f6079dc81a2ef7555
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28644
+        tokens: 213773749
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 835
+        tokens: 6487923
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 29479
+    tokens: 220261672
+    bytes: 272083223
+  - url: s3://openwaldo/lookaside/4c/25/4c25b57a86652a326f22f8e0d4afbf72787a45f400264b8b3bcb6c15d88a9035
+    sha256: 4c25b57a86652a326f22f8e0d4afbf72787a45f400264b8b3bcb6c15d88a9035
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28413
+        tokens: 211919884
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 846
+        tokens: 7392768
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 29259
+    tokens: 219312652
+    bytes: 271754827
+  - url: s3://openwaldo/lookaside/e3/79/e379b8aa58d5ecb0d94afb6ac9ebb2aa176dec4bee24bf172b9a0058ad37752b
+    sha256: e379b8aa58d5ecb0d94afb6ac9ebb2aa176dec4bee24bf172b9a0058ad37752b
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28415
+        tokens: 213716630
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 764
+        tokens: 6602531
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 29179
+    tokens: 220319161
+    bytes: 271715469
+  - url: s3://openwaldo/lookaside/3a/ac/3aacb2625bef47c3cc583dfb84fa5c4843e90c02454d398ca4b2cf4e5bbbe819
+    sha256: 3aacb2625bef47c3cc583dfb84fa5c4843e90c02454d398ca4b2cf4e5bbbe819
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28971
+        tokens: 215214554
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 771
+        tokens: 6585530
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 29742
+    tokens: 221800084
+    bytes: 270513238
+  - url: s3://openwaldo/lookaside/fe/e3/fee3442adf5671774809202245bc37c09b9b2024cacc08804738184c283698ac
+    sha256: fee3442adf5671774809202245bc37c09b9b2024cacc08804738184c283698ac
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27889
+        tokens: 215879843
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 7
+        tokens: 14846
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 510
+        tokens: 5378634
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28406
+    tokens: 221273323
+    bytes: 269129263
+  - url: s3://openwaldo/lookaside/77/a7/77a789aa5a19b04de0dc01f927c21004d12f22b041a058560b4a22f28f8f845e
+    sha256: 77a789aa5a19b04de0dc01f927c21004d12f22b041a058560b4a22f28f8f845e
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 30765
+        tokens: 230495167
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 766
+        tokens: 6383076
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 31531
+    tokens: 236878243
+    bytes: 286740888
+  - url: s3://openwaldo/lookaside/f9/03/f903133067cd3bb186b3e6dd3047715db20d60ac3aed7068ff8c0391f8d329a8
+    sha256: f903133067cd3bb186b3e6dd3047715db20d60ac3aed7068ff8c0391f8d329a8
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 29363
+        tokens: 217515665
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 566
+        tokens: 5318959
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 29929
+    tokens: 222834624
+    bytes: 268827790
+  - url: s3://openwaldo/lookaside/64/92/6492cf69e7b69962f60de530fb5d130ba89eb83d90b2248ac8d0b56a6335d142
+    sha256: 6492cf69e7b69962f60de530fb5d130ba89eb83d90b2248ac8d0b56a6335d142
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 29198
+        tokens: 232422175
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 492
+        tokens: 4832860
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 29690
+    tokens: 237255035
+    bytes: 287533935
+  - url: s3://openwaldo/lookaside/87/ad/87ad72baecdc98eb8a893ca88891ca00672d2ca9f1c8e341a9eeea475247ea2e
+    sha256: 87ad72baecdc98eb8a893ca88891ca00672d2ca9f1c8e341a9eeea475247ea2e
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28280
+        tokens: 231731755
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 509
+        tokens: 4716819
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28789
+    tokens: 236448574
+    bytes: 284836895
+  - url: s3://openwaldo/lookaside/f1/93/f1935df7876fef0172642927d109373bc917dfbac3685c242ebe3fb945625563
+    sha256: f1935df7876fef0172642927d109373bc917dfbac3685c242ebe3fb945625563
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27738
+        tokens: 216959019
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 479
+        tokens: 4550466
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28217
+    tokens: 221509485
+    bytes: 268484804
+  - url: s3://openwaldo/lookaside/ab/e3/abe3e0faa041a028e5b2af36a26476cf2a6bc255e4df0d95333c078d11ec29f5
+    sha256: abe3e0faa041a028e5b2af36a26476cf2a6bc255e4df0d95333c078d11ec29f5
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 26942
+        tokens: 218678914
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 408
+        tokens: 4040873
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 27350
+    tokens: 222719787
+    bytes: 268671739
+  - url: s3://openwaldo/lookaside/19/b6/19b6d65f9315696d1ee9511bb4b2cabe0a07c9284da388cacdf56b0b4e480370
+    sha256: 19b6d65f9315696d1ee9511bb4b2cabe0a07c9284da388cacdf56b0b4e480370
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27602
+        tokens: 220543595
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 358
+        tokens: 3814966
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 27960
+    tokens: 224358561
+    bytes: 268714727
+  - url: s3://openwaldo/lookaside/05/76/057689be21fa7148eceb01237fca4c97c766ea872215aee5a92c9b7c6d17a0ba
+    sha256: 057689be21fa7148eceb01237fca4c97c766ea872215aee5a92c9b7c6d17a0ba
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28723
+        tokens: 233991663
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 596
+        tokens: 5123009
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 29319
+    tokens: 239114672
+    bytes: 286831443
+  - url: s3://openwaldo/lookaside/7e/e4/7ee45191cd7b22cef1687c4b650bf45d64c96a083f95c7fdf0a97ce5eec849e4
+    sha256: 7ee45191cd7b22cef1687c4b650bf45d64c96a083f95c7fdf0a97ce5eec849e4
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 30074
+        tokens: 235503844
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 394
+        tokens: 4034880
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 30468
+    tokens: 239538724
+    bytes: 286359355
+  - url: s3://openwaldo/lookaside/88/aa/88aac1f699a8825d6b0fee9f25fae82c0a46ea5f0a8f28893509db51386a4076
+    sha256: 88aac1f699a8825d6b0fee9f25fae82c0a46ea5f0a8f28893509db51386a4076
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 30429
+        tokens: 235030545
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 9
+        tokens: 65524
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 317
+        tokens: 3175400
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 30755
+    tokens: 238271469
+    bytes: 286831293
+  - url: s3://openwaldo/lookaside/b1/c0/b1c07d420a302da5dec3409a53c14bae2979efcaa69aeeb3c126d1c607798b7e
+    sha256: b1c07d420a302da5dec3409a53c14bae2979efcaa69aeeb3c126d1c607798b7e
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27843
+        tokens: 219907358
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 365
+        tokens: 3944835
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28208
+    tokens: 223852193
+    bytes: 269885406
+  - url: s3://openwaldo/lookaside/da/12/da1219ff54a705845eff3a7507e84e2760a08d416e07263a7ea7d2400748da1f
+    sha256: da1219ff54a705845eff3a7507e84e2760a08d416e07263a7ea7d2400748da1f
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28107
+        tokens: 219749955
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 395
+        tokens: 4170972
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28502
+    tokens: 223920927
+    bytes: 271509617
+  - url: s3://openwaldo/lookaside/d4/27/d427b4b5aad2100c5f68b2c6d6935889b4422cd8d88da91d69580090ffca2923
+    sha256: d427b4b5aad2100c5f68b2c6d6935889b4422cd8d88da91d69580090ffca2923
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 28581
+        tokens: 222908361
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 283
+        tokens: 2945631
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28864
+    tokens: 225853992
+    bytes: 274398195
+  - url: s3://openwaldo/lookaside/d1/8b/d18b88a7d3412110ca82cfd1edff30964c1a4b07157939505f5ad75ef61981dc
+    sha256: d18b88a7d3412110ca82cfd1edff30964c1a4b07157939505f5ad75ef61981dc
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 26803
+        tokens: 221877077
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 373
+        tokens: 4040658
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 27176
+    tokens: 225917735
+    bytes: 271884553
+  - url: s3://openwaldo/lookaside/71/d0/71d03bc34635d3a111031d0fee83ce0bff90e173f4183bf3ceef54efaabeaf40
+    sha256: 71d03bc34635d3a111031d0fee83ce0bff90e173f4183bf3ceef54efaabeaf40
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27817
+        tokens: 222147856
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 387
+        tokens: 4008821
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28204
+    tokens: 226156677
+    bytes: 272627041
+  - url: s3://openwaldo/lookaside/9c/b9/9cb98a945e43d7771bef990fcde964858d04c7d95a7764bd6b5c308d127a2f0b
+    sha256: 9cb98a945e43d7771bef990fcde964858d04c7d95a7764bd6b5c308d127a2f0b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 26312
+        tokens: 221961928
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 6
+        tokens: 31387
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 424
+        tokens: 4685025
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26742
+    tokens: 226678340
+    bytes: 272064488
+  - url: s3://openwaldo/lookaside/d7/c3/d7c31e92353be52cdba505bec6ebad69bab2b7c1054c27f33de548a05e419b50
+    sha256: d7c31e92353be52cdba505bec6ebad69bab2b7c1054c27f33de548a05e419b50
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27193
+        tokens: 219867143
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 38
+        tokens: 194233
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 1112
+        tokens: 6337648
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28343
+    tokens: 226399024
+    bytes: 271814268
+  - url: s3://openwaldo/lookaside/6d/51/6d5182974b23a9629373552f11c6cf495a4003a46448b208be048c9e9b36dca7
+    sha256: 6d5182974b23a9629373552f11c6cf495a4003a46448b208be048c9e9b36dca7
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27755
+        tokens: 223383696
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 10
+        tokens: 49540
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 418
+        tokens: 4239433
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 28183
+    tokens: 227672669
+    bytes: 273161332
+  - url: s3://openwaldo/lookaside/f1/a2/f1a2b0f9969121fe1b9f38498cdd6d2b2a77fb801c4843d403731eef5e537a41
+    sha256: f1a2b0f9969121fe1b9f38498cdd6d2b2a77fb801c4843d403731eef5e537a41
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 26520
+        tokens: 224755310
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 11
+        tokens: 136358
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 282
+        tokens: 3107979
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26813
+    tokens: 227999647
+    bytes: 270499309
+  - url: s3://openwaldo/lookaside/fd/63/fd63b3bed2f19ca0b60321f67141e5003025249692ad22b2115dc02cc8d5853a
+    sha256: fd63b3bed2f19ca0b60321f67141e5003025249692ad22b2115dc02cc8d5853a
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27635
+        tokens: 224356516
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 8
+        tokens: 38017
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 253
+        tokens: 2914846
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 27896
+    tokens: 227309379
+    bytes: 272007976
+  - url: s3://openwaldo/lookaside/26/22/2622e1d3170bccd257fea4a1a410513356d10d06b46bcff3e2200902e7231e1b
+    sha256: 2622e1d3170bccd257fea4a1a410513356d10d06b46bcff3e2200902e7231e1b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25343
+        tokens: 221021905
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 12
+        tokens: 61010
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 664
+        tokens: 6753149
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26019
+    tokens: 227836064
+    bytes: 270762453
+  - url: s3://openwaldo/lookaside/8f/58/8f587606caf14ae22253853ffa81168bf443d9b0bbc01b7981d315b3ac52ef73
+    sha256: 8f587606caf14ae22253853ffa81168bf443d9b0bbc01b7981d315b3ac52ef73
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25418
+        tokens: 221428772
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 17
+        tokens: 89385
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 621
+        tokens: 6582210
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26056
+    tokens: 228100367
+    bytes: 271489845
+  - url: s3://openwaldo/lookaside/a9/cc/a9cc796c4e578ff77335dc370a476389260bbf7c8edcc27ddd377c600c3eeee6
+    sha256: a9cc796c4e578ff77335dc370a476389260bbf7c8edcc27ddd377c600c3eeee6
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25707
+        tokens: 225333735
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 29
+        tokens: 125209
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 325
+        tokens: 3140722
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26061
+    tokens: 228599666
+    bytes: 272035117
+  - url: s3://openwaldo/lookaside/85/47/8547b92b265bc84a4b062d43e1ac45592cfc1adc37c76a4c14fda9f9c0206a0b
+    sha256: 8547b92b265bc84a4b062d43e1ac45592cfc1adc37c76a4c14fda9f9c0206a0b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 26154
+        tokens: 226265546
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 18
+        tokens: 79020
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 299
+        tokens: 2465903
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26471
+    tokens: 228810469
+    bytes: 270404042
+  - url: s3://openwaldo/lookaside/e5/a1/e5a1360251ba81da58bc6bfe42c192ba6213605d65b21226e0ca1f20bb614109
+    sha256: e5a1360251ba81da58bc6bfe42c192ba6213605d65b21226e0ca1f20bb614109
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25410
+        tokens: 224605606
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 15
+        tokens: 63680
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 596
+        tokens: 3356305
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26021
+    tokens: 228025591
+    bytes: 271123026
+  - url: s3://openwaldo/lookaside/77/00/7700cd9da5e14938250feb0b8bb13ee623fc71c7c7eaa4fae4c64e83f6f309d6
+    sha256: 7700cd9da5e14938250feb0b8bb13ee623fc71c7c7eaa4fae4c64e83f6f309d6
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25582
+        tokens: 223854178
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 45
+        tokens: 198573
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 450
+        tokens: 4749819
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26077
+    tokens: 228802570
+    bytes: 269570418
+  - url: s3://openwaldo/lookaside/15/6a/156ab77058051e10b56060c175244ad00d9b9fa0fea8efadf5fb2f0ef6f602f5
+    sha256: 156ab77058051e10b56060c175244ad00d9b9fa0fea8efadf5fb2f0ef6f602f5
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25880
+        tokens: 225960673
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 17
+        tokens: 79238
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 283
+        tokens: 3243200
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26180
+    tokens: 229283111
+    bytes: 269713719
+  - url: s3://openwaldo/lookaside/b2/19/b219f14f088ecaeb61e02456d5c5aecc97174ecd298e0636a294190bf181bc30
+    sha256: b219f14f088ecaeb61e02456d5c5aecc97174ecd298e0636a294190bf181bc30
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25211
+        tokens: 226062418
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 36
+        tokens: 155714
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 211
+        tokens: 2293967
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25458
+    tokens: 228512099
+    bytes: 269974718
+  - url: s3://openwaldo/lookaside/68/8c/688cd8a5f870f388cd2095d13df66cd6150cf672d04b60a92161625617dd4d5b
+    sha256: 688cd8a5f870f388cd2095d13df66cd6150cf672d04b60a92161625617dd4d5b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25126
+        tokens: 229055460
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 13
+        tokens: 56592
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 146
+        tokens: 1745772
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25285
+    tokens: 230857824
+    bytes: 270113883
+  - url: s3://openwaldo/lookaside/ca/cd/cacdb6885d80e59bc12508b18ff483d684b5b0084ece5af002a14cabffe44c28
+    sha256: cacdb6885d80e59bc12508b18ff483d684b5b0084ece5af002a14cabffe44c28
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24794
+        tokens: 228472850
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 17
+        tokens: 68537
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 175
+        tokens: 1977832
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24986
+    tokens: 230519219
+    bytes: 270617808
+  - url: s3://openwaldo/lookaside/14/2d/142d6da52a9d44e9595bccfae3e00ca60dd5ba80d001bfefd44d9fcb9a402739
+    sha256: 142d6da52a9d44e9595bccfae3e00ca60dd5ba80d001bfefd44d9fcb9a402739
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25279
+        tokens: 228259188
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 25
+        tokens: 105941
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 819
+        tokens: 1953337
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26123
+    tokens: 230318466
+    bytes: 271611402
+  - url: s3://openwaldo/lookaside/1e/4a/1e4a0f0f2d4835a6a3ebe6cab631f1f356d3dedbef90367b1b65bcfc0e7e65ce
+    sha256: 1e4a0f0f2d4835a6a3ebe6cab631f1f356d3dedbef90367b1b65bcfc0e7e65ce
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25780
+        tokens: 226440202
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 12
+        tokens: 51278
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 588
+        tokens: 2094052
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26380
+    tokens: 228585532
+    bytes: 269914565
+  - url: s3://openwaldo/lookaside/d8/54/d854ab412f956cf33df755111691357ed44f76eb9c112586c73192b503ece512
+    sha256: d854ab412f956cf33df755111691357ed44f76eb9c112586c73192b503ece512
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27393
+        tokens: 243705888
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 47
+        tokens: 171423
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 181
+        tokens: 1734445
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 27621
+    tokens: 245611756
+    bytes: 287637999
+  - url: s3://openwaldo/lookaside/2d/fa/2dfa5d8801323663c5a48bd08dbae4367e9b305d7ca2e325efc3befdb4e37509
+    sha256: 2dfa5d8801323663c5a48bd08dbae4367e9b305d7ca2e325efc3befdb4e37509
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24868
+        tokens: 226447649
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 45
+        tokens: 160626
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 423
+        tokens: 2682994
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25336
+    tokens: 229291269
+    bytes: 270367278
+  - url: s3://openwaldo/lookaside/53/48/5348953ee5efc3548d147ed247e4d38418fec484ca02bfb74f3d8824e27e1a59
+    sha256: 5348953ee5efc3548d147ed247e4d38418fec484ca02bfb74f3d8824e27e1a59
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25319
+        tokens: 227100153
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 38
+        tokens: 136115
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 161
+        tokens: 1806203
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25518
+    tokens: 229042471
+    bytes: 271561306
+  - url: s3://openwaldo/lookaside/07/61/0761663aa1fc6e8614b9681470e74da46edb522423c771439b8946ed6373e640
+    sha256: 0761663aa1fc6e8614b9681470e74da46edb522423c771439b8946ed6373e640
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24856
+        tokens: 225429411
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 26
+        tokens: 116147
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 170
+        tokens: 2034822
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25052
+    tokens: 227580380
+    bytes: 269209064
+  - url: s3://openwaldo/lookaside/a9/a6/a9a6c586a851bc7f6685e84b2992f5945e2002e341db183894158ccc7ad5cc4a
+    sha256: a9a6c586a851bc7f6685e84b2992f5945e2002e341db183894158ccc7ad5cc4a
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25045
+        tokens: 228096353
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 24
+        tokens: 115660
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 169
+        tokens: 1639277
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25238
+    tokens: 229851290
+    bytes: 269977495
+  - url: s3://openwaldo/lookaside/58/b7/58b74a196dd807f55dc70feb1e777ceac838900855ba9fe80cb73e398f3808df
+    sha256: 58b74a196dd807f55dc70feb1e777ceac838900855ba9fe80cb73e398f3808df
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25336
+        tokens: 229292513
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 12
+        tokens: 61019
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 211
+        tokens: 1474649
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25559
+    tokens: 230828181
+    bytes: 270336526
+  - url: s3://openwaldo/lookaside/8e/36/8e36bf293002d9137f7ed28b24a954c884eff167c1e4c67524a45c2471d97c4f
+    sha256: 8e36bf293002d9137f7ed28b24a954c884eff167c1e4c67524a45c2471d97c4f
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24764
+        tokens: 227471524
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 4
+        tokens: 19861
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 277
+        tokens: 1375429
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25045
+    tokens: 228866814
+    bytes: 269348743
+  - url: s3://openwaldo/lookaside/96/01/960192f243f9a401a937b79ee26096c30d55df8361860c76c6961f64544d1828
+    sha256: 960192f243f9a401a937b79ee26096c30d55df8361860c76c6961f64544d1828
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24966
+        tokens: 231480413
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 13
+        tokens: 50252
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 179
+        tokens: 1471020
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25158
+    tokens: 233001685
+    bytes: 269703063
+  - url: s3://openwaldo/lookaside/1f/d1/1fd10ab196d085b6b6964b0cbafa5c914645b77f0da2e6e7cbfeb8680ac1b301
+    sha256: 1fd10ab196d085b6b6964b0cbafa5c914645b77f0da2e6e7cbfeb8680ac1b301
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24564
+        tokens: 227470926
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 6380
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 138
+        tokens: 1696632
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24704
+    tokens: 229173938
+    bytes: 268699600
+  - url: s3://openwaldo/lookaside/58/4a/584a2018ace0b43a342b1b5a63f806622e2d8e440c9566e2d410484b975839cd
+    sha256: 584a2018ace0b43a342b1b5a63f806622e2d8e440c9566e2d410484b975839cd
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 27392
+        tokens: 257227625
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 5445
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 91
+        tokens: 1106575
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 27484
+    tokens: 258339645
+    bytes: 286455972
+  - url: s3://openwaldo/lookaside/4f/19/4f19173fa93e8389440e8fb94593c22e59a2403959c122ecc7327f6779ccc861
+    sha256: 4f19173fa93e8389440e8fb94593c22e59a2403959c122ecc7327f6779ccc861
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 26065
+        tokens: 243861834
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 8
+        tokens: 32894
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 149
+        tokens: 1864347
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26222
+    tokens: 245759075
+    bytes: 285545317
+  - url: s3://openwaldo/lookaside/4a/28/4a282d71428a810c4aed2c5bd3bef652fce03251dd4faf5937050712417d8e08
+    sha256: 4a282d71428a810c4aed2c5bd3bef652fce03251dd4faf5937050712417d8e08
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24416
+        tokens: 229904039
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 8
+        tokens: 41240
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 99
+        tokens: 1271877
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24523
+    tokens: 231217156
+    bytes: 269665807
+  - url: s3://openwaldo/lookaside/5f/09/5f09a4a3c3ee5cca69c0451d2dea153736aaf1f5a22324820b1199d721d17007
+    sha256: 5f09a4a3c3ee5cca69c0451d2dea153736aaf1f5a22324820b1199d721d17007
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25885
+        tokens: 246439069
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 26
+        tokens: 106423
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 90
+        tokens: 1053686
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26001
+    tokens: 247599178
+    bytes: 287219049
+  - url: s3://openwaldo/lookaside/19/67/196739284085ab5128f5179878e1d22a277c261d196c4a0a96c0b5e9d20fe8f0
+    sha256: 196739284085ab5128f5179878e1d22a277c261d196c4a0a96c0b5e9d20fe8f0
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24159
+        tokens: 229390417
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 9851
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 105
+        tokens: 1180996
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24266
+    tokens: 230581264
+    bytes: 268482730
+  - url: s3://openwaldo/lookaside/18/39/183909e4266cbcb82a548668098881a342b65540ee94f907cf6e94b1656d011b
+    sha256: 183909e4266cbcb82a548668098881a342b65540ee94f907cf6e94b1656d011b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24504
+        tokens: 228097033
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 21293
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 143
+        tokens: 1778996
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24649
+    tokens: 229897322
+    bytes: 268763706
+  - url: s3://openwaldo/lookaside/1e/d7/1ed7086ed11cf7f41634b9fcdb4d6c834636f880a92b73927443f98833b095e5
+    sha256: 1ed7086ed11cf7f41634b9fcdb4d6c834636f880a92b73927443f98833b095e5
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24180
+        tokens: 226915184
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 10414
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 163
+        tokens: 1670747
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24344
+    tokens: 228596345
+    bytes: 269070302
+  - url: s3://openwaldo/lookaside/cb/70/cb709c28c2b5895439415a6a7650949e537e641b6a189f71ca03ef3451ff41be
+    sha256: cb709c28c2b5895439415a6a7650949e537e641b6a189f71ca03ef3451ff41be
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25968
+        tokens: 244464544
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 138
+        tokens: 1378156
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26106
+    tokens: 245842700
+    bytes: 286688158
+  - url: s3://openwaldo/lookaside/a0/81/a081d5e5ad0f366b9140763e49fbfcce3def165483f515be58b6f7a641f00a8b
+    sha256: a081d5e5ad0f366b9140763e49fbfcce3def165483f515be58b6f7a641f00a8b
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25992
+        tokens: 243479257
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 204
+        tokens: 1944666
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26196
+    tokens: 245423923
+    bytes: 287580826
+  - url: s3://openwaldo/lookaside/bf/16/bf166c46400b15e297620b37129e652511683b26b9f3c991f220f9ba89a9141c
+    sha256: bf166c46400b15e297620b37129e652511683b26b9f3c991f220f9ba89a9141c
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25272
+        tokens: 243576951
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 5
+        tokens: 33785
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 211
+        tokens: 2038993
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25488
+    tokens: 245649729
+    bytes: 285248203
+  - url: s3://openwaldo/lookaside/34/ec/34ec3d7e442a3dcac2d4d314873ee3b01e233390775e1b0e63d9e4d0bcc7d6d2
+    sha256: 34ec3d7e442a3dcac2d4d314873ee3b01e233390775e1b0e63d9e4d0bcc7d6d2
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25895
+        tokens: 245944861
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 134
+        tokens: 1463044
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26029
+    tokens: 247407905
+    bytes: 287167696
+  - url: s3://openwaldo/lookaside/1d/60/1d60033bc39091d86cf0148b72d4086d337cce3ec28c917e039cba1d5fa4b67b
+    sha256: 1d60033bc39091d86cf0148b72d4086d337cce3ec28c917e039cba1d5fa4b67b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25617
+        tokens: 243708110
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 3048
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 259
+        tokens: 2487914
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25877
+    tokens: 246199072
+    bytes: 286901613
+  - url: s3://openwaldo/lookaside/89/65/8965d2bf46c68a6db76ee992d2e07f303ebedaf78b7d2baca29127196438a1bd
+    sha256: 8965d2bf46c68a6db76ee992d2e07f303ebedaf78b7d2baca29127196438a1bd
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25892
+        tokens: 245794200
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 110
+        tokens: 1412451
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26002
+    tokens: 247206651
+    bytes: 286601191
+  - url: s3://openwaldo/lookaside/8d/25/8d2576b607170a59f3e231dce60d193871aa7a2d081bcc6e9ee77d95145cdaed
+    sha256: 8d2576b607170a59f3e231dce60d193871aa7a2d081bcc6e9ee77d95145cdaed
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25534
+        tokens: 246226161
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 13957
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 114
+        tokens: 1065698
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25649
+    tokens: 247305816
+    bytes: 285770970
+  - url: s3://openwaldo/lookaside/8e/19/8e194e48969512884d7f12d399d5de143ec65055bdddf5443b7e942b9d823547
+    sha256: 8e194e48969512884d7f12d399d5de143ec65055bdddf5443b7e942b9d823547
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25166
+        tokens: 245922207
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 82
+        tokens: 1188645
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25248
+    tokens: 247110852
+    bytes: 284225295
+  - url: s3://openwaldo/lookaside/3c/ac/3cac85f46fe0fe40178bb7ffcfc2441764936764838fb835573fddc5fb4e4275
+    sha256: 3cac85f46fe0fe40178bb7ffcfc2441764936764838fb835573fddc5fb4e4275
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25560
+        tokens: 243647116
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 95
+        tokens: 1476954
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25655
+    tokens: 245124070
+    bytes: 284130489
+  - url: s3://openwaldo/lookaside/cf/c9/cfc9403ccd784c48d5ddcf73a5f2167412a998557f37916f38632ce0f38cc466
+    sha256: cfc9403ccd784c48d5ddcf73a5f2167412a998557f37916f38632ce0f38cc466
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25632
+        tokens: 243869793
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 15424
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 103
+        tokens: 1901351
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25736
+    tokens: 245786568
+    bytes: 284774417
+  - url: s3://openwaldo/lookaside/99/96/9996da9a0d4a9a5080209590786e90af2e7bce45eb578d5d1b9b9dafc158e3b1
+    sha256: 9996da9a0d4a9a5080209590786e90af2e7bce45eb578d5d1b9b9dafc158e3b1
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25725
+        tokens: 244677455
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 70
+        tokens: 966778
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25795
+    tokens: 245644233
+    bytes: 285134354
+  - url: s3://openwaldo/lookaside/cd/e0/cde0093772e83b56beb6c6dc172110bb5a16d4293fa7b151de9c2f3ce512b308
+    sha256: cde0093772e83b56beb6c6dc172110bb5a16d4293fa7b151de9c2f3ce512b308
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24239
+        tokens: 226869848
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 5013
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 110
+        tokens: 1554448
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24350
+    tokens: 228429309
+    bytes: 268682289
+  - url: s3://openwaldo/lookaside/82/2c/822c145c5e2bf909362c21e524ee015a8c581a509d90f6e5ff339a1738b56b30
+    sha256: 822c145c5e2bf909362c21e524ee015a8c581a509d90f6e5ff339a1738b56b30
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25079
+        tokens: 243186710
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 16439
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 96
+        tokens: 1404807
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25177
+    tokens: 244607956
+    bytes: 283686110
+  - url: s3://openwaldo/lookaside/6f/01/6f0154b03f252769aaa472d8dd8a1f5e1a7c0a8a0fa9ee2ed166d0d50fa9ab01
+    sha256: 6f0154b03f252769aaa472d8dd8a1f5e1a7c0a8a0fa9ee2ed166d0d50fa9ab01
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25083
+        tokens: 243034309
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 4764
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 93
+        tokens: 1237513
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25178
+    tokens: 244276586
+    bytes: 284063045
+  - url: s3://openwaldo/lookaside/3f/1e/3f1e758e56601f88226e46df90d2b03e097e4b8605e47743451fcdf35a703da9
+    sha256: 3f1e758e56601f88226e46df90d2b03e097e4b8605e47743451fcdf35a703da9
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25224
+        tokens: 242042820
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 4974
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 85
+        tokens: 1184968
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25310
+    tokens: 243232762
+    bytes: 283163943
+  - url: s3://openwaldo/lookaside/25/57/2557b89985652d12788e1fb12afa53fac21de8a3935fdcf38812a45a866b86b9
+    sha256: 2557b89985652d12788e1fb12afa53fac21de8a3935fdcf38812a45a866b86b9
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24396
+        tokens: 248795404
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 13633
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 78
+        tokens: 1183955
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24475
+    tokens: 249992992
+    bytes: 280226591
+  - url: s3://openwaldo/lookaside/3f/44/3f444327cffc19afe6691dbd131f0ff85a9e657dd5f55c12ba397d91d1fa2af2
+    sha256: 3f444327cffc19afe6691dbd131f0ff85a9e657dd5f55c12ba397d91d1fa2af2
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23900
+        tokens: 245607414
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 3054
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 55
+        tokens: 740988
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23956
+    tokens: 246351456
+    bytes: 281344007
+  - url: s3://openwaldo/lookaside/31/b9/31b9d1bfdf2fa613d18a506021d3817b397262a5e04a6f0f4d27073102bf7007
+    sha256: 31b9d1bfdf2fa613d18a506021d3817b397262a5e04a6f0f4d27073102bf7007
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24155
+        tokens: 241804633
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 81
+        tokens: 1100722
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24236
+    tokens: 242905355
+    bytes: 284361422
+  - url: s3://openwaldo/lookaside/da/6e/da6eefa90f42ac817429dfdf5f33a885005968c40002af79471a7b77d92036cc
+    sha256: da6eefa90f42ac817429dfdf5f33a885005968c40002af79471a7b77d92036cc
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25466
+        tokens: 243660655
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 24695
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 62
+        tokens: 898638
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25530
+    tokens: 244583988
+    bytes: 283151356
+  - url: s3://openwaldo/lookaside/db/67/db67ab3bbf2e4763004d58049d3e1daf5775ca98b852c1c7000180c93ee4d4e5
+    sha256: db67ab3bbf2e4763004d58049d3e1daf5775ca98b852c1c7000180c93ee4d4e5
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24250
+        tokens: 242959048
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 4534
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 50
+        tokens: 679908
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24301
+    tokens: 243643490
+    bytes: 279965529
+  - url: s3://openwaldo/lookaside/13/8d/138d0c95151e957d0c3906f40be4d7135e7ed01f6c74f78f33bf93a4e9117b23
+    sha256: 138d0c95151e957d0c3906f40be4d7135e7ed01f6c74f78f33bf93a4e9117b23
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25020
+        tokens: 226167463
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 4
+        tokens: 21181
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 75
+        tokens: 1147539
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25099
+    tokens: 227336183
+    bytes: 269242855
+  - url: s3://openwaldo/lookaside/10/e2/10e2536e9e5218e1d1a692695ba63fb97cae065dbb1724c9ebdb1fd7f43ad185
+    sha256: 10e2536e9e5218e1d1a692695ba63fb97cae065dbb1724c9ebdb1fd7f43ad185
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24266
+        tokens: 244603019
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 129
+        tokens: 782432
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24395
+    tokens: 245385451
+    bytes: 282446678
+  - url: s3://openwaldo/lookaside/46/4f/464fc8617725969e2e9ad529f05b449cfd714ad3debcf16723fc2fea04da8bcb
+    sha256: 464fc8617725969e2e9ad529f05b449cfd714ad3debcf16723fc2fea04da8bcb
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24207
+        tokens: 240753840
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 2276
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 82
+        tokens: 1266252
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24290
+    tokens: 242022368
+    bytes: 282443354
+  - url: s3://openwaldo/lookaside/77/18/7718c0617aae61d24391a7edd1032a16940c54253bfdd9ac9d19a2a12120e262
+    sha256: 7718c0617aae61d24391a7edd1032a16940c54253bfdd9ac9d19a2a12120e262
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23941
+        tokens: 241771339
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 18009
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 68
+        tokens: 955415
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24010
+    tokens: 242744763
+    bytes: 282492273
+  - url: s3://openwaldo/lookaside/d2/1a/d21a7b2e77d8ad927b40de3cfda912bde535f18fbfae41c84d962854f755546c
+    sha256: d21a7b2e77d8ad927b40de3cfda912bde535f18fbfae41c84d962854f755546c
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24186
+        tokens: 243097921
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 70
+        tokens: 975827
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24256
+    tokens: 244073748
+    bytes: 283084747
+  - url: s3://openwaldo/lookaside/e9/af/e9afb82c7562dc208d020eda090ee5bb3433e16f3cab4c6e8edcc6de30431e79
+    sha256: e9afb82c7562dc208d020eda090ee5bb3433e16f3cab4c6e8edcc6de30431e79
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24280
+        tokens: 243073464
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 4952
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 69
+        tokens: 1050534
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24350
+    tokens: 244128950
+    bytes: 284358954
+  - url: s3://openwaldo/lookaside/f9/75/f9750c4b5e3ed5fe73452287de2087a6c36725cc775cf537a50d19d597b66952
+    sha256: f9750c4b5e3ed5fe73452287de2087a6c36725cc775cf537a50d19d597b66952
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24337
+        tokens: 240456801
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 92
+        tokens: 1264274
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24429
+    tokens: 241721075
+    bytes: 284895019
+  - url: s3://openwaldo/lookaside/28/6d/286d622703b5da9057b081045a132a989555d89bf3e2aae9fe619a28b23831bd
+    sha256: 286d622703b5da9057b081045a132a989555d89bf3e2aae9fe619a28b23831bd
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23714
+        tokens: 243066953
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 45
+        tokens: 709243
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23759
+    tokens: 243776196
+    bytes: 281055257
+  - url: s3://openwaldo/lookaside/9d/9b/9d9b1a0f0f4fad64150db3d38877b4b3ca97124642b7790ed4e0978270967f9e
+    sha256: 9d9b1a0f0f4fad64150db3d38877b4b3ca97124642b7790ed4e0978270967f9e
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24725
+        tokens: 241186439
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 3580
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 80
+        tokens: 1046031
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24806
+    tokens: 242236050
+    bytes: 285595824
+  - url: s3://openwaldo/lookaside/44/db/44db9d638875b97f5e5ab261410833f6dc55d265303c88deab7930718e1da6b8
+    sha256: 44db9d638875b97f5e5ab261410833f6dc55d265303c88deab7930718e1da6b8
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23763
+        tokens: 244523118
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 5174
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 58
+        tokens: 631171
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23822
+    tokens: 245159463
+    bytes: 281888872
+  - url: s3://openwaldo/lookaside/e2/04/e204027c869826df0a34a7a60f7c6ce1f66203732d13cfedd1505e07503fe746
+    sha256: e204027c869826df0a34a7a60f7c6ce1f66203732d13cfedd1505e07503fe746
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24050
+        tokens: 241697198
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 3
+        tokens: 22740
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 64
+        tokens: 829946
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24117
+    tokens: 242549884
+    bytes: 281249249
+  - url: s3://openwaldo/lookaside/3d/2a/3d2a9b16d46274e335b0e7b3a6f9088ecccbf49a1eb2f106f54b9c086c21ea99
+    sha256: 3d2a9b16d46274e335b0e7b3a6f9088ecccbf49a1eb2f106f54b9c086c21ea99
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23462
+        tokens: 239251802
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 11854
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 140
+        tokens: 1955225
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23603
+    tokens: 241218881
+    bytes: 279833017
+  - url: s3://openwaldo/lookaside/82/3f/823f705d422b6a6a522882a3484acf9ddb6669e84aab407de9da0fa77d1feaed
+    sha256: 823f705d422b6a6a522882a3484acf9ddb6669e84aab407de9da0fa77d1feaed
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23797
+        tokens: 242348871
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 13441
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 96
+        tokens: 963386
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23894
+    tokens: 243325698
+    bytes: 280496615
+  - url: s3://openwaldo/lookaside/1e/38/1e38c4c04bd5e9a4e36c6a6a399a7a6cd9144d75e2b32f3c498c07bfbcc29c3a
+    sha256: 1e38c4c04bd5e9a4e36c6a6a399a7a6cd9144d75e2b32f3c498c07bfbcc29c3a
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24675
+        tokens: 240742963
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 74
+        tokens: 940022
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24749
+    tokens: 241682985
+    bytes: 284324524
+  - url: s3://openwaldo/lookaside/ee/c9/eec9aed9a4554faf09b49ae37832bef82c03b2d611f355127928c97854179809
+    sha256: eec9aed9a4554faf09b49ae37832bef82c03b2d611f355127928c97854179809
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23690
+        tokens: 243041310
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 11902
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 62
+        tokens: 790625
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23753
+    tokens: 243843837
+    bytes: 281336599
+  - url: s3://openwaldo/lookaside/0a/94/0a94c594662f3f0ac8a18755cf164dac46df878de6fae643ec74119ee382e335
+    sha256: 0a94c594662f3f0ac8a18755cf164dac46df878de6fae643ec74119ee382e335
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23884
+        tokens: 241939245
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 13929
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 49
+        tokens: 670700
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23934
+    tokens: 242623874
+    bytes: 281549317
+  - url: s3://openwaldo/lookaside/8e/6b/8e6b3660d405543b6abd0c951839dfe23ed80d31c40601f518cc9adec1822fc1
+    sha256: 8e6b3660d405543b6abd0c951839dfe23ed80d31c40601f518cc9adec1822fc1
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24008
+        tokens: 240553137
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 15529
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 63
+        tokens: 847222
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24073
+    tokens: 241415888
+    bytes: 283360806
+  - url: s3://openwaldo/lookaside/b3/70/b370556b927da2ce20e1e077a9e8341f0736f2de8511873b6091516833570cb7
+    sha256: b370556b927da2ce20e1e077a9e8341f0736f2de8511873b6091516833570cb7
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23448
+        tokens: 244721932
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 51
+        tokens: 690733
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23499
+    tokens: 245412665
+    bytes: 280046990
+  - url: s3://openwaldo/lookaside/95/35/9535d53532b039ec7ca1cf9ea20c72b0a7f878169bcc55f551e0dd8da87f0339
+    sha256: 9535d53532b039ec7ca1cf9ea20c72b0a7f878169bcc55f551e0dd8da87f0339
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24135
+        tokens: 240222901
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 4
+        tokens: 29081
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 103
+        tokens: 805205
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24242
+    tokens: 241057187
+    bytes: 282394057
+  - url: s3://openwaldo/lookaside/09/8a/098a3abe91d0c47b85e75a523efda9c908778b110cedf721dcee205e771177da
+    sha256: 098a3abe91d0c47b85e75a523efda9c908778b110cedf721dcee205e771177da
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23893
+        tokens: 241880606
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 63
+        tokens: 781392
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23956
+    tokens: 242661998
+    bytes: 279065566
+  - url: s3://openwaldo/lookaside/15/72/1572b5237969b60ef29d1f3a2fbda24e4d0895775fd75b2d895ccabdafbd15fa
+    sha256: 1572b5237969b60ef29d1f3a2fbda24e4d0895775fd75b2d895ccabdafbd15fa
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23994
+        tokens: 242141375
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 993
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 415
+        tokens: 955219
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24410
+    tokens: 243097587
+    bytes: 282574195
+  - url: s3://openwaldo/lookaside/f1/86/f1866a4ecf1b0847b52168a5e6fc3e22ee02d4cb7a15f9dc6bcaa817d28dde6f
+    sha256: f1866a4ecf1b0847b52168a5e6fc3e22ee02d4cb7a15f9dc6bcaa817d28dde6f
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24627
+        tokens: 240016465
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 5
+        tokens: 4779
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 234
+        tokens: 962282
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24866
+    tokens: 240983526
+    bytes: 282210552
+  - url: s3://openwaldo/lookaside/48/c0/48c04d6554dbea1f988149cd1b3ae34cec43895ff9e9921979b3f944060f1c07
+    sha256: 48c04d6554dbea1f988149cd1b3ae34cec43895ff9e9921979b3f944060f1c07
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23747
+        tokens: 241046229
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 10189
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 271
+        tokens: 708454
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24020
+    tokens: 241764872
+    bytes: 281010215
+  - url: s3://openwaldo/lookaside/3c/98/3c98f83bf81e11a013e6d872c2497024c9eb2ad3293986c2d6518a9599090469
+    sha256: 3c98f83bf81e11a013e6d872c2497024c9eb2ad3293986c2d6518a9599090469
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23767
+        tokens: 241316878
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 7030
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 137
+        tokens: 740564
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23905
+    tokens: 242064472
+    bytes: 279814263
+  - url: s3://openwaldo/lookaside/01/6f/016fbf6beba2cc1af85e2808dfd501749a1cb575324a22440ec4b97835c0ea01
+    sha256: 016fbf6beba2cc1af85e2808dfd501749a1cb575324a22440ec4b97835c0ea01
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23566
+        tokens: 243261588
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 157
+        tokens: 742696
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23723
+    tokens: 244004284
+    bytes: 280400451
+  - url: s3://openwaldo/lookaside/5e/9d/5e9d385491f6e36dbd5c217f51b04726e9143422209f15b5db82f438707e1dc8
+    sha256: 5e9d385491f6e36dbd5c217f51b04726e9143422209f15b5db82f438707e1dc8
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24778
+        tokens: 240184351
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 11084
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 73
+        tokens: 797858
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24852
+    tokens: 240993293
+    bytes: 283819482
+  - url: s3://openwaldo/lookaside/33/18/33188615661b4f5b0bce1ddd8525c6fc20995f0f7427cf0135b962d4c9903581
+    sha256: 33188615661b4f5b0bce1ddd8525c6fc20995f0f7427cf0135b962d4c9903581
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23903
+        tokens: 242116274
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 13947
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 73
+        tokens: 709407
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23977
+    tokens: 242839628
+    bytes: 280728091
+  - url: s3://openwaldo/lookaside/dd/af/ddaf212c3d8eec8ebfb1a45bb69d10cb88ee6c5f9566a7a8024e801203258a8d
+    sha256: ddaf212c3d8eec8ebfb1a45bb69d10cb88ee6c5f9566a7a8024e801203258a8d
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25802
+        tokens: 242868956
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 372
+        tokens: 959261
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26174
+    tokens: 243828217
+    bytes: 285704123
+  - url: s3://openwaldo/lookaside/d8/81/d881f01c1f670acf1f5976cb36dc4a4acbc63ebf6900c06104e397d8bd5e98f8
+    sha256: d881f01c1f670acf1f5976cb36dc4a4acbc63ebf6900c06104e397d8bd5e98f8
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24179
+        tokens: 242143383
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 6616
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 58
+        tokens: 896035
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24238
+    tokens: 243046034
+    bytes: 281602983
+  - url: s3://openwaldo/lookaside/5d/88/5d8828bd92bb85d5ee0cc9eabf2de16efe884d8ff0eb7b9841b4e15686a90646
+    sha256: 5d8828bd92bb85d5ee0cc9eabf2de16efe884d8ff0eb7b9841b4e15686a90646
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24609
+        tokens: 242613048
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 20464
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 499
+        tokens: 728046
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 25110
+    tokens: 243361558
+    bytes: 282274840
+  - url: s3://openwaldo/lookaside/32/1b/321b9b29efa385f1d95a57dd533d3d57488f3c744df27578d70a8397cecb7a8b
+    sha256: 321b9b29efa385f1d95a57dd533d3d57488f3c744df27578d70a8397cecb7a8b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24166
+        tokens: 242111066
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 140
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 64
+        tokens: 438293
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24231
+    tokens: 242549499
+    bytes: 281654016
+  - url: s3://openwaldo/lookaside/bf/30/bf3027b1f9a49310199f71a3b3a17da25af57e436e3d6058f4e27652a16ab41e
+    sha256: bf3027b1f9a49310199f71a3b3a17da25af57e436e3d6058f4e27652a16ab41e
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24677
+        tokens: 240828925
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 2639
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 117
+        tokens: 399068
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24795
+    tokens: 241230632
+    bytes: 283635651
+  - url: s3://openwaldo/lookaside/55/53/5553df9778071a5ab8fced7423e77d1e891d4c363508cf63ef30ff1d29c40f5a
+    sha256: 5553df9778071a5ab8fced7423e77d1e891d4c363508cf63ef30ff1d29c40f5a
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23487
+        tokens: 244044338
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 3713
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 86
+        tokens: 529198
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23574
+    tokens: 244577249
+    bytes: 278888994
+  - url: s3://openwaldo/lookaside/fa/c6/fac6ac6f38ec2ba4ae039c7cc82a0f6d729e92d5250436f6a366eb01ece33e6c
+    sha256: fac6ac6f38ec2ba4ae039c7cc82a0f6d729e92d5250436f6a366eb01ece33e6c
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24298
+        tokens: 239654323
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 29
+        tokens: 320483
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 419
+        tokens: 927145
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24746
+    tokens: 240901951
+    bytes: 281531570
+  - url: s3://openwaldo/lookaside/de/11/de11e58575769ae1e9fcdb1aaeca9d3664a5e207f0daa646cf0b74d4da770ae9
+    sha256: de11e58575769ae1e9fcdb1aaeca9d3664a5e207f0daa646cf0b74d4da770ae9
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24127
+        tokens: 240392851
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 11858
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 60
+        tokens: 388406
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24188
+    tokens: 240793115
+    bytes: 279583731
+  - url: s3://openwaldo/lookaside/2a/57/2a5785403743d29811dedb98f0483d7522fab8810a67ba675c3fb72b535acb93
+    sha256: 2a5785403743d29811dedb98f0483d7522fab8810a67ba675c3fb72b535acb93
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 25877
+        tokens: 242362386
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 139
+        tokens: 634527
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 26016
+    tokens: 242996913
+    bytes: 284392310
+  - url: s3://openwaldo/lookaside/e3/30/e3303c67a8461dc0492eb5c7ce4631e47d65f0ae10ad840fa2868e17d3a28d1d
+    sha256: e3303c67a8461dc0492eb5c7ce4631e47d65f0ae10ad840fa2868e17d3a28d1d
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24013
+        tokens: 243175466
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 67
+        tokens: 598947
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24080
+    tokens: 243774413
+    bytes: 280083018
+  - url: s3://openwaldo/lookaside/4d/0d/4d0d7f30efae64afaeeebd68508b0d8a52e9acad41eb4a8af3954c3741a137c4
+    sha256: 4d0d7f30efae64afaeeebd68508b0d8a52e9acad41eb4a8af3954c3741a137c4
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24184
+        tokens: 237547802
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 36
+        tokens: 302565
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 74
+        tokens: 690438
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24294
+    tokens: 238540805
+    bytes: 282333611
+  - url: s3://openwaldo/lookaside/10/36/10368dbacb7e07b41d2005568fe04973c27439059c3b1c836d45a8ea15a3ff15
+    sha256: 10368dbacb7e07b41d2005568fe04973c27439059c3b1c836d45a8ea15a3ff15
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23386
+        tokens: 242115063
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 7663
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 83
+        tokens: 613004
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23470
+    tokens: 242735730
+    bytes: 277071222
+  - url: s3://openwaldo/lookaside/06/5b/065bcf8476b15099e63bb74edc9eefc47c621e011b6ee44d3d008d6d916b97fa
+    sha256: 065bcf8476b15099e63bb74edc9eefc47c621e011b6ee44d3d008d6d916b97fa
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24658
+        tokens: 240734463
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 723
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 119
+        tokens: 899712
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24778
+    tokens: 241634898
+    bytes: 282512674
+  - url: s3://openwaldo/lookaside/b6/98/b698cdf89a8a6f04e2f9ff59bc2b9a22123fda0a32b4faca7dffc6a49e270b64
+    sha256: b698cdf89a8a6f04e2f9ff59bc2b9a22123fda0a32b4faca7dffc6a49e270b64
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23706
+        tokens: 242838695
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 3
+        tokens: 1253
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 77
+        tokens: 706132
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23786
+    tokens: 243546080
+    bytes: 279494127
+  - url: s3://openwaldo/lookaside/b0/67/b067979b2de3bb072ff10f65b392b749e1f39a9d869bb302658da4573ffba2cc
+    sha256: b067979b2de3bb072ff10f65b392b749e1f39a9d869bb302658da4573ffba2cc
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24733
+        tokens: 242447531
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 7592
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 117
+        tokens: 792795
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24852
+    tokens: 243247918
+    bytes: 282885760
+  - url: s3://openwaldo/lookaside/3f/f1/3ff10a80447ccfde62c6b22c27fdaaaeb46189e9a014b1f5a7355e49025126fa
+    sha256: 3ff10a80447ccfde62c6b22c27fdaaaeb46189e9a014b1f5a7355e49025126fa
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23741
+        tokens: 242830305
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 64
+        tokens: 488865
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23805
+    tokens: 243319170
+    bytes: 278535291
+  - url: s3://openwaldo/lookaside/c9/e5/c9e58f495659ae9b57226ad61c46c45f58aa94977ece34bff23ff9f338520730
+    sha256: c9e58f495659ae9b57226ad61c46c45f58aa94977ece34bff23ff9f338520730
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24005
+        tokens: 242503427
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 28
+        tokens: 315254
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 49
+        tokens: 348300
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24082
+    tokens: 243166981
+    bytes: 280028954
+  - url: s3://openwaldo/lookaside/de/29/de29fc04e1fe2e1cc2c77ad0b42a745f9b75fd9f6f9eea817ce5e5932a6a48e8
+    sha256: de29fc04e1fe2e1cc2c77ad0b42a745f9b75fd9f6f9eea817ce5e5932a6a48e8
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23671
+        tokens: 245213296
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 3
+        tokens: 8224
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 92
+        tokens: 980796
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23766
+    tokens: 246202316
+    bytes: 278589114
+  - url: s3://openwaldo/lookaside/76/53/76535c483585d8dc3872b18e513c54766e58b2dd18359c1d9b6717d599df7767
+    sha256: 76535c483585d8dc3872b18e513c54766e58b2dd18359c1d9b6717d599df7767
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24735
+        tokens: 240325831
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 400
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 91
+        tokens: 599616
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24827
+    tokens: 240925847
+    bytes: 282848506
+  - url: s3://openwaldo/lookaside/05/9c/059c35eab8f8190f9b1fa7878ca5e9f01d000b34924cba37817b5b98dcaef01d
+    sha256: 059c35eab8f8190f9b1fa7878ca5e9f01d000b34924cba37817b5b98dcaef01d
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23487
+        tokens: 240864023
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 14679
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 74
+        tokens: 992161
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23563
+    tokens: 241870863
+    bytes: 279459246
+  - url: s3://openwaldo/lookaside/15/19/1519f5a575373e2a2ec4685114c0059bce7cb73c0cc946b9967b0a8cbcc03a5f
+    sha256: 1519f5a575373e2a2ec4685114c0059bce7cb73c0cc946b9967b0a8cbcc03a5f
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 22565
+        tokens: 243925886
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 8314
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 28
+        tokens: 371134
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 22594
+    tokens: 244305334
+    bytes: 275259536
+  - url: s3://openwaldo/lookaside/66/f6/66f6a2ef729195e1360aa4fc9aafc3c81f2ef4b1ef41039a2ec9eeddd1012426
+    sha256: 66f6a2ef729195e1360aa4fc9aafc3c81f2ef4b1ef41039a2ec9eeddd1012426
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23666
+        tokens: 236920904
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 149
+        tokens: 1274489
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23815
+    tokens: 238195393
+    bytes: 280217395
+  - url: s3://openwaldo/lookaside/c9/11/c91191c7e62bdc6476239082e6717be54403603a26cf7837f3832f1aba24f310
+    sha256: c91191c7e62bdc6476239082e6717be54403603a26cf7837f3832f1aba24f310
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23122
+        tokens: 242131526
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 91
+        tokens: 770194
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23213
+    tokens: 242901720
+    bytes: 278637649
+  - url: s3://openwaldo/lookaside/30/74/3074ad159c088c68538183704a154a540632a009c2e78ccbc9950d967ed0fa61
+    sha256: 3074ad159c088c68538183704a154a540632a009c2e78ccbc9950d967ed0fa61
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23838
+        tokens: 241672159
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 32
+        tokens: 258933
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 66
+        tokens: 584393
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23936
+    tokens: 242515485
+    bytes: 282108282
+  - url: s3://openwaldo/lookaside/23/95/2395b330116f7a34e9b59e2957cfebcdd11e8b2bd4c05268b38fc6963c79788d
+    sha256: 2395b330116f7a34e9b59e2957cfebcdd11e8b2bd4c05268b38fc6963c79788d
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23538
+        tokens: 240964020
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 1546
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 52
+        tokens: 688295
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23591
+    tokens: 241653861
+    bytes: 278819141
+  - url: s3://openwaldo/lookaside/36/ab/36ab572cce3a1635f2975ca1eed62bc4172a4fac3404bb57e11a98eb397aa4d5
+    sha256: 36ab572cce3a1635f2975ca1eed62bc4172a4fac3404bb57e11a98eb397aa4d5
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24579
+        tokens: 240370680
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 4
+        tokens: 15270
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 81
+        tokens: 923556
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24664
+    tokens: 241309506
+    bytes: 283749740
+  - url: s3://openwaldo/lookaside/c8/7e/c87e01dbf6a3c219edfa6bd68b6f56be747c9dbbdc1131bfffe8df59bfa9fc2c
+    sha256: c87e01dbf6a3c219edfa6bd68b6f56be747c9dbbdc1131bfffe8df59bfa9fc2c
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23514
+        tokens: 242475314
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 3
+        tokens: 16549
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 75
+        tokens: 871996
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23592
+    tokens: 243363859
+    bytes: 280651775
+  - url: s3://openwaldo/lookaside/3a/0e/3a0e34874aac932718ac780490da607f4ca4806e637e66152fd205f330eca056
+    sha256: 3a0e34874aac932718ac780490da607f4ca4806e637e66152fd205f330eca056
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24343
+        tokens: 239968860
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 32
+        tokens: 290368
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 76
+        tokens: 1069283
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24451
+    tokens: 241328511
+    bytes: 283384253
+  - url: s3://openwaldo/lookaside/9a/4f/9a4fbfe5dc1f9daebb5579264d01ce1ea1b76cf2debeef8e256bdafd5b6f267c
+    sha256: 9a4fbfe5dc1f9daebb5579264d01ce1ea1b76cf2debeef8e256bdafd5b6f267c
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24118
+        tokens: 241473259
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 6691
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 95
+        tokens: 929840
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24214
+    tokens: 242409790
+    bytes: 281329423
+  - url: s3://openwaldo/lookaside/f2/7d/f27d676082ee641497ac9c6eb043b3af87b81cb516a0f36deca903c66991899d
+    sha256: f27d676082ee641497ac9c6eb043b3af87b81cb516a0f36deca903c66991899d
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23441
+        tokens: 241076855
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 5
+        tokens: 52485
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 362
+        tokens: 531575
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23808
+    tokens: 241660915
+    bytes: 279561516
+  - url: s3://openwaldo/lookaside/fd/1e/fd1ebdc0ee7003cece92d996239357fb2f7f6078c684c0f42183c248fbf33b20
+    sha256: fd1ebdc0ee7003cece92d996239357fb2f7f6078c684c0f42183c248fbf33b20
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24036
+        tokens: 242449058
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 32
+        tokens: 193235
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 124
+        tokens: 610722
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24192
+    tokens: 243253015
+    bytes: 280739276
+  - url: s3://openwaldo/lookaside/60/1a/601a91a34747f7d2010f1a070e2a8be6b11ac70f0307c6db32052eb57af8430c
+    sha256: 601a91a34747f7d2010f1a070e2a8be6b11ac70f0307c6db32052eb57af8430c
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23573
+        tokens: 240129193
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 9
+        tokens: 72235
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 201
+        tokens: 592720
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23783
+    tokens: 240794148
+    bytes: 281298493
+  - url: s3://openwaldo/lookaside/b2/f0/b2f02efb39ef1506c68c443fe344b8fd8c709561476867d208ecc8a741b2dfae
+    sha256: b2f02efb39ef1506c68c443fe344b8fd8c709561476867d208ecc8a741b2dfae
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24849
+        tokens: 240058032
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 8
+        tokens: 62656
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 104
+        tokens: 1073437
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24961
+    tokens: 241194125
+    bytes: 284953063
+  - url: s3://openwaldo/lookaside/04/f8/04f881c7b2bfec040a612c8ac1b09e13331c416b6453b65f17e87f0e4a95b1eb
+    sha256: 04f881c7b2bfec040a612c8ac1b09e13331c416b6453b65f17e87f0e4a95b1eb
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23635
+        tokens: 241474771
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 3
+        tokens: 13025
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 54
+        tokens: 597344
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23692
+    tokens: 242085140
+    bytes: 281021713
+  - url: s3://openwaldo/lookaside/76/32/7632cecc4fb6f852b3d7d72aa68f5cf7b05fdf6414dd56035283ae8c36d0fa83
+    sha256: 7632cecc4fb6f852b3d7d72aa68f5cf7b05fdf6414dd56035283ae8c36d0fa83
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24402
+        tokens: 239045375
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 48
+        tokens: 399240
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 75
+        tokens: 975177
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24525
+    tokens: 240419792
+    bytes: 285049398
+  - url: s3://openwaldo/lookaside/b2/78/b278505b116319ae224ee3eb0d3fb510a07de2b041d641311f37cefe5660fe90
+    sha256: b278505b116319ae224ee3eb0d3fb510a07de2b041d641311f37cefe5660fe90
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23331
+        tokens: 240759895
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 9532
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 82
+        tokens: 973086
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23415
+    tokens: 241742513
+    bytes: 281453562
+  - url: s3://openwaldo/lookaside/80/a6/80a608c4158e3c86c211909a34a5469bfd7c5413138ee14e36df66a51930a255
+    sha256: 80a608c4158e3c86c211909a34a5469bfd7c5413138ee14e36df66a51930a255
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23566
+        tokens: 241434721
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 14
+        tokens: 95863
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 46
+        tokens: 674180
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23626
+    tokens: 242204764
+    bytes: 281844634
+  - url: s3://openwaldo/lookaside/a1/65/a16521486be919698f485bb1664daa83049b33cf604bc8a6425e60cad2e4f0e8
+    sha256: a16521486be919698f485bb1664daa83049b33cf604bc8a6425e60cad2e4f0e8
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24305
+        tokens: 238323807
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 4
+        tokens: 32247
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 87
+        tokens: 937710
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24396
+    tokens: 239293764
+    bytes: 283081871
+  - url: s3://openwaldo/lookaside/6e/f9/6ef95b190636bc7fc333084fc28a43009b3ae067381dc0a6d2a2ad504b36e3d8
+    sha256: 6ef95b190636bc7fc333084fc28a43009b3ae067381dc0a6d2a2ad504b36e3d8
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23862
+        tokens: 238995542
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 18
+        tokens: 104895
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 63
+        tokens: 722932
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23943
+    tokens: 239823369
+    bytes: 280594499
+  - url: s3://openwaldo/lookaside/84/91/8491bd3d771c9bce1566aef9f47343f3106261692ea0d5b20ff89af1083c70ff
+    sha256: 8491bd3d771c9bce1566aef9f47343f3106261692ea0d5b20ff89af1083c70ff
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24311
+        tokens: 240048031
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 45
+        tokens: 362288
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 61
+        tokens: 944713
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24417
+    tokens: 241355032
+    bytes: 285540613
+  - url: s3://openwaldo/lookaside/a0/ee/a0eee3e389eb843cff3643cbafa686871245c96ddca5ff1a7bb0bda3e421b8fe
+    sha256: a0eee3e389eb843cff3643cbafa686871245c96ddca5ff1a7bb0bda3e421b8fe
+    licenses:
+      - CC-BY-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23717
+        tokens: 240628205
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 76
+        tokens: 829520
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23793
+    tokens: 241457725
+    bytes: 281839799
+  - url: s3://openwaldo/lookaside/f6/fc/f6fce5fcb9b16abb66b4303d9b1a3fdedccd78947c7e0f987fe54889f37bf9ee
+    sha256: f6fce5fcb9b16abb66b4303d9b1a3fdedccd78947c7e0f987fe54889f37bf9ee
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 24728
+        tokens: 239717972
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 24
+        tokens: 122530
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 63
+        tokens: 795064
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 24815
+    tokens: 240635566
+    bytes: 285904216
+  - url: s3://openwaldo/lookaside/c5/4a/c54a8acb5b558ed5efd973c623f54aee28f9e0e645acb95789d0b5d4a77fc73b
+    sha256: c54a8acb5b558ed5efd973c623f54aee28f9e0e645acb95789d0b5d4a77fc73b
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23665
+        tokens: 239526707
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 5
+        tokens: 35705
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 71
+        tokens: 756479
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23741
+    tokens: 240318891
+    bytes: 282508026
+  - url: s3://openwaldo/lookaside/55/1a/551ab95e0ca2258a76af4a44be81d06903bda48f3880ab1ea06abb94a1dd3366
+    sha256: 551ab95e0ca2258a76af4a44be81d06903bda48f3880ab1ea06abb94a1dd3366
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23765
+        tokens: 239039663
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 47
+        tokens: 399407
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 93
+        tokens: 1372447
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23905
+    tokens: 240811517
+    bytes: 284825335
+  - url: s3://openwaldo/lookaside/4a/99/4a99e764d71a572884697de8d7b3bced85bc77ec715a4bf48d617f60f9d20067
+    sha256: 4a99e764d71a572884697de8d7b3bced85bc77ec715a4bf48d617f60f9d20067
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23473
+        tokens: 239675217
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 2
+        tokens: 4935
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 54
+        tokens: 657988
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23529
+    tokens: 240338140
+    bytes: 281153117
+  - url: s3://openwaldo/lookaside/05/c7/05c70dbeec6af28d70cadc071722bfba6903c5539fe7017c3a063dc63a6533b5
+    sha256: 05c70dbeec6af28d70cadc071722bfba6903c5539fe7017c3a063dc63a6533b5
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23758
+        tokens: 238442228
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 10
+        tokens: 58956
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 62
+        tokens: 719933
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23830
+    tokens: 239221117
+    bytes: 281576209
+  - url: s3://openwaldo/lookaside/a9/31/a9310609fdfb167878921e814fac1d190584a4152e59cf7975cc17327959eeb3
+    sha256: a9310609fdfb167878921e814fac1d190584a4152e59cf7975cc17327959eeb3
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23839
+        tokens: 239788209
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 3
+        tokens: 21054
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 74
+        tokens: 844141
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23916
+    tokens: 240653404
+    bytes: 282155084
+  - url: s3://openwaldo/lookaside/8f/8e/8f8eb93c596119111a834b78c03f409c20ee37ca7ec8556fa17eb3abb1f8c083
+    sha256: 8f8eb93c596119111a834b78c03f409c20ee37ca7ec8556fa17eb3abb1f8c083
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 23467
+        tokens: 239587227
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 27
+        tokens: 121952
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 62
+        tokens: 763881
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 23556
+    tokens: 240473060
+    bytes: 282271103
+  - url: s3://openwaldo/lookaside/9e/09/9e091e58a0188a53fb7b83334f4f50a5b176e6836bd2095687b926bc34cca450
+    sha256: 9e091e58a0188a53fb7b83334f4f50a5b176e6836bd2095687b926bc34cca450
+    licenses:
+      - CC-BY-4.0
+      - CC-BY-SA-4.0
+      - CC0-1.0
+    license_usage:
+      CC-BY-4.0:
+        shards: 0
+        docs: 5670
+        tokens: 54243068
+        bytes: 0
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 1
+        tokens: 7338
+        bytes: 0
+      CC0-1.0:
+        shards: 0
+        docs: 20
+        tokens: 259575
+        bytes: 0
+    sources:
+      - common-pile/pubmed_filtered
+    docs: 5691
+    tokens: 54509981
+    bytes: 65885868

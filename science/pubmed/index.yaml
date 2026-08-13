@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: science/pubmed
+entries:
+  - name: pubmed.yaml
+    type: manifest
