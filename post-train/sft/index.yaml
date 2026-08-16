@@ -6,6 +6,8 @@ entries:
     type: dir
   - name: dolly
     type: dir
+  - name: helpsteer2
+    type: dir
   - name: oasst1
     type: dir
   - name: oasst2

@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/helpsteer2
+entries:
+  - name: helpsteer2.yaml
+    type: manifest
