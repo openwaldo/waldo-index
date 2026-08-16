@@ -8,6 +8,8 @@ entries:
     type: dir
   - name: helpsteer2
     type: dir
+  - name: interaction-contract-v1
+    type: dir
   - name: oasst1
     type: dir
   - name: oasst2

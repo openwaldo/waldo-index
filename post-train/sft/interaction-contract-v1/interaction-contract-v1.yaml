@@ -1,0 +1,89 @@
+kind: manifest
+schema: 2
+name: interaction-contract-v1
+title: OpenWALDO Interaction Contract v1
+description: OpenWALDO-maintained interaction corpus with 45,000 training examples across 21 portable conversation and tool-behavior categories.
+license: Apache-2.0
+sources:
+  - name: openwaldo/post-training-data
+    source: openwaldo/post-training-data
+    version: 8d2454f2625a85d911cd7810816e489f0ebb1448
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache License 2.0, declared in the repository LICENSE file.
+      url: https://github.com/openwaldo/post-training-data/blob/8d2454f2625a85d911cd7810816e489f0ebb1448/LICENSE
+    url: https://github.com/openwaldo/post-training-data
+    category: public-dataset
+    sha256: 974e857e1b0da0ae1336ef94a36ef522d275355b763836e1b827ed40196b684b
+    content:
+      types:
+        - instruction and response pairs
+        - interaction behavior
+        - supervised fine-tuning
+      languages:
+        - en
+      selection: The 18 interaction-contract-v1 training JSONL shards only; typed messages remain in the source rows while validation, evaluation, documentation, and repository administration files are excluded.
+      personal_data: no
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: OpenWALDO project-authored, AI-assisted candidate training data requiring human review before production; generation details are retained in the source repository because recipe schema 1 does not accept the synthetic source category.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: git@github.com:openwaldo/waldo-fetchers@81d8a0fdab44de143c7ec6306bed267d366a57bc:recipes/post-train/sft/interaction-contract.yaml#sha256=d59d869316ba2ca818813039d0064f7fa07513f2f1a319aabd8ebc2bceedcfdc
+  profile: canonical-text-schema-2@sha256:240dd6dfb37bade416a361ecce1ed20e6ca833539809947021662183a52d0a25
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  tokenizer: tiktoken/cl100k_base
+record_schema: 2
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 2143
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 0
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 0
+  phone_numbers: 0
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: s3://openwaldo/lookaside/12/01/1201722cebe1502e3d84dfd43dc8af75b01e5d921156a982100c274e7a06a3c3
+    sha256: 1201722cebe1502e3d84dfd43dc8af75b01e5d921156a982100c274e7a06a3c3
+    license: Apache-2.0
+    license_usage:
+      Apache-2.0:
+        shards: 0
+        docs: 45000
+        tokens: 2259568
+        bytes: 0
+    sources:
+      - openwaldo/post-training-data
+    docs: 45000
+    tokens: 2259568
+    bytes: 2264593
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2143
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 0
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 0
+      phone_numbers: 0
+      mail_routing_headers: 0
+      credentials: 0

@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/interaction-contract-v1
+entries:
+  - name: interaction-contract-v1.yaml
+    type: manifest
