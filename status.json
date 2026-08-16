@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-16T03:04:11Z",
-  "index_commit": "48d285b",
-  "manifests": 47,
-  "shards": 949,
-  "docs": 97741086,
-  "tokens": 202834581119,
-  "bytes": 256990091833,
+  "generated": "2026-08-16T17:17:16Z",
+  "index_commit": "6861b9b",
+  "manifests": 49,
+  "shards": 951,
+  "docs": 97806409,
+  "tokens": 202846333401,
+  "bytes": 257003687230,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,10 +14,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 24,
-      "docs": 1370987,
-      "tokens": 2947507849,
-      "bytes": 133005459
+      "shards": 25,
+      "docs": 1415987,
+      "tokens": 2949767417,
+      "bytes": 135270052
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -158,10 +158,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 401,
-      "docs": 11300053,
-      "tokens": 86050303296,
-      "bytes": 61429911456
+      "shards": 402,
+      "docs": 11320376,
+      "tokens": 86059796010,
+      "bytes": 61441242260
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -3884,6 +3884,32 @@
       }
     },
     {
+      "path": "post-train/sft/helpsteer2",
+      "name": "helpsteer2",
+      "title": "HelpSteer2 Scored Responses",
+      "description": "Human-rated prompt and response pairs with five preserved response attributes; only responses rated 4 for helpfulness, correctness, and coherence are classified as main content for SFT.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "nvidia/HelpSteer2",
+          "origin": "nvidia/HelpSteer2",
+          "version": "cece6cab0b0e2851523fd3664220d36a63337b47",
+          "url": "https://huggingface.co/datasets/nvidia/HelpSteer2"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 20323,
+      "tokens": 9492714,
+      "bytes": 11330804,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 9492714
+        }
+      }
+    },
+    {
       "path": "post-train/sft/oasst2",
       "name": "oasst2",
       "title": "OpenAssistant Conversations 2",
@@ -3984,6 +4010,32 @@
         "LicenseRef-Public-Domain": {
           "shards": 1,
           "tokens": 2535956
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/interaction-contract-v1",
+      "name": "interaction-contract-v1",
+      "title": "OpenWALDO Interaction Contract v1",
+      "description": "OpenWALDO-maintained interaction corpus with 45,000 training examples across 21 portable conversation and tool-behavior categories.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "openwaldo/post-training-data",
+          "origin": "openwaldo/post-training-data",
+          "version": "8d2454f2625a85d911cd7810816e489f0ebb1448",
+          "url": "https://github.com/openwaldo/post-training-data"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 45000,
+      "tokens": 2259568,
+      "bytes": 2264593,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 2259568
         }
       }
     },
