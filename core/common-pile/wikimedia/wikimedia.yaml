@@ -1,5 +1,5 @@
 kind: manifest
-schema: 1
+schema: 2
 name: wikimedia
 title: Wikimedia
 description: Articles and other text from Wikimedia projects, via the filtered Common Pile v0.1 release.
@@ -7,528 +7,1778 @@ license: CC-BY-SA-4.0
 sources:
   - name: common-pile/wikimedia_filtered
     source: common-pile/wikimedia_filtered
-    version: v0.1
+    license: CC-BY-SA-4.0
     url: https://huggingface.co/datasets/common-pile/wikimedia_filtered
     category: public-dataset
-    collected_to: 2026-07
-    sha256: 21f8cc0efa749b72d8f6f3d456cbdb3abea132e3c57900b0d30fdfe6ffd9614b
+    sha256: 20de5fb9de914fc3f8a0b3c3e09d0164a790645256fa346b68a6d770c2d91882
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@e4af9007cf0b1204fa25e42875d5c9f7f04e318f:recipes/common-pile/wikimedia.yaml
-  profile: canonical-text-schema-1
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  collector: git@github.com:openwaldo/waldo-fetchers@57ba7b75c6303e958fd6e28c928eb152b7df18a4:recipes/common-pile/wikimedia.yaml#sha256=9bba53cae29b162a487c50a9f9cae4663deeb1e92b85a2bc038684a09e7f6940
+  profile: canonical-text-schema-2@sha256:096bf6a20d5e7ff7a8fd257987fd2dbfdd2a18897d306d3027130a5f4b3a6c15
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v8-main-content
   tokenizer: tiktoken/cl100k_base
-record_schema: 1
+record_schema: 2
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 9518
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 963869
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 280563
 shards:
-  - url: s3://openwaldo/lookaside/3f/77/3f77b268c472c80aba617391979ebdde1aa19ac823985e2010ebdbb82be12658
-    sha256: 3f77b268c472c80aba617391979ebdde1aa19ac823985e2010ebdbb82be12658
+  - url: s3://openwaldo/lookaside/94/b7/94b701f189465250a354807d62488a4936112c36fca70ff4afe66ad3288c72a1
+    sha256: 94b701f189465250a354807d62488a4936112c36fca70ff4afe66ad3288c72a1
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 157062
+        tokens: 182898340
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 157062
     tokens: 182898340
-    bytes: 281880261
-  - url: s3://openwaldo/lookaside/ad/a0/ada0df4df368bed3933a502073abe174559ffc421b89131c7201d76ecec9d701
-    sha256: ada0df4df368bed3933a502073abe174559ffc421b89131c7201d76ecec9d701
+    bytes: 286756875
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 288
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 3627
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 885
+  - url: s3://openwaldo/lookaside/6f/d4/6fd477fd7d0b3e85f3aa9afb2344d8104fc1b2ce61f52840c642d0ab372d2a77
+    sha256: 6fd477fd7d0b3e85f3aa9afb2344d8104fc1b2ce61f52840c642d0ab372d2a77
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 78278
+        tokens: 174778878
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 78278
     tokens: 174778878
-    bytes: 269120659
-  - url: s3://openwaldo/lookaside/e8/6c/e86cbe24c992b70ab9d7fedff244357bce841ffa6b9574ad7dfb9fe43706fb8a
-    sha256: e86cbe24c992b70ab9d7fedff244357bce841ffa6b9574ad7dfb9fe43706fb8a
+    bytes: 271113827
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 33
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2237
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1246
+  - url: s3://openwaldo/lookaside/38/bf/38bf00c161bf109b5fb51cb6d9c70145a26f7278df605094fd0979e4944ff429
+    sha256: 38bf00c161bf109b5fb51cb6d9c70145a26f7278df605094fd0979e4944ff429
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 133976
+        tokens: 205030824
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 133976
     tokens: 205030824
-    bytes: 283597498
-  - url: s3://openwaldo/lookaside/c6/d3/c6d30d5d8a916a3681e05bd1ddc18d195360b80bf31073478903aee612448f10
-    sha256: c6d30d5d8a916a3681e05bd1ddc18d195360b80bf31073478903aee612448f10
+    bytes: 286838142
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 227
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 5922
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1950
+  - url: s3://openwaldo/lookaside/1f/f2/1ff2ed2bbb1eb4207fadf486dc8f871b371c64e4e29582b4947c74b45810ba26
+    sha256: 1ff2ed2bbb1eb4207fadf486dc8f871b371c64e4e29582b4947c74b45810ba26
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 252755
+        tokens: 196743479
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 252755
     tokens: 196743479
-    bytes: 284555257
-  - url: s3://openwaldo/lookaside/08/96/0896446f24c88cdfcf95aa65f0cc19cecadbe43a00e538ee82a296d92179b57b
-    sha256: 0896446f24c88cdfcf95aa65f0cc19cecadbe43a00e538ee82a296d92179b57b
+    bytes: 289872195
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 333
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 30063
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 28615
+  - url: s3://openwaldo/lookaside/77/c5/77c56d0343789d01cf6a8474f34e8e45f8661b67dfd25e30b9f0bacbd6941968
+    sha256: 77c56d0343789d01cf6a8474f34e8e45f8661b67dfd25e30b9f0bacbd6941968
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 207583
+        tokens: 196073244
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 207583
     tokens: 196073244
-    bytes: 278700652
-  - url: s3://openwaldo/lookaside/3a/3b/3a3b09e01a5b999e8ccff1f027a341dc5e6f175c334c3f870c08b5805ff49095
-    sha256: 3a3b09e01a5b999e8ccff1f027a341dc5e6f175c334c3f870c08b5805ff49095
+    bytes: 281578668
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 18
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 9776
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5552
+  - url: s3://openwaldo/lookaside/b7/b1/b7b1beba63d9f45b2e9b9074087a77760c93aba800d3a7ada63d032400d1b8ce
+    sha256: b7b1beba63d9f45b2e9b9074087a77760c93aba800d3a7ada63d032400d1b8ce
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 236805
+        tokens: 198552211
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 236805
     tokens: 198552211
-    bytes: 270208860
-  - url: s3://openwaldo/lookaside/02/1c/021cef1f51c2f2e40853c0bd760f807b75e5ecc36fb7a0293b4f5043760861b4
-    sha256: 021cef1f51c2f2e40853c0bd760f807b75e5ecc36fb7a0293b4f5043760861b4
+    bytes: 274163601
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 24
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 12877
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 11072
+  - url: s3://openwaldo/lookaside/1e/9b/1e9b0777aa7b922e34f2a90a3474d38c87362df3c660f0e233475c48de9e3c96
+    sha256: 1e9b0777aa7b922e34f2a90a3474d38c87362df3c660f0e233475c48de9e3c96
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 179886
+        tokens: 187805251
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 179886
     tokens: 187805251
-    bytes: 285509903
-  - url: s3://openwaldo/lookaside/be/c2/bec2f9c60a89c8e3127f242ed90c2f012d37f3c394ae9284518b2143a7455962
-    sha256: bec2f9c60a89c8e3127f242ed90c2f012d37f3c394ae9284518b2143a7455962
+    bytes: 289056157
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 30
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6116
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 6608
+  - url: s3://openwaldo/lookaside/9b/28/9b28dacc8e5f58ae8c3c17491b74db8137c4620cc629d02d63a12ee93fe64117
+    sha256: 9b28dacc8e5f58ae8c3c17491b74db8137c4620cc629d02d63a12ee93fe64117
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 248945
+        tokens: 200961518
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 248945
     tokens: 200961518
-    bytes: 277220393
-  - url: s3://openwaldo/lookaside/92/85/92859f7b02c22a73e874c15f967ee2a34d3448b032a97821bed5f8fa78387c00
-    sha256: 92859f7b02c22a73e874c15f967ee2a34d3448b032a97821bed5f8fa78387c00
+    bytes: 281969901
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 15
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 15046
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 9979
+  - url: s3://openwaldo/lookaside/0d/ff/0dffab1c6961d05fb6e4630181b52dab356ca7501565cf508998024eccff4032
+    sha256: 0dffab1c6961d05fb6e4630181b52dab356ca7501565cf508998024eccff4032
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 224935
+        tokens: 206859887
+        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 224935
     tokens: 206859887
-    bytes: 276803169
-  - url: s3://openwaldo/lookaside/fe/fe/fefebba9df4aaf166fd02cc1697f12409d2ede88cd01871162efa2c59caf157c
-    sha256: fefebba9df4aaf166fd02cc1697f12409d2ede88cd01871162efa2c59caf157c
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 251708
-    tokens: 188962025
-    bytes: 293841292
-  - url: s3://openwaldo/lookaside/cd/4d/cd4d1ec47ec328e763c09c8f5c0c1f95a4c03310311afde1f260b59dda951f5c
-    sha256: cd4d1ec47ec328e763c09c8f5c0c1f95a4c03310311afde1f260b59dda951f5c
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 262729
-    tokens: 190466226
-    bytes: 291208843
-  - url: s3://openwaldo/lookaside/e9/80/e9808d1285912e1350fda81987d424a6e6fb0608bf1a5f0e32118b0b6e73cab6
-    sha256: e9808d1285912e1350fda81987d424a6e6fb0608bf1a5f0e32118b0b6e73cab6
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 273757
-    tokens: 178432264
-    bytes: 269615560
-  - url: s3://openwaldo/lookaside/fb/48/fb480a92b9855129347ee8b64d843fd2a49e34fcd24731de02ace46f2d00e129
-    sha256: fb480a92b9855129347ee8b64d843fd2a49e34fcd24731de02ace46f2d00e129
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 278446
-    tokens: 192127805
-    bytes: 291721661
-  - url: s3://openwaldo/lookaside/4c/90/4c90157509f4b8a04ffb1ba30bab2356ab1dc7ce48cb235927104f050770d43e
-    sha256: 4c90157509f4b8a04ffb1ba30bab2356ab1dc7ce48cb235927104f050770d43e
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 229363
-    tokens: 177348643
-    bytes: 277010721
-  - url: s3://openwaldo/lookaside/a3/c2/a3c27ad0aab0176099ded807dcf36f91e4ab26386584fe68df0c874f5c373aab
-    sha256: a3c27ad0aab0176099ded807dcf36f91e4ab26386584fe68df0c874f5c373aab
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 225955
-    tokens: 177056843
-    bytes: 270025647
-  - url: s3://openwaldo/lookaside/9c/9e/9c9eddd5a43b1d0ec100859218bcaee3aaf6bf7f4db5e128ff7a84c5cc3ff404
-    sha256: 9c9eddd5a43b1d0ec100859218bcaee3aaf6bf7f4db5e128ff7a84c5cc3ff404
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 195251
-    tokens: 188747697
-    bytes: 278406093
-  - url: s3://openwaldo/lookaside/aa/8e/aa8e805d309a5bac360be501fd67746048ef4795082ea95e6608adafd11b836f
-    sha256: aa8e805d309a5bac360be501fd67746048ef4795082ea95e6608adafd11b836f
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 168628
-    tokens: 179554706
-    bytes: 273627688
-  - url: s3://openwaldo/lookaside/6d/85/6d854f6c37e3bbbb5cfe131509affeac84a57e66a99490dc5e115055ee10fcb4
-    sha256: 6d854f6c37e3bbbb5cfe131509affeac84a57e66a99490dc5e115055ee10fcb4
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 264114
-    tokens: 177459345
-    bytes: 273235158
-  - url: s3://openwaldo/lookaside/5d/80/5d80536b90e5e081e418cfc7f2876e36a97c2ca3852876571f1230d6d937acff
-    sha256: 5d80536b90e5e081e418cfc7f2876e36a97c2ca3852876571f1230d6d937acff
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 276410
-    tokens: 175535049
-    bytes: 271926496
-  - url: s3://openwaldo/lookaside/ac/bf/acbf3b3278082906b48896000638686e2c8f530e939f85399d48e675300f03a0
-    sha256: acbf3b3278082906b48896000638686e2c8f530e939f85399d48e675300f03a0
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 243851
-    tokens: 173912507
-    bytes: 274014863
-  - url: s3://openwaldo/lookaside/b6/5c/b65c7858226b1f27d585d0fcd283bb4506f829cae2738510a44a7b19f9e2ed8a
-    sha256: b65c7858226b1f27d585d0fcd283bb4506f829cae2738510a44a7b19f9e2ed8a
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 235960
-    tokens: 173466362
-    bytes: 273691474
-  - url: s3://openwaldo/lookaside/32/67/3267d0140e0cbbd69945ddbbed33ef580f94424cb259d4fb1f6ba60ef15be1cb
-    sha256: 3267d0140e0cbbd69945ddbbed33ef580f94424cb259d4fb1f6ba60ef15be1cb
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 161171
-    tokens: 176301551
-    bytes: 271899007
-  - url: s3://openwaldo/lookaside/bd/17/bd174b610418118ecde38008226f2f03878f7cbbedeef8b168e0f9a5a6dc7d28
-    sha256: bd174b610418118ecde38008226f2f03878f7cbbedeef8b168e0f9a5a6dc7d28
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 148338
-    tokens: 175956227
-    bytes: 270679062
-  - url: s3://openwaldo/lookaside/da/e5/dae572bd0748f64c4f1892484cb079d6d46b6cd7db7977fadc1f7bda96625620
-    sha256: dae572bd0748f64c4f1892484cb079d6d46b6cd7db7977fadc1f7bda96625620
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 157152
-    tokens: 176848120
-    bytes: 270304547
-  - url: s3://openwaldo/lookaside/1e/f9/1ef9bdc66323f2a6eda89da409aaeb43397046cb622902a8a2ac86dca7afa191
-    sha256: 1ef9bdc66323f2a6eda89da409aaeb43397046cb622902a8a2ac86dca7afa191
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 162773
-    tokens: 177295434
-    bytes: 268575643
-  - url: s3://openwaldo/lookaside/00/50/005027a858b210061b4ef56e7e4b2ca14a191bca0788f480bf32d7f51574eb12
-    sha256: 005027a858b210061b4ef56e7e4b2ca14a191bca0788f480bf32d7f51574eb12
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 170514
-    tokens: 177261151
-    bytes: 269321051
-  - url: s3://openwaldo/lookaside/5f/47/5f476413ede597f4d68e792b96e867f4ad132eefd42bfd5065251058ee7e2a9f
-    sha256: 5f476413ede597f4d68e792b96e867f4ad132eefd42bfd5065251058ee7e2a9f
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 198227
-    tokens: 194707943
-    bytes: 292525693
-  - url: s3://openwaldo/lookaside/fc/bf/fcbf403a33389893910225cf559c9724538219466b425ed60caa9e6930ecf66a
-    sha256: fcbf403a33389893910225cf559c9724538219466b425ed60caa9e6930ecf66a
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 245977
-    tokens: 196575321
-    bytes: 282946836
-  - url: s3://openwaldo/lookaside/95/2f/952fe4022a3a0ef079f0b48f7d0f25e5780eceb001366729469bc620be928373
-    sha256: 952fe4022a3a0ef079f0b48f7d0f25e5780eceb001366729469bc620be928373
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 213772
-    tokens: 196424994
-    bytes: 287821517
-  - url: s3://openwaldo/lookaside/5e/98/5e988ad7e4e5b1dc47894b016573787c0d3ba5cee6871d760fc8053a5b2dc3fd
-    sha256: 5e988ad7e4e5b1dc47894b016573787c0d3ba5cee6871d760fc8053a5b2dc3fd
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 220907
-    tokens: 194699817
-    bytes: 289214403
-  - url: s3://openwaldo/lookaside/83/32/83323bb6281b1393371620b24b49cbde4a3d04d438dfde32e021a8762c5c6184
-    sha256: 83323bb6281b1393371620b24b49cbde4a3d04d438dfde32e021a8762c5c6184
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 240166
-    tokens: 197537492
-    bytes: 282949684
-  - url: s3://openwaldo/lookaside/47/de/47de782b94a2c8d650335e5ee00655db3cc69aa64466cea051cfa0ce12eb9fc0
-    sha256: 47de782b94a2c8d650335e5ee00655db3cc69aa64466cea051cfa0ce12eb9fc0
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 224531
-    tokens: 199701238
-    bytes: 278732393
-  - url: s3://openwaldo/lookaside/4c/7d/4c7db04a686828f58efc61b6dd2de4d8c728659920f008ce433b0a1f266911b2
-    sha256: 4c7db04a686828f58efc61b6dd2de4d8c728659920f008ce433b0a1f266911b2
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 238104
-    tokens: 200526567
-    bytes: 270653908
-  - url: s3://openwaldo/lookaside/a8/01/a801e802bfa3b2d383d244e03f3d5376b80f9aaba3a152fcf04dc2a964854793
-    sha256: a801e802bfa3b2d383d244e03f3d5376b80f9aaba3a152fcf04dc2a964854793
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 214604
-    tokens: 206979855
-    bytes: 272444786
-  - url: s3://openwaldo/lookaside/b1/e9/b1e9b1871e562e994b3d82499d4f4fdcc5bdca4400e5d6558a2d1f9cff5fefed
-    sha256: b1e9b1871e562e994b3d82499d4f4fdcc5bdca4400e5d6558a2d1f9cff5fefed
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 229722
-    tokens: 204819925
-    bytes: 273377858
-  - url: s3://openwaldo/lookaside/a4/2e/a42e3815c14c4297449efb1202f5457caeea7202637bab6f11fcea6384b330bc
-    sha256: a42e3815c14c4297449efb1202f5457caeea7202637bab6f11fcea6384b330bc
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 222346
-    tokens: 204421084
-    bytes: 273570909
-  - url: s3://openwaldo/lookaside/80/6b/806b95d021f15416a0604a7ebfa55910a595d584062eec70dbd9d28de8ca4951
-    sha256: 806b95d021f15416a0604a7ebfa55910a595d584062eec70dbd9d28de8ca4951
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 226181
-    tokens: 202252783
-    bytes: 278706875
-  - url: s3://openwaldo/lookaside/e4/82/e48220aa51192455c1fc98c33a59d42c7c81d1d2b6a3e482a214005f82013d3a
-    sha256: e48220aa51192455c1fc98c33a59d42c7c81d1d2b6a3e482a214005f82013d3a
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 225783
-    tokens: 199819601
-    bytes: 279003376
-  - url: s3://openwaldo/lookaside/48/d6/48d6d464be64a0eca2e1c2315102f1b87b500952c01c12633b659d9a1ce5e89a
-    sha256: 48d6d464be64a0eca2e1c2315102f1b87b500952c01c12633b659d9a1ce5e89a
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 237548
-    tokens: 201440629
-    bytes: 278808515
-  - url: s3://openwaldo/lookaside/29/8d/298db6aa645f6c0caf7d986dadafaf5352d6f67585ad6af2c3ab2114941164f7
-    sha256: 298db6aa645f6c0caf7d986dadafaf5352d6f67585ad6af2c3ab2114941164f7
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 227017
-    tokens: 202423262
-    bytes: 276693242
-  - url: s3://openwaldo/lookaside/98/dc/98dc7e086e8ebe7eb856d9da2921aa83afb7305915fd15264ccf4884862887ff
-    sha256: 98dc7e086e8ebe7eb856d9da2921aa83afb7305915fd15264ccf4884862887ff
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 208893
-    tokens: 203437287
-    bytes: 276654899
-  - url: s3://openwaldo/lookaside/5e/5f/5e5fd2d6265cf7fa7e3be36ac1dae847af8799ba96f639950868936a9ae05ef8
-    sha256: 5e5fd2d6265cf7fa7e3be36ac1dae847af8799ba96f639950868936a9ae05ef8
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 210470
-    tokens: 202765338
-    bytes: 275700942
-  - url: s3://openwaldo/lookaside/ae/0d/ae0d3d674e11ae0d18dec4c2a453648607dd78f4ae6fedc45cdfa37cd2a83e4d
-    sha256: ae0d3d674e11ae0d18dec4c2a453648607dd78f4ae6fedc45cdfa37cd2a83e4d
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 195422
-    tokens: 199000115
-    bytes: 277523125
-  - url: s3://openwaldo/lookaside/56/b6/56b66b6c33819c18e02a4bab4482e7a9bfec88fe576114c02783150cbd291509
-    sha256: 56b66b6c33819c18e02a4bab4482e7a9bfec88fe576114c02783150cbd291509
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 222568
-    tokens: 201095088
-    bytes: 277839316
-  - url: s3://openwaldo/lookaside/3b/e8/3be85c990bbef46ce0f99c0fc06a010bd294f31b3ce392a5a19d4af95c45a281
-    sha256: 3be85c990bbef46ce0f99c0fc06a010bd294f31b3ce392a5a19d4af95c45a281
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 203503
-    tokens: 199419348
-    bytes: 277805272
-  - url: s3://openwaldo/lookaside/74/39/743944af810e8ecfe72f83c58b171e5f380126993fa19e73e8cc3702dabb19a4
-    sha256: 743944af810e8ecfe72f83c58b171e5f380126993fa19e73e8cc3702dabb19a4
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 223274
-    tokens: 200870659
-    bytes: 270022535
-  - url: s3://openwaldo/lookaside/4e/b7/4eb7100fc99b5af5aab533cefd1258aff97861508c9c307949defd86080c5fde
-    sha256: 4eb7100fc99b5af5aab533cefd1258aff97861508c9c307949defd86080c5fde
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 201309
-    tokens: 199350094
-    bytes: 275072332
-  - url: s3://openwaldo/lookaside/2b/1d/2b1d945464bd28446555859ddd57a166d8fbf7e2016d90362815fb409e736268
-    sha256: 2b1d945464bd28446555859ddd57a166d8fbf7e2016d90362815fb409e736268
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 243253
-    tokens: 197957299
-    bytes: 280276098
-  - url: s3://openwaldo/lookaside/63/c0/63c05ffe632bbec1b92b095791dd62dd7bfbf307d702f2601b3aabe46cfbbc53
-    sha256: 63c05ffe632bbec1b92b095791dd62dd7bfbf307d702f2601b3aabe46cfbbc53
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 244135
-    tokens: 196548846
-    bytes: 281446039
-  - url: s3://openwaldo/lookaside/11/ea/11ea0bdcc072e1a496c06be6ed36473812899acb24973d4bb1ebb4c0fcdf8d95
-    sha256: 11ea0bdcc072e1a496c06be6ed36473812899acb24973d4bb1ebb4c0fcdf8d95
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 253450
-    tokens: 200766689
-    bytes: 283060651
-  - url: s3://openwaldo/lookaside/8f/76/8f76690ee76b0cd091322b51e8799ff7e1a8150e8251aa6268f15699375b458f
-    sha256: 8f76690ee76b0cd091322b51e8799ff7e1a8150e8251aa6268f15699375b458f
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 228300
-    tokens: 204049576
-    bytes: 282114054
-  - url: s3://openwaldo/lookaside/ab/4c/ab4c6d487b9c1d0e0c38d079e7dad3298ef17b1a958fec8d6be9b12bca37b65c
-    sha256: ab4c6d487b9c1d0e0c38d079e7dad3298ef17b1a958fec8d6be9b12bca37b65c
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 232603
-    tokens: 196860655
-    bytes: 285894676
-  - url: s3://openwaldo/lookaside/3f/24/3f24f7a3bec0417bd50fc33a3634492065264b246e5c92e74492928cc87566d2
-    sha256: 3f24f7a3bec0417bd50fc33a3634492065264b246e5c92e74492928cc87566d2
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 259099
-    tokens: 199346228
-    bytes: 283544325
-  - url: s3://openwaldo/lookaside/1b/ad/1bad7743bfddf5a96cc7b8c0853b043a95c54d0e17223dbd83d03d0f74fecb6d
-    sha256: 1bad7743bfddf5a96cc7b8c0853b043a95c54d0e17223dbd83d03d0f74fecb6d
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 249023
-    tokens: 200574814
-    bytes: 284036885
-  - url: s3://openwaldo/lookaside/1c/d3/1cd37f06c41ce74b9f164fe2c44738d435e22ce104f8a5da01da868634175cd4
-    sha256: 1cd37f06c41ce74b9f164fe2c44738d435e22ce104f8a5da01da868634175cd4
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 264656
-    tokens: 202721834
-    bytes: 283583300
-  - url: s3://openwaldo/lookaside/b0/d9/b0d99993fce1823e330b19fb31fa2815e709bc2adb6c61cd8f62456cd551ca56
-    sha256: b0d99993fce1823e330b19fb31fa2815e709bc2adb6c61cd8f62456cd551ca56
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 251798
-    tokens: 202369273
-    bytes: 283653034
-  - url: s3://openwaldo/lookaside/89/9a/899aa9bdc2bc9d22ff2d465bcbabc41588ed430936a921cfa53ad8344fd535b4
-    sha256: 899aa9bdc2bc9d22ff2d465bcbabc41588ed430936a921cfa53ad8344fd535b4
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 246826
-    tokens: 200283885
-    bytes: 281721460
-  - url: s3://openwaldo/lookaside/e7/07/e70756ff8c2c48af1f26cf9294eb1475b2eea3c72ea1e600191f2c142aeb58c5
-    sha256: e70756ff8c2c48af1f26cf9294eb1475b2eea3c72ea1e600191f2c142aeb58c5
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 246940
-    tokens: 200232353
-    bytes: 285021235
-  - url: s3://openwaldo/lookaside/33/94/3394e48b3a7c3dd3976114e554c0c26117c00b67ba02eebe44dc69235142e7de
-    sha256: 3394e48b3a7c3dd3976114e554c0c26117c00b67ba02eebe44dc69235142e7de
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 260801
-    tokens: 199838359
-    bytes: 281036634
-  - url: s3://openwaldo/lookaside/b9/be/b9be92aca11d0c7b229bed2510076d76fe9635310382a2c292c55b5a3e04610c
-    sha256: b9be92aca11d0c7b229bed2510076d76fe9635310382a2c292c55b5a3e04610c
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 255834
-    tokens: 198361168
-    bytes: 282734530
-  - url: s3://openwaldo/lookaside/02/60/026054fecc0e2ef1c046dff8c83b1ca77f7a86162880828260d1e3c62040da3f
-    sha256: 026054fecc0e2ef1c046dff8c83b1ca77f7a86162880828260d1e3c62040da3f
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 264100
-    tokens: 197382497
-    bytes: 283972422
-  - url: s3://openwaldo/lookaside/e9/36/e9368e280373178404e531769901c6bb7e03f5fdc576efd2ebe41993f131430b
-    sha256: e9368e280373178404e531769901c6bb7e03f5fdc576efd2ebe41993f131430b
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 286705
-    tokens: 199821717
-    bytes: 283627125
-  - url: s3://openwaldo/lookaside/e0/6b/e06bfdbab7bf7cafb0b0b1a2a4b3cfcb450e117fe71402a85edd2c30b56704b5
-    sha256: e06bfdbab7bf7cafb0b0b1a2a4b3cfcb450e117fe71402a85edd2c30b56704b5
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 250712
-    tokens: 199769472
-    bytes: 278926409
-  - url: s3://openwaldo/lookaside/30/5f/305f03cde11de01a98fcb01802234543b4ab96baf04e5f2ad4a40c484d9e961d
-    sha256: 305f03cde11de01a98fcb01802234543b4ab96baf04e5f2ad4a40c484d9e961d
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 261597
-    tokens: 201548833
-    bytes: 281061734
-  - url: s3://openwaldo/lookaside/6d/bb/6dbb7fdbc7b7872a6d9ffe2c189eef30b49d321dc425dbd3a34d04e7f4b9e53e
-    sha256: 6dbb7fdbc7b7872a6d9ffe2c189eef30b49d321dc425dbd3a34d04e7f4b9e53e
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 241644
-    tokens: 201549293
-    bytes: 276470389
-  - url: s3://openwaldo/lookaside/ac/b3/acb3fe02d8655445bc623f7f3b1c84ac58410cf179a50adace62283bfe0bc3f3
-    sha256: acb3fe02d8655445bc623f7f3b1c84ac58410cf179a50adace62283bfe0bc3f3
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 242602
-    tokens: 199061680
-    bytes: 276323774
-  - url: s3://openwaldo/lookaside/c7/14/c714bf5a85b7a959fad67749528411fa45dd1e4f327e133b8d5b7b3a1a247405
-    sha256: c714bf5a85b7a959fad67749528411fa45dd1e4f327e133b8d5b7b3a1a247405
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 244640
-    tokens: 199843184
-    bytes: 279702690
-  - url: s3://openwaldo/lookaside/d5/7b/d57b098fd539c07a475b7c75f0e3d643c6afef0d22e7f3cf3b33f4ca2cfcec50
-    sha256: d57b098fd539c07a475b7c75f0e3d643c6afef0d22e7f3cf3b33f4ca2cfcec50
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 245628
-    tokens: 220019300
-    bytes: 290511393
-  - url: s3://openwaldo/lookaside/a3/3a/a33a565ed9ccef0b78e75fce36e18ff87f0436596be145f0e593f38823408486
-    sha256: a33a565ed9ccef0b78e75fce36e18ff87f0436596be145f0e593f38823408486
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 220396
-    tokens: 200734524
-    bytes: 278214172
-  - url: s3://openwaldo/lookaside/4c/34/4c34520337bfb3732ab68f195c06084463fa57779cf480c5d657f035d836f153
-    sha256: 4c34520337bfb3732ab68f195c06084463fa57779cf480c5d657f035d836f153
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 214568
-    tokens: 207974185
-    bytes: 278170868
-  - url: s3://openwaldo/lookaside/a9/76/a976df0272763d1c6e404a6324ce1f14b65ca97f05725c9490545c2648a3c505
-    sha256: a976df0272763d1c6e404a6324ce1f14b65ca97f05725c9490545c2648a3c505
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 219435
-    tokens: 200032351
-    bytes: 277994432
-  - url: s3://openwaldo/lookaside/7e/2d/7e2daf13a81f76a8e557d12dde5677f9027515f879a0201e1bfb5231a442c062
-    sha256: 7e2daf13a81f76a8e557d12dde5677f9027515f879a0201e1bfb5231a442c062
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 222621
-    tokens: 200307372
-    bytes: 280760896
-  - url: s3://openwaldo/lookaside/30/48/3048e8ba3a341e48cb218f6704c9ae9d8e98e09e428ca9108bff2caf303cdafd
-    sha256: 3048e8ba3a341e48cb218f6704c9ae9d8e98e09e428ca9108bff2caf303cdafd
-    sources:
-      - common-pile/wikimedia_filtered
-    docs: 62363
-    tokens: 48440530
-    bytes: 68797671
+    bytes: 279123062
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 16
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 15360
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 847
+  - url: s3://openwaldo/lookaside/55/8a/558ae875671a4f98253a16e196f9fb2c29c5ebaa564781dc6a5d4f54ee6be0a9
+    sha256: 558ae875671a4f98253a16e196f9fb2c29c5ebaa564781dc6a5d4f54ee6be0a9
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 218872
+        tokens: 172960115
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 218872
+    tokens: 172960115
+    bytes: 272557359
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 21
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6105
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 8363
+  - url: s3://openwaldo/lookaside/ad/a8/ada89907714a21da73377e5d6b9a62119ff9f60e7df128302998ad7f3ac2c62a
+    sha256: ada89907714a21da73377e5d6b9a62119ff9f60e7df128302998ad7f3ac2c62a
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 270395
+        tokens: 175268080
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 270395
+    tokens: 175268080
+    bytes: 272744791
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 25
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6541
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 7583
+  - url: s3://openwaldo/lookaside/39/1d/391db7b6feaf90dfdbd9d3e3e78b3009efb1ee5ff7ab9831b2f04df6513affee
+    sha256: 391db7b6feaf90dfdbd9d3e3e78b3009efb1ee5ff7ab9831b2f04df6513affee
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 282032
+        tokens: 178301553
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 282032
+    tokens: 178301553
+    bytes: 274406358
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 21
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6264
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 8340
+  - url: s3://openwaldo/lookaside/c0/5d/c05d74a4786059409c3a213268b6834872746afeb3e2edea7f446f8ea39cbc01
+    sha256: c05d74a4786059409c3a213268b6834872746afeb3e2edea7f446f8ea39cbc01
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 204410
+        tokens: 172892182
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 204410
+    tokens: 172892182
+    bytes: 269229395
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 32
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 4472
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 473
+  - url: s3://openwaldo/lookaside/e0/5c/e05ca617ee2566c3e48d08602ad69d04064c38f0cf8774763930219030ff875e
+    sha256: e05ca617ee2566c3e48d08602ad69d04064c38f0cf8774763930219030ff875e
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 221888
+        tokens: 180285073
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 221888
+    tokens: 180285073
+    bytes: 279401410
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 33
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6430
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5710
+  - url: s3://openwaldo/lookaside/d5/19/d5194aa86abc3786cab7f99fb92d7f6fb8974673f4e782510d1e043bb9f52062
+    sha256: d5194aa86abc3786cab7f99fb92d7f6fb8974673f4e782510d1e043bb9f52062
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 293729
+        tokens: 177487254
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 293729
+    tokens: 177487254
+    bytes: 278844954
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 16
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 4397
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4497
+  - url: s3://openwaldo/lookaside/9c/e1/9ce1b569a5404a71988a48e62201111ddbe7e165520e708dea6c189053c7416f
+    sha256: 9ce1b569a5404a71988a48e62201111ddbe7e165520e708dea6c189053c7416f
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 163983
+        tokens: 184025637
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 163983
+    tokens: 184025637
+    bytes: 280438181
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 18
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 1408
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 369
+  - url: s3://openwaldo/lookaside/14/26/14269f08ec74ffd30e67f3f3fc6be395e3c09d21b05fa7dd9dc05659cf92a90c
+    sha256: 14269f08ec74ffd30e67f3f3fc6be395e3c09d21b05fa7dd9dc05659cf92a90c
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 180516
+        tokens: 181896900
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 180516
+    tokens: 181896900
+    bytes: 274697018
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 39
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2994
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2469
+  - url: s3://openwaldo/lookaside/18/64/1864664340db7776d05018b5fe5cfc0c8f82d687a876c9994e457b362bed5dd5
+    sha256: 1864664340db7776d05018b5fe5cfc0c8f82d687a876c9994e457b362bed5dd5
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 281820
+        tokens: 179615141
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 281820
+    tokens: 179615141
+    bytes: 280987521
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 26
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 3233
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2480
+  - url: s3://openwaldo/lookaside/9b/4a/9b4ab1114f7bb1da5f61402eae385dfc8cc3c76b23a8a36a78aef3739d87f668
+    sha256: 9b4ab1114f7bb1da5f61402eae385dfc8cc3c76b23a8a36a78aef3739d87f668
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 243716
+        tokens: 175217552
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 243716
+    tokens: 175217552
+    bytes: 275039278
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 35
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2696
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1458
+  - url: s3://openwaldo/lookaside/45/76/45765456905ceffd5c4effc8a07c6d228c0faaf7a257298a6023dbebecacae10
+    sha256: 45765456905ceffd5c4effc8a07c6d228c0faaf7a257298a6023dbebecacae10
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 214055
+        tokens: 175335952
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 214055
+    tokens: 175335952
+    bytes: 276653674
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 37
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 3295
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 786
+  - url: s3://openwaldo/lookaside/55/81/5581f2dfed26cd8c6c3e3ac0c4b248b35eb3c190206d7d3cce08f8f48de64e34
+    sha256: 5581f2dfed26cd8c6c3e3ac0c4b248b35eb3c190206d7d3cce08f8f48de64e34
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 228928
+        tokens: 172986483
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 228928
+    tokens: 172986483
+    bytes: 278954407
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 61
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 3375
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 941
+  - url: s3://openwaldo/lookaside/1a/ab/1aab230a43609d54824f43034669e37817fc84e47518e4c60b7172b99670eade
+    sha256: 1aab230a43609d54824f43034669e37817fc84e47518e4c60b7172b99670eade
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 224334
+        tokens: 175204479
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 224334
+    tokens: 175204479
+    bytes: 278014018
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 71
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 3595
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 757
+  - url: s3://openwaldo/lookaside/91/4f/914f3efc2714947b3cac4ea4254f0fb83fa1fed74690b3eed0a5a5236add4e42
+    sha256: 914f3efc2714947b3cac4ea4254f0fb83fa1fed74690b3eed0a5a5236add4e42
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 146581
+        tokens: 175817155
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 146581
+    tokens: 175817155
+    bytes: 274599263
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 89
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 4386
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 745
+  - url: s3://openwaldo/lookaside/2d/7a/2d7ad81b620f104e789d9fba3cc060ea3eadabad1e7e07de477a0d84c519c08c
+    sha256: 2d7ad81b620f104e789d9fba3cc060ea3eadabad1e7e07de477a0d84c519c08c
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 153208
+        tokens: 176597752
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 153208
+    tokens: 176597752
+    bytes: 275170825
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 110
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 5803
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 894
+  - url: s3://openwaldo/lookaside/00/f7/00f7bee4afdc0e23bee66859a525a6a475af522b338d3bfd0591ed90c6e1863c
+    sha256: 00f7bee4afdc0e23bee66859a525a6a475af522b338d3bfd0591ed90c6e1863c
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 160764
+        tokens: 177330960
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 160764
+    tokens: 177330960
+    bytes: 273099098
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 122
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6841
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1149
+  - url: s3://openwaldo/lookaside/10/14/101485c00be815f5b7fa8831e2f915c30590174562ae4beb6b03f9e90958d673
+    sha256: 101485c00be815f5b7fa8831e2f915c30590174562ae4beb6b03f9e90958d673
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 168499
+        tokens: 177146610
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 168499
+    tokens: 177146610
+    bytes: 274013222
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 139
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 7526
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1183
+  - url: s3://openwaldo/lookaside/cb/c6/cbc608240859cab198ada123ce11cc98b172ec2aa54f1f6604cd5eb30624a7dd
+    sha256: cbc608240859cab198ada123ce11cc98b172ec2aa54f1f6604cd5eb30624a7dd
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 179519
+        tokens: 178249440
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 179519
+    tokens: 178249440
+    bytes: 274205155
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 152
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 8209
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1203
+  - url: s3://openwaldo/lookaside/0d/f6/0df62ae65a193b526d4b51a40f00521aa61f9897feabb20fbf5a44ac573cc63b
+    sha256: 0df62ae65a193b526d4b51a40f00521aa61f9897feabb20fbf5a44ac573cc63b
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 237573
+        tokens: 196484424
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 237573
+    tokens: 196484424
+    bytes: 290014349
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 153
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 22120
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3293
+  - url: s3://openwaldo/lookaside/0e/bd/0ebd6d4e393c9d3fa1ada8e1c5ecd7a3b3116fd7e68785cf01dda79076ea66c9
+    sha256: 0ebd6d4e393c9d3fa1ada8e1c5ecd7a3b3116fd7e68785cf01dda79076ea66c9
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 199443
+        tokens: 180355727
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 199443
+    tokens: 180355727
+    bytes: 269315680
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 167
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 11883
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1853
+  - url: s3://openwaldo/lookaside/3e/2e/3e2eb83ece41ec3672955f04ef9e01eed98718c6ec4d55faa3327b24bb609336
+    sha256: 3e2eb83ece41ec3672955f04ef9e01eed98718c6ec4d55faa3327b24bb609336
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 193818
+        tokens: 178157926
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 193818
+    tokens: 178157926
+    bytes: 271556557
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 160
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 9773
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1650
+  - url: s3://openwaldo/lookaside/05/81/058118dffe9693d6b9b21c89c85eab4b10aea15f5c6b4196ca0c0ab53bce3c82
+    sha256: 058118dffe9693d6b9b21c89c85eab4b10aea15f5c6b4196ca0c0ab53bce3c82
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 214642
+        tokens: 178900725
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 214642
+    tokens: 178900725
+    bytes: 268546308
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 177
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 14464
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2405
+  - url: s3://openwaldo/lookaside/21/1e/211ef36c77293ce69e4b3ff4ff134631b6c02beb193e47891e335dae61322272
+    sha256: 211ef36c77293ce69e4b3ff4ff134631b6c02beb193e47891e335dae61322272
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 235935
+        tokens: 199610031
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 235935
+    tokens: 199610031
+    bytes: 286548669
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 183
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 17290
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3205
+  - url: s3://openwaldo/lookaside/34/91/34919c94d81ec114aec10f4f0c970da5448c687524b8ffc00d49314717c13354
+    sha256: 34919c94d81ec114aec10f4f0c970da5448c687524b8ffc00d49314717c13354
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 214854
+        tokens: 200223643
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 214854
+    tokens: 200223643
+    bytes: 276595256
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 166
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 13110
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2414
+  - url: s3://openwaldo/lookaside/16/db/16dbc41e953c8138b4fb8bfe7ef9451c162edd8b06b98bda8b8af42f11159f9b
+    sha256: 16dbc41e953c8138b4fb8bfe7ef9451c162edd8b06b98bda8b8af42f11159f9b
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 240034
+        tokens: 204839133
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 240034
+    tokens: 204839133
+    bytes: 281817684
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 167
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 14060
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2421
+  - url: s3://openwaldo/lookaside/8e/4f/8e4f706aad22a937629f23ece07e1fdaa841f537fcb40f39d6c5d61c87576a92
+    sha256: 8e4f706aad22a937629f23ece07e1fdaa841f537fcb40f39d6c5d61c87576a92
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 219517
+        tokens: 204075331
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 219517
+    tokens: 204075331
+    bytes: 281061500
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 149
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18402
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3502
+  - url: s3://openwaldo/lookaside/d3/85/d385c3215de61f3bb8a3ab32b50fa25cd9ea778e3e67fa74ae60d7cbad91d02e
+    sha256: d385c3215de61f3bb8a3ab32b50fa25cd9ea778e3e67fa74ae60d7cbad91d02e
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 239388
+        tokens: 204240336
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 239388
+    tokens: 204240336
+    bytes: 280019168
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 140
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18962
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2427
+  - url: s3://openwaldo/lookaside/b7/fb/b7fbc9b47782072eeeec86e37f5294154babe5b011533af0978c10d08184abfd
+    sha256: b7fbc9b47782072eeeec86e37f5294154babe5b011533af0978c10d08184abfd
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 211632
+        tokens: 204085079
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 211632
+    tokens: 204085079
+    bytes: 282428505
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 154
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 12839
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2169
+  - url: s3://openwaldo/lookaside/40/fb/40fb36e1d3c2e159ff389f9e02f92c815fb5e194ecab2740babc50e33c09680c
+    sha256: 40fb36e1d3c2e159ff389f9e02f92c815fb5e194ecab2740babc50e33c09680c
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 238535
+        tokens: 200996514
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 238535
+    tokens: 200996514
+    bytes: 285812465
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 182
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 13397
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2086
+  - url: s3://openwaldo/lookaside/7d/90/7d90f138ce7730f29c2ba9a2ec00e7332b5dc280ea5efdeb0bd969792ced74ae
+    sha256: 7d90f138ce7730f29c2ba9a2ec00e7332b5dc280ea5efdeb0bd969792ced74ae
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 222811
+        tokens: 200755574
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 222811
+    tokens: 200755574
+    bytes: 284211080
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 176
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 12721
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2207
+  - url: s3://openwaldo/lookaside/2e/7c/2e7c89a9571e1a4773517d5de4a3a33fd586bb40adca48fc61beecd45308045a
+    sha256: 2e7c89a9571e1a4773517d5de4a3a33fd586bb40adca48fc61beecd45308045a
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 227528
+        tokens: 201018180
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 227528
+    tokens: 201018180
+    bytes: 284625869
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 170
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 16727
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2038
+  - url: s3://openwaldo/lookaside/8c/3d/8c3deb392583dd4b056be7bbd1ec0fb2cb9d680047baf502caa93da2a002437a
+    sha256: 8c3deb392583dd4b056be7bbd1ec0fb2cb9d680047baf502caa93da2a002437a
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 231232
+        tokens: 203087759
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 231232
+    tokens: 203087759
+    bytes: 283728789
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 113
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 16422
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2258
+  - url: s3://openwaldo/lookaside/f4/e1/f4e184be211d6260d0b12475a80df62bf8fcdbec3a78d5d48e7bbf52f811d9ad
+    sha256: f4e184be211d6260d0b12475a80df62bf8fcdbec3a78d5d48e7bbf52f811d9ad
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 207112
+        tokens: 203935198
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 207112
+    tokens: 203935198
+    bytes: 281916912
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 194
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18343
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1857
+  - url: s3://openwaldo/lookaside/f5/16/f516f56d7f4e96133cc854676bc5882364b243cd2b287f5034eccb3cc5079d34
+    sha256: f516f56d7f4e96133cc854676bc5882364b243cd2b287f5034eccb3cc5079d34
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 204772
+        tokens: 201056994
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 204772
+    tokens: 201056994
+    bytes: 282562325
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 166
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 16332
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1825
+  - url: s3://openwaldo/lookaside/d5/14/d514748a8238146193b4ac4dec73e074e4c951328e2a7967ee2588fdb21d7cb5
+    sha256: d514748a8238146193b4ac4dec73e074e4c951328e2a7967ee2588fdb21d7cb5
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 197435
+        tokens: 198843182
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 197435
+    tokens: 198843182
+    bytes: 283275531
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 182
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 15052
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1836
+  - url: s3://openwaldo/lookaside/23/c8/23c815f8355b1c8f5ba3ffb9f8b7c26d9880dc9c531b2f8e9e5d11e1ad677f71
+    sha256: 23c815f8355b1c8f5ba3ffb9f8b7c26d9880dc9c531b2f8e9e5d11e1ad677f71
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 210834
+        tokens: 201144282
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 210834
+    tokens: 201144282
+    bytes: 283772039
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 169
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 16468
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2045
+  - url: s3://openwaldo/lookaside/27/8c/278c58b71b3624de4b655dab34e1691b1019213f9b0e8d280dae451c09182ad1
+    sha256: 278c58b71b3624de4b655dab34e1691b1019213f9b0e8d280dae451c09182ad1
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 229301
+        tokens: 198883334
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 229301
+    tokens: 198883334
+    bytes: 284656747
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 141
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 22457
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3948
+  - url: s3://openwaldo/lookaside/8c/f8/8cf8ff3926c94c1aaa9036ef78cbe9076edd01589abfbda7831b49cd258ca50c
+    sha256: 8cf8ff3926c94c1aaa9036ef78cbe9076edd01589abfbda7831b49cd258ca50c
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 206192
+        tokens: 200175078
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 206192
+    tokens: 200175078
+    bytes: 275957804
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 144
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 17915
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3919
+  - url: s3://openwaldo/lookaside/0c/0e/0c0e8f7bb08580a62f5c5425c748abc17ebf394f5f6a1b448432600bf6c40b73
+    sha256: 0c0e8f7bb08580a62f5c5425c748abc17ebf394f5f6a1b448432600bf6c40b73
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 218889
+        tokens: 200275893
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 218889
+    tokens: 200275893
+    bytes: 282728228
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 180
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 21393
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5524
+  - url: s3://openwaldo/lookaside/5a/00/5a00d8ecc00c168663bfa171ec214fc6e86de0cbec5d572f1149a9057612791d
+    sha256: 5a00d8ecc00c168663bfa171ec214fc6e86de0cbec5d572f1149a9057612791d
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 242785
+        tokens: 196843093
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 242785
+    tokens: 196843093
+    bytes: 287214762
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 199
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 22278
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4499
+  - url: s3://openwaldo/lookaside/46/82/4682e0c456cd695389aae6a6291db12da2b7c2ee64f0e9f2649e84d0fdd73706
+    sha256: 4682e0c456cd695389aae6a6291db12da2b7c2ee64f0e9f2649e84d0fdd73706
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 245210
+        tokens: 198111512
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 245210
+    tokens: 198111512
+    bytes: 288950263
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 243
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 21921
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5348
+  - url: s3://openwaldo/lookaside/30/fa/30fabb628778389ff4c4c5cd81a44e59e86657ff683e49f0b4740b83472b073e
+    sha256: 30fabb628778389ff4c4c5cd81a44e59e86657ff683e49f0b4740b83472b073e
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 250128
+        tokens: 200734111
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 250128
+    tokens: 200734111
+    bytes: 290616418
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 219
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 14475
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3021
+  - url: s3://openwaldo/lookaside/bf/c4/bfc467ff306971d29713e03dc869e2a80dc39ccf4072dc8f9e1c1b01a2009387
+    sha256: bfc467ff306971d29713e03dc869e2a80dc39ccf4072dc8f9e1c1b01a2009387
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 227102
+        tokens: 203179552
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 227102
+    tokens: 203179552
+    bytes: 290233119
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 243
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 13754
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2245
+  - url: s3://openwaldo/lookaside/c6/c5/c6c5381b2163107cef0188fe931e6fa4af194453b0f7a390c82c0b4bca7cadf1
+    sha256: c6c5381b2163107cef0188fe931e6fa4af194453b0f7a390c82c0b4bca7cadf1
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 244031
+        tokens: 198206649
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 244031
+    tokens: 198206649
+    bytes: 291729877
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 186
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18225
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3860
+  - url: s3://openwaldo/lookaside/09/a6/09a6ccc2dc89ca70689c20286fa5168a246c7db7d494e9b568ab2fb62abb8298
+    sha256: 09a6ccc2dc89ca70689c20286fa5168a246c7db7d494e9b568ab2fb62abb8298
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 256336
+        tokens: 198518632
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 256336
+    tokens: 198518632
+    bytes: 290375956
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 253
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18913
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4218
+  - url: s3://openwaldo/lookaside/10/c5/10c583a53228dad3747d19a780c46da5f14e7eb4698c2b0cc31e1654267f8d15
+    sha256: 10c583a53228dad3747d19a780c46da5f14e7eb4698c2b0cc31e1654267f8d15
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 254675
+        tokens: 203353488
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 254675
+    tokens: 203353488
+    bytes: 292134661
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 226
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 20128
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4911
+  - url: s3://openwaldo/lookaside/a2/e8/a2e801c2d62d45b3da903f9a031ab9dee8c5458a281a696c5eeecaef1605fab3
+    sha256: a2e801c2d62d45b3da903f9a031ab9dee8c5458a281a696c5eeecaef1605fab3
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 259189
+        tokens: 200977559
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 259189
+    tokens: 200977559
+    bytes: 290006514
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 160
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 20948
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4609
+  - url: s3://openwaldo/lookaside/a6/c8/a6c820e4c105b682d1e9192fb2342c0e09b714505f3ae3dd16816b3e4f5cda23
+    sha256: a6c820e4c105b682d1e9192fb2342c0e09b714505f3ae3dd16816b3e4f5cda23
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 252972
+        tokens: 201367541
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 252972
+    tokens: 201367541
+    bytes: 290772423
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 165
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 21773
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5434
+  - url: s3://openwaldo/lookaside/12/94/1294fe7d5c5c1725a2819c66b2a711e077a2091f0547062d433f0068080ef617
+    sha256: 1294fe7d5c5c1725a2819c66b2a711e077a2091f0547062d433f0068080ef617
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 240866
+        tokens: 200421543
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 240866
+    tokens: 200421543
+    bytes: 289986691
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 152
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 17866
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4203
+  - url: s3://openwaldo/lookaside/e0/07/e007a5e1216d62bb71cd257deb6ee432dd021895102df00ef1f04a104a320466
+    sha256: e007a5e1216d62bb71cd257deb6ee432dd021895102df00ef1f04a104a320466
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 249366
+        tokens: 201262853
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 249366
+    tokens: 201262853
+    bytes: 291497362
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 133
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 15700
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3712
+  - url: s3://openwaldo/lookaside/bf/d2/bfd2b40806b60a2e783bf980ffd7feeff0c09bf3b36750bad30eb540128c9b25
+    sha256: bfd2b40806b60a2e783bf980ffd7feeff0c09bf3b36750bad30eb540128c9b25
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 259735
+        tokens: 199230642
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 259735
+    tokens: 199230642
+    bytes: 287595489
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 172
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18390
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4334
+  - url: s3://openwaldo/lookaside/62/91/62912ba79cb8953837c4141457478143adfcc8bfbc4dd9c5b21604ac5002bd3e
+    sha256: 62912ba79cb8953837c4141457478143adfcc8bfbc4dd9c5b21604ac5002bd3e
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 261251
+        tokens: 197479460
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 261251
+    tokens: 197479460
+    bytes: 291632866
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 187
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 20049
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4540
+  - url: s3://openwaldo/lookaside/eb/c9/ebc95ec05e8d89d719f41a6b57bbb7aeb09b51d58ad98df2b89bb4aa6afb4975
+    sha256: ebc95ec05e8d89d719f41a6b57bbb7aeb09b51d58ad98df2b89bb4aa6afb4975
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 248400
+        tokens: 180503834
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 248400
+    tokens: 180503834
+    bytes: 268783241
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 199
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 17873
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4306
+  - url: s3://openwaldo/lookaside/84/51/8451a002e7877438cdb3dd6a8e9a0888606a710b968f79dd9f7bbefeee9e5074
+    sha256: 8451a002e7877438cdb3dd6a8e9a0888606a710b968f79dd9f7bbefeee9e5074
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 278699
+        tokens: 200276750
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 278699
+    tokens: 200276750
+    bytes: 289441824
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 192
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 19713
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5372
+  - url: s3://openwaldo/lookaside/f4/ef/f4efdd4354c5915fd90c4e97d37d4cb82f95a321305dde9404bd55b95dcd7c1c
+    sha256: f4efdd4354c5915fd90c4e97d37d4cb82f95a321305dde9404bd55b95dcd7c1c
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 250772
+        tokens: 199619484
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 250772
+    tokens: 199619484
+    bytes: 286526235
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 220
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18368
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5008
+  - url: s3://openwaldo/lookaside/f7/db/f7dbbb70b2c4cabdc79f491db4997fb4dd5505eebd3922918e0e58ee20392a32
+    sha256: f7dbbb70b2c4cabdc79f491db4997fb4dd5505eebd3922918e0e58ee20392a32
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 253633
+        tokens: 204152719
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 253633
+    tokens: 204152719
+    bytes: 286420415
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 190
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 19809
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5879
+  - url: s3://openwaldo/lookaside/5f/aa/5faab50f7311840a9df5f355b1e4c3f4d26f807958c15cca8eb454a61d0ef4c7
+    sha256: 5faab50f7311840a9df5f355b1e4c3f4d26f807958c15cca8eb454a61d0ef4c7
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 247150
+        tokens: 200759513
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 247150
+    tokens: 200759513
+    bytes: 284567015
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 140
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 20174
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 6167
+  - url: s3://openwaldo/lookaside/56/6e/566e1b6d3321a5e3de1b53b149a764b96b43a986717d1bf18b5f2ae6a27082b2
+    sha256: 566e1b6d3321a5e3de1b53b149a764b96b43a986717d1bf18b5f2ae6a27082b2
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 237184
+        tokens: 198623236
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 237184
+    tokens: 198623236
+    bytes: 282805987
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 128
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 18785
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5575
+  - url: s3://openwaldo/lookaside/90/65/9065c8a0f9d2caccfa12abbaeea091b18c50eedc7a3883d86380f4e6ec96f97f
+    sha256: 9065c8a0f9d2caccfa12abbaeea091b18c50eedc7a3883d86380f4e6ec96f97f
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 232159
+        tokens: 202041485
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 232159
+    tokens: 202041485
+    bytes: 277120067
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 132
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 17397
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4916
+  - url: s3://openwaldo/lookaside/b3/a8/b3a820600260cb1b44bfaf771fe77f9bb43d8f76a81c00cbf53a4693c46a0a9a
+    sha256: b3a820600260cb1b44bfaf771fe77f9bb43d8f76a81c00cbf53a4693c46a0a9a
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 230918
+        tokens: 200200517
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 230918
+    tokens: 200200517
+    bytes: 283866890
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 105
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 15740
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 4694
+  - url: s3://openwaldo/lookaside/66/fe/66fee2e2d3dc7c787885646e2b3e4c7b6327ffbb918c4a07774e99b49237711b
+    sha256: 66fee2e2d3dc7c787885646e2b3e4c7b6327ffbb918c4a07774e99b49237711b
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 226693
+        tokens: 199935786
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 226693
+    tokens: 199935786
+    bytes: 285025607
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 94
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 12036
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3974
+  - url: s3://openwaldo/lookaside/09/a7/09a7a806d6ba0110bee9832688be4477014b3613de7cfe680d6eb1b2244ccf3f
+    sha256: 09a7a806d6ba0110bee9832688be4477014b3613de7cfe680d6eb1b2244ccf3f
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 212144
+        tokens: 209623899
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 212144
+    tokens: 209623899
+    bytes: 285674729
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 66
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 11219
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3505
+  - url: s3://openwaldo/lookaside/c8/92/c8920e9b638d1ea6e4701099bce6384c0015ce8a058f1ce8075b8389a4521d50
+    sha256: c8920e9b638d1ea6e4701099bce6384c0015ce8a058f1ce8075b8389a4521d50
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 222523
+        tokens: 199428984
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 222523
+    tokens: 199428984
+    bytes: 282995814
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 22
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 11962
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 3110
+  - url: s3://openwaldo/lookaside/09/f3/09f344f27d77f13e462f6952409434afcf7c23084dca05a509b5d93c4225cf31
+    sha256: 09f344f27d77f13e462f6952409434afcf7c23084dca05a509b5d93c4225cf31
+    license: CC-BY-SA-4.0
+    license_usage:
+      CC-BY-SA-4.0:
+        shards: 0
+        docs: 227526
+        tokens: 198780809
+        bytes: 0
+    sources:
+      - common-pile/wikimedia_filtered
+    docs: 227526
+    tokens: 198780809
+    bytes: 287902032
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 28
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 7649
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2087
