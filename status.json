@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-13T00:49:48Z",
-  "index_commit": "6f07b0b",
+  "generated": "2026-08-16T03:04:11Z",
+  "index_commit": "48d285b",
   "manifests": 47,
   "shards": 949,
   "docs": 97741086,
   "tokens": 202834581119,
-  "bytes": 256568962526,
+  "bytes": 256990091833,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -191,7 +191,7 @@
       "shards": 325,
       "docs": 47758694,
       "tokens": 36393353518,
-      "bytes": 51910570074
+      "bytes": 52331699381
     },
     "CC-BY-SA-4.0 AND MIT": {
       "shards": 1,
@@ -411,7 +411,7 @@
         {
           "name": "common-pile/wikimedia_filtered",
           "origin": "common-pile/wikimedia_filtered",
-          "version": "v0.1",
+          "version": null,
           "url": "https://huggingface.co/datasets/common-pile/wikimedia_filtered"
         }
       ],
@@ -419,7 +419,7 @@
       "shards": 73,
       "docs": 16270398,
       "tokens": 14091099944,
-      "bytes": 20157426770,
+      "bytes": 20578556077,
       "licenses": {
         "CC-BY-SA-4.0": {
           "shards": 73,
