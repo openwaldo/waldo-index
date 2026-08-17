@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-16T17:17:16Z",
-  "index_commit": "6861b9b",
+  "generated": "2026-08-17T02:33:13Z",
+  "index_commit": "1113939",
   "manifests": 49,
   "shards": 951,
   "docs": 97806409,
-  "tokens": 202846333401,
-  "bytes": 257003687230,
+  "tokens": 202846261674,
+  "bytes": 257003653427,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -280,7 +280,7 @@
     "LicenseRef-OSI-Public-Forum": {
       "shards": 1,
       "docs": 22,
-      "tokens": 858654,
+      "tokens": 789452,
       "bytes": 0
     },
     "LicenseRef-Open-Parliament-Licence": {
@@ -304,7 +304,7 @@
     "LicenseRef-Publicly-Archived-Forum": {
       "shards": 17,
       "docs": 234185,
-      "tokens": 6498533931,
+      "tokens": 6498531406,
       "bytes": 3204733700
     },
     "MIT": {
@@ -4094,16 +4094,16 @@
       "converted_by": "waldo index ingest",
       "shards": 1,
       "docs": 28,
-      "tokens": 873914,
-      "bytes": 507463,
+      "tokens": 802187,
+      "bytes": 473660,
       "licenses": {
         "LicenseRef-OSI-Public-Forum": {
           "shards": 1,
-          "tokens": 858654
+          "tokens": 789452
         },
         "LicenseRef-Publicly-Archived-Forum": {
           "shards": 1,
-          "tokens": 15260
+          "tokens": 12735
         }
       }
     }
