@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-17T02:33:13Z",
-  "index_commit": "1113939",
-  "manifests": 49,
-  "shards": 951,
-  "docs": 97806409,
-  "tokens": 202846261674,
-  "bytes": 257003653427,
+  "generated": "2026-08-18T21:32:56Z",
+  "index_commit": "6e3897a",
+  "manifests": 51,
+  "shards": 957,
+  "docs": 98942060,
+  "tokens": 203844286633,
+  "bytes": 258239353007,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -189,9 +189,9 @@
     },
     "CC-BY-SA-4.0": {
       "shards": 325,
-      "docs": 47758694,
-      "tokens": 36393353518,
-      "bytes": 52331699381
+      "docs": 47758445,
+      "tokens": 36386829228,
+      "bytes": 52324605766
     },
     "CC-BY-SA-4.0 AND MIT": {
       "shards": 1,
@@ -308,10 +308,16 @@
       "bytes": 3204733700
     },
     "MIT": {
-      "shards": 19,
-      "docs": 427989,
-      "tokens": 1983518388,
-      "bytes": 299196492
+      "shards": 21,
+      "docs": 635821,
+      "tokens": 2224355845,
+      "bytes": 670944508
+    },
+    "ODC-BY-1.0": {
+      "shards": 4,
+      "docs": 928068,
+      "tokens": 763711792,
+      "bytes": 871045179
     }
   },
   "corpora": [
@@ -417,13 +423,13 @@
       ],
       "converted_by": "waldo index ingest",
       "shards": 73,
-      "docs": 16270398,
-      "tokens": 14091099944,
-      "bytes": 20578556077,
+      "docs": 16270149,
+      "tokens": 14084575654,
+      "bytes": 20571462462,
       "licenses": {
         "CC-BY-SA-4.0": {
           "shards": 73,
-          "tokens": 14091099944
+          "tokens": 14084575654
         }
       }
     },
@@ -3224,6 +3230,32 @@
       }
     },
     {
+      "path": "post-train/sft/tulu3",
+      "name": "tulu3",
+      "title": "Tulu 3 SFT Mixture",
+      "description": "The pinned Tulu 3 supervised fine-tuning mixture with per-record source labels retained for downstream filtering.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "allenai/tulu-3-sft-mixture",
+          "origin": "allenai/tulu-3-sft-mixture",
+          "version": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
+          "url": "https://huggingface.co/datasets/allenai/tulu-3-sft-mixture"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 4,
+      "docs": 928068,
+      "tokens": 763711792,
+      "bytes": 871045179,
+      "licenses": {
+        "ODC-BY-1.0": {
+          "shards": 4,
+          "tokens": 763711792
+        }
+      }
+    },
+    {
       "path": "code/permissive/linux-core",
       "name": "linux-core",
       "title": "Linux Core \u2014 Permissive Alternatives and BSD",
@@ -3408,6 +3440,32 @@
         "LicenseRef-Publicly-Archived-Forum": {
           "shards": 1,
           "tokens": 307929464
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/ultrachat-200k",
+      "name": "ultrachat-200k",
+      "title": "UltraChat 200k SFT",
+      "description": "Curated multi-turn assistant conversations from the UltraChat 200k supervised fine-tuning split.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "HuggingFaceH4/ultrachat_200k",
+          "origin": "HuggingFaceH4/ultrachat_200k",
+          "version": "8049631c405ae6576f93f445c6b8166f76f5505a",
+          "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 2,
+      "docs": 207832,
+      "tokens": 240837457,
+      "bytes": 371748016,
+      "licenses": {
+        "MIT": {
+          "shards": 2,
+          "tokens": 240837457
         }
       }
     },
