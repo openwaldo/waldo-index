@@ -2,7 +2,7 @@ kind: manifest
 schema: 2
 name: helpsteer2
 title: HelpSteer2 Scored Responses
-description: Human-rated prompt and response pairs with five preserved response attributes; only responses rated 4 for helpfulness, correctness, and coherence are classified as main content for SFT.
+description: Human-rated prompt and response pairs preserved as structured messages with five response attributes; only responses rated 4 for helpfulness, correctness, and coherence are classified as main content for SFT.
 license: CC-BY-4.0
 sources:
   - name: nvidia/HelpSteer2
@@ -14,7 +14,7 @@ sources:
       url: https://huggingface.co/datasets/nvidia/HelpSteer2/tree/cece6cab0b0e2851523fd3664220d36a63337b47
     url: https://huggingface.co/datasets/nvidia/HelpSteer2
     category: public-dataset
-    sha256: e9aff8e20103e202ee153db5ae66d42f82cce7c26de91f0443036577cec48f30
+    sha256: 1aa50ed28334c6c015c8ce85351d0ccb1418ef5ee6ed94802028859fd9737bcf
     content:
       types:
         - human response ratings
@@ -31,21 +31,22 @@ sources:
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@81d8a0fdab44de143c7ec6306bed267d366a57bc:recipes/post-train/sft/helpsteer2.yaml#sha256=9bdc2fea5c3d7be3f77953932d7a13b5eb77842999c68b987e9e017223d863a4
-  profile: canonical-text-schema-2@sha256:7dbc5ab71cfc2822ddafef97e06c4210464f6a5f2d6b42a3bc09432d03bb1e9b
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  collector: local@uncommitted:helpsteer2.yaml#sha256=b72cf1ed52f02e13c80329a901df413f1e74b985e603e7912f49b05f81a4f05d
+  profile: canonical-text-schema-2@sha256:71ff3ab468e09ce54c9263331932cbdf6f7ee30d3bb631e4744c5533e924ecbf
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
   tokenizer: tiktoken/cl100k_base
-record_schema: 2
+record_schema: 1
+record_kind: conversation
 assessment:
   email_addresses:
     detector: waldo/email-address-v1
     records: 0
   repetitive_content:
     detector: waldo/gopher-ngram-repetition-v1
-    records: 3270
+    records: 3290
   boilerplate_content:
     detector: waldo/gopher-structural-duplication-v1
-    records: 1409
+    records: 1454
 redaction:
   policy: waldo/privacy-redaction-v1
   names_retained: true
@@ -55,30 +56,30 @@ redaction:
   mail_routing_headers: 0
   credentials: 2
 shards:
-  - url: s3://openwaldo/lookaside/ce/b7/ceb76bc2c525c5cdd67fb049fed71eb74145729fee56ce96b9df035785b20ece
-    sha256: ceb76bc2c525c5cdd67fb049fed71eb74145729fee56ce96b9df035785b20ece
+  - url: s3://openwaldo/lookaside/d1/3c/d13c9d68734b21f4dccf53259a5a052e573b9b19b8cbea250c3118b6f5c498e1
+    sha256: d13c9d68734b21f4dccf53259a5a052e573b9b19b8cbea250c3118b6f5c498e1
     license: CC-BY-4.0
     license_usage:
       CC-BY-4.0:
         shards: 0
         docs: 20323
-        tokens: 9492714
+        tokens: 10358587
         bytes: 0
     sources:
       - nvidia/HelpSteer2
     docs: 20323
-    tokens: 9492714
-    bytes: 11330804
+    tokens: 10358587
+    bytes: 11417443
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
         records: 0
       repetitive_content:
         detector: waldo/gopher-ngram-repetition-v1
-        records: 3270
+        records: 3290
       boilerplate_content:
         detector: waldo/gopher-structural-duplication-v1
-        records: 1409
+        records: 1454
     redaction:
       policy: waldo/privacy-redaction-v1
       names_retained: true
