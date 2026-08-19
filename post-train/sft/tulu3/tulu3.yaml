@@ -2,7 +2,7 @@ kind: manifest
 schema: 2
 name: tulu3
 title: Tulu 3 SFT Mixture
-description: The pinned Tulu 3 supervised fine-tuning mixture with per-record source labels retained for downstream filtering.
+description: The pinned Tulu 3 supervised fine-tuning mixture preserved as structured messages with per-record source labels retained for downstream filtering.
 license: ODC-BY-1.0
 sources:
   - name: allenai/tulu-3-sft-mixture
@@ -14,7 +14,7 @@ sources:
       url: https://huggingface.co/datasets/allenai/tulu-3-sft-mixture/tree/b14afda60f1bbebe55d5d2fa1e4df5042f97f8be
     url: https://huggingface.co/datasets/allenai/tulu-3-sft-mixture
     category: public-dataset
-    sha256: b218f5fb437c71d25922bc28bd27074615c1098ca9cd6b8198bf42cbfea38859
+    sha256: c1944ee068358c062e13c0b570fe35bbe975f819dc9dc9b8cdae426434866528
     content:
       types:
         - instructions
@@ -29,155 +29,155 @@ sources:
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: local@uncommitted:tulu3.yaml#sha256=66b5145f5ac0009744d0a94cc90edd2f0be2ed3fb739aee22a68964629aee239
-  profile: canonical-text-schema-2@sha256:8986884b184f4a630fb180690ab2edbbf319c678aff99fa1ced41295a4b44cca
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  profile: canonical-text-schema-2@sha256:4c029305c7fb19a664ec82c6fdae91d2aaec184dab3285e8a217b0dea079b5dd
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
   tokenizer: tiktoken/cl100k_base
-record_schema: 2
+record_schema: 1
+record_kind: conversation
 assessment:
   email_addresses:
     detector: waldo/email-address-v1
     records: 0
   repetitive_content:
     detector: waldo/gopher-ngram-repetition-v1
-    records: 111746
+    records: 113428
   boilerplate_content:
     detector: waldo/gopher-structural-duplication-v1
-    records: 90453
+    records: 92668
 redaction:
   policy: waldo/privacy-redaction-v1
   names_retained: true
   email_addresses: 9128
-  ip_addresses: 57607
+  ip_addresses: 57609
   phone_numbers: 146326
-  mail_routing_headers: 2
+  mail_routing_headers: 1
   credentials: 2671
 shards:
-  - url: s3://openwaldo/lookaside/5c/a5/5ca5850656b40ac31776435abca617f6318cfe42c21062380a35579758aff50a
-    sha256: 5ca5850656b40ac31776435abca617f6318cfe42c21062380a35579758aff50a
+  - url: s3://openwaldo/lookaside/43/09/4309a6229b2aac77559d76116b7c04b7a85c3cadf8f7999b4ad4cf8c6f101d5a
+    sha256: 4309a6229b2aac77559d76116b7c04b7a85c3cadf8f7999b4ad4cf8c6f101d5a
     license: ODC-BY-1.0
     license_usage:
       ODC-BY-1.0:
         shards: 0
-        docs: 167289
-        tokens: 199730115
+        docs: 170659
+        tokens: 223264054
         bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
-    docs: 167289
-    tokens: 199730115
-    bytes: 272807853
+    docs: 170659
+    tokens: 223264054
+    bytes: 287156982
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
         records: 0
       repetitive_content:
         detector: waldo/gopher-ngram-repetition-v1
-        records: 17608
+        records: 18470
       boilerplate_content:
         detector: waldo/gopher-structural-duplication-v1
-        records: 16916
+        records: 18225
     redaction:
       policy: waldo/privacy-redaction-v1
       names_retained: true
-      email_addresses: 4251
-      ip_addresses: 24604
-      phone_numbers: 3206
-      mail_routing_headers: 2
-      credentials: 848
-  - url: s3://openwaldo/lookaside/4f/62/4f62a87a53d6e7ebfde4238074d9a0a69373437f39b4ca96bf9b0539073eaf06
-    sha256: 4f62a87a53d6e7ebfde4238074d9a0a69373437f39b4ca96bf9b0539073eaf06
+      email_addresses: 4373
+      ip_addresses: 26023
+      phone_numbers: 3272
+      mail_routing_headers: 1
+      credentials: 900
+  - url: s3://openwaldo/lookaside/98/cc/98cce649a8a97e37ea44195bd53c21729a901e17e8acb7ddd84ddd1ed8a01b33
+    sha256: 98cce649a8a97e37ea44195bd53c21729a901e17e8acb7ddd84ddd1ed8a01b33
     license: ODC-BY-1.0
     license_usage:
       ODC-BY-1.0:
         shards: 0
-        docs: 169133
-        tokens: 272206471
+        docs: 177543
+        tokens: 305895791
         bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
-    docs: 169133
-    tokens: 272206471
-    bytes: 277740523
+    docs: 177543
+    tokens: 305895791
+    bytes: 281574050
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
         records: 0
       repetitive_content:
         detector: waldo/gopher-ngram-repetition-v1
-        records: 39815
+        records: 42960
       boilerplate_content:
         detector: waldo/gopher-structural-duplication-v1
-        records: 42171
+        records: 45520
     redaction:
       policy: waldo/privacy-redaction-v1
       names_retained: true
-      email_addresses: 976
-      ip_addresses: 18044
-      phone_numbers: 2129
+      email_addresses: 854
+      ip_addresses: 16633
+      phone_numbers: 2073
       mail_routing_headers: 0
-      credentials: 464
-  - url: s3://openwaldo/lookaside/ce/8d/ce8d68aebe18b3e226c4dc3433510a7c1a0f2c613938af62a926865fc8bea3f9
-    sha256: ce8d68aebe18b3e226c4dc3433510a7c1a0f2c613938af62a926865fc8bea3f9
+      credentials: 412
+  - url: s3://openwaldo/lookaside/89/b4/89b471acfb46b51bb56d1861e687cba96e5360975ebd0330692eadd610de5379
+    sha256: 89b471acfb46b51bb56d1861e687cba96e5360975ebd0330692eadd610de5379
     license: ODC-BY-1.0
     license_usage:
       ODC-BY-1.0:
         shards: 0
-        docs: 500091
-        tokens: 240448492
+        docs: 480673
+        tokens: 246840467
         bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
-    docs: 500091
-    tokens: 240448492
-    bytes: 281141011
+    docs: 480673
+    tokens: 246840467
+    bytes: 268867862
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
         records: 0
       repetitive_content:
         detector: waldo/gopher-ngram-repetition-v1
-        records: 49340
+        records: 45649
       boilerplate_content:
         detector: waldo/gopher-structural-duplication-v1
-        records: 31056
+        records: 27658
     redaction:
       policy: waldo/privacy-redaction-v1
       names_retained: true
-      email_addresses: 3831
-      ip_addresses: 14948
-      phone_numbers: 140911
+      email_addresses: 3774
+      ip_addresses: 14941
+      phone_numbers: 140177
       mail_routing_headers: 0
       credentials: 1359
-  - url: s3://openwaldo/lookaside/c1/b5/c1b5c8f5f7a7fffb520807636d49a3314faa4fcb2bb0bf385de55e01f50091fb
-    sha256: c1b5c8f5f7a7fffb520807636d49a3314faa4fcb2bb0bf385de55e01f50091fb
+  - url: s3://openwaldo/lookaside/a8/d3/a8d303d5bed5bd2551d726af9b02c03d350d1a11770510ce554890de4d258760
+    sha256: a8d303d5bed5bd2551d726af9b02c03d350d1a11770510ce554890de4d258760
     license: ODC-BY-1.0
     license_usage:
       ODC-BY-1.0:
         shards: 0
-        docs: 91555
-        tokens: 51326714
+        docs: 99264
+        tokens: 58003485
         bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
-    docs: 91555
-    tokens: 51326714
-    bytes: 39355792
+    docs: 99264
+    tokens: 58003485
+    bytes: 43339486
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
         records: 0
       repetitive_content:
         detector: waldo/gopher-ngram-repetition-v1
-        records: 4983
+        records: 6349
       boilerplate_content:
         detector: waldo/gopher-structural-duplication-v1
-        records: 310
+        records: 1265
     redaction:
       policy: waldo/privacy-redaction-v1
       names_retained: true
-      email_addresses: 70
-      ip_addresses: 11
-      phone_numbers: 80
+      email_addresses: 127
+      ip_addresses: 12
+      phone_numbers: 804
       mail_routing_headers: 0
       credentials: 0
