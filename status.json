@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T23:16:43Z",
-  "index_commit": "b48032f",
+  "generated": "2026-08-19T23:31:53Z",
+  "index_commit": "93d506c",
   "manifests": 54,
   "shards": 960,
   "docs": 98945126,
@@ -362,7 +362,6 @@
       "name": "pes2o",
       "title": "Open-Access Papers",
       "description": "Full text of open-access scientific papers from peS2o, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/peS2o_filtered",
@@ -392,7 +391,6 @@
       "name": "pubmed",
       "title": "PubMed Central Open-Access Articles",
       "description": "Openly licensed PubMed Central article text from the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/pubmed_filtered",
@@ -430,7 +428,6 @@
       "name": "stackexchange",
       "title": "Stack Exchange",
       "description": "Questions, answers, and community posts from Stack Exchange sites, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/stackexchange_filtered",
@@ -460,7 +457,6 @@
       "name": "wikimedia",
       "title": "Wikimedia",
       "description": "Articles and other text from Wikimedia projects, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/wikimedia_filtered",
@@ -490,7 +486,6 @@
       "name": "pre-1929-books",
       "title": "Pre-1929 Public Library Books",
       "description": "Public-domain scans of books published before 1929 from the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/pre_1929_books_filtered",
@@ -520,7 +515,6 @@
       "name": "biodiversity-heritage-library",
       "title": "Biodiversity Heritage Library",
       "description": "Public-domain biodiversity books, journals, and archival documents from the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/biodiversity_heritage_library_filtered",
@@ -550,7 +544,6 @@
       "name": "library-of-congress",
       "title": "Library of Congress Books",
       "description": "Public-domain Library of Congress book text from the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/library_of_congress_filtered",
@@ -580,7 +573,6 @@
       "name": "usgpo",
       "title": "US Government Publishing Office",
       "description": "Publications of the United States Government Publishing Office, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/usgpo_filtered",
@@ -610,7 +602,6 @@
       "name": "gutenberg",
       "title": "Project Gutenberg",
       "description": "Public-domain books transcribed and proofread by Project Gutenberg volunteers.",
-      "format": "parquet",
       "sources": [
         {
           "name": "gutenberg",
@@ -640,7 +631,6 @@
       "name": "arxiv-papers",
       "title": "ArXiv Papers",
       "description": "Full openly licensed ArXiv paper text from the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/arxiv_papers_filtered",
@@ -686,7 +676,6 @@
       "name": "permissive",
       "title": "Permissively Licensed Project Code",
       "description": "Project-owned files from immutable open-source repository commits, with text, structured, and binary assets retained while common vendored, generated, dependency, fixture, and build-output trees are excluded.",
-      "format": "parquet",
       "sources": [
         {
           "name": "freeCodeCamp/freeCodeCamp",
@@ -1942,7 +1931,6 @@
       "name": "copyleft",
       "title": "Copyleft-Licensed Project Code",
       "description": "Project-owned files from immutable open-source repository commits, with text, structured, and binary assets retained while common vendored, generated, dependency, fixture, and build-output trees are excluded.",
-      "format": "parquet",
       "sources": [
         {
           "name": "clash-verge-rev/clash-verge-rev",
@@ -2800,7 +2788,6 @@
       "name": "linux-kernel-mailing-list",
       "title": "Linux Kernel Mailing List",
       "description": "Calendar-year 2025 Linux kernel development messages from the official lore.kernel.org public archive.",
-      "format": "parquet",
       "sources": [
         {
           "name": "linux-kernel@vger.kernel.org",
@@ -2830,7 +2817,6 @@
       "name": "caselaw",
       "title": "United States Caselaw",
       "description": "Published decisions of United States federal and state courts, digitized by the Harvard Law School Library.",
-      "format": "parquet",
       "sources": [
         {
           "name": "harvard-cap",
@@ -2860,7 +2846,6 @@
       "name": "youtube",
       "title": "YouTube Transcripts",
       "description": "Transcripts from Creative Commons-licensed YouTube videos, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/youtube_filtered",
@@ -2890,7 +2875,6 @@
       "name": "wikiteam",
       "title": "WikiTeam Archives",
       "description": "Text recovered from independently archived wikis, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/wikiteam_filtered",
@@ -2920,7 +2904,6 @@
       "name": "doab",
       "title": "Directory of Open Access Books",
       "description": "Open-access book text from the Directory of Open Access Books, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/doab_filtered",
@@ -2950,7 +2933,6 @@
       "name": "plos",
       "title": "PLOS Articles",
       "description": "Peer-reviewed research articles published by the Public Library of Science.",
-      "format": "parquet",
       "sources": [
         {
           "name": "plos",
@@ -2980,7 +2962,6 @@
       "name": "uk-hansard",
       "title": "UK Parliament Hansard",
       "description": "Official reports of debates in the United Kingdom Parliament, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/uk_hansard_filtered",
@@ -3010,7 +2991,6 @@
       "name": "ubuntu-irc",
       "title": "Ubuntu IRC Logs",
       "description": "Public Ubuntu community IRC conversations, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/ubuntu_irc_filtered",
@@ -3040,7 +3020,6 @@
       "name": "regulations",
       "title": "US Federal Rulemaking",
       "description": "Documents from United States federal rulemaking proceedings, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/regulations_filtered",
@@ -3070,7 +3049,6 @@
       "name": "linux-core",
       "title": "Linux Core \u2014 Copyleft",
       "description": "Pinned copyleft source for the Linux kernel and foundational GNU/Linux toolchain, boot, module, networking, filesystem, and process projects not already represented in code/copyleft.",
-      "format": "parquet",
       "sources": [
         {
           "name": "linux/kernel",
@@ -3255,7 +3233,6 @@
       "name": "tulu3",
       "title": "Tulu 3 SFT Mixture",
       "description": "The pinned Tulu 3 supervised fine-tuning mixture preserved as structured messages with per-record source labels retained for downstream filtering.",
-      "format": "parquet",
       "sources": [
         {
           "name": "allenai/tulu-3-sft-mixture",
@@ -3285,7 +3262,6 @@
       "name": "data-provenance-initiative",
       "title": "Data Provenance Initiative",
       "description": "Openly licensed English and code datasets audited by the Data Provenance Initiative, via the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/data_provenance_initiative_filtered",
@@ -3447,7 +3423,6 @@
       "name": "linux-core",
       "title": "Linux Core \u2014 Permissive Alternatives and BSD",
       "description": "Pinned permissively licensed libc, shell, userland, init/package tooling, and BSD base-system source selected without copyleft imported trees.",
-      "format": "parquet",
       "sources": [
         {
           "name": "musl/libc",
@@ -3566,7 +3541,6 @@
       "name": "arxiv-abstracts",
       "title": "ArXiv Abstracts",
       "description": "Paper titles and abstracts from ArXiv metadata, via the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/arxiv_abstracts_filtered",
@@ -3596,7 +3570,6 @@
       "name": "qemu-devel-mailing-list",
       "title": "QEMU Development Mailing List",
       "description": "Calendar-year 2025 QEMU development messages from the official lore.kernel.org public archive.",
-      "format": "parquet",
       "sources": [
         {
           "name": "qemu-devel@nongnu.org",
@@ -3626,7 +3599,6 @@
       "name": "git-mailing-list",
       "title": "Git Development Mailing List",
       "description": "Calendar-year 2025 Git development and review messages from the official lore.kernel.org public archive.",
-      "format": "parquet",
       "sources": [
         {
           "name": "git@vger.kernel.org",
@@ -3656,7 +3628,6 @@
       "name": "ultrachat-200k",
       "title": "UltraChat 200k SFT",
       "description": "Curated multi-turn assistant conversations from the UltraChat 200k supervised fine-tuning split, preserved as structured messages.",
-      "format": "parquet",
       "sources": [
         {
           "name": "HuggingFaceH4/ultrachat_200k",
@@ -3686,7 +3657,6 @@
       "name": "glibc-mailing-lists",
       "title": "glibc Development and Help Mailing Lists",
       "description": "Calendar-year 2025 glibc development, patch review, and user-help messages from the official Sourceware public archives.",
-      "format": "parquet",
       "sources": [
         {
           "name": "libc-alpha@sourceware.org",
@@ -3722,7 +3692,6 @@
       "name": "gnu-mailing-lists",
       "title": "GNU Development and User Mailing Lists",
       "description": "Checksum-pinned calendar-year 2025 messages from three official GNU monthly raw-mbox archives.",
-      "format": "parquet",
       "sources": [
         {
           "name": "emacs-devel@gnu.org",
@@ -3764,7 +3733,6 @@
       "name": "python-mailing-lists",
       "title": "Python Community Mailing Lists",
       "description": "Checksum-pinned Python development, user, and learning-support discussions from official monthly HyperKitty mbox exports.",
-      "format": "parquet",
       "sources": [
         {
           "name": "python-list@python.org",
@@ -3806,7 +3774,6 @@
       "name": "pressbooks",
       "title": "PressBooks",
       "description": "Open-access book sections from PressBooks, via the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/pressbooks_filtered",
@@ -3848,7 +3815,6 @@
       "name": "gcc-mailing-lists",
       "title": "GCC Development and Help Mailing Lists",
       "description": "Calendar-year 2025 GCC development, patch review, and user-help messages from the official Sourceware public archives.",
-      "format": "parquet",
       "sources": [
         {
           "name": "gcc@gcc.gnu.org",
@@ -3884,7 +3850,6 @@
       "name": "aya",
       "title": "Aya Dataset",
       "description": "Multilingual human-written instruction and response pairs from the Aya project, preserved as structured messages.",
-      "format": "parquet",
       "sources": [
         {
           "name": "CohereForAI/aya_dataset",
@@ -3914,7 +3879,6 @@
       "name": "libretexts",
       "title": "LibreTexts",
       "description": "Open textbook sections from LibreTexts, via the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/libretexts_filtered",
@@ -3968,7 +3932,6 @@
       "name": "news",
       "title": "Common Pile News",
       "description": "Openly licensed news articles from seventeen publishers, via the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/news_filtered",
@@ -4002,13 +3965,15 @@
       "name": "mathlib",
       "title": "Lean Mathlib",
       "description": "Formalized definitions, theorems, and proofs from the Mathlib library for Lean 4, release v4.32.2.",
-      "format": "parquet",
       "sources": [
         {
           "name": "mathlib",
           "origin": "mathlib",
           "version": "905b95818eb32af7874a58b427f50c1711a5e96c",
-          "url": "https://github.com/leanprover-community/mathlib4"
+          "url": "https://github.com/leanprover-community/mathlib4",
+          "input_formats": [
+            "text"
+          ]
         }
       ],
       "converted_by": "waldo index ingest",
@@ -4027,14 +3992,16 @@
           "shards": 1,
           "tokens": 32163758
         }
-      }
+      },
+      "input_formats": [
+        "text"
+      ]
     },
     {
       "path": "community/alpine-linux-mailing-list",
       "name": "alpine-linux-mailing-list",
       "title": "Alpine Linux Development Mailing List",
       "description": "Canonicalized complete public Alpine Linux development-list archive from the official bulk mbox export.",
-      "format": "parquet",
       "sources": [
         {
           "name": "alpine-devel@lists.alpinelinux.org",
@@ -4064,7 +4031,6 @@
       "name": "foodista",
       "title": "Foodista",
       "description": "Community-contributed cooking and food articles from Foodista, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/foodista_filtered",
@@ -4094,7 +4060,6 @@
       "name": "cloud-native-core",
       "title": "Cloud Native Core \u2014 Permissive",
       "description": "Project-owned source from immutable Apache-licensed releases of etcd, Prometheus, and containerd.",
-      "format": "parquet",
       "sources": [
         {
           "name": "etcd-io/etcd",
@@ -4139,7 +4104,6 @@
       "name": "oercommons",
       "title": "OER Commons",
       "description": "Open educational resources from OER Commons, via the filtered Common Pile release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/oercommons_filtered",
@@ -4177,7 +4141,6 @@
       "name": "helpsteer2",
       "title": "HelpSteer2 Scored Responses",
       "description": "Human-rated prompt and response pairs preserved as structured messages with five response attributes; only responses rated 4 for helpfulness, correctness, and coherence are classified as main content for SFT.",
-      "format": "parquet",
       "sources": [
         {
           "name": "nvidia/HelpSteer2",
@@ -4207,7 +4170,6 @@
       "name": "apache-mailing-lists",
       "title": "Apache Project Development Mailing Lists",
       "description": "Checksum-pinned 2025 public development discussions for Apache HTTP Server, Subversion, and Commons.",
-      "format": "parquet",
       "sources": [
         {
           "name": "dev@httpd.apache.org",
@@ -4249,7 +4211,6 @@
       "name": "oasst2",
       "title": "OpenAssistant Conversations 2",
       "description": "Human-written and ranked multi-turn assistant conversations from OpenAssistant release 2, preserved as structured messages.",
-      "format": "parquet",
       "sources": [
         {
           "name": "OpenAssistant/oasst2",
@@ -4279,7 +4240,6 @@
       "name": "hermes-function-calling",
       "title": "Hermes Function Calling",
       "description": "Structured multi-turn and single-turn function-calling conversations preserving tool definitions, calls, results, and final assistant responses.",
-      "format": "parquet",
       "sources": [
         {
           "name": "NousResearch/hermes-function-calling-v1",
@@ -4309,7 +4269,6 @@
       "name": "oasst1",
       "title": "OpenAssistant Conversations 1",
       "description": "Human-written and ranked multi-turn assistant conversations from OpenAssistant release 1, preserved as structured messages.",
-      "format": "parquet",
       "sources": [
         {
           "name": "OpenAssistant/oasst1",
@@ -4339,7 +4298,6 @@
       "name": "interaction-contract-v1",
       "title": "OpenWALDO Interaction Contract v1",
       "description": "OpenWALDO-maintained interaction corpus with 45,000 structured-message training examples across 21 portable conversation and tool-behavior categories.",
-      "format": "parquet",
       "sources": [
         {
           "name": "openwaldo/post-training-data",
@@ -4369,7 +4327,6 @@
       "name": "dolly",
       "title": "Databricks Dolly",
       "description": "Human-written instruction and response pairs from Databricks employees, preserved as structured messages.",
-      "format": "parquet",
       "sources": [
         {
           "name": "databricks/databricks-dolly-15k",
@@ -4399,7 +4356,6 @@
       "name": "peps",
       "title": "Python Enhancement Proposals",
       "description": "Technical specifications and rationale for Python language features, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/python_enhancement_proposals_filtered",
@@ -4429,7 +4385,6 @@
       "name": "public-domain-review",
       "title": "The Public Domain Review",
       "description": "Essays on public-domain art, literature, and history from The Public Domain Review, via the filtered Common Pile v0.1 release.",
-      "format": "parquet",
       "sources": [
         {
           "name": "common-pile/public_domain_review_filtered",
@@ -4459,7 +4414,6 @@
       "name": "opensource-mailing-lists",
       "title": "Open Source Community Mailing Lists",
       "description": "Checksum-pinned 2025 public discussions from the Beowulf and Open Source Initiative communities.",
-      "format": "parquet",
       "sources": [
         {
           "name": "Beowulf Mailing List",
@@ -4505,7 +4459,6 @@
       "name": "conjuntos-logica-funciones",
       "title": "Conjuntos, L\u00f3gica y Funciones",
       "description": "Libro original de matem\u00e1ticas (conjuntos, l\u00f3gica y funciones), 3.\u00aa edici\u00f3n digital (i-xiv, 1-222, M\u00e9xico), convertido desde los manuscritos LaTeX del autor. Idioma: espa\u00f1ol.",
-      "format": "parquet",
       "sources": [
         {
           "name": "Zenodo - archivo del autor (3.\u00aa ed.)",
@@ -4535,7 +4488,6 @@
       "name": "logica-y-circuitos",
       "title": "L\u00f3gica y Circuitos",
       "description": "Libro original de matem\u00e1ticas (l\u00f3gica proposicional, \u00e1lgebra de Boole, circuitos), edici\u00f3n digital, convertido desde los manuscritos LaTeX del autor. Idioma: espa\u00f1ol.",
-      "format": "parquet",
       "sources": [
         {
           "name": "Zenodo - archivo del autor",
