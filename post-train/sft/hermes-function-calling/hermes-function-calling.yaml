@@ -1,0 +1,89 @@
+kind: manifest
+schema: 2
+name: hermes-function-calling
+title: Hermes Function Calling
+description: Structured multi-turn and single-turn function-calling conversations preserving tool definitions, calls, results, and final assistant responses.
+license: Apache-2.0
+sources:
+  - name: NousResearch/hermes-function-calling-v1
+    source: NousResearch/hermes-function-calling-v1
+    version: 176b6a99207f758190477ac3f24d702154d0ff5d
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache-2.0
+      url: https://huggingface.co/datasets/NousResearch/hermes-function-calling-v1/tree/176b6a99207f758190477ac3f24d702154d0ff5d
+    url: https://huggingface.co/datasets/NousResearch/hermes-function-calling-v1
+    category: public-dataset
+    sha256: 939f3024cfec57596015544d482109f88f5f105e71febd253d820b71099aab14
+    content:
+      types:
+        - assistant responses
+        - tool calls
+        - tool definitions
+        - tool results
+      selection: The public auto-converted Parquet files for func_calling and func_calling_singleturn at immutable revision 176b6a99207f758190477ac3f24d702154d0ff5d.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public synthetic function-calling conversations released by Nous Research.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  collector: local@uncommitted:hermes-function-calling.yaml#sha256=1dc7747de2e2c14f7a3cc4280dc3ab362c19037422291b6e7e03003098ddde4d
+  profile: canonical-text-schema-2@sha256:8c1e1c43143a374edf5a12d2199e2a8b01e8761ac977141701787dcb92d65b50
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 576
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 229
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 820
+  ip_addresses: 258
+  phone_numbers: 223
+  mail_routing_headers: 0
+  credentials: 1
+shards:
+  - url: s3://openwaldo/lookaside/f9/f9/f9f93e616802d5be1221043212a67ed9ed962bf7fced43c05c48f384b8c78349
+    sha256: f9f93e616802d5be1221043212a67ed9ed962bf7fced43c05c48f384b8c78349
+    license: Apache-2.0
+    license_usage:
+      Apache-2.0:
+        shards: 0
+        docs: 2993
+        tokens: 6302278
+        bytes: 0
+    sources:
+      - NousResearch/hermes-function-calling-v1
+    docs: 2993
+    tokens: 6302278
+    bytes: 4676799
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 576
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 229
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 820
+      ip_addresses: 258
+      phone_numbers: 223
+      mail_routing_headers: 0
+      credentials: 1

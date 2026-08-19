@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/hermes-function-calling
+entries:
+  - name: hermes-function-calling.yaml
+    type: manifest
