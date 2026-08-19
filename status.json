@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-19T22:17:46Z",
-  "index_commit": "0a4dbcf",
+  "generated": "2026-08-19T22:22:24Z",
+  "index_commit": "de94209",
   "manifests": 53,
   "shards": 959,
-  "docs": 98942062,
-  "tokens": 203844451988,
-  "bytes": 258239477271,
+  "docs": 98942133,
+  "tokens": 203914743993,
+  "bytes": 258249370472,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -315,9 +315,9 @@
     },
     "ODC-BY-1.0": {
       "shards": 4,
-      "docs": 928068,
-      "tokens": 763711792,
-      "bytes": 871045179
+      "docs": 928139,
+      "tokens": 834003797,
+      "bytes": 880938380
     }
   },
   "corpora": [
@@ -3072,6 +3072,32 @@
       }
     },
     {
+      "path": "post-train/sft/tulu3",
+      "name": "tulu3",
+      "title": "Tulu 3 SFT Mixture",
+      "description": "The pinned Tulu 3 supervised fine-tuning mixture preserved as structured messages with per-record source labels retained for downstream filtering.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "allenai/tulu-3-sft-mixture",
+          "origin": "allenai/tulu-3-sft-mixture",
+          "version": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
+          "url": "https://huggingface.co/datasets/allenai/tulu-3-sft-mixture"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 4,
+      "docs": 928139,
+      "tokens": 834003797,
+      "bytes": 880938380,
+      "licenses": {
+        "ODC-BY-1.0": {
+          "shards": 4,
+          "tokens": 834003797
+        }
+      }
+    },
+    {
       "path": "core/common-pile/data-provenance-initiative",
       "name": "data-provenance-initiative",
       "title": "Data Provenance Initiative",
@@ -3226,32 +3252,6 @@
         "MIT": {
           "shards": 2,
           "tokens": 39258411
-        }
-      }
-    },
-    {
-      "path": "post-train/sft/tulu3",
-      "name": "tulu3",
-      "title": "Tulu 3 SFT Mixture",
-      "description": "The pinned Tulu 3 supervised fine-tuning mixture with per-record source labels retained for downstream filtering.",
-      "format": "parquet",
-      "sources": [
-        {
-          "name": "allenai/tulu-3-sft-mixture",
-          "origin": "allenai/tulu-3-sft-mixture",
-          "version": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
-          "url": "https://huggingface.co/datasets/allenai/tulu-3-sft-mixture"
-        }
-      ],
-      "converted_by": "waldo index ingest",
-      "shards": 4,
-      "docs": 928068,
-      "tokens": 763711792,
-      "bytes": 871045179,
-      "licenses": {
-        "ODC-BY-1.0": {
-          "shards": 4,
-          "tokens": 763711792
         }
       }
     },
