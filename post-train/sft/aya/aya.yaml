@@ -1,30 +1,73 @@
 kind: manifest
-schema: 1
+schema: 2
 name: aya
 title: Aya Dataset
-description: Multilingual human-written instruction and response pairs from the Aya project.
+description: Multilingual human-written instruction and response pairs from the Aya project, preserved as structured messages.
 license: Apache-2.0
 sources:
   - name: CohereForAI/aya_dataset
     source: CohereForAI/aya_dataset
-    version: f9ea04583f02a8f86404ff6c58bf75fe637df8a2
+    license: Apache-2.0
     url: https://huggingface.co/datasets/CohereForAI/aya_dataset
     category: public-dataset
-    collected_to: 2026-08
-    sha256: a3fdea5d4a3a8edd08692c1a5df66c97c18f089f7c8abfe2406d1d67a75f31bc
+    sha256: 1dc931004cf3cad68a03fd1f8a667f419cf73025a56d77aebaed2fd617194bc9
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@86278c609d9b8bd8b99322783638b84a4f007634:recipes/post-train/sft/aya.yaml
-  profile: canonical-text-schema-1@sha256:0ac1a417f8e8f69ffc84c3f151f13e519e391de1ca5759ad451cc0d27eb4e374
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  collector: local@uncommitted:aya.yaml#sha256=b8724987e0ea824f6a401be1e9bb79023ef6fc7058edda169977a9c278a3125a
+  profile: canonical-text-schema-2@sha256:805e23056758d6214a7ef447628b30b27d8aec88eadcd1fb95e8cade6755ca8b
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
   tokenizer: tiktoken/cl100k_base
 record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 10484
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 1242
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 147
+  ip_addresses: 27
+  phone_numbers: 146
+  mail_routing_headers: 0
+  credentials: 0
 shards:
-  - url: s3://openwaldo/lookaside/45/a0/45a0125aaac415037e57d4b0e41ffe1c7d80d5fadd59ee87ed0a847d998592a2
-    sha256: 45a0125aaac415037e57d4b0e41ffe1c7d80d5fadd59ee87ed0a847d998592a2
+  - url: s3://openwaldo/lookaside/7e/4e/7e4efd8a505526dc2fd4ec65890378dfc3a8c38b9af055032b81ca18815b6353
+    sha256: 7e4efd8a505526dc2fd4ec65890378dfc3a8c38b9af055032b81ca18815b6353
+    license: Apache-2.0
+    license_usage:
+      Apache-2.0:
+        shards: 0
+        docs: 193211
+        tokens: 107709395
+        bytes: 0
     sources:
       - CohereForAI/aya_dataset
     docs: 193211
-    tokens: 104293685
-    bytes: 81050779
+    tokens: 107709395
+    bytes: 81756367
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 10484
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1242
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 147
+      ip_addresses: 27
+      phone_numbers: 146
+      mail_routing_headers: 0
+      credentials: 0
