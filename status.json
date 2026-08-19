@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-19T22:22:24Z",
-  "index_commit": "de94209",
-  "manifests": 53,
-  "shards": 959,
-  "docs": 98942133,
-  "tokens": 203914743993,
-  "bytes": 258249370472,
+  "generated": "2026-08-19T23:16:43Z",
+  "index_commit": "b48032f",
+  "manifests": 54,
+  "shards": 960,
+  "docs": 98945126,
+  "tokens": 203943099413,
+  "bytes": 258257803749,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,10 +14,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 25,
-      "docs": 1415987,
-      "tokens": 2949767417,
-      "bytes": 135270052
+      "shards": 26,
+      "docs": 1418980,
+      "tokens": 2960943576,
+      "bytes": 140851839
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -160,8 +160,8 @@
     "CC-BY-4.0": {
       "shards": 404,
       "docs": 11320378,
-      "tokens": 86059961365,
-      "bytes": 61441366524
+      "tokens": 86060827238,
+      "bytes": 61441453163
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -178,8 +178,8 @@
     "CC-BY-SA-3.0": {
       "shards": 16,
       "docs": 10383171,
-      "tokens": 3045548354,
-      "bytes": 2950954742
+      "tokens": 3045796575,
+      "bytes": 2951011747
     },
     "CC-BY-SA-3.0 AND MIT": {
       "shards": 1,
@@ -310,8 +310,8 @@
     "MIT": {
       "shards": 21,
       "docs": 635821,
-      "tokens": 2224355845,
-      "bytes": 670944508
+      "tokens": 2240421012,
+      "bytes": 673652354
     },
     "ODC-BY-1.0": {
       "shards": 4,
@@ -319,6 +319,42 @@
       "tokens": 834003797,
       "bytes": 880938380
     }
+  },
+  "languages": {
+    "en": 42,
+    "es": 2,
+    "mul": 10
+  },
+  "programming_languages": {
+    "Ada": 1,
+    "Assembly": 2,
+    "C": 4,
+    "C#": 2,
+    "C++": 4,
+    "CoffeeScript": 1,
+    "D": 1,
+    "Dart": 2,
+    "Emacs Lisp": 1,
+    "Fortran": 1,
+    "Go": 4,
+    "Haskell": 1,
+    "Java": 3,
+    "JavaScript": 2,
+    "Kotlin": 2,
+    "Lean": 1,
+    "Lua": 2,
+    "M4": 1,
+    "Objective-C": 2,
+    "PHP": 2,
+    "Perl": 2,
+    "Python": 2,
+    "Ruby": 1,
+    "Rust": 3,
+    "Scala": 1,
+    "Shell": 4,
+    "Swift": 2,
+    "TypeScript": 3,
+    "Vue": 2
   },
   "corpora": [
     {
@@ -336,6 +372,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 195,
       "docs": 6108982,
       "tokens": 39552347762,
@@ -362,6 +402,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 150,
       "docs": 3797466,
       "tokens": 35503670607,
@@ -396,6 +440,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 113,
       "docs": 30987453,
       "tokens": 21812312488,
@@ -422,6 +470,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 73,
       "docs": 16270149,
       "tokens": 14084575654,
@@ -448,6 +500,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 58,
       "docs": 124898,
       "tokens": 10571397129,
@@ -474,6 +530,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 48,
       "docs": 15109967,
       "tokens": 8613048904,
@@ -500,6 +560,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 45,
       "docs": 128686,
       "tokens": 8066103839,
@@ -526,6 +590,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 33,
       "docs": 2009402,
       "tokens": 7770531095,
@@ -552,6 +620,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 37,
       "docs": 77587,
       "tokens": 7496322259,
@@ -578,6 +650,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 21,
       "docs": 295414,
       "tokens": 6113038318,
@@ -1814,6 +1890,30 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "C",
+        "C#",
+        "C++",
+        "Dart",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Kotlin",
+        "Lua",
+        "Objective-C",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Rust",
+        "Scala",
+        "Shell",
+        "Swift",
+        "TypeScript",
+        "Vue"
+      ],
       "shards": 17,
       "docs": 770428,
       "tokens": 5720034774,
@@ -2650,6 +2750,32 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "C",
+        "C#",
+        "C++",
+        "CoffeeScript",
+        "Dart",
+        "Emacs Lisp",
+        "Go",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Kotlin",
+        "Lua",
+        "Objective-C",
+        "PHP",
+        "Perl",
+        "Python",
+        "Rust",
+        "Shell",
+        "Swift",
+        "TypeScript",
+        "Vue"
+      ],
       "shards": 13,
       "docs": 389312,
       "tokens": 5367672134,
@@ -2684,6 +2810,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 9,
       "docs": 21154,
       "tokens": 5254474361,
@@ -2710,6 +2840,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 22,
       "docs": 2020846,
       "tokens": 4621071246,
@@ -2736,6 +2870,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 22,
       "docs": 986367,
       "tokens": 4073362577,
@@ -2762,6 +2900,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 11,
       "docs": 10230106,
       "tokens": 2943095688,
@@ -2788,6 +2930,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 12,
       "docs": 403915,
       "tokens": 2804023657,
@@ -2814,6 +2960,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 14,
       "docs": 391470,
       "tokens": 2726536049,
@@ -2840,6 +2990,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 11,
       "docs": 47894,
       "tokens": 2012229928,
@@ -2866,6 +3020,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 7,
       "docs": 214957,
       "tokens": 1762060692,
@@ -2892,6 +3050,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 4,
       "docs": 192436,
       "tokens": 1280789827,
@@ -3044,6 +3206,23 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "Ada",
+        "Assembly",
+        "C",
+        "C++",
+        "D",
+        "Fortran",
+        "Go",
+        "Java",
+        "M4",
+        "Perl",
+        "Rust",
+        "Shell"
+      ],
       "shards": 2,
       "docs": 302256,
       "tokens": 1015262741,
@@ -3086,6 +3265,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 4,
       "docs": 928139,
       "tokens": 834003797,
@@ -3112,6 +3295,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 5,
       "docs": 3472051,
       "tokens": 814816559,
@@ -3330,6 +3517,15 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "Assembly",
+        "C",
+        "C++",
+        "Shell"
+      ],
       "shards": 1,
       "docs": 131423,
       "tokens": 606231176,
@@ -3380,6 +3576,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 4,
       "docs": 2504187,
       "tokens": 522090679,
@@ -3406,6 +3606,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 73381,
       "tokens": 338940756,
@@ -3432,6 +3636,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 1232,
       "tokens": 307929464,
@@ -3447,7 +3655,7 @@
       "path": "post-train/sft/ultrachat-200k",
       "name": "ultrachat-200k",
       "title": "UltraChat 200k SFT",
-      "description": "Curated multi-turn assistant conversations from the UltraChat 200k supervised fine-tuning split.",
+      "description": "Curated multi-turn assistant conversations from the UltraChat 200k supervised fine-tuning split, preserved as structured messages.",
       "format": "parquet",
       "sources": [
         {
@@ -3458,14 +3666,18 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 2,
       "docs": 207832,
-      "tokens": 240837457,
-      "bytes": 371748016,
+      "tokens": 256902624,
+      "bytes": 374455862,
       "licenses": {
         "MIT": {
           "shards": 2,
-          "tokens": 240837457
+          "tokens": 256902624
         }
       }
     },
@@ -3490,6 +3702,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 718,
       "tokens": 178590893,
@@ -3528,6 +3744,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 559,
       "tokens": 144538843,
@@ -3566,6 +3786,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 128485,
       "tokens": 140127647,
@@ -3592,6 +3816,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 54434,
       "tokens": 125805922,
@@ -3636,6 +3864,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 444,
       "tokens": 112105019,
@@ -3651,25 +3883,29 @@
       "path": "post-train/sft/aya",
       "name": "aya",
       "title": "Aya Dataset",
-      "description": "Multilingual human-written instruction and response pairs from the Aya project.",
+      "description": "Multilingual human-written instruction and response pairs from the Aya project, preserved as structured messages.",
       "format": "parquet",
       "sources": [
         {
           "name": "CohereForAI/aya_dataset",
           "origin": "CohereForAI/aya_dataset",
-          "version": "f9ea04583f02a8f86404ff6c58bf75fe637df8a2",
+          "version": null,
           "url": "https://huggingface.co/datasets/CohereForAI/aya_dataset"
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 193211,
-      "tokens": 104293685,
-      "bytes": 81050779,
+      "tokens": 107709395,
+      "bytes": 81756367,
       "licenses": {
         "Apache-2.0": {
           "shards": 1,
-          "tokens": 104293685
+          "tokens": 107709395
         }
       }
     },
@@ -3688,6 +3924,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 40042,
       "tokens": 84274363,
@@ -3738,6 +3978,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 126664,
       "tokens": 54618645,
@@ -3768,6 +4012,12 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "Lean"
+      ],
       "shards": 1,
       "docs": 8264,
       "tokens": 32163758,
@@ -3794,6 +4044,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 8206,
       "tokens": 21811688,
@@ -3820,6 +4074,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 65640,
       "tokens": 20967715,
@@ -3858,6 +4116,13 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "Go",
+        "TypeScript"
+      ],
       "shards": 1,
       "docs": 4172,
       "tokens": 16415995,
@@ -3884,6 +4149,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 5244,
       "tokens": 10819152,
@@ -3900,6 +4169,36 @@
         "LicenseRef-Public-Domain": {
           "shards": 1,
           "tokens": 250765
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/helpsteer2",
+      "name": "helpsteer2",
+      "title": "HelpSteer2 Scored Responses",
+      "description": "Human-rated prompt and response pairs preserved as structured messages with five response attributes; only responses rated 4 for helpfulness, correctness, and coherence are classified as main content for SFT.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "nvidia/HelpSteer2",
+          "origin": "nvidia/HelpSteer2",
+          "version": "cece6cab0b0e2851523fd3664220d36a63337b47",
+          "url": "https://huggingface.co/datasets/nvidia/HelpSteer2"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 20323,
+      "tokens": 10358587,
+      "bytes": 11417443,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 10358587
         }
       }
     },
@@ -3930,6 +4229,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 36,
       "tokens": 9754829,
@@ -3942,54 +4245,62 @@
       }
     },
     {
-      "path": "post-train/sft/helpsteer2",
-      "name": "helpsteer2",
-      "title": "HelpSteer2 Scored Responses",
-      "description": "Human-rated prompt and response pairs with five preserved response attributes; only responses rated 4 for helpfulness, correctness, and coherence are classified as main content for SFT.",
-      "format": "parquet",
-      "sources": [
-        {
-          "name": "nvidia/HelpSteer2",
-          "origin": "nvidia/HelpSteer2",
-          "version": "cece6cab0b0e2851523fd3664220d36a63337b47",
-          "url": "https://huggingface.co/datasets/nvidia/HelpSteer2"
-        }
-      ],
-      "converted_by": "waldo index ingest",
-      "shards": 1,
-      "docs": 20323,
-      "tokens": 9492714,
-      "bytes": 11330804,
-      "licenses": {
-        "CC-BY-4.0": {
-          "shards": 1,
-          "tokens": 9492714
-        }
-      }
-    },
-    {
       "path": "post-train/sft/oasst2",
       "name": "oasst2",
       "title": "OpenAssistant Conversations 2",
-      "description": "Human-written and ranked multi-turn assistant conversations from OpenAssistant release 2.",
+      "description": "Human-written and ranked multi-turn assistant conversations from OpenAssistant release 2, preserved as structured messages.",
       "format": "parquet",
       "sources": [
         {
           "name": "OpenAssistant/oasst2",
           "origin": "OpenAssistant/oasst2",
-          "version": "2023-11-05",
+          "version": null,
           "url": "https://huggingface.co/datasets/OpenAssistant/oasst2"
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 13852,
-      "tokens": 6156748,
-      "bytes": 10077219,
+      "tokens": 6643142,
+      "bytes": 10172146,
       "licenses": {
         "Apache-2.0": {
           "shards": 1,
-          "tokens": 6156748
+          "tokens": 6643142
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/hermes-function-calling",
+      "name": "hermes-function-calling",
+      "title": "Hermes Function Calling",
+      "description": "Structured multi-turn and single-turn function-calling conversations preserving tool definitions, calls, results, and final assistant responses.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "NousResearch/hermes-function-calling-v1",
+          "origin": "NousResearch/hermes-function-calling-v1",
+          "version": "176b6a99207f758190477ac3f24d702154d0ff5d",
+          "url": "https://huggingface.co/datasets/NousResearch/hermes-function-calling-v1"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 2993,
+      "tokens": 6302278,
+      "bytes": 4676799,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 6302278
         }
       }
     },
@@ -3997,25 +4308,59 @@
       "path": "post-train/sft/oasst1",
       "name": "oasst1",
       "title": "OpenAssistant Conversations 1",
-      "description": "Human-written and ranked multi-turn assistant conversations from OpenAssistant release 1.",
+      "description": "Human-written and ranked multi-turn assistant conversations from OpenAssistant release 1, preserved as structured messages.",
       "format": "parquet",
       "sources": [
         {
           "name": "OpenAssistant/oasst1",
           "origin": "OpenAssistant/oasst1",
-          "version": "2023-04-12",
+          "version": null,
           "url": "https://huggingface.co/datasets/OpenAssistant/oasst1"
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 10362,
-      "tokens": 4075556,
-      "bytes": 6588538,
+      "tokens": 4410190,
+      "bytes": 6656074,
       "licenses": {
         "Apache-2.0": {
           "shards": 1,
-          "tokens": 4075556
+          "tokens": 4410190
+        }
+      }
+    },
+    {
+      "path": "post-train/sft/interaction-contract-v1",
+      "name": "interaction-contract-v1",
+      "title": "OpenWALDO Interaction Contract v1",
+      "description": "OpenWALDO-maintained interaction corpus with 45,000 structured-message training examples across 21 portable conversation and tool-behavior categories.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "openwaldo/post-training-data",
+          "origin": "openwaldo/post-training-data",
+          "version": "8d2454f2625a85d911cd7810816e489f0ebb1448",
+          "url": "https://github.com/openwaldo/post-training-data"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 45000,
+      "tokens": 2896711,
+      "bytes": 2301530,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 2896711
         }
       }
     },
@@ -4023,25 +4368,29 @@
       "path": "post-train/sft/dolly",
       "name": "dolly",
       "title": "Databricks Dolly",
-      "description": "Human-written instruction and response pairs from Databricks employees.",
+      "description": "Human-written instruction and response pairs from Databricks employees, preserved as structured messages.",
       "format": "parquet",
       "sources": [
         {
           "name": "databricks/databricks-dolly-15k",
           "origin": "databricks/databricks-dolly-15k",
-          "version": "1.0",
+          "version": null,
           "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 14996,
-      "tokens": 2647410,
-      "bytes": 4837692,
+      "tokens": 2895631,
+      "bytes": 4894697,
       "licenses": {
         "CC-BY-SA-3.0": {
           "shards": 1,
-          "tokens": 2647410
+          "tokens": 2895631
         }
       }
     },
@@ -4060,6 +4409,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 655,
       "tokens": 2535956,
@@ -4068,32 +4421,6 @@
         "LicenseRef-Public-Domain": {
           "shards": 1,
           "tokens": 2535956
-        }
-      }
-    },
-    {
-      "path": "post-train/sft/interaction-contract-v1",
-      "name": "interaction-contract-v1",
-      "title": "OpenWALDO Interaction Contract v1",
-      "description": "OpenWALDO-maintained interaction corpus with 45,000 training examples across 21 portable conversation and tool-behavior categories.",
-      "format": "parquet",
-      "sources": [
-        {
-          "name": "openwaldo/post-training-data",
-          "origin": "openwaldo/post-training-data",
-          "version": "8d2454f2625a85d911cd7810816e489f0ebb1448",
-          "url": "https://github.com/openwaldo/post-training-data"
-        }
-      ],
-      "converted_by": "waldo index ingest",
-      "shards": 1,
-      "docs": 45000,
-      "tokens": 2259568,
-      "bytes": 2264593,
-      "licenses": {
-        "Apache-2.0": {
-          "shards": 1,
-          "tokens": 2259568
         }
       }
     },
@@ -4112,6 +4439,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 1406,
       "tokens": 1508728,
@@ -4150,6 +4481,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 28,
       "tokens": 802187,
@@ -4180,6 +4515,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "es"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 1,
       "tokens": 118289,
@@ -4206,6 +4545,10 @@
         }
       ],
       "converted_by": "waldo index ingest",
+      "languages": [
+        "es"
+      ],
+      "programming_languages": [],
       "shards": 1,
       "docs": 1,
       "tokens": 47066,
