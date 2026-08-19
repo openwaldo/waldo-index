@@ -41,6 +41,11 @@ class StatusTest(unittest.TestCase):
             })
             self.write_yaml(os.path.join(root, "current.yaml"), {
                 "kind": "manifest", "schema": 1, "name": "current",
+                "content": {"languages": ["en"]},
+                "sources": [{"content": {
+                    "languages": ["es"],
+                    "programming_languages": ["Python"],
+                }}],
                 "license": "CC0-1.0", "shards": [
                     {"docs": 2, "tokens": 20, "bytes": 200},
                 ],
@@ -68,6 +73,12 @@ class StatusTest(unittest.TestCase):
             self.assertEqual(agg["tokens"], 50)
             self.assertEqual({row["name"] for row in corpora},
                              {"current", "legacy"})
+            current = next(row for row in corpora
+                           if row["name"] == "current")
+            self.assertEqual(current["languages"], ["en", "es"])
+            self.assertEqual(current["programming_languages"], ["Python"])
+            self.assertEqual(agg["languages"], {"en": 1, "es": 1})
+            self.assertEqual(agg["programming_languages"], {"Python": 1})
 
     def test_accounts_for_plural_licenses_and_usage(self):
         with tempfile.TemporaryDirectory() as root:

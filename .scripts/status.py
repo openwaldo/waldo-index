@@ -75,6 +75,20 @@ def license_list(value):
     return list(value.get("licenses") or [])
 
 
+def declared_content_values(manifest, field):
+    """Return sorted corpus and source declarations without inferring rows."""
+    values = set((manifest.get("content") or {}).get(field) or [])
+    for source in manifest.get("sources", []):
+        values.update((source.get("content") or {}).get(field) or [])
+    return sorted(value for value in values if value)
+
+
+def add_declarations(agg, field, values):
+    counts = agg.setdefault(field, {})
+    for value in values:
+        counts[value] = counts.get(value, 0) + 1
+
+
 def walk(root, dirpath, agg, corpora):
     ix = load_metadata(find_index(dirpath))
     for e in ix.get("entries", []):
@@ -85,6 +99,12 @@ def walk(root, dirpath, agg, corpora):
             m = load_metadata(os.path.join(dirpath, name))
             agg["manifests"] += 1
             defaults = license_list(m) or ["(none declared)"]
+            languages = declared_content_values(m, "languages")
+            programming_languages = declared_content_values(
+                m, "programming_languages")
+            add_declarations(agg, "languages", languages)
+            add_declarations(agg, "programming_languages",
+                             programming_languages)
             # One table row per manifest: provenance + its own stats.
             row = {
                 "path": os.path.relpath(dirpath, root),
@@ -99,6 +119,8 @@ def walk(root, dirpath, agg, corpora):
                     for s in m.get("sources", [])
                 ],
                 "converted_by": (m.get("converted_by") or {}).get("tool"),
+                "languages": languages,
+                "programming_languages": programming_languages,
                 "shards": 0, "docs": 0, "tokens": 0, "bytes": 0,
                 "licenses": {},
             }
@@ -156,7 +178,8 @@ def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(root, "status.json")
     agg = {"manifests": 0, "shards": 0, "docs": 0, "tokens": 0,
-           "bytes": 0, "licenses": {}}
+           "bytes": 0, "licenses": {}, "languages": {},
+           "programming_languages": {}}
     corpora = []
     walk(root, root, agg, corpora)
     # Biggest corpora first — the natural reading order for the table.
@@ -170,6 +193,9 @@ def main():
         "tokens": agg["tokens"],
         "bytes": agg["bytes"],
         "licenses": dict(sorted(agg["licenses"].items())),
+        "languages": dict(sorted(agg["languages"].items())),
+        "programming_languages": dict(
+            sorted(agg["programming_languages"].items())),
         "corpora": corpora,
     }
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
