@@ -2,7 +2,7 @@ kind: manifest
 schema: 2
 name: interaction-contract-v1
 title: OpenWALDO Interaction Contract v1
-description: OpenWALDO-maintained interaction corpus with 45,000 training examples across 21 portable conversation and tool-behavior categories.
+description: OpenWALDO-maintained interaction corpus with 45,000 structured-message training examples across 21 portable conversation and tool-behavior categories.
 license: Apache-2.0
 sources:
   - name: openwaldo/post-training-data
@@ -14,7 +14,7 @@ sources:
       url: https://github.com/openwaldo/post-training-data/blob/8d2454f2625a85d911cd7810816e489f0ebb1448/LICENSE
     url: https://github.com/openwaldo/post-training-data
     category: public-dataset
-    sha256: 974e857e1b0da0ae1336ef94a36ef522d275355b763836e1b827ed40196b684b
+    sha256: c22a2b14e6cc381bc8f51bee1c6d2add8e8e6e5b23f4b9de7ef3df420a3e723a
     content:
       types:
         - instruction and response pairs
@@ -31,11 +31,12 @@ sources:
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@81d8a0fdab44de143c7ec6306bed267d366a57bc:recipes/post-train/sft/interaction-contract.yaml#sha256=d59d869316ba2ca818813039d0064f7fa07513f2f1a319aabd8ebc2bceedcfdc
-  profile: canonical-text-schema-2@sha256:240dd6dfb37bade416a361ecce1ed20e6ca833539809947021662183a52d0a25
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  collector: local@uncommitted:interaction-contract.yaml#sha256=b2fa2c2e8038375adb7824bdd7c546b286c8d31a2ebc7b8ac7a670a8c903687d
+  profile: canonical-text-schema-2@sha256:50ba3ddd7544519987136ac4369a301c7d64e61a194eb563c9d91b106a9bbfa5
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
   tokenizer: tiktoken/cl100k_base
-record_schema: 2
+record_schema: 1
+record_kind: conversation
 assessment:
   email_addresses:
     detector: waldo/email-address-v1
@@ -55,20 +56,20 @@ redaction:
   mail_routing_headers: 0
   credentials: 0
 shards:
-  - url: s3://openwaldo/lookaside/12/01/1201722cebe1502e3d84dfd43dc8af75b01e5d921156a982100c274e7a06a3c3
-    sha256: 1201722cebe1502e3d84dfd43dc8af75b01e5d921156a982100c274e7a06a3c3
+  - url: s3://openwaldo/lookaside/4e/d3/4ed30a794a9f2d467486a09ad2f36fb6258172861d92dcec578d1f5e6782a10e
+    sha256: 4ed30a794a9f2d467486a09ad2f36fb6258172861d92dcec578d1f5e6782a10e
     license: Apache-2.0
     license_usage:
       Apache-2.0:
         shards: 0
         docs: 45000
-        tokens: 2259568
+        tokens: 2896711
         bytes: 0
     sources:
       - openwaldo/post-training-data
     docs: 45000
-    tokens: 2259568
-    bytes: 2264593
+    tokens: 2896711
+    bytes: 2301530
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
