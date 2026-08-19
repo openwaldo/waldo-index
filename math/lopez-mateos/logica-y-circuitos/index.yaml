@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: math/lopez-mateos/logica-y-circuitos
+entries:
+  - name: logica-y-circuitos.yaml
+    type: manifest
