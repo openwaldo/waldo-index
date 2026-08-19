@@ -3,6 +3,9 @@ schema: 1
 name: doab
 title: Directory of Open Access Books
 description: Open-access book text from the Directory of Open Access Books, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: CC-BY-4.0
 sources:
   - name: common-pile/doab_filtered

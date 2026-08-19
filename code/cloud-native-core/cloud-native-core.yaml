@@ -3,6 +3,12 @@ schema: 2
 name: cloud-native-core
 title: Cloud Native Core — Permissive
 description: Project-owned source from immutable Apache-licensed releases of etcd, Prometheus, and containerd.
+content:
+  languages:
+    - en
+  programming_languages:
+    - Go
+    - TypeScript
 license: Apache-2.0
 sources:
   - name: etcd-io/etcd
@@ -18,6 +24,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Project-owned source at v3.7.1 selected by the reviewed --source-code profile; vendored dependencies and generated API/build output excluded.
       copyrighted: yes
@@ -36,6 +44,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
         - TypeScript
       selection: Project-owned source at v3.13.2 selected by the reviewed --source-code profile; vendored dependencies and generated API/build output excluded.
@@ -55,6 +65,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Project-owned source at v2.3.3 selected by the reviewed --source-code profile; 4,851 vendored files and generated API/build output are excluded.
       copyrighted: yes

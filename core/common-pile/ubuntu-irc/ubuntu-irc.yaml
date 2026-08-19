@@ -3,6 +3,9 @@ schema: 1
 name: ubuntu-irc
 title: Ubuntu IRC Logs
 description: Public Ubuntu community IRC conversations, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: CC0-1.0
 sources:
   - name: common-pile/ubuntu_irc_filtered

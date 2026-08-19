@@ -3,6 +3,9 @@ schema: 1
 name: youtube
 title: YouTube Transcripts
 description: Transcripts from Creative Commons-licensed YouTube videos, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - mul
 license: CC-BY-3.0
 sources:
   - name: common-pile/youtube_filtered

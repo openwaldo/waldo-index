@@ -3,6 +3,9 @@ schema: 2
 name: pressbooks
 title: PressBooks
 description: Open-access book sections from PressBooks, via the filtered Common Pile release.
+content:
+  languages:
+    - en
 licenses:
   - CC-BY-4.0
   - CC-BY-SA-4.0

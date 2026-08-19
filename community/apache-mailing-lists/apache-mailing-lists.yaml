@@ -3,6 +3,9 @@ schema: 2
 name: apache-mailing-lists
 title: Apache Project Development Mailing Lists
 description: Checksum-pinned 2025 public development discussions for Apache HTTP Server, Subversion, and Commons.
+content:
+  languages:
+    - en
 license: LicenseRef-Apache-Public-Forum
 sources:
   - name: dev@httpd.apache.org

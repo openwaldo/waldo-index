@@ -3,6 +3,14 @@ schema: 2
 name: linux-core
 title: Linux Core — Permissive Alternatives and BSD
 description: Pinned permissively licensed libc, shell, userland, init/package tooling, and BSD base-system source selected without copyleft imported trees.
+content:
+  languages:
+    - en
+  programming_languages:
+    - Assembly
+    - C
+    - C++
+    - Shell
 licenses:
   - 0BSD
   - BSD-2-Clause
@@ -25,6 +33,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Assembly
         - C
       selection: Complete tracked project source selected by the reviewed --source-code profile.
@@ -44,6 +54,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - Shell
       selection: Complete tracked project source selected by the reviewed --source-code profile.
@@ -63,6 +75,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Complete tracked project source selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -81,6 +95,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Complete tracked project source selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -99,6 +115,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Complete tracked project source selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -117,6 +135,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - Shell
       selection: Complete tracked project source selected by the reviewed --source-code profile.
@@ -136,6 +156,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - Shell
       selection: Complete tracked project source selected by the reviewed --source-code profile.
@@ -155,6 +177,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - Shell
       selection: Complete tracked portable OpenSSH source selected by the reviewed --source-code profile; bundled compatibility notices remain in the source tree.
@@ -174,6 +198,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Assembly
         - C
         - C++
@@ -195,6 +221,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Assembly
         - C
         - C++
@@ -216,6 +244,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Assembly
         - C
         - C++

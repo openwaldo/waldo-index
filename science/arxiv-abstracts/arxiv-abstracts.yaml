@@ -3,6 +3,9 @@ schema: 2
 name: arxiv-abstracts
 title: ArXiv Abstracts
 description: Paper titles and abstracts from ArXiv metadata, via the filtered Common Pile release.
+content:
+  languages:
+    - mul
 license: CC0-1.0
 sources:
   - name: common-pile/arxiv_abstracts_filtered

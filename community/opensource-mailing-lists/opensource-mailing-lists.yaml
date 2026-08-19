@@ -3,6 +3,9 @@ schema: 2
 name: opensource-mailing-lists
 title: Open Source Community Mailing Lists
 description: Checksum-pinned 2025 public discussions from the Beowulf and Open Source Initiative communities.
+content:
+  languages:
+    - en
 licenses:
   - LicenseRef-OSI-Public-Forum
   - LicenseRef-Publicly-Archived-Forum

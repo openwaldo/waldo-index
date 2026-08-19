@@ -3,6 +3,9 @@ schema: 1
 name: public-domain-review
 title: The Public Domain Review
 description: Essays on public-domain art, literature, and history from The Public Domain Review, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: CC-BY-SA-4.0
 sources:
   - name: common-pile/public_domain_review_filtered

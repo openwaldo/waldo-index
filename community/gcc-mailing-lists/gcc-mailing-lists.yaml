@@ -3,6 +3,9 @@ schema: 2
 name: gcc-mailing-lists
 title: GCC Development and Help Mailing Lists
 description: Calendar-year 2025 GCC development, patch review, and user-help messages from the official Sourceware public archives.
+content:
+  languages:
+    - en
 license: LicenseRef-Publicly-Archived-Forum
 sources:
   - name: gcc@gcc.gnu.org

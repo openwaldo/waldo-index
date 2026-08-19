@@ -3,6 +3,22 @@ schema: 2
 name: linux-core
 title: Linux Core — Copyleft
 description: Pinned copyleft source for the Linux kernel and foundational GNU/Linux toolchain, boot, module, networking, filesystem, and process projects not already represented in code/copyleft.
+content:
+  languages:
+    - en
+  programming_languages:
+    - Ada
+    - Assembly
+    - C
+    - C++
+    - D
+    - Fortran
+    - Go
+    - Java
+    - M4
+    - Perl
+    - Rust
+    - Shell
 licenses:
   - GPL-2.0-only
   - GPL-2.0-or-later
@@ -23,6 +39,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Assembly
         - C
         - Rust
@@ -43,6 +61,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; library and utility licensing remains identified by upstream file headers.
       copyrighted: yes
@@ -61,6 +81,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -79,6 +101,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -97,6 +121,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -115,6 +141,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -133,6 +161,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -151,6 +181,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - Shell
       selection: Tracked project files selected by the reviewed --source-code profile.
@@ -170,6 +202,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Assembly
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
@@ -189,6 +223,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Ada
         - C
         - C++
@@ -213,6 +249,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; incorporated component notices remain in the source tree.
@@ -232,6 +270,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Assembly
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
@@ -251,6 +291,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - M4
         - Perl
         - Shell
@@ -271,6 +313,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - M4
         - Perl
         - Shell
@@ -291,6 +335,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - M4
       selection: Tracked project files selected by the reviewed --source-code profile.
@@ -310,6 +356,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - C++
         - M4
@@ -330,6 +378,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - C++
         - Java
@@ -350,6 +400,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - M4
         - Shell
@@ -370,6 +422,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
       copyrighted: yes
@@ -388,6 +442,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; generated-output terms remain documented upstream.
@@ -407,6 +463,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; GPL utility and LGPL library licensing remains identified upstream.
       copyrighted: yes
@@ -425,6 +483,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile.
       copyrighted: yes

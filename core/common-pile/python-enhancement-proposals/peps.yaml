@@ -3,6 +3,9 @@ schema: 1
 name: peps
 title: Python Enhancement Proposals
 description: Technical specifications and rationale for Python language features, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: LicenseRef-Public-Domain
 sources:
   - name: common-pile/python_enhancement_proposals_filtered

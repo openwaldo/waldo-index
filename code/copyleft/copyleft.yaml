@@ -3,6 +3,31 @@ schema: 2
 name: copyleft
 title: Copyleft-Licensed Project Code
 description: Project-owned files from immutable open-source repository commits, with text, structured, and binary assets retained while common vendored, generated, dependency, fixture, and build-output trees are excluded.
+content:
+  languages:
+    - en
+  programming_languages:
+    - C
+    - C#
+    - C++
+    - CoffeeScript
+    - Dart
+    - Emacs Lisp
+    - Go
+    - Haskell
+    - Java
+    - JavaScript
+    - Kotlin
+    - Lua
+    - Objective-C
+    - PHP
+    - Perl
+    - Python
+    - Rust
+    - Shell
+    - Swift
+    - TypeScript
+    - Vue
 licenses:
   - GPL-2.0-only
   - GPL-3.0-only
@@ -21,6 +46,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -39,6 +66,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -57,6 +86,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -75,6 +106,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -93,6 +126,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -111,6 +146,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -129,6 +166,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -147,6 +186,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -165,6 +206,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -183,6 +226,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -201,6 +246,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Kotlin
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -219,6 +266,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Kotlin
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -237,6 +286,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Rust
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -255,6 +306,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -273,6 +326,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -291,6 +346,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -309,6 +366,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -327,6 +386,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Shell
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -345,6 +406,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -363,6 +426,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Dart
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -381,6 +446,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Shell
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -399,6 +466,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Swift
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -417,6 +486,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Haskell
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -435,6 +506,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -453,6 +526,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -471,6 +546,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -489,6 +566,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -507,6 +586,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -525,6 +606,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -543,6 +626,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Vue
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -561,6 +646,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Vue
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -579,6 +666,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -597,6 +686,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Haskell
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -615,6 +706,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -633,6 +726,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -651,6 +746,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -669,6 +766,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -687,6 +786,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -705,6 +806,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -723,6 +826,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -741,6 +846,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -759,6 +866,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -777,6 +886,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -795,6 +906,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -813,6 +926,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -831,6 +946,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -849,6 +966,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Swift
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -867,6 +986,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -885,6 +1006,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -903,6 +1026,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -921,6 +1046,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -939,6 +1066,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -957,6 +1086,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -975,6 +1106,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -993,6 +1126,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1011,6 +1146,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Shell
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1029,6 +1166,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1047,6 +1186,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1065,6 +1206,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Kotlin
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1083,6 +1226,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Swift
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1101,6 +1246,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Kotlin
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1119,6 +1266,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Dart
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1137,6 +1286,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1155,6 +1306,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1173,6 +1326,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Lua
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1191,6 +1346,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1209,6 +1366,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Kotlin
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1227,6 +1386,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1245,6 +1406,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1263,6 +1426,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Rust
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1281,6 +1446,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Rust
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1299,6 +1466,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1317,6 +1486,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1335,6 +1506,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1353,6 +1526,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1371,6 +1546,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1389,6 +1566,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1407,6 +1586,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1425,6 +1606,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Emacs Lisp
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1443,6 +1626,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1461,6 +1646,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1479,6 +1666,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1497,6 +1686,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1515,6 +1706,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Perl
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1533,6 +1726,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Java
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1551,6 +1746,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1569,6 +1766,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1587,6 +1786,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - CoffeeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1605,6 +1806,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1623,6 +1826,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Go
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1641,6 +1846,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1659,6 +1866,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1677,6 +1886,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1695,6 +1906,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1713,6 +1926,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1731,6 +1946,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1749,6 +1966,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1767,6 +1986,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1785,6 +2006,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Objective-C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1803,6 +2026,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1821,6 +2046,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1839,6 +2066,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1857,6 +2086,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1875,6 +2106,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Vue
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1893,6 +2126,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1911,6 +2146,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1929,6 +2166,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1947,6 +2186,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - TypeScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1965,6 +2206,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -1983,6 +2226,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - PHP
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2001,6 +2246,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - JavaScript
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2019,6 +2266,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2037,6 +2286,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2055,6 +2306,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C#
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2073,6 +2326,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2091,6 +2346,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2109,6 +2366,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2127,6 +2386,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - Python
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2145,6 +2406,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2163,6 +2426,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C++
       selection: Tracked project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2181,6 +2446,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2199,6 +2466,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2217,6 +2486,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2235,6 +2506,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2253,6 +2526,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2271,6 +2546,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2289,6 +2566,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2307,6 +2586,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2325,6 +2606,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2343,6 +2626,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2361,6 +2646,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2379,6 +2666,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2397,6 +2686,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes
@@ -2415,6 +2706,8 @@ sources:
       types:
         - source code
       languages:
+        - en
+      programming_languages:
         - C
       selection: Tracked GNU project files selected by the reviewed --source-code profile; text, structured, and binary assets retained while common dependency, generated, fixture, and build-output trees are excluded.
       copyrighted: yes

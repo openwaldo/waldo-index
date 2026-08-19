@@ -3,6 +3,9 @@ schema: 2
 name: wikimedia
 title: Wikimedia
 description: Articles and other text from Wikimedia projects, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - mul
 license: CC-BY-SA-4.0
 sources:
   - name: common-pile/wikimedia_filtered

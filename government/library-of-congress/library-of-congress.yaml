@@ -3,6 +3,9 @@ schema: 2
 name: library-of-congress
 title: Library of Congress Books
 description: Public-domain Library of Congress book text from the filtered Common Pile release.
+content:
+  languages:
+    - en
 license: LicenseRef-Public-Domain
 sources:
   - name: common-pile/library_of_congress_filtered

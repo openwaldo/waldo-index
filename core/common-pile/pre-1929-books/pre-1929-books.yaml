@@ -3,6 +3,9 @@ schema: 2
 name: pre-1929-books
 title: Pre-1929 Public Library Books
 description: Public-domain scans of books published before 1929 from the filtered Common Pile release.
+content:
+  languages:
+    - mul
 license: LicenseRef-Public-Domain
 sources:
   - name: common-pile/pre_1929_books_filtered
@@ -20,7 +23,7 @@ sources:
         - cultural heritage
         - scanned text
       languages:
-        - multilingual
+        - mul
       selection: All 26 gzip JSONL artifacts at the pinned filtered Common Pile revision; 124,898 records uniformly declare Public Domain and retain HathiTrust and Internet Archive identifiers, provenance, and original URLs. Exact canonical-text comparison found no overlap with the 77,587 committed Project Gutenberg records.
       copyrighted: no
       machine_generated: no

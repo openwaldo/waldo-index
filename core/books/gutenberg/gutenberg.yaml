@@ -3,6 +3,9 @@ schema: 1
 name: gutenberg
 title: Project Gutenberg
 description: Public-domain books transcribed and proofread by Project Gutenberg volunteers.
+content:
+  languages:
+    - mul
 license: CC0-1.0
 sources:
   - name: gutenberg

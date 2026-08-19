@@ -3,6 +3,9 @@ schema: 2
 name: libretexts
 title: LibreTexts
 description: Open textbook sections from LibreTexts, via the filtered Common Pile release.
+content:
+  languages:
+    - en
 licenses:
   - CC-BY-3.0
   - CC-BY-4.0

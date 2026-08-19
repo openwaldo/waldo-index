@@ -3,6 +3,9 @@ schema: 2
 name: pubmed
 title: PubMed Central Open-Access Articles
 description: Openly licensed PubMed Central article text from the filtered Common Pile release.
+content:
+  languages:
+    - mul
 licenses:
   - CC-BY-4.0
   - CC-BY-SA-4.0
@@ -22,7 +25,7 @@ sources:
         - academic papers
         - biomedical literature
       languages:
-        - multilingual
+        - mul
       selection: All 17 gzip JSONL artifacts at the pinned filtered Common Pile revision; 3,797,568 records have complete PubMed Central identity, original URL, provenance, and one of three enumerated open licenses. The 11,870 metadata-rich rows with empty article text use their journal citation, then original PMC URL, as deterministic fallback.
       copyrighted: yes
       machine_generated: no

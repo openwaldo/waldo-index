@@ -3,6 +3,9 @@ schema: 1
 name: usgpo
 title: US Government Publishing Office
 description: Publications of the United States Government Publishing Office, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: LicenseRef-Public-Domain
 sources:
   - name: common-pile/usgpo_filtered

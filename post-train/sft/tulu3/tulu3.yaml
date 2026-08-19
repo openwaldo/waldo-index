@@ -3,6 +3,9 @@ schema: 2
 name: tulu3
 title: Tulu 3 SFT Mixture
 description: The pinned Tulu 3 supervised fine-tuning mixture preserved as structured messages with per-record source labels retained for downstream filtering.
+content:
+  languages:
+    - en
 license: ODC-BY-1.0
 sources:
   - name: allenai/tulu-3-sft-mixture

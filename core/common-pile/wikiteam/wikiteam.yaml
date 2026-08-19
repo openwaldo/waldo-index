@@ -3,6 +3,9 @@ schema: 1
 name: wikiteam
 title: WikiTeam Archives
 description: Text recovered from independently archived wikis, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - mul
 license: CC-BY-SA-3.0
 sources:
   - name: common-pile/wikiteam_filtered

@@ -3,6 +3,9 @@ schema: 2
 name: arxiv-papers
 title: ArXiv Papers
 description: Full openly licensed ArXiv paper text from the filtered Common Pile release.
+content:
+  languages:
+    - en
 licenses:
   - CC-BY-3.0
   - CC-BY-4.0

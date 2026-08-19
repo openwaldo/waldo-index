@@ -3,6 +3,9 @@ schema: 1
 name: uk-hansard
 title: UK Parliament Hansard
 description: Official reports of debates in the United Kingdom Parliament, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: LicenseRef-Open-Parliament-Licence
 sources:
   - name: common-pile/uk_hansard_filtered

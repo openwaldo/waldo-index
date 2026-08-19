@@ -3,6 +3,9 @@ schema: 2
 name: python-mailing-lists
 title: Python Community Mailing Lists
 description: Checksum-pinned Python development, user, and learning-support discussions from official monthly HyperKitty mbox exports.
+content:
+  languages:
+    - en
 license: LicenseRef-Publicly-Archived-Forum
 sources:
   - name: python-list@python.org

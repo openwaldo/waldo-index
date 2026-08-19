@@ -3,6 +3,9 @@ schema: 2
 name: alpine-linux-mailing-list
 title: Alpine Linux Development Mailing List
 description: Canonicalized complete public Alpine Linux development-list archive from the official bulk mbox export.
+content:
+  languages:
+    - en
 license: LicenseRef-Publicly-Archived-Forum
 sources:
   - name: alpine-devel@lists.alpinelinux.org

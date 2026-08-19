@@ -3,6 +3,9 @@ schema: 2
 name: oasst2
 title: OpenAssistant Conversations 2
 description: Human-written and ranked multi-turn assistant conversations from OpenAssistant release 2, preserved as structured messages.
+content:
+  languages:
+    - mul
 license: Apache-2.0
 sources:
   - name: OpenAssistant/oasst2

@@ -3,6 +3,9 @@ schema: 2
 name: qemu-devel-mailing-list
 title: QEMU Development Mailing List
 description: Calendar-year 2025 QEMU development messages from the official lore.kernel.org public archive.
+content:
+  languages:
+    - en
 license: LicenseRef-Publicly-Archived-Forum
 sources:
   - name: qemu-devel@nongnu.org

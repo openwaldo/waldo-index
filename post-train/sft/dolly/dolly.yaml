@@ -3,6 +3,9 @@ schema: 2
 name: dolly
 title: Databricks Dolly
 description: Human-written instruction and response pairs from Databricks employees, preserved as structured messages.
+content:
+  languages:
+    - en
 license: CC-BY-SA-3.0
 sources:
   - name: databricks/databricks-dolly-15k

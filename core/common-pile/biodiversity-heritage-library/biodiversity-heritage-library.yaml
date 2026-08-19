@@ -3,6 +3,9 @@ schema: 2
 name: biodiversity-heritage-library
 title: Biodiversity Heritage Library
 description: Public-domain biodiversity books, journals, and archival documents from the filtered Common Pile release.
+content:
+  languages:
+    - en
 license: LicenseRef-Public-Domain
 sources:
   - name: common-pile/biodiversity_heritage_library_filtered

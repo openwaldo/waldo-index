@@ -3,6 +3,9 @@ schema: 1
 name: caselaw
 title: United States Caselaw
 description: Published decisions of United States federal and state courts, digitized by the Harvard Law School Library.
+content:
+  languages:
+    - en
 license: LicenseRef-Public-Domain
 sources:
   - name: harvard-cap

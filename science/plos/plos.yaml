@@ -3,6 +3,9 @@ schema: 1
 name: plos
 title: PLOS Articles
 description: Peer-reviewed research articles published by the Public Library of Science.
+content:
+  languages:
+    - en
 license: CC-BY-4.0
 sources:
   - name: plos

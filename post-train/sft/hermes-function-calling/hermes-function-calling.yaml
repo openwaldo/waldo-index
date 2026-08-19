@@ -3,6 +3,9 @@ schema: 2
 name: hermes-function-calling
 title: Hermes Function Calling
 description: Structured multi-turn and single-turn function-calling conversations preserving tool definitions, calls, results, and final assistant responses.
+content:
+  languages:
+    - en
 license: Apache-2.0
 sources:
   - name: NousResearch/hermes-function-calling-v1

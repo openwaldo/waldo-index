@@ -3,6 +3,9 @@ schema: 2
 name: news
 title: Common Pile News
 description: Openly licensed news articles from seventeen publishers, via the filtered Common Pile release.
+content:
+  languages:
+    - en
 licenses:
   - CC-BY-4.0
   - CC-BY-SA-4.0

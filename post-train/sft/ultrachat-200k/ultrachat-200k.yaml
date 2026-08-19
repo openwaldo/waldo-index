@@ -3,6 +3,9 @@ schema: 2
 name: ultrachat-200k
 title: UltraChat 200k SFT
 description: Curated multi-turn assistant conversations from the UltraChat 200k supervised fine-tuning split, preserved as structured messages.
+content:
+  languages:
+    - en
 license: MIT
 sources:
   - name: HuggingFaceH4/ultrachat_200k

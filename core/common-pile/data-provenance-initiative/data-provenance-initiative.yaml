@@ -3,6 +3,9 @@ schema: 2
 name: data-provenance-initiative
 title: Data Provenance Initiative
 description: Openly licensed English and code datasets audited by the Data Provenance Initiative, via the filtered Common Pile release.
+content:
+  languages:
+    - en
 licenses:
   - Apache-2.0
   - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT

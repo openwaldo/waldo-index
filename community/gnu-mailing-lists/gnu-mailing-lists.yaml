@@ -3,6 +3,9 @@ schema: 2
 name: gnu-mailing-lists
 title: GNU Development and User Mailing Lists
 description: Checksum-pinned calendar-year 2025 messages from three official GNU monthly raw-mbox archives.
+content:
+  languages:
+    - en
 license: LicenseRef-Publicly-Archived-Forum
 sources:
   - name: emacs-devel@gnu.org

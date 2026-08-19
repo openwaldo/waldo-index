@@ -3,6 +3,9 @@ schema: 2
 name: aya
 title: Aya Dataset
 description: Multilingual human-written instruction and response pairs from the Aya project, preserved as structured messages.
+content:
+  languages:
+    - mul
 license: Apache-2.0
 sources:
   - name: CohereForAI/aya_dataset

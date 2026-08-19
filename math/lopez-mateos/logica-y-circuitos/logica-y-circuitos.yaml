@@ -3,6 +3,9 @@ schema: 2
 name: logica-y-circuitos
 title: Lógica y Circuitos
 description: 'Libro original de matemáticas (lógica proposicional, álgebra de Boole, circuitos), edición digital, convertido desde los manuscritos LaTeX del autor. Idioma: español.'
+content:
+  languages:
+    - es
 license: CC-BY-4.0
 sources:
   - name: Zenodo - archivo del autor

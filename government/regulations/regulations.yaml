@@ -3,6 +3,9 @@ schema: 1
 name: regulations
 title: US Federal Rulemaking
 description: Documents from United States federal rulemaking proceedings, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: LicenseRef-Public-Domain
 sources:
   - name: common-pile/regulations_filtered

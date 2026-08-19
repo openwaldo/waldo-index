@@ -3,6 +3,11 @@ schema: 1
 name: mathlib
 title: Lean Mathlib
 description: Formalized definitions, theorems, and proofs from the Mathlib library for Lean 4, release v4.32.2.
+content:
+  languages:
+    - en
+  programming_languages:
+    - Lean
 license: Apache-2.0
 sources:
   - name: mathlib
@@ -11,6 +16,11 @@ sources:
     url: https://github.com/leanprover-community/mathlib4
     category: public-dataset
     sha256: f10d640f2f9bd7db55ceacc51289d924d599d5ee7c3e01c3578dc33526b77a5a
+    content:
+      languages:
+        - en
+      programming_languages:
+        - Lean
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev

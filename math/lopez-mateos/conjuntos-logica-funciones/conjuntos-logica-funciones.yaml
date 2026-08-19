@@ -3,6 +3,9 @@ schema: 2
 name: conjuntos-logica-funciones
 title: Conjuntos, Lógica y Funciones
 description: 'Libro original de matemáticas (conjuntos, lógica y funciones), 3.ª edición digital (i-xiv, 1-222, México), convertido desde los manuscritos LaTeX del autor. Idioma: español.'
+content:
+  languages:
+    - es
 license: CC-BY-4.0
 sources:
   - name: Zenodo - archivo del autor (3.ª ed.)

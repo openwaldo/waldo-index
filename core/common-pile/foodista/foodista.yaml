@@ -3,6 +3,9 @@ schema: 1
 name: foodista
 title: Foodista
 description: Community-contributed cooking and food articles from Foodista, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: CC-BY-3.0
 sources:
   - name: common-pile/foodista_filtered

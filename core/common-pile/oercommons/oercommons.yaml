@@ -3,6 +3,9 @@ schema: 2
 name: oercommons
 title: OER Commons
 description: Open educational resources from OER Commons, via the filtered Common Pile release.
+content:
+  languages:
+    - en
 licenses:
   - CC-BY-4.0
   - CC-BY-SA-4.0

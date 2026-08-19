@@ -3,6 +3,9 @@ schema: 1
 name: pes2o
 title: Open-Access Papers
 description: Full text of open-access scientific papers from peS2o, via the filtered Common Pile v0.1 release.
+content:
+  languages:
+    - en
 license: CC-BY-4.0
 sources:
   - name: common-pile/peS2o_filtered

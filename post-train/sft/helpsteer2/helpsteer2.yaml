@@ -3,6 +3,9 @@ schema: 2
 name: helpsteer2
 title: HelpSteer2 Scored Responses
 description: Human-rated prompt and response pairs preserved as structured messages with five response attributes; only responses rated 4 for helpfulness, correctness, and coherence are classified as main content for SFT.
+content:
+  languages:
+    - en
 license: CC-BY-4.0
 sources:
   - name: nvidia/HelpSteer2
