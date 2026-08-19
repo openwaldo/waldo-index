@@ -41,12 +41,6 @@ shards:
   - url: s3://openwaldo/lookaside/c7/54/c754e0c657f6b6d3036ac47f109bdcf485641e340c98c3eef3ea7fe9c286c1e4
     sha256: c754e0c657f6b6d3036ac47f109bdcf485641e340c98c3eef3ea7fe9c286c1e4
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2032
-        tokens: 182516705
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2032
@@ -55,12 +49,6 @@ shards:
   - url: s3://openwaldo/lookaside/56/d3/56d3daee28fb4de1706bcbaccbe820be7dac0a4c427891d8cde234b1402ccfe9
     sha256: 56d3daee28fb4de1706bcbaccbe820be7dac0a4c427891d8cde234b1402ccfe9
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2194
-        tokens: 181764431
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2194
@@ -69,12 +57,6 @@ shards:
   - url: s3://openwaldo/lookaside/28/88/2888eac12c5825be544324ce45e48c14a11f92cb6b2e01c859e628ce83044a3f
     sha256: 2888eac12c5825be544324ce45e48c14a11f92cb6b2e01c859e628ce83044a3f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2111
-        tokens: 183002133
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2111
@@ -83,12 +65,6 @@ shards:
   - url: s3://openwaldo/lookaside/7e/0e/7e0e1f42a596c7e2b03a3913f72b248b707417b2ebe5dacc906437e32f13740c
     sha256: 7e0e1f42a596c7e2b03a3913f72b248b707417b2ebe5dacc906437e32f13740c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2111
-        tokens: 181864742
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2111
@@ -97,12 +73,6 @@ shards:
   - url: s3://openwaldo/lookaside/4a/3f/4a3f2862f35065b96c842fe17f48f0d66cc333904d95f34738d61bf5c384bdb8
     sha256: 4a3f2862f35065b96c842fe17f48f0d66cc333904d95f34738d61bf5c384bdb8
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2112
-        tokens: 183555551
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2112
@@ -111,12 +81,6 @@ shards:
   - url: s3://openwaldo/lookaside/0f/3b/0f3bbbb331b45c0623ebedfcf85f7c40544a743f830a275fc40e8b19d81a3ea1
     sha256: 0f3bbbb331b45c0623ebedfcf85f7c40544a743f830a275fc40e8b19d81a3ea1
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2184
-        tokens: 183192748
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2184
@@ -125,12 +89,6 @@ shards:
   - url: s3://openwaldo/lookaside/23/a7/23a7a2d08cb17a539a8d1a956c72aeb5edcc0c4ee7f7f0cdb71288e2342a5822
     sha256: 23a7a2d08cb17a539a8d1a956c72aeb5edcc0c4ee7f7f0cdb71288e2342a5822
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2086
-        tokens: 183487525
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2086
@@ -139,12 +97,6 @@ shards:
   - url: s3://openwaldo/lookaside/66/19/6619c360d0d0ee89052765877fb3cc641203441d781c9003365fcb441ec641cb
     sha256: 6619c360d0d0ee89052765877fb3cc641203441d781c9003365fcb441ec641cb
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2179
-        tokens: 182326001
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2179
@@ -153,12 +105,6 @@ shards:
   - url: s3://openwaldo/lookaside/64/8f/648f0c3b6ecf3a9ef89c9434a140a3a79153e888820f945d5fbbbcaa2e8562d4
     sha256: 648f0c3b6ecf3a9ef89c9434a140a3a79153e888820f945d5fbbbcaa2e8562d4
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2150
-        tokens: 183954890
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2150
@@ -167,12 +113,6 @@ shards:
   - url: s3://openwaldo/lookaside/54/be/54be59fc2a894c7b09436192a43e3a439c9d2c591582c9f5334aa77cc6e518db
     sha256: 54be59fc2a894c7b09436192a43e3a439c9d2c591582c9f5334aa77cc6e518db
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2170
-        tokens: 183760049
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2170
@@ -181,12 +121,6 @@ shards:
   - url: s3://openwaldo/lookaside/05/86/0586f4a3431095ca1baa2b41bac85484eaef9e4d042237dd711bdbb3bf8dcc65
     sha256: 0586f4a3431095ca1baa2b41bac85484eaef9e4d042237dd711bdbb3bf8dcc65
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2205
-        tokens: 181794445
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2205
@@ -195,12 +129,6 @@ shards:
   - url: s3://openwaldo/lookaside/30/81/3081dadfa7976cf4966e3e0c1f98f3792a88c414a59d4c3c41df05a8f894e535
     sha256: 3081dadfa7976cf4966e3e0c1f98f3792a88c414a59d4c3c41df05a8f894e535
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2147
-        tokens: 183442625
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2147
@@ -209,12 +137,6 @@ shards:
   - url: s3://openwaldo/lookaside/b6/06/b606e6d1667fd99676651aa15a72d06b65be558924159d666bf698cc5c6ca846
     sha256: b606e6d1667fd99676651aa15a72d06b65be558924159d666bf698cc5c6ca846
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2219
-        tokens: 183583381
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2219
@@ -223,12 +145,6 @@ shards:
   - url: s3://openwaldo/lookaside/49/bc/49bc25ca8b88636318834af4a1a57c903367d92cae8c35f2f9ca8c447d9d24d2
     sha256: 49bc25ca8b88636318834af4a1a57c903367d92cae8c35f2f9ca8c447d9d24d2
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2189
-        tokens: 181898120
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2189
@@ -237,12 +153,6 @@ shards:
   - url: s3://openwaldo/lookaside/cf/29/cf2958b1df0c68d90de6b97858d5ed6b99207c9fe07ee7c4562ebe1ef087e240
     sha256: cf2958b1df0c68d90de6b97858d5ed6b99207c9fe07ee7c4562ebe1ef087e240
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2221
-        tokens: 182712965
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2221
@@ -251,12 +161,6 @@ shards:
   - url: s3://openwaldo/lookaside/89/2a/892ac37a4dd9fe3326c3c12b1b67c4581dfcbabbcf8fe8de6ac981040739a3ba
     sha256: 892ac37a4dd9fe3326c3c12b1b67c4581dfcbabbcf8fe8de6ac981040739a3ba
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2059
-        tokens: 182748539
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2059
@@ -265,12 +169,6 @@ shards:
   - url: s3://openwaldo/lookaside/b1/5d/b15d8190210552898e9e06932519ccfa790291ffed8f37d6836f717531532e30
     sha256: b15d8190210552898e9e06932519ccfa790291ffed8f37d6836f717531532e30
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2293
-        tokens: 197118034
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2293
@@ -279,12 +177,6 @@ shards:
   - url: s3://openwaldo/lookaside/38/c6/38c62eadc779f54cca30b6ab2f56cab5ce9ae1eddcaccbca001f27b2bc7b276e
     sha256: 38c62eadc779f54cca30b6ab2f56cab5ce9ae1eddcaccbca001f27b2bc7b276e
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2195
-        tokens: 182739683
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2195
@@ -293,12 +185,6 @@ shards:
   - url: s3://openwaldo/lookaside/c9/c5/c9c58e2aec664251748822622023582bebd560da49c676c25640a5e4429c408b
     sha256: c9c58e2aec664251748822622023582bebd560da49c676c25640a5e4429c408b
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2373
-        tokens: 183327056
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2373
@@ -307,12 +193,6 @@ shards:
   - url: s3://openwaldo/lookaside/f0/15/f015b5c38e4c542749b4addcf491eed44cc2e5e41131b35098de118722a689f7
     sha256: f015b5c38e4c542749b4addcf491eed44cc2e5e41131b35098de118722a689f7
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2150
-        tokens: 183142893
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2150
@@ -321,12 +201,6 @@ shards:
   - url: s3://openwaldo/lookaside/06/46/0646d09f62bcc377fa1739ecab8c698d548f67859d2513f3ad8319a1d2f6b703
     sha256: 0646d09f62bcc377fa1739ecab8c698d548f67859d2513f3ad8319a1d2f6b703
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2191
-        tokens: 197184565
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2191
@@ -335,12 +209,6 @@ shards:
   - url: s3://openwaldo/lookaside/4e/71/4e71c37df1b3834a7c9620eaec8d993185919ad7f14815d712c668ab3a2576e7
     sha256: 4e71c37df1b3834a7c9620eaec8d993185919ad7f14815d712c668ab3a2576e7
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2143
-        tokens: 182351292
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2143
@@ -349,12 +217,6 @@ shards:
   - url: s3://openwaldo/lookaside/5e/1c/5e1c27dfcc9fd30af1a7b900861f85bfde32e92df40f0dba2806d44c3363d9bb
     sha256: 5e1c27dfcc9fd30af1a7b900861f85bfde32e92df40f0dba2806d44c3363d9bb
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2212
-        tokens: 182300452
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2212
@@ -363,12 +225,6 @@ shards:
   - url: s3://openwaldo/lookaside/16/96/1696fe5c1117308703ce22251c0b10d4fc720d1b11ae2909aa91d8bb907a8094
     sha256: 1696fe5c1117308703ce22251c0b10d4fc720d1b11ae2909aa91d8bb907a8094
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2140
-        tokens: 182913706
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2140
@@ -377,12 +233,6 @@ shards:
   - url: s3://openwaldo/lookaside/c3/e9/c3e9517373f5b596edd4fb3073a265d3648f2052451dbc27eec444e9ac04d412
     sha256: c3e9517373f5b596edd4fb3073a265d3648f2052451dbc27eec444e9ac04d412
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2310
-        tokens: 196178707
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2310
@@ -391,12 +241,6 @@ shards:
   - url: s3://openwaldo/lookaside/76/de/76ded28cd378beabba051b84569a415fcdf6b5002125a845c17c052fde2519d1
     sha256: 76ded28cd378beabba051b84569a415fcdf6b5002125a845c17c052fde2519d1
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2112
-        tokens: 181563892
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2112
@@ -405,12 +249,6 @@ shards:
   - url: s3://openwaldo/lookaside/a0/65/a0652c6cfdf3484ecd49bfdde82b4e27472eaf1dfeb8f6bad00b5457f0069c93
     sha256: a0652c6cfdf3484ecd49bfdde82b4e27472eaf1dfeb8f6bad00b5457f0069c93
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2211
-        tokens: 183234011
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2211
@@ -419,12 +257,6 @@ shards:
   - url: s3://openwaldo/lookaside/2d/b5/2db52c63dd26254c1be1262621b7851d5efc0adff0c9bf2de266e05fed6bbffe
     sha256: 2db52c63dd26254c1be1262621b7851d5efc0adff0c9bf2de266e05fed6bbffe
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2083
-        tokens: 183286631
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2083
@@ -433,12 +265,6 @@ shards:
   - url: s3://openwaldo/lookaside/15/36/153683055ed96b83f2cfcf1bd884423a6b3e10ae45d54da3407943d5d50e4577
     sha256: 153683055ed96b83f2cfcf1bd884423a6b3e10ae45d54da3407943d5d50e4577
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2146
-        tokens: 181539732
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2146
@@ -447,12 +273,6 @@ shards:
   - url: s3://openwaldo/lookaside/59/0e/590e0fec5f5953f07b38452aeb47d313b09fb577e7f72b37857b3ddd982415c1
     sha256: 590e0fec5f5953f07b38452aeb47d313b09fb577e7f72b37857b3ddd982415c1
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2062
-        tokens: 183409688
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2062
@@ -461,12 +281,6 @@ shards:
   - url: s3://openwaldo/lookaside/0a/92/0a92e0bd59deaa6f5e4d89cc9afc9097dadc273bfcd97a998867e8cf47326923
     sha256: 0a92e0bd59deaa6f5e4d89cc9afc9097dadc273bfcd97a998867e8cf47326923
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2115
-        tokens: 181474511
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2115
@@ -475,12 +289,6 @@ shards:
   - url: s3://openwaldo/lookaside/46/9a/469a72cfddbdd71e3a9285a78ecdb8967027d93f923e6e1a6dd74b78ac8d6a10
     sha256: 469a72cfddbdd71e3a9285a78ecdb8967027d93f923e6e1a6dd74b78ac8d6a10
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2150
-        tokens: 182796254
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2150
@@ -489,12 +297,6 @@ shards:
   - url: s3://openwaldo/lookaside/16/c6/16c6387a446583136b9b358e7459f10006ba955a2969077b277f6e9a9e7379a5
     sha256: 16c6387a446583136b9b358e7459f10006ba955a2969077b277f6e9a9e7379a5
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2278
-        tokens: 196819914
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2278
@@ -503,12 +305,6 @@ shards:
   - url: s3://openwaldo/lookaside/4d/2c/4d2c825f19dc6d2afca6083756f7c880e0d5824742084c8fa4b3f834b1a7ff16
     sha256: 4d2c825f19dc6d2afca6083756f7c880e0d5824742084c8fa4b3f834b1a7ff16
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2235
-        tokens: 182404695
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2235
@@ -517,12 +313,6 @@ shards:
   - url: s3://openwaldo/lookaside/a5/47/a547c3e63fc2d3653780b3e10d56ed4c5f4423b5694326dbed644cffa9f14308
     sha256: a547c3e63fc2d3653780b3e10d56ed4c5f4423b5694326dbed644cffa9f14308
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2070
-        tokens: 182193502
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2070
@@ -531,12 +321,6 @@ shards:
   - url: s3://openwaldo/lookaside/41/24/4124de2a01ea6a10af8fdca4a113aaff35969adbb8eac1f7532d1c32bde821e9
     sha256: 4124de2a01ea6a10af8fdca4a113aaff35969adbb8eac1f7532d1c32bde821e9
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2275
-        tokens: 195981913
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2275
@@ -545,12 +329,6 @@ shards:
   - url: s3://openwaldo/lookaside/23/33/2333886a09e4ff88765856e48d41373f442786403b514d435730c714fcc82056
     sha256: 2333886a09e4ff88765856e48d41373f442786403b514d435730c714fcc82056
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2172
-        tokens: 181546514
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2172
@@ -559,12 +337,6 @@ shards:
   - url: s3://openwaldo/lookaside/b8/8b/b88b3f38e6bff6fccf75c62a889159410d8eda9d1e1f7aed50e5d237284fb63a
     sha256: b88b3f38e6bff6fccf75c62a889159410d8eda9d1e1f7aed50e5d237284fb63a
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2271
-        tokens: 198454195
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2271
@@ -573,12 +345,6 @@ shards:
   - url: s3://openwaldo/lookaside/e7/44/e744b3d481f81907789d959a5060f4c3831f8c3bbd7fa959ac7382db1dc7e181
     sha256: e744b3d481f81907789d959a5060f4c3831f8c3bbd7fa959ac7382db1dc7e181
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2324
-        tokens: 182212079
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2324
@@ -587,12 +353,6 @@ shards:
   - url: s3://openwaldo/lookaside/1c/c3/1cc39b02da6d46d7eeae58b1343ca96d1d3ad3013051a498788dbd210adcf294
     sha256: 1cc39b02da6d46d7eeae58b1343ca96d1d3ad3013051a498788dbd210adcf294
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2331
-        tokens: 181980376
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2331
@@ -601,12 +361,6 @@ shards:
   - url: s3://openwaldo/lookaside/a1/96/a19608c06fb226011af24ea3bc91584093567aacb839b0b318eae8f9d98ce537
     sha256: a19608c06fb226011af24ea3bc91584093567aacb839b0b318eae8f9d98ce537
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2227
-        tokens: 182013496
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2227
@@ -615,12 +369,6 @@ shards:
   - url: s3://openwaldo/lookaside/5b/3e/5b3e460cff0cb8a575d5b90e0caf9c214f65e2a94ead072c59dfcce85ac9f5bf
     sha256: 5b3e460cff0cb8a575d5b90e0caf9c214f65e2a94ead072c59dfcce85ac9f5bf
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2009
-        tokens: 183966011
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2009
@@ -629,12 +377,6 @@ shards:
   - url: s3://openwaldo/lookaside/05/46/054662eec9a3134b01fa31a4a47e491a230ab7f9c618818ecfd0bff21ea92fa3
     sha256: 054662eec9a3134b01fa31a4a47e491a230ab7f9c618818ecfd0bff21ea92fa3
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2144
-        tokens: 183484239
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2144
@@ -643,12 +385,6 @@ shards:
   - url: s3://openwaldo/lookaside/c9/06/c9068f74dc546adffb68572be8e3d541930f5536f1bf3eb90b6358172ec79f40
     sha256: c9068f74dc546adffb68572be8e3d541930f5536f1bf3eb90b6358172ec79f40
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2261
-        tokens: 196502843
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2261
@@ -657,12 +393,6 @@ shards:
   - url: s3://openwaldo/lookaside/4e/15/4e153008a4f5acd6a1c520e779d6f5034ebae95246b1d129fdfa097c2b3f8f17
     sha256: 4e153008a4f5acd6a1c520e779d6f5034ebae95246b1d129fdfa097c2b3f8f17
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2263
-        tokens: 181809551
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2263
@@ -671,12 +401,6 @@ shards:
   - url: s3://openwaldo/lookaside/cf/0d/cf0dd4a881cb33c147f421d523e9bcb2af18b53b21e317b9aa71b8d38c53c3a0
     sha256: cf0dd4a881cb33c147f421d523e9bcb2af18b53b21e317b9aa71b8d38c53c3a0
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2224
-        tokens: 182473020
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2224
@@ -685,12 +409,6 @@ shards:
   - url: s3://openwaldo/lookaside/c8/cf/c8cfe85c914a963610bdb4137a6ef37b99b58777b2e2b8d3181c68e0d0564613
     sha256: c8cfe85c914a963610bdb4137a6ef37b99b58777b2e2b8d3181c68e0d0564613
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2208
-        tokens: 183804569
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2208
@@ -699,12 +417,6 @@ shards:
   - url: s3://openwaldo/lookaside/52/d5/52d5ec5901fd99e7d5d4243b5adcbab10cb1095d56dc2fb832059770fac18151
     sha256: 52d5ec5901fd99e7d5d4243b5adcbab10cb1095d56dc2fb832059770fac18151
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2207
-        tokens: 181173792
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2207
@@ -713,12 +425,6 @@ shards:
   - url: s3://openwaldo/lookaside/6f/d7/6fd7b9d5de777c7305169fcb3f0e922042ec02ae19ab9d9fdcfa5d7c2d0e1f35
     sha256: 6fd7b9d5de777c7305169fcb3f0e922042ec02ae19ab9d9fdcfa5d7c2d0e1f35
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2207
-        tokens: 181790594
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2207
@@ -727,12 +433,6 @@ shards:
   - url: s3://openwaldo/lookaside/d8/4e/d84e580713925682898af119165c0a99a4a8ad3186befad6b686bac7883fa46c
     sha256: d84e580713925682898af119165c0a99a4a8ad3186befad6b686bac7883fa46c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2130
-        tokens: 182495960
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2130
@@ -741,12 +441,6 @@ shards:
   - url: s3://openwaldo/lookaside/b7/93/b7933ffdcd9fa275eee599ed847d0f0ad454ebbcb512d80b6902e9a937b061bf
     sha256: b7933ffdcd9fa275eee599ed847d0f0ad454ebbcb512d80b6902e9a937b061bf
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2087
-        tokens: 181126209
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2087
@@ -755,12 +449,6 @@ shards:
   - url: s3://openwaldo/lookaside/bf/5c/bf5c42f0343ff3cf7f2ddaaeecbf8c95a5b66ec301479fc2d55c6201bf1a8e72
     sha256: bf5c42f0343ff3cf7f2ddaaeecbf8c95a5b66ec301479fc2d55c6201bf1a8e72
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2136
-        tokens: 182230913
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2136
@@ -769,12 +457,6 @@ shards:
   - url: s3://openwaldo/lookaside/aa/d6/aad6673ef32cb6ee69730335dcdd36a709c08946965b4213409392763712827f
     sha256: aad6673ef32cb6ee69730335dcdd36a709c08946965b4213409392763712827f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2127
-        tokens: 182212010
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2127
@@ -783,12 +465,6 @@ shards:
   - url: s3://openwaldo/lookaside/e1/d8/e1d8cd7033f40c9f04f814a1db9828e153bacf74cb96673bc83a4f5d64651bd3
     sha256: e1d8cd7033f40c9f04f814a1db9828e153bacf74cb96673bc83a4f5d64651bd3
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2157
-        tokens: 182597620
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2157
@@ -797,12 +473,6 @@ shards:
   - url: s3://openwaldo/lookaside/66/cb/66cbacc6d770bb45b9a4773aed8e1f8a9b6bd581a71ac6e47862975a19f7119f
     sha256: 66cbacc6d770bb45b9a4773aed8e1f8a9b6bd581a71ac6e47862975a19f7119f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2173
-        tokens: 183320679
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2173
@@ -811,12 +481,6 @@ shards:
   - url: s3://openwaldo/lookaside/d4/8a/d48a4c819090db1679838286b00d1f6a7ffff9c8963dd5ce4cfca8ebc70526e6
     sha256: d48a4c819090db1679838286b00d1f6a7ffff9c8963dd5ce4cfca8ebc70526e6
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2205
-        tokens: 183575134
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2205
@@ -825,12 +489,6 @@ shards:
   - url: s3://openwaldo/lookaside/94/fd/94fd7562d964e5ad89a490f65298a440ab4fcedba7a8f8a6b0ace15d790ae520
     sha256: 94fd7562d964e5ad89a490f65298a440ab4fcedba7a8f8a6b0ace15d790ae520
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2195
-        tokens: 182546648
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 2195
@@ -839,12 +497,6 @@ shards:
   - url: s3://openwaldo/lookaside/b4/bb/b4bbe2b2e404a79a5eb0feff7151977e99439cde98009e92d1ac1ccc1d7b6500
     sha256: b4bbe2b2e404a79a5eb0feff7151977e99439cde98009e92d1ac1ccc1d7b6500
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 727
-        tokens: 62514696
-        bytes: 0
     sources:
       - common-pile/pre_1929_books_filtered
     docs: 727

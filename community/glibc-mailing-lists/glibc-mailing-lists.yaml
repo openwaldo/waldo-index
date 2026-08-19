@@ -69,12 +69,6 @@ shards:
   - url: s3://openwaldo/lookaside/66/6c/666c2c4c5ac6bfe89d9d14c8967ab77487f17e53d3915ce29301c400cee793c1
     sha256: 666c2c4c5ac6bfe89d9d14c8967ab77487f17e53d3915ce29301c400cee793c1
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 718
-        tokens: 178590893
-        bytes: 0
     sources:
       - libc-alpha@sourceware.org
       - libc-help@sourceware.org

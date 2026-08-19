@@ -43,12 +43,6 @@ shards:
   - url: https://mlmateos.github.io/waldo-lookaside/53/7f/537f3c1801a21d05c214ade4125d6e7c7ae0cc8eb922955f3f6d729fa043b623
     sha256: 537f3c1801a21d05c214ade4125d6e7c7ae0cc8eb922955f3f6d729fa043b623
     license: CC-BY-4.0
-    license_usage:
-      CC-BY-4.0:
-        shards: 0
-        docs: 1
-        tokens: 47066
-        bytes: 0
     sources:
       - Zenodo - archivo del autor
     docs: 1

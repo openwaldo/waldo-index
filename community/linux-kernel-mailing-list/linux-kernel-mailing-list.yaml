@@ -45,12 +45,6 @@ shards:
   - url: s3://openwaldo/lookaside/d5/48/d548934d3e47fba15f67a89c62ba5f9795f01bc6e028dd38d63b57c78c819ec0
     sha256: d548934d3e47fba15f67a89c62ba5f9795f01bc6e028dd38d63b57c78c819ec0
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2487
-        tokens: 615686765
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2487
@@ -59,12 +53,6 @@ shards:
   - url: s3://openwaldo/lookaside/09/db/09dbcb79855364f70b425596b47e46aaa6467a8aa59d73af1fac67b6d4de6339
     sha256: 09dbcb79855364f70b425596b47e46aaa6467a8aa59d73af1fac67b6d4de6339
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2488
-        tokens: 617857774
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2488
@@ -73,12 +61,6 @@ shards:
   - url: s3://openwaldo/lookaside/e3/9f/e39fa6cfb6fa27661e6695a4d00021e3ca60b37de959fd482d8b7efbbf46a594
     sha256: e39fa6cfb6fa27661e6695a4d00021e3ca60b37de959fd482d8b7efbbf46a594
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2484
-        tokens: 617356034
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2484
@@ -87,12 +69,6 @@ shards:
   - url: s3://openwaldo/lookaside/0c/9e/0c9e29adb94c60888765796b4318130814a3be48e55f68b6622264ee465741aa
     sha256: 0c9e29adb94c60888765796b4318130814a3be48e55f68b6622264ee465741aa
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2294
-        tokens: 570156303
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2294
@@ -101,12 +77,6 @@ shards:
   - url: s3://openwaldo/lookaside/d2/47/d2475165f068fd644331408d66fa0b1a011e2f4a2c5cd806a8af71dc7ce33d32
     sha256: d2475165f068fd644331408d66fa0b1a011e2f4a2c5cd806a8af71dc7ce33d32
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2487
-        tokens: 617321070
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2487
@@ -115,12 +85,6 @@ shards:
   - url: s3://openwaldo/lookaside/1c/55/1c55d292c63f49b041371d71c3215e66f68358a5d4fcf1fae0de5b7068aa0f48
     sha256: 1c55d292c63f49b041371d71c3215e66f68358a5d4fcf1fae0de5b7068aa0f48
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2294
-        tokens: 569964432
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2294
@@ -129,12 +93,6 @@ shards:
   - url: s3://openwaldo/lookaside/c4/0c/c40c98171bfa6ecf12b4c857ae331934c363cc8e0544b5fbea5a7215bf55e209
     sha256: c40c98171bfa6ecf12b4c857ae331934c363cc8e0544b5fbea5a7215bf55e209
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2484
-        tokens: 617819457
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2484
@@ -143,12 +101,6 @@ shards:
   - url: s3://openwaldo/lookaside/92/97/9297e1566cbe51e8960b7ed9278a788febcc08b10316c7e6e9660579d6c2d9bc
     sha256: 9297e1566cbe51e8960b7ed9278a788febcc08b10316c7e6e9660579d6c2d9bc
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 2293
-        tokens: 570212418
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 2293
@@ -157,12 +109,6 @@ shards:
   - url: s3://openwaldo/lookaside/e7/d2/e7d24069fbd82d1b58bc79f35f10bc9c429b32e415ebb3d386fbaad47789d8ba
     sha256: e7d24069fbd82d1b58bc79f35f10bc9c429b32e415ebb3d386fbaad47789d8ba
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 1843
-        tokens: 458100108
-        bytes: 0
     sources:
       - linux-kernel@vger.kernel.org
     docs: 1843

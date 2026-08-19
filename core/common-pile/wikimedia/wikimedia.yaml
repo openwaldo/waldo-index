@@ -44,12 +44,6 @@ shards:
   - url: s3://openwaldo/lookaside/95/34/95344daa650e64aba0ff72bd406a0a66c019e5675e3d2d922efb9e0b0e813339
     sha256: 95344daa650e64aba0ff72bd406a0a66c019e5675e3d2d922efb9e0b0e813339
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 157065
-        tokens: 182891353
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 157065
@@ -76,12 +70,6 @@ shards:
   - url: s3://openwaldo/lookaside/4f/b8/4fb8c94cecbe902bace134f9d04c3a18e4c9798920ab26cf10d1e76d5ddeeeca
     sha256: 4fb8c94cecbe902bace134f9d04c3a18e4c9798920ab26cf10d1e76d5ddeeeca
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 78275
-        tokens: 174745908
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 78275
@@ -108,12 +96,6 @@ shards:
   - url: s3://openwaldo/lookaside/fb/21/fb217aba6058d09c9665fe94f09fef49b15c65e61c6c360c97f5eb4db0aae870
     sha256: fb217aba6058d09c9665fe94f09fef49b15c65e61c6c360c97f5eb4db0aae870
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 133974
-        tokens: 205006988
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 133974
@@ -140,12 +122,6 @@ shards:
   - url: s3://openwaldo/lookaside/37/77/37778f0dd0f8802c1a310af1b0fc822bbc063d5674b225ff00ec39cd49cf84ac
     sha256: 37778f0dd0f8802c1a310af1b0fc822bbc063d5674b225ff00ec39cd49cf84ac
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 252757
-        tokens: 196693183
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 252757
@@ -172,12 +148,6 @@ shards:
   - url: s3://openwaldo/lookaside/c6/37/c6375cb07dc795fcff7f8f1972f28aa11c5cb5c96beec1eeeb9a83ce7504fc95
     sha256: c6375cb07dc795fcff7f8f1972f28aa11c5cb5c96beec1eeeb9a83ce7504fc95
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 207575
-        tokens: 196045828
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 207575
@@ -204,12 +174,6 @@ shards:
   - url: s3://openwaldo/lookaside/d4/4b/d44b1a2674d10272434d8ecf8bc8e86a17939f3a3d4e24fdf7cb5aef447717a3
     sha256: d44b1a2674d10272434d8ecf8bc8e86a17939f3a3d4e24fdf7cb5aef447717a3
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 236802
-        tokens: 198520529
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 236802
@@ -236,12 +200,6 @@ shards:
   - url: s3://openwaldo/lookaside/c4/c6/c4c6cacb7fb35be8e06e2e392efb00c6e8e46f5ade9b1b1662ad580d491f7de4
     sha256: c4c6cacb7fb35be8e06e2e392efb00c6e8e46f5ade9b1b1662ad580d491f7de4
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 179911
-        tokens: 187792568
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 179911
@@ -268,12 +226,6 @@ shards:
   - url: s3://openwaldo/lookaside/2c/d7/2cd7b5e79c9ea93258b063e4956b2bf0ccdb43f8983495ac1f2bf4c9d36662c6
     sha256: 2cd7b5e79c9ea93258b063e4956b2bf0ccdb43f8983495ac1f2bf4c9d36662c6
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 248931
-        tokens: 200907571
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 248931
@@ -300,12 +252,6 @@ shards:
   - url: s3://openwaldo/lookaside/f1/f6/f1f66789ee7226b79cb39233ad9b05b122a7ed65c851bc376989c175f2fd2f3a
     sha256: f1f66789ee7226b79cb39233ad9b05b122a7ed65c851bc376989c175f2fd2f3a
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 224974
-        tokens: 206767677
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 224974
@@ -332,12 +278,6 @@ shards:
   - url: s3://openwaldo/lookaside/a1/aa/a1aa46f756e0028facab85b5d6b4ce9e9040e5ce1c62e7c2f373b3f815539600
     sha256: a1aa46f756e0028facab85b5d6b4ce9e9040e5ce1c62e7c2f373b3f815539600
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 218846
-        tokens: 172899056
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 218846
@@ -364,12 +304,6 @@ shards:
   - url: s3://openwaldo/lookaside/4d/f5/4df575a1d7f82a037ccb92a5a30f7ed9377deec0908a278dc09cbcc78d3bcbc3
     sha256: 4df575a1d7f82a037ccb92a5a30f7ed9377deec0908a278dc09cbcc78d3bcbc3
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 270383
-        tokens: 175218761
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 270383
@@ -396,12 +330,6 @@ shards:
   - url: s3://openwaldo/lookaside/ac/e4/ace440202a0fc43be3aa86cacd3aa39fc2de2ad0de420b99b4b476cda80f9d8f
     sha256: ace440202a0fc43be3aa86cacd3aa39fc2de2ad0de420b99b4b476cda80f9d8f
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 282032
-        tokens: 178276880
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 282032
@@ -428,12 +356,6 @@ shards:
   - url: s3://openwaldo/lookaside/af/d8/afd829481f4ec87eeea4b523c3a374cd6d0cde58ff039530c5a2fd9c0803a78c
     sha256: afd829481f4ec87eeea4b523c3a374cd6d0cde58ff039530c5a2fd9c0803a78c
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 204457
-        tokens: 172846287
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 204457
@@ -460,12 +382,6 @@ shards:
   - url: s3://openwaldo/lookaside/21/88/21882a874bed9f18e2b7f7667021fcbb89b1d909203c2ba3d63130995eefb002
     sha256: 21882a874bed9f18e2b7f7667021fcbb89b1d909203c2ba3d63130995eefb002
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 221845
-        tokens: 180211824
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 221845
@@ -492,12 +408,6 @@ shards:
   - url: s3://openwaldo/lookaside/8e/5a/8e5aa6a668bf22e5a4d0f38834985b3ba8b5e371ae40c28f88eaebf7603d1c71
     sha256: 8e5aa6a668bf22e5a4d0f38834985b3ba8b5e371ae40c28f88eaebf7603d1c71
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 293724
-        tokens: 177450276
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 293724
@@ -524,12 +434,6 @@ shards:
   - url: s3://openwaldo/lookaside/91/2f/912f8b82f106821db0a8542ae82d446865ee7c58e35545fa3f3e36678f86a63c
     sha256: 912f8b82f106821db0a8542ae82d446865ee7c58e35545fa3f3e36678f86a63c
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 163991
-        tokens: 184007669
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 163991
@@ -556,12 +460,6 @@ shards:
   - url: s3://openwaldo/lookaside/7d/b9/7db9d141c11e07ab6ae4873510fb4489fe36b4492c87df1acdb9e8ab1abe89ee
     sha256: 7db9d141c11e07ab6ae4873510fb4489fe36b4492c87df1acdb9e8ab1abe89ee
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 180524
-        tokens: 181861143
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 180524
@@ -588,12 +486,6 @@ shards:
   - url: s3://openwaldo/lookaside/57/b3/57b3a68e2667845e5cfba4253886336539834022bb9d4f5a27bd7234fa4c98e7
     sha256: 57b3a68e2667845e5cfba4253886336539834022bb9d4f5a27bd7234fa4c98e7
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 281885
-        tokens: 179637911
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 281885
@@ -620,12 +512,6 @@ shards:
   - url: s3://openwaldo/lookaside/10/9a/109a4bbe5fdfe225984cb4a74cc87f5e803b83fba6467c9e7726e0e42f23842e
     sha256: 109a4bbe5fdfe225984cb4a74cc87f5e803b83fba6467c9e7726e0e42f23842e
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 243838
-        tokens: 175222382
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 243838
@@ -652,12 +538,6 @@ shards:
   - url: s3://openwaldo/lookaside/83/24/8324eb62dfc831a2ddff4d41388a6ec3aba14ec5bb029c56324983da63ba8053
     sha256: 8324eb62dfc831a2ddff4d41388a6ec3aba14ec5bb029c56324983da63ba8053
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 214103
-        tokens: 175285096
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 214103
@@ -684,12 +564,6 @@ shards:
   - url: s3://openwaldo/lookaside/5a/09/5a092bb514fdc7b1a1e9da0e0b84970bb31816a78caa78d08faf29be0093d04c
     sha256: 5a092bb514fdc7b1a1e9da0e0b84970bb31816a78caa78d08faf29be0093d04c
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 229089
-        tokens: 172974215
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 229089
@@ -716,12 +590,6 @@ shards:
   - url: s3://openwaldo/lookaside/72/b4/72b4917d40b5aba14ba6be584c8ee2f33784cbe99319104feed92eaf5bc15a4a
     sha256: 72b4917d40b5aba14ba6be584c8ee2f33784cbe99319104feed92eaf5bc15a4a
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 223947
-        tokens: 175027321
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 223947
@@ -748,12 +616,6 @@ shards:
   - url: s3://openwaldo/lookaside/c6/30/c6307ca54e57a72271878fbc6ccea367cc826a5b13cd754c43c247b49ec096dc
     sha256: c6307ca54e57a72271878fbc6ccea367cc826a5b13cd754c43c247b49ec096dc
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 146598
-        tokens: 175764626
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 146598
@@ -780,12 +642,6 @@ shards:
   - url: s3://openwaldo/lookaside/a4/82/a482b1871f7d97ed041fa3360a1eaeda3d86db8dfa320316f67d9ff5fdd87c50
     sha256: a482b1871f7d97ed041fa3360a1eaeda3d86db8dfa320316f67d9ff5fdd87c50
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 153215
-        tokens: 176511802
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 153215
@@ -812,12 +668,6 @@ shards:
   - url: s3://openwaldo/lookaside/5e/64/5e64aed81a5eeb249ee582d577cb3b5214d978200fef46439dd7a60c365db0fc
     sha256: 5e64aed81a5eeb249ee582d577cb3b5214d978200fef46439dd7a60c365db0fc
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 160821
-        tokens: 177270062
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 160821
@@ -844,12 +694,6 @@ shards:
   - url: s3://openwaldo/lookaside/38/39/38399dd8ea5b88227b3cb3631238626d3eea374c9a2b75da27985811510c75af
     sha256: 38399dd8ea5b88227b3cb3631238626d3eea374c9a2b75da27985811510c75af
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 168485
-        tokens: 177074998
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 168485
@@ -876,12 +720,6 @@ shards:
   - url: s3://openwaldo/lookaside/e6/ea/e6ea043ac90b3b4a62d59f5749042afa1fcef1bd039d94c3fd362af2d94978f2
     sha256: e6ea043ac90b3b4a62d59f5749042afa1fcef1bd039d94c3fd362af2d94978f2
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 179505
-        tokens: 178170967
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 179505
@@ -908,12 +746,6 @@ shards:
   - url: s3://openwaldo/lookaside/8f/48/8f484d7bf2e0bed134ecd1d1ce1563db66e546c25df824ef5a287a6724dd3bcf
     sha256: 8f484d7bf2e0bed134ecd1d1ce1563db66e546c25df824ef5a287a6724dd3bcf
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 237628
-        tokens: 196381156
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 237628
@@ -940,12 +772,6 @@ shards:
   - url: s3://openwaldo/lookaside/26/d1/26d1ad14e43f35a95f84618c4d656a7f061de8e2b63c3765514160f3fffda973
     sha256: 26d1ad14e43f35a95f84618c4d656a7f061de8e2b63c3765514160f3fffda973
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 199461
-        tokens: 180265655
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 199461
@@ -972,12 +798,6 @@ shards:
   - url: s3://openwaldo/lookaside/8f/93/8f93d9bd7fbcf994d6efe369e0951cfcf4c9933596cb27b35c616b31e04b73ea
     sha256: 8f93d9bd7fbcf994d6efe369e0951cfcf4c9933596cb27b35c616b31e04b73ea
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 193857
-        tokens: 178113674
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 193857
@@ -1004,12 +824,6 @@ shards:
   - url: s3://openwaldo/lookaside/d8/1a/d81a30ab6e3d12dbd8abe0b3e873c3d2b542465143711db625ee377e402d7623
     sha256: d81a30ab6e3d12dbd8abe0b3e873c3d2b542465143711db625ee377e402d7623
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 234311
-        tokens: 195236292
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 234311
@@ -1036,12 +850,6 @@ shards:
   - url: s3://openwaldo/lookaside/4c/f5/4cf54f6593a29b9a4e3189d6987635e8f3aa8aa0d2d6701749a85c8cf67bd6ee
     sha256: 4cf54f6593a29b9a4e3189d6987635e8f3aa8aa0d2d6701749a85c8cf67bd6ee
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 234295
-        tokens: 199776180
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 234295
@@ -1068,12 +876,6 @@ shards:
   - url: s3://openwaldo/lookaside/86/3a/863a86e048823a8882d77756b2de6e2ac1e3d89c557b03a843b1d004cdc53d0b
     sha256: 863a86e048823a8882d77756b2de6e2ac1e3d89c557b03a843b1d004cdc53d0b
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 223988
-        tokens: 200261357
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 223988
@@ -1100,12 +902,6 @@ shards:
   - url: s3://openwaldo/lookaside/79/f4/79f442dc4cdb841fc93da4bdec1666260438d2a8e97bb3feabf494ade22ff0e9
     sha256: 79f442dc4cdb841fc93da4bdec1666260438d2a8e97bb3feabf494ade22ff0e9
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 229799
-        tokens: 205514224
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 229799
@@ -1132,12 +928,6 @@ shards:
   - url: s3://openwaldo/lookaside/32/4f/324f236ecaa857e8df91b2653ce8edaf05ef1f986756e946c46bb8541bf47543
     sha256: 324f236ecaa857e8df91b2653ce8edaf05ef1f986756e946c46bb8541bf47543
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 221884
-        tokens: 204020854
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 221884
@@ -1164,12 +954,6 @@ shards:
   - url: s3://openwaldo/lookaside/1d/3f/1d3f5b08eb5266ab4b0c92a75e358cd60c6fb2e3c94b54b79d651f2a43e48a7a
     sha256: 1d3f5b08eb5266ab4b0c92a75e358cd60c6fb2e3c94b54b79d651f2a43e48a7a
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 236627
-        tokens: 203862272
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 236627
@@ -1196,12 +980,6 @@ shards:
   - url: s3://openwaldo/lookaside/41/c8/41c80cdc48973aaa4a9f0a1292a400cdb4d8c99ae524059e863ed33cc1e575db
     sha256: 41c80cdc48973aaa4a9f0a1292a400cdb4d8c99ae524059e863ed33cc1e575db
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 213879
-        tokens: 204071394
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 213879
@@ -1228,12 +1006,6 @@ shards:
   - url: s3://openwaldo/lookaside/58/0d/580dd9b4a5c4276fad2323ebceb8ea1780ffb712639b1b06d22a9e2ad40731d1
     sha256: 580dd9b4a5c4276fad2323ebceb8ea1780ffb712639b1b06d22a9e2ad40731d1
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 239348
-        tokens: 200508407
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 239348
@@ -1260,12 +1032,6 @@ shards:
   - url: s3://openwaldo/lookaside/67/43/6743880680cce1322c752b6e8c28b9627422ffb89b79bb4020d0b843b1135536
     sha256: 6743880680cce1322c752b6e8c28b9627422ffb89b79bb4020d0b843b1135536
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 222549
-        tokens: 200845256
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 222549
@@ -1292,12 +1058,6 @@ shards:
   - url: s3://openwaldo/lookaside/8f/d3/8fd3833c7eb2e1cc04a29692f2a2f9dde34809d55b33424403a248e4914daf23
     sha256: 8fd3833c7eb2e1cc04a29692f2a2f9dde34809d55b33424403a248e4914daf23
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 228958
-        tokens: 201177219
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 228958
@@ -1324,12 +1084,6 @@ shards:
   - url: s3://openwaldo/lookaside/90/e6/90e6dc5f86eb78c41eb68761f629f58783f831caea395a62c1df5688e7a4a7c8
     sha256: 90e6dc5f86eb78c41eb68761f629f58783f831caea395a62c1df5688e7a4a7c8
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 227796
-        tokens: 203164373
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 227796
@@ -1356,12 +1110,6 @@ shards:
   - url: s3://openwaldo/lookaside/cb/99/cb995f3b83c96a2557f82204af762951868ff2a24171e62c4d8edccd5fd96cbc
     sha256: cb995f3b83c96a2557f82204af762951868ff2a24171e62c4d8edccd5fd96cbc
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 206029
-        tokens: 203818830
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 206029
@@ -1388,12 +1136,6 @@ shards:
   - url: s3://openwaldo/lookaside/ea/a7/eaa713b62c4abe6a80de3eb712844f11b71f934b4eee169a7836fd07fae4d209
     sha256: eaa713b62c4abe6a80de3eb712844f11b71f934b4eee169a7836fd07fae4d209
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 204604
-        tokens: 200666247
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 204604
@@ -1420,12 +1162,6 @@ shards:
   - url: s3://openwaldo/lookaside/c6/dd/c6dd0d55ec28ec36bab7bf7610d0a1b24367d0e0d1fe48350fde7a4ebf1a4ce1
     sha256: c6dd0d55ec28ec36bab7bf7610d0a1b24367d0e0d1fe48350fde7a4ebf1a4ce1
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 200026
-        tokens: 199185828
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 200026
@@ -1452,12 +1188,6 @@ shards:
   - url: s3://openwaldo/lookaside/6e/0f/6e0f4870845df12195e90ef7c4b84ec5e17a68a55b29a1520169be5a3bac8c61
     sha256: 6e0f4870845df12195e90ef7c4b84ec5e17a68a55b29a1520169be5a3bac8c61
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 210041
-        tokens: 201043549
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 210041
@@ -1484,12 +1214,6 @@ shards:
   - url: s3://openwaldo/lookaside/7a/c3/7ac3cd6dcfdd1ed1db400fa268ff880b84eacc23d9e066bb292e6b6969c7501a
     sha256: 7ac3cd6dcfdd1ed1db400fa268ff880b84eacc23d9e066bb292e6b6969c7501a
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 230329
-        tokens: 198340545
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 230329
@@ -1516,12 +1240,6 @@ shards:
   - url: s3://openwaldo/lookaside/83/15/83151da6abc8f49a4f61c0c5e1f94361f0608821258551db9cdc1966bfe54260
     sha256: 83151da6abc8f49a4f61c0c5e1f94361f0608821258551db9cdc1966bfe54260
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 204111
-        tokens: 200143975
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 204111
@@ -1548,12 +1266,6 @@ shards:
   - url: s3://openwaldo/lookaside/75/0d/750daf605f311cd9df094bde576497598c39274ea5dd74ee6a8df7e4248d9460
     sha256: 750daf605f311cd9df094bde576497598c39274ea5dd74ee6a8df7e4248d9460
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 216082
-        tokens: 200284337
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 216082
@@ -1580,12 +1292,6 @@ shards:
   - url: s3://openwaldo/lookaside/5d/4c/5d4c6571cd683e716062f8ea28be8a55fe4dd07bd78a8f6253a6f26d885e19dd
     sha256: 5d4c6571cd683e716062f8ea28be8a55fe4dd07bd78a8f6253a6f26d885e19dd
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 249347
-        tokens: 196660363
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 249347
@@ -1612,12 +1318,6 @@ shards:
   - url: s3://openwaldo/lookaside/95/40/9540ef9dad26b0c80a5f41a208bb97989002e5d9086446abf473f21e2fe18d9a
     sha256: 9540ef9dad26b0c80a5f41a208bb97989002e5d9086446abf473f21e2fe18d9a
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 247836
-        tokens: 198640626
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 247836
@@ -1644,12 +1344,6 @@ shards:
   - url: s3://openwaldo/lookaside/04/e8/04e86a6d92711716e4dd5e54d16859de5655ab3a0199ae499bd8257976aa074a
     sha256: 04e86a6d92711716e4dd5e54d16859de5655ab3a0199ae499bd8257976aa074a
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 244319
-        tokens: 203678679
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 244319
@@ -1676,12 +1370,6 @@ shards:
   - url: s3://openwaldo/lookaside/9d/3a/9d3a947e534fa01bda285c73dfbce966ca708202e13b5d8a8f4c042b81f8f52f
     sha256: 9d3a947e534fa01bda285c73dfbce966ca708202e13b5d8a8f4c042b81f8f52f
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 229469
-        tokens: 199528864
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 229469
@@ -1708,12 +1396,6 @@ shards:
   - url: s3://openwaldo/lookaside/cd/59/cd595412077aa1e327d08b17e2739975cad436b014fb942c2660f8aaa600e691
     sha256: cd595412077aa1e327d08b17e2739975cad436b014fb942c2660f8aaa600e691
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 245099
-        tokens: 198629726
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 245099
@@ -1740,12 +1422,6 @@ shards:
   - url: s3://openwaldo/lookaside/7e/30/7e3053e8d82ee3cf1ef60df97ad8eec6a5b2b697cf7d174a57e35bf34375d946
     sha256: 7e3053e8d82ee3cf1ef60df97ad8eec6a5b2b697cf7d174a57e35bf34375d946
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 253942
-        tokens: 199288544
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 253942
@@ -1772,12 +1448,6 @@ shards:
   - url: s3://openwaldo/lookaside/da/04/da042f6c35c2e1c8139f138087be0191c84bf3970676d0f41167a8bffe296219
     sha256: da042f6c35c2e1c8139f138087be0191c84bf3970676d0f41167a8bffe296219
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 258701
-        tokens: 203949920
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 258701
@@ -1804,12 +1474,6 @@ shards:
   - url: s3://openwaldo/lookaside/6b/dd/6bdde3943e393a592236545c85219565898cfc00b10a3158092ddeafb41204a2
     sha256: 6bdde3943e393a592236545c85219565898cfc00b10a3158092ddeafb41204a2
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 258582
-        tokens: 200483790
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 258582
@@ -1836,12 +1500,6 @@ shards:
   - url: s3://openwaldo/lookaside/55/79/5579a8c19385668e29c20a6c1a98e5d1c6380bb539dbae4ea4ca9eb75e6fcc8d
     sha256: 5579a8c19385668e29c20a6c1a98e5d1c6380bb539dbae4ea4ca9eb75e6fcc8d
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 249634
-        tokens: 199603899
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 249634
@@ -1868,12 +1526,6 @@ shards:
   - url: s3://openwaldo/lookaside/14/1b/141ba37dc2c116d9de30a7b2e148b15dc5ea71ae2c1b817d83567f4ee4f62cde
     sha256: 141ba37dc2c116d9de30a7b2e148b15dc5ea71ae2c1b817d83567f4ee4f62cde
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 242956
-        tokens: 200548684
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 242956
@@ -1900,12 +1552,6 @@ shards:
   - url: s3://openwaldo/lookaside/fd/45/fd458ff00ae97bbbcc6cf22933a138733d22abe81ba114b3b6b2c03009470d0b
     sha256: fd458ff00ae97bbbcc6cf22933a138733d22abe81ba114b3b6b2c03009470d0b
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 250205
-        tokens: 200987455
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 250205
@@ -1932,12 +1578,6 @@ shards:
   - url: s3://openwaldo/lookaside/1d/3a/1d3ab23e1911ccd196b22fd62347fe2ed4f3adf906a9802ea2fb8ed6bc5f8212
     sha256: 1d3ab23e1911ccd196b22fd62347fe2ed4f3adf906a9802ea2fb8ed6bc5f8212
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 264056
-        tokens: 199173826
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 264056
@@ -1964,12 +1604,6 @@ shards:
   - url: s3://openwaldo/lookaside/a6/ac/a6aceeaeb11a15d9385fdda5beab12ae031a96908a85db725195324d0d232476
     sha256: a6aceeaeb11a15d9385fdda5beab12ae031a96908a85db725195324d0d232476
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 257702
-        tokens: 197124402
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 257702
@@ -1996,12 +1630,6 @@ shards:
   - url: s3://openwaldo/lookaside/0d/e5/0de5a0f5c7f761981b2feb3f280dff10ac3de2d0a625c97c05de2de56d997898
     sha256: 0de5a0f5c7f761981b2feb3f280dff10ac3de2d0a625c97c05de2de56d997898
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 298571
-        tokens: 197349146
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 298571
@@ -2028,12 +1656,6 @@ shards:
   - url: s3://openwaldo/lookaside/12/39/12391c30c9b4dc974d049d145171f0080496fd4ee2ba784f8b93198d79ca32ca
     sha256: 12391c30c9b4dc974d049d145171f0080496fd4ee2ba784f8b93198d79ca32ca
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 248541
-        tokens: 199755586
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 248541
@@ -2060,12 +1682,6 @@ shards:
   - url: s3://openwaldo/lookaside/85/f7/85f772fcdc80a5410438b3314c8d29b56c6e4e33f9bb5ef3ce9f06b93c7bf9b5
     sha256: 85f772fcdc80a5410438b3314c8d29b56c6e4e33f9bb5ef3ce9f06b93c7bf9b5
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 252081
-        tokens: 199475919
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 252081
@@ -2092,12 +1708,6 @@ shards:
   - url: s3://openwaldo/lookaside/82/f7/82f774b9870fb84b39d2a086a4d11b604234e06faaac3dd10b5c0613f7b0e3e9
     sha256: 82f774b9870fb84b39d2a086a4d11b604234e06faaac3dd10b5c0613f7b0e3e9
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 251131
-        tokens: 203243297
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 251131
@@ -2124,12 +1734,6 @@ shards:
   - url: s3://openwaldo/lookaside/f8/70/f87094cec63b57bbb5dbc02ca07affdc6c0a435593fac772c390a47ea737783c
     sha256: f87094cec63b57bbb5dbc02ca07affdc6c0a435593fac772c390a47ea737783c
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 247126
-        tokens: 201419951
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 247126
@@ -2156,12 +1760,6 @@ shards:
   - url: s3://openwaldo/lookaside/9a/ae/9aaecf0c60a12ace52efacc01221ed55d71a308a494a2fe9cfc820b333f98e75
     sha256: 9aaecf0c60a12ace52efacc01221ed55d71a308a494a2fe9cfc820b333f98e75
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 240247
-        tokens: 198328289
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 240247
@@ -2188,12 +1786,6 @@ shards:
   - url: s3://openwaldo/lookaside/c0/dd/c0dd0f0eae7bc199ff9eb2935d2b3f6ed63af02cab03ffccc7960683c71a9380
     sha256: c0dd0f0eae7bc199ff9eb2935d2b3f6ed63af02cab03ffccc7960683c71a9380
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 230387
-        tokens: 202508191
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 230387
@@ -2220,12 +1812,6 @@ shards:
   - url: s3://openwaldo/lookaside/ac/71/ac7159d2c0e8cbc65367616c584bbb07ed4aaf5a39b65d7212dbab441bc6eb7f
     sha256: ac7159d2c0e8cbc65367616c584bbb07ed4aaf5a39b65d7212dbab441bc6eb7f
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 229839
-        tokens: 199536157
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 229839
@@ -2252,12 +1838,6 @@ shards:
   - url: s3://openwaldo/lookaside/a3/fa/a3faac94000de5d29a959d4b41ca5db5c4dd65e7f64f8b8a570a2aad84872898
     sha256: a3faac94000de5d29a959d4b41ca5db5c4dd65e7f64f8b8a570a2aad84872898
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 223998
-        tokens: 200048492
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 223998
@@ -2284,12 +1864,6 @@ shards:
   - url: s3://openwaldo/lookaside/e0/e6/e0e66e5255907b8f98e3ef7244cccc59133dc5451c110d8e96e181b69c9aad17
     sha256: e0e66e5255907b8f98e3ef7244cccc59133dc5451c110d8e96e181b69c9aad17
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 210558
-        tokens: 210012804
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 210558
@@ -2316,12 +1890,6 @@ shards:
   - url: s3://openwaldo/lookaside/0e/8b/0e8b652c8b2e4b14958071337301c31e68f4a608ab2edfc7f0a79028aadeb76b
     sha256: 0e8b652c8b2e4b14958071337301c31e68f4a608ab2edfc7f0a79028aadeb76b
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 227492
-        tokens: 198503650
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 227492
@@ -2348,12 +1916,6 @@ shards:
   - url: s3://openwaldo/lookaside/b5/88/b588eb21a7a423c32b1938df8617a4b8d0393a723506a63a04767b630e4f986d
     sha256: b588eb21a7a423c32b1938df8617a4b8d0393a723506a63a04767b630e4f986d
     license: CC-BY-SA-4.0
-    license_usage:
-      CC-BY-SA-4.0:
-        shards: 0
-        docs: 185176
-        tokens: 164330889
-        bytes: 0
     sources:
       - common-pile/wikimedia_filtered
     docs: 185176

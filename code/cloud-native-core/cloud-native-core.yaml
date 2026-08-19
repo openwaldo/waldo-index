@@ -84,12 +84,6 @@ shards:
   - url: s3://openwaldo/lookaside/ea/69/ea694c68ca0a4da56f9a2f0328e76a97d1cadc53f6c69a382406caf4e189f2f0
     sha256: ea694c68ca0a4da56f9a2f0328e76a97d1cadc53f6c69a382406caf4e189f2f0
     license: Apache-2.0
-    license_usage:
-      Apache-2.0:
-        shards: 0
-        docs: 4172
-        tokens: 16415995
-        bytes: 0
     sources:
       - containerd/containerd
       - etcd-io/etcd

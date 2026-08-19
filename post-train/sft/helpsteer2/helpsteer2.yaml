@@ -62,12 +62,6 @@ shards:
   - url: s3://openwaldo/lookaside/d1/3c/d13c9d68734b21f4dccf53259a5a052e573b9b19b8cbea250c3118b6f5c498e1
     sha256: d13c9d68734b21f4dccf53259a5a052e573b9b19b8cbea250c3118b6f5c498e1
     license: CC-BY-4.0
-    license_usage:
-      CC-BY-4.0:
-        shards: 0
-        docs: 20323
-        tokens: 10358587
-        bytes: 0
     sources:
       - nvidia/HelpSteer2
     docs: 20323

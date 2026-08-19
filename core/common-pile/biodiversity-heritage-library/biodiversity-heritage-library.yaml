@@ -41,12 +41,6 @@ shards:
   - url: s3://openwaldo/lookaside/4e/45/4e453e4a9da17c148a0a86540366c3c6b6beb810e9fc0a13b9908d6015d10f31
     sha256: 4e453e4a9da17c148a0a86540366c3c6b6beb810e9fc0a13b9908d6015d10f31
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 398769
-        tokens: 177750319
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 398769
@@ -55,12 +49,6 @@ shards:
   - url: s3://openwaldo/lookaside/94/ff/94ff80cab7e10c887794cb4e9433189e4144f785c428ef2d33eac71b0dc1cb37
     sha256: 94ff80cab7e10c887794cb4e9433189e4144f785c428ef2d33eac71b0dc1cb37
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 330858
-        tokens: 177622705
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 330858
@@ -69,12 +57,6 @@ shards:
   - url: s3://openwaldo/lookaside/7a/e2/7ae2822ade2ae450ce7da29410e7bd5f2959e65bc1bb40cf18d3e239a1270ce9
     sha256: 7ae2822ade2ae450ce7da29410e7bd5f2959e65bc1bb40cf18d3e239a1270ce9
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 367199
-        tokens: 177875500
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 367199
@@ -83,12 +65,6 @@ shards:
   - url: s3://openwaldo/lookaside/d9/5e/d95e4f6a8b1afe7c3666c182d984af7f186fd55b4a66bd8f5c2e4dd00e7a76b2
     sha256: d95e4f6a8b1afe7c3666c182d984af7f186fd55b4a66bd8f5c2e4dd00e7a76b2
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 306455
-        tokens: 178268265
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 306455
@@ -97,12 +73,6 @@ shards:
   - url: s3://openwaldo/lookaside/a9/19/a91977c53e6b07271112ad601916c911bfa07f32825b70be54cfffcba19add1c
     sha256: a91977c53e6b07271112ad601916c911bfa07f32825b70be54cfffcba19add1c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 341466
-        tokens: 198347732
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 341466
@@ -111,12 +81,6 @@ shards:
   - url: s3://openwaldo/lookaside/1c/2b/1c2b41ad60edf72c35ecb7aa5efee6f5f50e70e856f3caa17e1e22d3545f378e
     sha256: 1c2b41ad60edf72c35ecb7aa5efee6f5f50e70e856f3caa17e1e22d3545f378e
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 339970
-        tokens: 179297989
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 339970
@@ -125,12 +89,6 @@ shards:
   - url: s3://openwaldo/lookaside/a9/2f/a92f0dc35143630adc594bbe2bb8c895410de31ffd485c7023789ac5310898bc
     sha256: a92f0dc35143630adc594bbe2bb8c895410de31ffd485c7023789ac5310898bc
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 343896
-        tokens: 178122545
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 343896
@@ -139,12 +97,6 @@ shards:
   - url: s3://openwaldo/lookaside/94/a8/94a826d4cb56549ff1ea02ec392e961dc600966883974b5ab4afb2801d09f36c
     sha256: 94a826d4cb56549ff1ea02ec392e961dc600966883974b5ab4afb2801d09f36c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 187047
-        tokens: 184643622
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 187047
@@ -153,12 +105,6 @@ shards:
   - url: s3://openwaldo/lookaside/83/ea/83eabb7f20df864bbe7d9b8da075956f11f4f0046d87f55fe68619f52b4ad6ea
     sha256: 83eabb7f20df864bbe7d9b8da075956f11f4f0046d87f55fe68619f52b4ad6ea
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 208666
-        tokens: 184999715
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 208666
@@ -167,12 +113,6 @@ shards:
   - url: s3://openwaldo/lookaside/0e/7b/0e7b0bd14d5f3380fc1fd5fd2473583ddc97f83a081f286858ca17fa35fab158
     sha256: 0e7b0bd14d5f3380fc1fd5fd2473583ddc97f83a081f286858ca17fa35fab158
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 304743
-        tokens: 177869036
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 304743
@@ -181,12 +121,6 @@ shards:
   - url: s3://openwaldo/lookaside/c1/e3/c1e3e4384b2f127e9595bc3cb74b41df483ce7e2b70b2523f7466403b2469574
     sha256: c1e3e4384b2f127e9595bc3cb74b41df483ce7e2b70b2523f7466403b2469574
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 258989
-        tokens: 178033830
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 258989
@@ -195,12 +129,6 @@ shards:
   - url: s3://openwaldo/lookaside/eb/1f/eb1fa2d0fe6778d3bca2edd60f656a83319b22f8b888acb7b8d90ab82da3446e
     sha256: eb1fa2d0fe6778d3bca2edd60f656a83319b22f8b888acb7b8d90ab82da3446e
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 287548
-        tokens: 178290853
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 287548
@@ -209,12 +137,6 @@ shards:
   - url: s3://openwaldo/lookaside/c3/13/c3136ac2fc666e598ca73752e27dabfd8edfc37c3c876fced032bbdf96d1c4dd
     sha256: c3136ac2fc666e598ca73752e27dabfd8edfc37c3c876fced032bbdf96d1c4dd
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 293988
-        tokens: 177698650
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 293988
@@ -223,12 +145,6 @@ shards:
   - url: s3://openwaldo/lookaside/34/31/343131c69ca7724a81e84f0d2a208d74b27aeb1b2bdedcb66288409fcb0e5208
     sha256: 343131c69ca7724a81e84f0d2a208d74b27aeb1b2bdedcb66288409fcb0e5208
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 266060
-        tokens: 175745141
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 266060
@@ -237,12 +153,6 @@ shards:
   - url: s3://openwaldo/lookaside/2e/8b/2e8b9d1687e50bddfd4c60b6529ef5dee002b0b1d47a6a0dfa8d3cc965fbf1d9
     sha256: 2e8b9d1687e50bddfd4c60b6529ef5dee002b0b1d47a6a0dfa8d3cc965fbf1d9
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 317325
-        tokens: 176450700
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 317325
@@ -251,12 +161,6 @@ shards:
   - url: s3://openwaldo/lookaside/f8/0b/f80b8f722ea9a6639ae023e6c53fdb975dc7f2e5c4ec57fdfcb98a0819a64014
     sha256: f80b8f722ea9a6639ae023e6c53fdb975dc7f2e5c4ec57fdfcb98a0819a64014
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 324104
-        tokens: 179150345
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 324104
@@ -265,12 +169,6 @@ shards:
   - url: s3://openwaldo/lookaside/45/33/4533478ce52c239d41552f6ddcefea069a915244d01e8d2a2bd4c0fb8987582f
     sha256: 4533478ce52c239d41552f6ddcefea069a915244d01e8d2a2bd4c0fb8987582f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 371992
-        tokens: 178059029
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 371992
@@ -279,12 +177,6 @@ shards:
   - url: s3://openwaldo/lookaside/25/15/251576a6fee04e600126c4dde7a1892137792923cc18dec36e25468da7f3a34f
     sha256: 251576a6fee04e600126c4dde7a1892137792923cc18dec36e25468da7f3a34f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 312240
-        tokens: 175543588
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 312240
@@ -293,12 +185,6 @@ shards:
   - url: s3://openwaldo/lookaside/51/e0/51e04b1bad982b7559dfb84a03834b7dae2cdea80efbdd15234fac0c1cdc0e96
     sha256: 51e04b1bad982b7559dfb84a03834b7dae2cdea80efbdd15234fac0c1cdc0e96
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 352069
-        tokens: 177244097
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 352069
@@ -307,12 +193,6 @@ shards:
   - url: s3://openwaldo/lookaside/4d/8a/4d8ac1310087c712ea0fdc882d6f2d178dfc113d63cb59a6b64420be277bd217
     sha256: 4d8ac1310087c712ea0fdc882d6f2d178dfc113d63cb59a6b64420be277bd217
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 359229
-        tokens: 177621981
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 359229
@@ -321,12 +201,6 @@ shards:
   - url: s3://openwaldo/lookaside/46/82/4682f821fd28a8c7cd3a6f10839d7fb21a31840cbda04be5c5eaa7fed555801d
     sha256: 4682f821fd28a8c7cd3a6f10839d7fb21a31840cbda04be5c5eaa7fed555801d
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 348357
-        tokens: 177326604
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 348357
@@ -335,12 +209,6 @@ shards:
   - url: s3://openwaldo/lookaside/18/4b/184b662112e37e5af9d15ba80912e4f1db0551c155a54963d8130ed83150c646
     sha256: 184b662112e37e5af9d15ba80912e4f1db0551c155a54963d8130ed83150c646
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 313462
-        tokens: 177748461
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 313462
@@ -349,12 +217,6 @@ shards:
   - url: s3://openwaldo/lookaside/07/ea/07ea57c0114b904189612ceb3c6b806cbe0baea9c52695b743b9fccae393f137
     sha256: 07ea57c0114b904189612ceb3c6b806cbe0baea9c52695b743b9fccae393f137
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 379042
-        tokens: 178717252
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 379042
@@ -363,12 +225,6 @@ shards:
   - url: s3://openwaldo/lookaside/ec/1f/ec1f9fb5ddacf10244cbeb509296c47ab8da91b8001f17e1f2ebb4a7adf90ccd
     sha256: ec1f9fb5ddacf10244cbeb509296c47ab8da91b8001f17e1f2ebb4a7adf90ccd
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 295779
-        tokens: 177970835
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 295779
@@ -377,12 +233,6 @@ shards:
   - url: s3://openwaldo/lookaside/9d/ce/9dcecb51197e004c56321f5c484ec58cbb91bfebac18b1e078bc217805d26538
     sha256: 9dcecb51197e004c56321f5c484ec58cbb91bfebac18b1e078bc217805d26538
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 327555
-        tokens: 178594130
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 327555
@@ -391,12 +241,6 @@ shards:
   - url: s3://openwaldo/lookaside/d4/5a/d45a07c0471675f818dc155ee2e0436b4e8e615c59abf6422734f89a7ddba124
     sha256: d45a07c0471675f818dc155ee2e0436b4e8e615c59abf6422734f89a7ddba124
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 242352
-        tokens: 177185536
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 242352
@@ -405,12 +249,6 @@ shards:
   - url: s3://openwaldo/lookaside/24/f0/24f0c2723156f96d9fde9a8cb6c5e4918527a02a42ff5a91d73b7175dbd954ae
     sha256: 24f0c2723156f96d9fde9a8cb6c5e4918527a02a42ff5a91d73b7175dbd954ae
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 321058
-        tokens: 178744120
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 321058
@@ -419,12 +257,6 @@ shards:
   - url: s3://openwaldo/lookaside/3a/bd/3abd9fe58496d2e376776eb73813e22c3aa470b9122d6aa9cfebd42489f5797b
     sha256: 3abd9fe58496d2e376776eb73813e22c3aa470b9122d6aa9cfebd42489f5797b
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 339446
-        tokens: 180251726
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 339446
@@ -433,12 +265,6 @@ shards:
   - url: s3://openwaldo/lookaside/21/46/2146e168a2ba01d94f284191ec4459cdca6a2de53f515b8406ece376926a9eab
     sha256: 2146e168a2ba01d94f284191ec4459cdca6a2de53f515b8406ece376926a9eab
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 331348
-        tokens: 179901361
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 331348
@@ -447,12 +273,6 @@ shards:
   - url: s3://openwaldo/lookaside/2b/2d/2b2dde44e2c46387a90abac24ecb78188f594dc5bbfc2d9bddf5d25ab85cba84
     sha256: 2b2dde44e2c46387a90abac24ecb78188f594dc5bbfc2d9bddf5d25ab85cba84
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 366833
-        tokens: 178089937
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 366833
@@ -461,12 +281,6 @@ shards:
   - url: s3://openwaldo/lookaside/2e/71/2e714b733e4547600f1e67dbc2eee289d9816c2c0885da77de5a56e7589106f6
     sha256: 2e714b733e4547600f1e67dbc2eee289d9816c2c0885da77de5a56e7589106f6
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 265165
-        tokens: 179769749
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 265165
@@ -475,12 +289,6 @@ shards:
   - url: s3://openwaldo/lookaside/f4/34/f434aee72f80c47851756c217e5ef9f474f85004e4ad8d1b85c49c30566d23b2
     sha256: f434aee72f80c47851756c217e5ef9f474f85004e4ad8d1b85c49c30566d23b2
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 301277
-        tokens: 177655951
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 301277
@@ -489,12 +297,6 @@ shards:
   - url: s3://openwaldo/lookaside/3e/ff/3eff5cbd1cdb8d392770e5b670d0f5cf8d54fadb9329e47ed407f2e1dda669a6
     sha256: 3eff5cbd1cdb8d392770e5b670d0f5cf8d54fadb9329e47ed407f2e1dda669a6
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 340145
-        tokens: 178732729
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 340145
@@ -503,12 +305,6 @@ shards:
   - url: s3://openwaldo/lookaside/03/eb/03eb346e4536441a130db8f3252dae47adaf4b20e1169f711b65e28a67a71b63
     sha256: 03eb346e4536441a130db8f3252dae47adaf4b20e1169f711b65e28a67a71b63
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 269194
-        tokens: 182588107
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 269194
@@ -517,12 +313,6 @@ shards:
   - url: s3://openwaldo/lookaside/c1/39/c139990451c9df6cb982296455d5e8b28bf31944f4d1f8d4a22496b44fd5f07e
     sha256: c139990451c9df6cb982296455d5e8b28bf31944f4d1f8d4a22496b44fd5f07e
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 352996
-        tokens: 178778211
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 352996
@@ -531,12 +321,6 @@ shards:
   - url: s3://openwaldo/lookaside/45/01/45014ffe161230669b6a534d4fee485b91ebc52095e14147849620c1b997006a
     sha256: 45014ffe161230669b6a534d4fee485b91ebc52095e14147849620c1b997006a
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 299013
-        tokens: 180157572
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 299013
@@ -545,12 +329,6 @@ shards:
   - url: s3://openwaldo/lookaside/bf/85/bf85d0f2b887047aea1967839f1eb0bdd52b1adb1b5e04cdc1f60137a84437be
     sha256: bf85d0f2b887047aea1967839f1eb0bdd52b1adb1b5e04cdc1f60137a84437be
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 348928
-        tokens: 177677769
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 348928
@@ -559,12 +337,6 @@ shards:
   - url: s3://openwaldo/lookaside/ba/23/ba23d3c8ce3ed98f0c23c9e4d714c1131158d3fc30ed3d2116471a34891b1eec
     sha256: ba23d3c8ce3ed98f0c23c9e4d714c1131158d3fc30ed3d2116471a34891b1eec
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 306580
-        tokens: 179315211
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 306580
@@ -573,12 +345,6 @@ shards:
   - url: s3://openwaldo/lookaside/2f/cd/2fcd6ed80de1463f8f148de93b6c1e5a7a622a3e7d0177f23f0f12999548954f
     sha256: 2fcd6ed80de1463f8f148de93b6c1e5a7a622a3e7d0177f23f0f12999548954f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 319110
-        tokens: 178133900
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 319110
@@ -587,12 +353,6 @@ shards:
   - url: s3://openwaldo/lookaside/32/8f/328ff07df82688a6e4f9a7f2faa907410a58f4717c6403a3ea0b27e97de580b4
     sha256: 328ff07df82688a6e4f9a7f2faa907410a58f4717c6403a3ea0b27e97de580b4
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 313739
-        tokens: 179171571
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 313739
@@ -601,12 +361,6 @@ shards:
   - url: s3://openwaldo/lookaside/22/6a/226a1253476f3b63a3888bd65d1220d9e61f3c35aaf002770abb18836841bbc5
     sha256: 226a1253476f3b63a3888bd65d1220d9e61f3c35aaf002770abb18836841bbc5
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 273946
-        tokens: 177685957
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 273946
@@ -615,12 +369,6 @@ shards:
   - url: s3://openwaldo/lookaside/b3/c8/b3c8659bab79ccc66e9c241730fee5dccf76ec8c1e4f5b437323ba302e33e25b
     sha256: b3c8659bab79ccc66e9c241730fee5dccf76ec8c1e4f5b437323ba302e33e25b
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 341708
-        tokens: 178188837
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 341708
@@ -629,12 +377,6 @@ shards:
   - url: s3://openwaldo/lookaside/d5/76/d576456565e662c01bd2e7e99dc2e601815f7f1d19ddf0e8c8837d5c0e9be111
     sha256: d576456565e662c01bd2e7e99dc2e601815f7f1d19ddf0e8c8837d5c0e9be111
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 348521
-        tokens: 180884574
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 348521
@@ -643,12 +385,6 @@ shards:
   - url: s3://openwaldo/lookaside/df/42/df4273a946fd02ce445cbe99151a2a19ae8dbeb945ce29e0f321f4ea4458677a
     sha256: df4273a946fd02ce445cbe99151a2a19ae8dbeb945ce29e0f321f4ea4458677a
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 352808
-        tokens: 177121934
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 352808
@@ -657,12 +393,6 @@ shards:
   - url: s3://openwaldo/lookaside/5f/22/5f22bc91b8293001050dd4255f6bcf06cd0c48c310a9f3c9a709daed98f8d58a
     sha256: 5f22bc91b8293001050dd4255f6bcf06cd0c48c310a9f3c9a709daed98f8d58a
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 294008
-        tokens: 176222163
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 294008
@@ -671,12 +401,6 @@ shards:
   - url: s3://openwaldo/lookaside/89/25/8925f13e1b03db00419bd7035b0fe2fb9d543052418929e9204f44df1400d27c
     sha256: 8925f13e1b03db00419bd7035b0fe2fb9d543052418929e9204f44df1400d27c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 299139
-        tokens: 180672274
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 299139
@@ -685,12 +409,6 @@ shards:
   - url: s3://openwaldo/lookaside/69/16/691606c9746b795c2f31bf4905f5cd10cab13b0a6991a5ce53ca8a2dbb67e0f3
     sha256: 691606c9746b795c2f31bf4905f5cd10cab13b0a6991a5ce53ca8a2dbb67e0f3
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 303834
-        tokens: 180420275
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 303834
@@ -699,12 +417,6 @@ shards:
   - url: s3://openwaldo/lookaside/6b/27/6b2782d34b254696c7d8882cbe9dae22a68d0d9c84cc2a127893768e52e02431
     sha256: 6b2782d34b254696c7d8882cbe9dae22a68d0d9c84cc2a127893768e52e02431
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 242011
-        tokens: 196706516
-        bytes: 0
     sources:
       - common-pile/biodiversity_heritage_library_filtered
     docs: 242011

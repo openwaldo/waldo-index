@@ -89,12 +89,6 @@ shards:
   - url: s3://openwaldo/lookaside/7d/98/7d98ae5f1314305d091c44609a8ffaff0c11fbc2e86028de3924844ca7e0dc21
     sha256: 7d98ae5f1314305d091c44609a8ffaff0c11fbc2e86028de3924844ca7e0dc21
     license: LicenseRef-Apache-Public-Forum
-    license_usage:
-      LicenseRef-Apache-Public-Forum:
-        shards: 0
-        docs: 36
-        tokens: 9754829
-        bytes: 0
     sources:
       - dev@commons.apache.org
       - dev@httpd.apache.org

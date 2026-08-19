@@ -59,12 +59,6 @@ shards:
   - url: s3://openwaldo/lookaside/43/09/4309a6229b2aac77559d76116b7c04b7a85c3cadf8f7999b4ad4cf8c6f101d5a
     sha256: 4309a6229b2aac77559d76116b7c04b7a85c3cadf8f7999b4ad4cf8c6f101d5a
     license: ODC-BY-1.0
-    license_usage:
-      ODC-BY-1.0:
-        shards: 0
-        docs: 170659
-        tokens: 223264054
-        bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
     docs: 170659
@@ -91,12 +85,6 @@ shards:
   - url: s3://openwaldo/lookaside/98/cc/98cce649a8a97e37ea44195bd53c21729a901e17e8acb7ddd84ddd1ed8a01b33
     sha256: 98cce649a8a97e37ea44195bd53c21729a901e17e8acb7ddd84ddd1ed8a01b33
     license: ODC-BY-1.0
-    license_usage:
-      ODC-BY-1.0:
-        shards: 0
-        docs: 177543
-        tokens: 305895791
-        bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
     docs: 177543
@@ -123,12 +111,6 @@ shards:
   - url: s3://openwaldo/lookaside/89/b4/89b471acfb46b51bb56d1861e687cba96e5360975ebd0330692eadd610de5379
     sha256: 89b471acfb46b51bb56d1861e687cba96e5360975ebd0330692eadd610de5379
     license: ODC-BY-1.0
-    license_usage:
-      ODC-BY-1.0:
-        shards: 0
-        docs: 480673
-        tokens: 246840467
-        bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
     docs: 480673
@@ -155,12 +137,6 @@ shards:
   - url: s3://openwaldo/lookaside/a8/d3/a8d303d5bed5bd2551d726af9b02c03d350d1a11770510ce554890de4d258760
     sha256: a8d303d5bed5bd2551d726af9b02c03d350d1a11770510ce554890de4d258760
     license: ODC-BY-1.0
-    license_usage:
-      ODC-BY-1.0:
-        shards: 0
-        docs: 99264
-        tokens: 58003485
-        bytes: 0
     sources:
       - allenai/tulu-3-sft-mixture
     docs: 99264

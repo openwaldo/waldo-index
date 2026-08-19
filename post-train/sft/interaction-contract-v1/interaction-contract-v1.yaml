@@ -62,12 +62,6 @@ shards:
   - url: s3://openwaldo/lookaside/4e/d3/4ed30a794a9f2d467486a09ad2f36fb6258172861d92dcec578d1f5e6782a10e
     sha256: 4ed30a794a9f2d467486a09ad2f36fb6258172861d92dcec578d1f5e6782a10e
     license: Apache-2.0
-    license_usage:
-      Apache-2.0:
-        shards: 0
-        docs: 45000
-        tokens: 2896711
-        bytes: 0
     sources:
       - openwaldo/post-training-data
     docs: 45000

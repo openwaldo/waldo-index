@@ -61,12 +61,6 @@ shards:
   - url: s3://openwaldo/lookaside/f9/f9/f9f93e616802d5be1221043212a67ed9ed962bf7fced43c05c48f384b8c78349
     sha256: f9f93e616802d5be1221043212a67ed9ed962bf7fced43c05c48f384b8c78349
     license: Apache-2.0
-    license_usage:
-      Apache-2.0:
-        shards: 0
-        docs: 2993
-        tokens: 6302278
-        bytes: 0
     sources:
       - NousResearch/hermes-function-calling-v1
     docs: 2993

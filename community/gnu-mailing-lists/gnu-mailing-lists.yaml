@@ -94,12 +94,6 @@ shards:
   - url: s3://openwaldo/lookaside/ec/4f/ec4f052d1b6708ac3fcb5f34c4623f02a47ded852da401df3d291863a8c2de39
     sha256: ec4f052d1b6708ac3fcb5f34c4623f02a47ded852da401df3d291863a8c2de39
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 559
-        tokens: 144538843
-        bytes: 0
     sources:
       - bug-bash@gnu.org
       - bug-coreutils@gnu.org

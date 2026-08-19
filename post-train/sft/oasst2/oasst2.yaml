@@ -45,12 +45,6 @@ shards:
   - url: s3://openwaldo/lookaside/aa/e9/aae975f5c8eb981405a9ba9a91c3a12d8c35c59a788020ad49d80c06c8436590
     sha256: aae975f5c8eb981405a9ba9a91c3a12d8c35c59a788020ad49d80c06c8436590
     license: Apache-2.0
-    license_usage:
-      Apache-2.0:
-        shards: 0
-        docs: 13852
-        tokens: 6643142
-        bytes: 0
     sources:
       - OpenAssistant/oasst2
     docs: 13852

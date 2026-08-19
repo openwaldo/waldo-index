@@ -45,12 +45,6 @@ shards:
   - url: s3://openwaldo/lookaside/63/85/638522f90ca0ff3fff6d18b00ed6d8ebf53cba2f35133d12b385d711d058c7d6
     sha256: 638522f90ca0ff3fff6d18b00ed6d8ebf53cba2f35133d12b385d711d058c7d6
     license: CC-BY-SA-3.0
-    license_usage:
-      CC-BY-SA-3.0:
-        shards: 0
-        docs: 14996
-        tokens: 2895631
-        bytes: 0
     sources:
       - databricks/databricks-dolly-15k
     docs: 14996

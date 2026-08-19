@@ -41,12 +41,6 @@ shards:
   - url: s3://openwaldo/lookaside/eb/3b/eb3b7e88c2fd781d0f32984d2e127d8f383f338d9bc4f4cbd4e535aad95897e2
     sha256: eb3b7e88c2fd781d0f32984d2e127d8f383f338d9bc4f4cbd4e535aad95897e2
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2918
-        tokens: 180754257
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2918
@@ -55,12 +49,6 @@ shards:
   - url: s3://openwaldo/lookaside/16/3b/163b47a629e1a0bea13cb2ef647d8c78e46577288f40873fe36dbb5b96ad295d
     sha256: 163b47a629e1a0bea13cb2ef647d8c78e46577288f40873fe36dbb5b96ad295d
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2798
-        tokens: 181701716
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2798
@@ -69,12 +57,6 @@ shards:
   - url: s3://openwaldo/lookaside/21/19/2119cf71d91a2203acf4ef84fce7478809f46ac548d219fa9a91a7e868b896e6
     sha256: 2119cf71d91a2203acf4ef84fce7478809f46ac548d219fa9a91a7e868b896e6
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2863
-        tokens: 181530382
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2863
@@ -83,12 +65,6 @@ shards:
   - url: s3://openwaldo/lookaside/20/6c/206ccb8629d355b13237e806ea30cc80db1e7514d29173876750c97487874631
     sha256: 206ccb8629d355b13237e806ea30cc80db1e7514d29173876750c97487874631
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2894
-        tokens: 180931515
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2894
@@ -97,12 +73,6 @@ shards:
   - url: s3://openwaldo/lookaside/f9/ce/f9cee84dc2a93bcae83d322075e6a1e24020de91c5dffff63aa3014ca34d1fcb
     sha256: f9cee84dc2a93bcae83d322075e6a1e24020de91c5dffff63aa3014ca34d1fcb
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2806
-        tokens: 181045305
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2806
@@ -111,12 +81,6 @@ shards:
   - url: s3://openwaldo/lookaside/0b/7c/0b7ca818dd491b65976c16eead4a805b1e45897d1cf3a7e8ce404c2b461b9255
     sha256: 0b7ca818dd491b65976c16eead4a805b1e45897d1cf3a7e8ce404c2b461b9255
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2938
-        tokens: 180311637
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2938
@@ -125,12 +89,6 @@ shards:
   - url: s3://openwaldo/lookaside/dd/6a/dd6a130699a433b0bba9f8d68030f01d310081616e383459cbf956cf483a0171
     sha256: dd6a130699a433b0bba9f8d68030f01d310081616e383459cbf956cf483a0171
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2969
-        tokens: 182014769
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2969
@@ -139,12 +97,6 @@ shards:
   - url: s3://openwaldo/lookaside/24/93/2493194097a9b17ae9fe870dbd57f1a60a554df7bde4fd3e53fb99598bd80563
     sha256: 2493194097a9b17ae9fe870dbd57f1a60a554df7bde4fd3e53fb99598bd80563
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2907
-        tokens: 180326222
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2907
@@ -153,12 +105,6 @@ shards:
   - url: s3://openwaldo/lookaside/09/70/0970449b05013be7727edd9a822851c854085eeeee08f12545210afe3ef7a317
     sha256: 0970449b05013be7727edd9a822851c854085eeeee08f12545210afe3ef7a317
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2950
-        tokens: 181202477
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2950
@@ -167,12 +113,6 @@ shards:
   - url: s3://openwaldo/lookaside/70/71/707186a7bc3d8c1a36301ccb7a5724e5200b5971a62ef83a6e46c4fff3b77a29
     sha256: 707186a7bc3d8c1a36301ccb7a5724e5200b5971a62ef83a6e46c4fff3b77a29
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2813
-        tokens: 181499185
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2813
@@ -181,12 +121,6 @@ shards:
   - url: s3://openwaldo/lookaside/29/a2/29a29810c53bd5bea8ee600d650244760d9bfa69aaa8895ec7883255b085645f
     sha256: 29a29810c53bd5bea8ee600d650244760d9bfa69aaa8895ec7883255b085645f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2983
-        tokens: 181048755
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2983
@@ -195,12 +129,6 @@ shards:
   - url: s3://openwaldo/lookaside/6f/3c/6f3cc8bb223096359cd4113d9b57749cc364a33c34a48897acb0653c9660d99f
     sha256: 6f3cc8bb223096359cd4113d9b57749cc364a33c34a48897acb0653c9660d99f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2939
-        tokens: 181193852
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2939
@@ -209,12 +137,6 @@ shards:
   - url: s3://openwaldo/lookaside/60/4c/604c9bfcf51af2d5a651546f1d121242a56b02ea52f1d9d3c8c2cb65d509b06b
     sha256: 604c9bfcf51af2d5a651546f1d121242a56b02ea52f1d9d3c8c2cb65d509b06b
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 3144
-        tokens: 193999265
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 3144
@@ -223,12 +145,6 @@ shards:
   - url: s3://openwaldo/lookaside/04/89/04890d3501f75f4da858712b8e27b9988a960b1f098b5ab385daa97718e69d92
     sha256: 04890d3501f75f4da858712b8e27b9988a960b1f098b5ab385daa97718e69d92
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2959
-        tokens: 183088970
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2959
@@ -237,12 +153,6 @@ shards:
   - url: s3://openwaldo/lookaside/3d/13/3d1318c99bce1ad1a8944e1fcbc022351dffdee09a731a530d2618d29a28c9f2
     sha256: 3d1318c99bce1ad1a8944e1fcbc022351dffdee09a731a530d2618d29a28c9f2
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2939
-        tokens: 180589881
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2939
@@ -251,12 +161,6 @@ shards:
   - url: s3://openwaldo/lookaside/43/2b/432bb8c08482fc0f8ef4c7533d7dab394bcad2d4e7979203126329a538352e0e
     sha256: 432bb8c08482fc0f8ef4c7533d7dab394bcad2d4e7979203126329a538352e0e
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2873
-        tokens: 181114651
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2873
@@ -265,12 +169,6 @@ shards:
   - url: s3://openwaldo/lookaside/b9/c7/b9c73b5df7c9e2c0f21dabb511fa2510ab93fdd7fe1fa2d44939bed4641c93cc
     sha256: b9c73b5df7c9e2c0f21dabb511fa2510ab93fdd7fe1fa2d44939bed4641c93cc
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2751
-        tokens: 182271551
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2751
@@ -279,12 +177,6 @@ shards:
   - url: s3://openwaldo/lookaside/e7/d2/e7d299045f96b97c89b63cfc88e8149a4946b47796d219672bc213f88fc3a3bf
     sha256: e7d299045f96b97c89b63cfc88e8149a4946b47796d219672bc213f88fc3a3bf
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 3029
-        tokens: 196110850
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 3029
@@ -293,12 +185,6 @@ shards:
   - url: s3://openwaldo/lookaside/dd/65/dd65174919a99cb7eca64de473b0ec322a91818af9df4f7871d7b885922766f8
     sha256: dd65174919a99cb7eca64de473b0ec322a91818af9df4f7871d7b885922766f8
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2978
-        tokens: 182672446
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2978
@@ -307,12 +193,6 @@ shards:
   - url: s3://openwaldo/lookaside/52/d5/52d5d6d1988f1c326071a4e669c64bf79d0e996c8525e94dca9eadbd0c66d24e
     sha256: 52d5d6d1988f1c326071a4e669c64bf79d0e996c8525e94dca9eadbd0c66d24e
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2889
-        tokens: 181581725
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2889
@@ -321,12 +201,6 @@ shards:
   - url: s3://openwaldo/lookaside/ce/6b/ce6ba7982c1cf17914e5f9ba2aa0fad9e31fa03a90bf2cbe7cde2df9b354f14c
     sha256: ce6ba7982c1cf17914e5f9ba2aa0fad9e31fa03a90bf2cbe7cde2df9b354f14c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2723
-        tokens: 181265659
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2723
@@ -335,12 +209,6 @@ shards:
   - url: s3://openwaldo/lookaside/9b/24/9b241e97324dea5bc0902e790fedaae2e77b3088f3019bf91aae0a4e4073e4af
     sha256: 9b241e97324dea5bc0902e790fedaae2e77b3088f3019bf91aae0a4e4073e4af
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2814
-        tokens: 181036618
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2814
@@ -349,12 +217,6 @@ shards:
   - url: s3://openwaldo/lookaside/65/ba/65baa8833f860595990c45a08cd666e20533e4e652d8a84e689182c55ce23dc7
     sha256: 65baa8833f860595990c45a08cd666e20533e4e652d8a84e689182c55ce23dc7
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2937
-        tokens: 182326642
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2937
@@ -363,12 +225,6 @@ shards:
   - url: s3://openwaldo/lookaside/1c/fb/1cfbfd45cf8dc25759090ced6045b2d4934f21fd9c5ce2fbe5587a884b908090
     sha256: 1cfbfd45cf8dc25759090ced6045b2d4934f21fd9c5ce2fbe5587a884b908090
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2842
-        tokens: 180933304
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2842
@@ -377,12 +233,6 @@ shards:
   - url: s3://openwaldo/lookaside/e7/d3/e7d370fdba81bea4f54fc3fdc4b57cad7bc6f4178a3572623dbcbbc4eaeb556c
     sha256: e7d370fdba81bea4f54fc3fdc4b57cad7bc6f4178a3572623dbcbbc4eaeb556c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2897
-        tokens: 182400579
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2897
@@ -391,12 +241,6 @@ shards:
   - url: s3://openwaldo/lookaside/e9/8b/e98b694816280b65257ec3a79c8cf2a63ea3ee6448cf6b5980724d413c3c34ed
     sha256: e98b694816280b65257ec3a79c8cf2a63ea3ee6448cf6b5980724d413c3c34ed
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2881
-        tokens: 181449712
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2881
@@ -405,12 +249,6 @@ shards:
   - url: s3://openwaldo/lookaside/46/ff/46ff19720cd67655d7a1c5c9ae044f978f5cde531c63a45b061534d46c2e9f1f
     sha256: 46ff19720cd67655d7a1c5c9ae044f978f5cde531c63a45b061534d46c2e9f1f
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2942
-        tokens: 181294661
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2942
@@ -419,12 +257,6 @@ shards:
   - url: s3://openwaldo/lookaside/07/fb/07fb0b445853e9917d0e9c6057c90b9f041b5f2f3a71557bffb4e617b676166a
     sha256: 07fb0b445853e9917d0e9c6057c90b9f041b5f2f3a71557bffb4e617b676166a
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2900
-        tokens: 181155713
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2900
@@ -433,12 +265,6 @@ shards:
   - url: s3://openwaldo/lookaside/b5/1d/b51d1bbcd6424d3c6e299c1422a5c6df5b39282b49fee2949d2773d8c6956842
     sha256: b51d1bbcd6424d3c6e299c1422a5c6df5b39282b49fee2949d2773d8c6956842
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2957
-        tokens: 181985163
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2957
@@ -447,12 +273,6 @@ shards:
   - url: s3://openwaldo/lookaside/61/23/61234cea0d639d2ab165d5dfbc269babe617e834ed79ada96193ee12d1d33e4e
     sha256: 61234cea0d639d2ab165d5dfbc269babe617e834ed79ada96193ee12d1d33e4e
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2969
-        tokens: 182120810
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2969
@@ -461,12 +281,6 @@ shards:
   - url: s3://openwaldo/lookaside/3e/c8/3ec87e1def780ea118d9a92f36935d2b6be0f20e031d575ea00307f201c9b568
     sha256: 3ec87e1def780ea118d9a92f36935d2b6be0f20e031d575ea00307f201c9b568
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2827
-        tokens: 182505838
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2827
@@ -475,12 +289,6 @@ shards:
   - url: s3://openwaldo/lookaside/11/ca/11cac8795f7a2b102fd4a3bc31a9a1a14e02b3594eeb55d2132215a387f1e844
     sha256: 11cac8795f7a2b102fd4a3bc31a9a1a14e02b3594eeb55d2132215a387f1e844
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 3028
-        tokens: 179858876
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 3028
@@ -489,12 +297,6 @@ shards:
   - url: s3://openwaldo/lookaside/bc/d8/bcd8c585eb769a0adad0b6610ffe622a65074236487dcf8d8bd3159c798b0f27
     sha256: bcd8c585eb769a0adad0b6610ffe622a65074236487dcf8d8bd3159c798b0f27
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2905
-        tokens: 181307660
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2905
@@ -503,12 +305,6 @@ shards:
   - url: s3://openwaldo/lookaside/88/4e/884ec5a7236ebe6402cb7197d468f2a3198ae884653328b28ad0897c751ea17c
     sha256: 884ec5a7236ebe6402cb7197d468f2a3198ae884653328b28ad0897c751ea17c
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2910
-        tokens: 181237292
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2910
@@ -517,12 +313,6 @@ shards:
   - url: s3://openwaldo/lookaside/9e/6f/9e6f43a571655c91e6f22fbc0fd5282abb9301ad51aaf930536c90b292c904de
     sha256: 9e6f43a571655c91e6f22fbc0fd5282abb9301ad51aaf930536c90b292c904de
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2871
-        tokens: 181575803
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2871
@@ -531,12 +321,6 @@ shards:
   - url: s3://openwaldo/lookaside/7d/08/7d081ee39bf0013d07f20eea477d1b1edfcc7d95857e14537d4718d069889646
     sha256: 7d081ee39bf0013d07f20eea477d1b1edfcc7d95857e14537d4718d069889646
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2816
-        tokens: 181496091
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2816
@@ -545,12 +329,6 @@ shards:
   - url: s3://openwaldo/lookaside/aa/5e/aa5ef61d56bfa02573d1907ba9956756fed87de985b90e646c709f01026c997d
     sha256: aa5ef61d56bfa02573d1907ba9956756fed87de985b90e646c709f01026c997d
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2800
-        tokens: 181081131
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2800
@@ -559,12 +337,6 @@ shards:
   - url: s3://openwaldo/lookaside/10/14/10149af1b167e95fb2ba5af581bbea0dce8418170d26d6434024f1ce612d0c95
     sha256: 10149af1b167e95fb2ba5af581bbea0dce8418170d26d6434024f1ce612d0c95
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2767
-        tokens: 180791767
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2767
@@ -573,12 +345,6 @@ shards:
   - url: s3://openwaldo/lookaside/c9/b3/c9b39dae2c79e67517d7a35c17084cffbe15a0f1e16238ff554e15fa8ac37f01
     sha256: c9b39dae2c79e67517d7a35c17084cffbe15a0f1e16238ff554e15fa8ac37f01
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2973
-        tokens: 181063948
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2973
@@ -587,12 +353,6 @@ shards:
   - url: s3://openwaldo/lookaside/d9/2c/d92c86dc459dd69b2628c30e4128fadbdec582a297cb92d68f29430183ef6021
     sha256: d92c86dc459dd69b2628c30e4128fadbdec582a297cb92d68f29430183ef6021
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2926
-        tokens: 181506282
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2926
@@ -601,12 +361,6 @@ shards:
   - url: s3://openwaldo/lookaside/40/a1/40a128e7a79daf9b097ff40527e22c555dc0dae264d40c4a3afca972a860f7af
     sha256: 40a128e7a79daf9b097ff40527e22c555dc0dae264d40c4a3afca972a860f7af
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 3016
-        tokens: 180423306
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 3016
@@ -615,12 +369,6 @@ shards:
   - url: s3://openwaldo/lookaside/4c/d4/4cd4bd1b0bdae4651740f904f152592f40217cab8d43d75e0bd3505f10c6c322
     sha256: 4cd4bd1b0bdae4651740f904f152592f40217cab8d43d75e0bd3505f10c6c322
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 3001
-        tokens: 181543557
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 3001
@@ -629,12 +377,6 @@ shards:
   - url: s3://openwaldo/lookaside/28/49/2849d3e38d7983b763b69e92a5e9d17862d217e2133b9007a9656cc994fba110
     sha256: 2849d3e38d7983b763b69e92a5e9d17862d217e2133b9007a9656cc994fba110
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2942
-        tokens: 181204081
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2942
@@ -643,12 +385,6 @@ shards:
   - url: s3://openwaldo/lookaside/35/1e/351e5e1b89742ad09400a773e28f4cdefa8ae3d9b30929404b81debec5a4d906
     sha256: 351e5e1b89742ad09400a773e28f4cdefa8ae3d9b30929404b81debec5a4d906
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 2816
-        tokens: 181011697
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 2816
@@ -657,12 +393,6 @@ shards:
   - url: s3://openwaldo/lookaside/a2/25/a2256de7426fadc5538a8dd5831792aeced4ac132ec45fcf862b25d7aa310193
     sha256: a2256de7426fadc5538a8dd5831792aeced4ac132ec45fcf862b25d7aa310193
     license: LicenseRef-Public-Domain
-    license_usage:
-      LicenseRef-Public-Domain:
-        shards: 0
-        docs: 886
-        tokens: 58538238
-        bytes: 0
     sources:
       - common-pile/library_of_congress_filtered
     docs: 886

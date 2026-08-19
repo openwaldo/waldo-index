@@ -45,12 +45,6 @@ shards:
   - url: s3://openwaldo/lookaside/7e/4e/7e4efd8a505526dc2fd4ec65890378dfc3a8c38b9af055032b81ca18815b6353
     sha256: 7e4efd8a505526dc2fd4ec65890378dfc3a8c38b9af055032b81ca18815b6353
     license: Apache-2.0
-    license_usage:
-      Apache-2.0:
-        shards: 0
-        docs: 193211
-        tokens: 107709395
-        bytes: 0
     sources:
       - CohereForAI/aya_dataset
     docs: 193211

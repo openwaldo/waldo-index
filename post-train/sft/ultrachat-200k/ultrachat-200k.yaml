@@ -61,12 +61,6 @@ shards:
   - url: s3://openwaldo/lookaside/aa/ce/aace9bdf872127bb07c5c1fdddc957b408bf3b0ed9e0a0eced56c8c2e524bd9f
     sha256: aace9bdf872127bb07c5c1fdddc957b408bf3b0ed9e0a0eced56c8c2e524bd9f
     license: MIT
-    license_usage:
-      MIT:
-        shards: 0
-        docs: 157713
-        tokens: 194865030
-        bytes: 0
     sources:
       - HuggingFaceH4/ultrachat_200k
     docs: 157713
@@ -93,12 +87,6 @@ shards:
   - url: s3://openwaldo/lookaside/c6/6d/c66db7c31ee04723e5eaeada3858b506383f3ed6b6ae53e0292dcda1deb5d497
     sha256: c66db7c31ee04723e5eaeada3858b506383f3ed6b6ae53e0292dcda1deb5d497
     license: MIT
-    license_usage:
-      MIT:
-        shards: 0
-        docs: 50119
-        tokens: 62037594
-        bytes: 0
     sources:
       - HuggingFaceH4/ultrachat_200k
     docs: 50119

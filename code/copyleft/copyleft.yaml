@@ -2975,12 +2975,6 @@ shards:
   - url: s3://openwaldo/lookaside/93/ba/93ba67d6a67c382c84d1a36b19fc3264d539c9f2c2ec609f6f483a5bfae7124c
     sha256: 93ba67d6a67c382c84d1a36b19fc3264d539c9f2c2ec609f6f483a5bfae7124c
     license: GPL-2.0-only
-    license_usage:
-      GPL-2.0-only:
-        shards: 0
-        docs: 10535
-        tokens: 824934760
-        bytes: 0
     sources:
       - TrinityCore/TrinityCore
     docs: 10535
@@ -2989,12 +2983,6 @@ shards:
   - url: s3://openwaldo/lookaside/c6/dc/c6dc3eccc0d7136a67c94a9df1ffd6279bc724d9363867128958a68aab61425b
     sha256: c6dc3eccc0d7136a67c94a9df1ffd6279bc724d9363867128958a68aab61425b
     license: GPL-2.0-only
-    license_usage:
-      GPL-2.0-only:
-        shards: 0
-        docs: 7181
-        tokens: 827010245
-        bytes: 0
     sources:
       - TrinityCore/TrinityCore
     docs: 7181
@@ -3059,12 +3047,6 @@ shards:
   - url: s3://openwaldo/lookaside/d0/44/d0449366f3fc086a369f40bd338b91ad889806d3517c6c7f2036f0d301ab1dad
     sha256: d0449366f3fc086a369f40bd338b91ad889806d3517c6c7f2036f0d301ab1dad
     license: GPL-3.0-only
-    license_usage:
-      GPL-3.0-only:
-        shards: 0
-        docs: 2616
-        tokens: 270537119
-        bytes: 0
     sources:
       - zhaoolee/ChromeAppHeroes
     docs: 2616
@@ -3073,12 +3055,6 @@ shards:
   - url: s3://openwaldo/lookaside/7b/c5/7bc5226b6dff1ebf5e641119c4ae71b700fa0f98320137ecc4bf6ce214b3afc8
     sha256: 7bc5226b6dff1ebf5e641119c4ae71b700fa0f98320137ecc4bf6ce214b3afc8
     license: GPL-3.0-only
-    license_usage:
-      GPL-3.0-only:
-        shards: 0
-        docs: 4758
-        tokens: 357322310
-        bytes: 0
     sources:
       - ZuodaoTech/everyone-can-use-english
       - zhaoolee/ChromeAppHeroes
@@ -3088,12 +3064,6 @@ shards:
   - url: s3://openwaldo/lookaside/d9/62/d962d77f73a8182e06fe2891ad6e14bd3919e60645ac3149446620934a8b007a
     sha256: d962d77f73a8182e06fe2891ad6e14bd3919e60645ac3149446620934a8b007a
     license: GPL-3.0-only
-    license_usage:
-      GPL-3.0-only:
-        shards: 0
-        docs: 47
-        tokens: 5431581
-        bytes: 0
     sources:
       - ZuodaoTech/everyone-can-use-english
     docs: 47

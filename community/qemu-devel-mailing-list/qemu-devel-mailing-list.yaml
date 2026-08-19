@@ -45,12 +45,6 @@ shards:
   - url: s3://openwaldo/lookaside/99/39/993936d860c7eee003a190282e2341d0ee656c2011b20bc7a962c21214bc9972
     sha256: 993936d860c7eee003a190282e2341d0ee656c2011b20bc7a962c21214bc9972
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 73381
-        tokens: 338940756
-        bytes: 0
     sources:
       - qemu-devel@nongnu.org
     docs: 73381

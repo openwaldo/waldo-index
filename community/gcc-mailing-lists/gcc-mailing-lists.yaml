@@ -69,12 +69,6 @@ shards:
   - url: s3://openwaldo/lookaside/ad/11/ad115eebd17f1e4d424fb6df6e49b053508bcae2fc4b2aa1fe16ece06194b52b
     sha256: ad115eebd17f1e4d424fb6df6e49b053508bcae2fc4b2aa1fe16ece06194b52b
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 444
-        tokens: 112105019
-        bytes: 0
     sources:
       - gcc-help@gcc.gnu.org
       - gcc@gcc.gnu.org

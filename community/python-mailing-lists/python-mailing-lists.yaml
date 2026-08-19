@@ -92,12 +92,6 @@ shards:
   - url: s3://openwaldo/lookaside/3a/25/3a25b0e3c3a0223479a62871d04c583b8bb34f405d57af57a170259081949cc6
     sha256: 3a25b0e3c3a0223479a62871d04c583b8bb34f405d57af57a170259081949cc6
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 128485
-        tokens: 140127647
-        bytes: 0
     sources:
       - python-dev@python.org
       - python-list@python.org

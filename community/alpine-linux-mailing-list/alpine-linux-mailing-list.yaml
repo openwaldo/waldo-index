@@ -45,12 +45,6 @@ shards:
   - url: s3://openwaldo/lookaside/54/56/54564fb990f316abc5c822fbb84bc0d246393a75e6ad550c785e7c3e3a8e454a
     sha256: 54564fb990f316abc5c822fbb84bc0d246393a75e6ad550c785e7c3e3a8e454a
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 8206
-        tokens: 21811688
-        bytes: 0
     sources:
       - alpine-devel@lists.alpinelinux.org
     docs: 8206

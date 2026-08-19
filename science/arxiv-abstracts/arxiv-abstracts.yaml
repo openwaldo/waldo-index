@@ -27,12 +27,6 @@ shards:
   - url: s3://openwaldo/lookaside/f2/e0/f2e0b22840c4c0c84b9e5f3f1bc04fbd41b60458fc4a068fde812fd332212fce
     sha256: f2e0b22840c4c0c84b9e5f3f1bc04fbd41b60458fc4a068fde812fd332212fce
     license: CC0-1.0
-    license_usage:
-      CC0-1.0:
-        shards: 0
-        docs: 833630
-        tokens: 163881927
-        bytes: 0
     sources:
       - common-pile/arxiv_abstracts_filtered
     docs: 833630
@@ -41,12 +35,6 @@ shards:
   - url: s3://openwaldo/lookaside/72/fe/72fe36438a85bbb684cbf72ed76f8635f68fe71a0fed9e045cb5afd8196acc41
     sha256: 72fe36438a85bbb684cbf72ed76f8635f68fe71a0fed9e045cb5afd8196acc41
     license: CC0-1.0
-    license_usage:
-      CC0-1.0:
-        shards: 0
-        docs: 712695
-        tokens: 159057614
-        bytes: 0
     sources:
       - common-pile/arxiv_abstracts_filtered
     docs: 712695
@@ -55,12 +43,6 @@ shards:
   - url: s3://openwaldo/lookaside/bd/15/bd15e76f61c7e5a6f29cf66b05dc5748f107f358380e74c583fc7497f1bee95f
     sha256: bd15e76f61c7e5a6f29cf66b05dc5748f107f358380e74c583fc7497f1bee95f
     license: CC0-1.0
-    license_usage:
-      CC0-1.0:
-        shards: 0
-        docs: 681224
-        tokens: 158105567
-        bytes: 0
     sources:
       - common-pile/arxiv_abstracts_filtered
     docs: 681224
@@ -69,12 +51,6 @@ shards:
   - url: s3://openwaldo/lookaside/a3/63/a363df361082e714289e1ee859d75cfa09c0676f178b80793d9ad404f39672dd
     sha256: a363df361082e714289e1ee859d75cfa09c0676f178b80793d9ad404f39672dd
     license: CC0-1.0
-    license_usage:
-      CC0-1.0:
-        shards: 0
-        docs: 276638
-        tokens: 41045571
-        bytes: 0
     sources:
       - common-pile/arxiv_abstracts_filtered
     docs: 276638

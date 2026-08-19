@@ -45,12 +45,6 @@ shards:
   - url: s3://openwaldo/lookaside/3d/ef/3defe82e2f16f85b324d6d78eb3ddb9089aa3361d9ebccae112e2bed180ec406
     sha256: 3defe82e2f16f85b324d6d78eb3ddb9089aa3361d9ebccae112e2bed180ec406
     license: LicenseRef-Publicly-Archived-Forum
-    license_usage:
-      LicenseRef-Publicly-Archived-Forum:
-        shards: 0
-        docs: 1232
-        tokens: 307929464
-        bytes: 0
     sources:
       - git@vger.kernel.org
     docs: 1232

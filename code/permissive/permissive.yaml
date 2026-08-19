@@ -4492,12 +4492,6 @@ shards:
   - url: s3://openwaldo/lookaside/90/90/9090d4153b61b66ceb083bb74d881d5962cea7f4d8ccf604a4f6ef4d1a4486db
     sha256: 9090d4153b61b66ceb083bb74d881d5962cea7f4d8ccf604a4f6ef4d1a4486db
     license: MIT
-    license_usage:
-      MIT:
-        shards: 0
-        docs: 6490
-        tokens: 315496448
-        bytes: 0
     sources:
       - mrdoob/three.js
       - mui/material-ui
