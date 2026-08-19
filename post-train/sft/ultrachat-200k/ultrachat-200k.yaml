@@ -2,7 +2,7 @@ kind: manifest
 schema: 2
 name: ultrachat-200k
 title: UltraChat 200k SFT
-description: Curated multi-turn assistant conversations from the UltraChat 200k supervised fine-tuning split.
+description: Curated multi-turn assistant conversations from the UltraChat 200k supervised fine-tuning split, preserved as structured messages.
 license: MIT
 sources:
   - name: HuggingFaceH4/ultrachat_200k
@@ -30,21 +30,22 @@ sources:
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: local@uncommitted:ultrachat-200k.yaml#sha256=e125c75b8e1c82399db07b07037d007cd29e2884fed914ec8e692466b11079e9
+  collector: local@uncommitted:ultrachat-200k.yaml#sha256=301748813bcd13fec49b9f87ab8cf5f6f61bb77f9607df8197af1307462e4598
   profile: canonical-text-schema-2@sha256:01ffe5f65b2fb06ab81aee4656b15124737ef239e26bf323aea07d56d928f05b
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
   tokenizer: tiktoken/cl100k_base
-record_schema: 2
+record_schema: 1
+record_kind: conversation
 assessment:
   email_addresses:
     detector: waldo/email-address-v1
     records: 0
   repetitive_content:
     detector: waldo/gopher-ngram-repetition-v1
-    records: 24904
+    records: 25045
   boilerplate_content:
     detector: waldo/gopher-structural-duplication-v1
-    records: 11426
+    records: 11791
 redaction:
   policy: waldo/privacy-redaction-v1
   names_retained: true
@@ -54,67 +55,67 @@ redaction:
   mail_routing_headers: 0
   credentials: 893
 shards:
-  - url: s3://openwaldo/lookaside/d7/35/d7352ed7d8f026b231827c1dc9470935c12589ed5aa056c1381dd27fe7aab44d
-    sha256: d7352ed7d8f026b231827c1dc9470935c12589ed5aa056c1381dd27fe7aab44d
+  - url: s3://openwaldo/lookaside/aa/ce/aace9bdf872127bb07c5c1fdddc957b408bf3b0ed9e0a0eced56c8c2e524bd9f
+    sha256: aace9bdf872127bb07c5c1fdddc957b408bf3b0ed9e0a0eced56c8c2e524bd9f
     license: MIT
     license_usage:
       MIT:
         shards: 0
-        docs: 151583
-        tokens: 175569721
+        docs: 157713
+        tokens: 194865030
         bytes: 0
     sources:
       - HuggingFaceH4/ultrachat_200k
-    docs: 151583
-    tokens: 175569721
-    bytes: 271085484
+    docs: 157713
+    tokens: 194865030
+    bytes: 284117187
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
         records: 0
       repetitive_content:
         detector: waldo/gopher-ngram-repetition-v1
-        records: 18070
+        records: 18929
       boilerplate_content:
         detector: waldo/gopher-structural-duplication-v1
-        records: 8219
+        records: 8840
     redaction:
       policy: waldo/privacy-redaction-v1
       names_retained: true
-      email_addresses: 3102
-      ip_addresses: 4041
-      phone_numbers: 3383
+      email_addresses: 3230
+      ip_addresses: 4203
+      phone_numbers: 3507
       mail_routing_headers: 0
-      credentials: 612
-  - url: s3://openwaldo/lookaside/a2/76/a276e535ad1c3e9bdae16d109066d9451c31fdd9cc9d67289a29430cdedd943a
-    sha256: a276e535ad1c3e9bdae16d109066d9451c31fdd9cc9d67289a29430cdedd943a
+      credentials: 652
+  - url: s3://openwaldo/lookaside/c6/6d/c66db7c31ee04723e5eaeada3858b506383f3ed6b6ae53e0292dcda1deb5d497
+    sha256: c66db7c31ee04723e5eaeada3858b506383f3ed6b6ae53e0292dcda1deb5d497
     license: MIT
     license_usage:
       MIT:
         shards: 0
-        docs: 56249
-        tokens: 65267736
+        docs: 50119
+        tokens: 62037594
         bytes: 0
     sources:
       - HuggingFaceH4/ultrachat_200k
-    docs: 56249
-    tokens: 65267736
-    bytes: 100662532
+    docs: 50119
+    tokens: 62037594
+    bytes: 90338675
     assessment:
       email_addresses:
         detector: waldo/email-address-v1
         records: 0
       repetitive_content:
         detector: waldo/gopher-ngram-repetition-v1
-        records: 6834
+        records: 6116
       boilerplate_content:
         detector: waldo/gopher-structural-duplication-v1
-        records: 3207
+        records: 2951
     redaction:
       policy: waldo/privacy-redaction-v1
       names_retained: true
-      email_addresses: 1080
-      ip_addresses: 1700
-      phone_numbers: 1071
+      email_addresses: 952
+      ip_addresses: 1538
+      phone_numbers: 947
       mail_routing_headers: 0
-      credentials: 281
+      credentials: 241
