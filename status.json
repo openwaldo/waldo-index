@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-18T21:32:56Z",
-  "index_commit": "6e3897a",
-  "manifests": 51,
-  "shards": 957,
-  "docs": 98942060,
-  "tokens": 203844286633,
-  "bytes": 258239353007,
+  "generated": "2026-08-19T20:08:32Z",
+  "index_commit": "5bd9513",
+  "manifests": 52,
+  "shards": 958,
+  "docs": 98942061,
+  "tokens": 203844404922,
+  "bytes": 258239437730,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -158,10 +158,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 402,
-      "docs": 11320376,
-      "tokens": 86059796010,
-      "bytes": 61441242260
+      "shards": 403,
+      "docs": 11320377,
+      "tokens": 86059914299,
+      "bytes": 61441326983
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -4162,6 +4162,32 @@
         "LicenseRef-Publicly-Archived-Forum": {
           "shards": 1,
           "tokens": 12735
+        }
+      }
+    },
+    {
+      "path": "math/lopez-mateos/conjuntos-logica-funciones",
+      "name": "conjuntos-logica-funciones",
+      "title": "Conjuntos, L\u00f3gica y Funciones",
+      "description": "Libro original de matem\u00e1ticas (conjuntos, l\u00f3gica y funciones), 3.\u00aa edici\u00f3n digital (i-xiv, 1-222, M\u00e9xico), convertido desde los manuscritos LaTeX del autor. Idioma: espa\u00f1ol.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "Zenodo - archivo del autor (3.\u00aa ed.)",
+          "origin": "Zenodo - archivo del autor (3.\u00aa ed.)",
+          "version": null,
+          "url": "https://doi.org/10.5281/zenodo.20433093"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 1,
+      "tokens": 118289,
+      "bytes": 84723,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 118289
         }
       }
     }
