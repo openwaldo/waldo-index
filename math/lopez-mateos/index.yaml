@@ -4,3 +4,5 @@ path: math/lopez-mateos
 entries:
   - name: conjuntos-logica-funciones
     type: dir
+  - name: logica-y-circuitos
+    type: dir
