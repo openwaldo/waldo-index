@@ -83,6 +83,28 @@ def declared_content_values(manifest, field):
     return sorted(value for value in values if value)
 
 
+def declared_source_values(manifest, field):
+    """Return sorted declarations attached directly to source records."""
+    values = set()
+    for source in manifest.get("sources", []):
+        values.update(source.get(field) or [])
+    return sorted(value for value in values if value)
+
+
+def source_summary(source):
+    """Keep the public source record compact while preserving declarations."""
+    result = {
+        "name": source.get("name"),
+        "origin": source.get("source"),
+        "version": source.get("version"),
+        "url": source.get("url"),
+    }
+    input_formats = list(source.get("input_formats") or [])
+    if input_formats:
+        result["input_formats"] = input_formats
+    return result
+
+
 def add_declarations(agg, field, values):
     counts = agg.setdefault(field, {})
     for value in values:
@@ -102,6 +124,7 @@ def walk(root, dirpath, agg, corpora):
             languages = declared_content_values(m, "languages")
             programming_languages = declared_content_values(
                 m, "programming_languages")
+            input_formats = declared_source_values(m, "input_formats")
             add_declarations(agg, "languages", languages)
             add_declarations(agg, "programming_languages",
                              programming_languages)
@@ -111,19 +134,15 @@ def walk(root, dirpath, agg, corpora):
                 "name": m.get("name") or os.path.splitext(name)[0],
                 "title": m.get("title", ""),
                 "description": m.get("description", ""),
-                # Empty format resolves to the parquet default, matching the tool.
-                "format": m.get("format") or "parquet",
-                "sources": [
-                    {"name": s.get("name"), "origin": s.get("source"),
-                     "version": s.get("version"), "url": s.get("url")}
-                    for s in m.get("sources", [])
-                ],
+                "sources": [source_summary(s) for s in m.get("sources", [])],
                 "converted_by": (m.get("converted_by") or {}).get("tool"),
                 "languages": languages,
                 "programming_languages": programming_languages,
                 "shards": 0, "docs": 0, "tokens": 0, "bytes": 0,
                 "licenses": {},
             }
+            if input_formats:
+                row["input_formats"] = input_formats
             # A rollup replaces the shard list; otherwise walk each shard.
             # Shard entries inherit the manifest license unless they carry
             # their own — the partition must match the tree's.
