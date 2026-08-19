@@ -1,30 +1,73 @@
 kind: manifest
-schema: 1
+schema: 2
 name: oasst2
 title: OpenAssistant Conversations 2
-description: Human-written and ranked multi-turn assistant conversations from OpenAssistant release 2.
+description: Human-written and ranked multi-turn assistant conversations from OpenAssistant release 2, preserved as structured messages.
 license: Apache-2.0
 sources:
   - name: OpenAssistant/oasst2
     source: OpenAssistant/oasst2
-    version: "2023-11-05"
+    license: Apache-2.0
     url: https://huggingface.co/datasets/OpenAssistant/oasst2
     category: public-dataset
-    collected_to: 2026-07
-    sha256: 7bef4373246930d1e4be39c61e29ce46be5a163e7a41cdb09f83059f5265b7bd
+    sha256: 3c5a11433455601cee194ed985735de505c731f33b4d6a8c3e7e7bdfcf3f4a9b
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@737cb0cf710c7fde14abf276fb654ad7e32607b5:recipes/post-train/sft/oasst2.yaml
-  profile: canonical-text-schema-1@sha256:5c210a35b719e6c0e621fe1cfa790b99fb76793cd03e54f0bbc9c15b679aac28
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v4
+  collector: local@uncommitted:oasst2.yaml#sha256=dc6709f76596883a874402ac2eec7fb3bf1ab8e6b935133e0b8899cd9c4ddf42
+  profile: canonical-text-schema-2@sha256:8d9140f0a28800cfc4f0201fa4f17587c638ad72ee286382db3079f8dcdc0ddf
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
   tokenizer: tiktoken/cl100k_base
 record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 682
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 273
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 53
+  ip_addresses: 364
+  phone_numbers: 757
+  mail_routing_headers: 0
+  credentials: 44
 shards:
-  - url: s3://openwaldo/lookaside/0e/e6/0ee6b4becb75bdab3454584536d566eac676de2bcb3809e253bbc748982a63aa
-    sha256: 0ee6b4becb75bdab3454584536d566eac676de2bcb3809e253bbc748982a63aa
+  - url: s3://openwaldo/lookaside/aa/e9/aae975f5c8eb981405a9ba9a91c3a12d8c35c59a788020ad49d80c06c8436590
+    sha256: aae975f5c8eb981405a9ba9a91c3a12d8c35c59a788020ad49d80c06c8436590
+    license: Apache-2.0
+    license_usage:
+      Apache-2.0:
+        shards: 0
+        docs: 13852
+        tokens: 6643142
+        bytes: 0
     sources:
       - OpenAssistant/oasst2
     docs: 13852
-    tokens: 6156748
-    bytes: 10077219
+    tokens: 6643142
+    bytes: 10172146
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 682
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 273
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 53
+      ip_addresses: 364
+      phone_numbers: 757
+      mail_routing_headers: 0
+      credentials: 44
