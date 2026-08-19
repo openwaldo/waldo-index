@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-19T20:08:32Z",
-  "index_commit": "5bd9513",
-  "manifests": 52,
-  "shards": 958,
-  "docs": 98942061,
-  "tokens": 203844404922,
-  "bytes": 258239437730,
+  "generated": "2026-08-19T22:17:46Z",
+  "index_commit": "0a4dbcf",
+  "manifests": 53,
+  "shards": 959,
+  "docs": 98942062,
+  "tokens": 203844451988,
+  "bytes": 258239477271,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -158,10 +158,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 403,
-      "docs": 11320377,
-      "tokens": 86059914299,
-      "bytes": 61441326983
+      "shards": 404,
+      "docs": 11320378,
+      "tokens": 86059961365,
+      "bytes": 61441366524
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -4188,6 +4188,32 @@
         "CC-BY-4.0": {
           "shards": 1,
           "tokens": 118289
+        }
+      }
+    },
+    {
+      "path": "math/lopez-mateos/logica-y-circuitos",
+      "name": "logica-y-circuitos",
+      "title": "L\u00f3gica y Circuitos",
+      "description": "Libro original de matem\u00e1ticas (l\u00f3gica proposicional, \u00e1lgebra de Boole, circuitos), edici\u00f3n digital, convertido desde los manuscritos LaTeX del autor. Idioma: espa\u00f1ol.",
+      "format": "parquet",
+      "sources": [
+        {
+          "name": "Zenodo - archivo del autor",
+          "origin": "Zenodo - archivo del autor",
+          "version": null,
+          "url": "https://doi.org/10.5281/zenodo.19491354"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "shards": 1,
+      "docs": 1,
+      "tokens": 47066,
+      "bytes": 39541,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 47066
         }
       }
     }
