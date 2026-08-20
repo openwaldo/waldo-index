@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-20T05:25:30Z",
-  "index_commit": "08c0d60",
-  "manifests": 57,
-  "shards": 966,
-  "docs": 99530597,
-  "tokens": 205222068574,
-  "bytes": 259484132141,
+  "generated": "2026-08-20T05:35:34Z",
+  "index_commit": "9dc95c0",
+  "manifests": 58,
+  "shards": 967,
+  "docs": 99539676,
+  "tokens": 205287728626,
+  "bytes": 259532128436,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,10 +14,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 32,
-      "docs": 2004451,
-      "tokens": 4239912737,
-      "bytes": 1367180231
+      "shards": 33,
+      "docs": 2013530,
+      "tokens": 4305572789,
+      "bytes": 1415176526
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 45,
+    "en": 46,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -3997,6 +3997,41 @@
           "tokens": 3981610
         }
       }
+    },
+    {
+      "path": "post-train/sft/smoltalk2-tools",
+      "name": "smoltalk2-tools",
+      "title": "SmolTalk2 Tool Traces",
+      "description": "The pinned SmolTalk2 smolagents subset containing multi-step reasoning, tool calls, observations, and final answers.",
+      "sources": [
+        {
+          "name": "HuggingFaceTB/smoltalk2 smolagents_toolcalling_traces_think",
+          "origin": "HuggingFaceTB/smoltalk2 smolagents_toolcalling_traces_think",
+          "version": "fc6cc2103c066455aade5d7fbb346039ae36ca5e",
+          "url": "https://huggingface.co/datasets/HuggingFaceTB/smoltalk2",
+          "input_formats": [
+            "parquet"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 9079,
+      "tokens": 65660052,
+      "bytes": 47996295,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 65660052
+        }
+      },
+      "input_formats": [
+        "parquet"
+      ]
     },
     {
       "path": "core/common-pile/news",
