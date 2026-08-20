@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-19T23:31:53Z",
-  "index_commit": "93d506c",
-  "manifests": 54,
-  "shards": 960,
-  "docs": 98945126,
-  "tokens": 203943099413,
-  "bytes": 258257803749,
+  "generated": "2026-08-20T04:56:22Z",
+  "index_commit": "44ce1ec",
+  "manifests": 55,
+  "shards": 963,
+  "docs": 99059083,
+  "tokens": 204800851980,
+  "bytes": 258914358043,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,10 +14,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 26,
-      "docs": 1418980,
-      "tokens": 2960943576,
-      "bytes": 140851839
+      "shards": 29,
+      "docs": 1532937,
+      "tokens": 3818696143,
+      "bytes": 797406133
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 42,
+    "en": 43,
     "es": 2,
     "mul": 10
   },
@@ -3227,6 +3227,41 @@
           "tokens": 113027735
         }
       }
+    },
+    {
+      "path": "post-train/sft/openthoughts-114k",
+      "name": "openthoughts-114k",
+      "title": "OpenThoughts 114k",
+      "description": "The pinned OpenThoughts 114k supervised reasoning corpus with its per-record system instruction preserved.",
+      "sources": [
+        {
+          "name": "open-thoughts/OpenThoughts-114k",
+          "origin": "open-thoughts/OpenThoughts-114k",
+          "version": "bd093c3994fd54d2390985b66988ddf282a55eb6",
+          "url": "https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k",
+          "input_formats": [
+            "parquet"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 3,
+      "docs": 113957,
+      "tokens": 857752567,
+      "bytes": 656554294,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 3,
+          "tokens": 857752567
+        }
+      },
+      "input_formats": [
+        "parquet"
+      ]
     },
     {
       "path": "post-train/sft/tulu3",
