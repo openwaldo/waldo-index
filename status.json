@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-20T04:56:22Z",
-  "index_commit": "44ce1ec",
-  "manifests": 55,
-  "shards": 963,
-  "docs": 99059083,
-  "tokens": 204800851980,
-  "bytes": 258914358043,
+  "generated": "2026-08-20T05:22:45Z",
+  "index_commit": "b191ff1",
+  "manifests": 56,
+  "shards": 965,
+  "docs": 99519305,
+  "tokens": 205213156021,
+  "bytes": 259477899083,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,10 +14,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 29,
-      "docs": 1532937,
-      "tokens": 3818696143,
-      "bytes": 797406133
+      "shards": 31,
+      "docs": 1993159,
+      "tokens": 4231000184,
+      "bytes": 1360947173
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 43,
+    "en": 44,
     "es": 2,
     "mul": 10
   },
@@ -3599,6 +3599,41 @@
           "tokens": 522090679
         }
       }
+    },
+    {
+      "path": "post-train/sft/smol-smoltalk",
+      "name": "smol-smoltalk",
+      "title": "Smol-SmolTalk",
+      "description": "The pinned compact SmolTalk instruction mixture for conversational adaptation of small language models.",
+      "sources": [
+        {
+          "name": "HuggingFaceTB/smol-smoltalk",
+          "origin": "HuggingFaceTB/smol-smoltalk",
+          "version": "f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc",
+          "url": "https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk",
+          "input_formats": [
+            "parquet"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 2,
+      "docs": 460222,
+      "tokens": 412304041,
+      "bytes": 563541040,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 2,
+          "tokens": 412304041
+        }
+      },
+      "input_formats": [
+        "parquet"
+      ]
     },
     {
       "path": "community/qemu-devel-mailing-list",
