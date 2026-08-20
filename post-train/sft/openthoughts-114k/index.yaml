@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/openthoughts-114k
+entries:
+  - name: openthoughts-114k.yaml
+    type: manifest

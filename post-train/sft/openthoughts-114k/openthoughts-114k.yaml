@@ -1,0 +1,140 @@
+kind: manifest
+schema: 2
+name: openthoughts-114k
+title: OpenThoughts 114k
+description: The pinned OpenThoughts 114k supervised reasoning corpus with its per-record system instruction preserved.
+content:
+  languages:
+    - en
+license: Apache-2.0
+sources:
+  - name: open-thoughts/OpenThoughts-114k
+    source: open-thoughts/OpenThoughts-114k
+    version: bd093c3994fd54d2390985b66988ddf282a55eb6
+    input_formats:
+      - parquet
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache-2.0
+      url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/tree/bd093c3994fd54d2390985b66988ddf282a55eb6
+    url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k
+    category: public-dataset
+    sha256: 4ed0f0481249380fcea213b8ad00646612c017801781ac43949a8307cfd33bea
+    content:
+      types:
+        - instructions
+        - problem solutions
+        - reasoning traces
+      languages:
+        - en
+      selection: All six default training Parquet shards at the pinned revision; dataset metadata files are excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public synthetic reasoning corpus released by the OpenThoughts project.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:b83439e737975c686e0cf053ee17782bf394f2ce7044cbede4a25bacf31ddd08
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 17397
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 1450
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 435
+  ip_addresses: 908
+  phone_numbers: 1173
+  mail_routing_headers: 0
+  credentials: 6
+shards:
+  - url: s3://openwaldo/lookaside/46/ab/46abb37ce3a8779242c7b610d2cb11e6c09f062564a6c0c1c9b6f234e97f2d12
+    sha256: 46abb37ce3a8779242c7b610d2cb11e6c09f062564a6c0c1c9b6f234e97f2d12
+    license: Apache-2.0
+    sources:
+      - open-thoughts/OpenThoughts-114k
+    docs: 40620
+    tokens: 346518941
+    bytes: 270564201
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6632
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 840
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 433
+      ip_addresses: 871
+      phone_numbers: 1066
+      mail_routing_headers: 0
+      credentials: 6
+  - url: s3://openwaldo/lookaside/2c/1f/2c1fd580911c4c478c8a0868d28a7e158e92fabaa291ef86dc83444ca3cb2bf4
+    sha256: 2c1fd580911c4c478c8a0868d28a7e158e92fabaa291ef86dc83444ca3cb2bf4
+    license: Apache-2.0
+    sources:
+      - open-thoughts/OpenThoughts-114k
+    docs: 49478
+    tokens: 370659901
+    bytes: 277361269
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 8439
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 485
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 10
+      phone_numbers: 51
+      mail_routing_headers: 0
+      credentials: 0
+  - url: s3://openwaldo/lookaside/42/bc/42bcb8106a6690731188f63d1b61aeb12cc0f6260ddeae9e52605688781b4c26
+    sha256: 42bcb8106a6690731188f63d1b61aeb12cc0f6260ddeae9e52605688781b4c26
+    license: Apache-2.0
+    sources:
+      - open-thoughts/OpenThoughts-114k
+    docs: 23859
+    tokens: 140573725
+    bytes: 108628824
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2326
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 125
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2
+      ip_addresses: 27
+      phone_numbers: 56
+      mail_routing_headers: 0
+      credentials: 0
