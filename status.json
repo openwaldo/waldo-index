@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-20T05:35:34Z",
-  "index_commit": "9dc95c0",
-  "manifests": 58,
-  "shards": 967,
-  "docs": 99539676,
-  "tokens": 205287728626,
-  "bytes": 259532128436,
+  "generated": "2026-08-20T17:35:26Z",
+  "index_commit": "8b5f36f",
+  "manifests": 59,
+  "shards": 968,
+  "docs": 99554882,
+  "tokens": 205413137566,
+  "bytes": 259572197141,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,10 +14,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 33,
-      "docs": 2013530,
-      "tokens": 4305572789,
-      "bytes": 1415176526
+      "shards": 34,
+      "docs": 2028736,
+      "tokens": 4430981729,
+      "bytes": 1455245231
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 46,
+    "en": 47,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -355,7 +355,8 @@
     "Shell": 4,
     "Swift": 2,
     "TypeScript": 3,
-    "Vue": 2
+    "Vue": 2,
+    "shell": 1
   },
   "corpora": [
     {
@@ -3880,6 +3881,43 @@
           "tokens": 8392843
         }
       }
+    },
+    {
+      "path": "post-train/sft/openthoughts-agent",
+      "name": "openthoughts-agent",
+      "title": "OpenThoughts Agent SFT",
+      "description": "The pinned OpenThoughts Agent SFT corpus of multi-step terminal interaction trajectories.",
+      "sources": [
+        {
+          "name": "open-thoughts/OpenThoughts-Agent-v1-SFT",
+          "origin": "open-thoughts/OpenThoughts-Agent-v1-SFT",
+          "version": "c5dc896981f4e3b7c5382669b1d1be0bc4b6a1a6",
+          "url": "https://huggingface.co/datasets/open-thoughts/OpenThoughts-Agent-v1-SFT",
+          "input_formats": [
+            "parquet"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "shell"
+      ],
+      "shards": 1,
+      "docs": 15206,
+      "tokens": 125408940,
+      "bytes": 40068705,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 125408940
+        }
+      },
+      "input_formats": [
+        "parquet"
+      ]
     },
     {
       "path": "community/gcc-mailing-lists",
