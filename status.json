@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-20T05:22:45Z",
-  "index_commit": "b191ff1",
-  "manifests": 56,
-  "shards": 965,
-  "docs": 99519305,
-  "tokens": 205213156021,
-  "bytes": 259477899083,
+  "generated": "2026-08-20T05:25:30Z",
+  "index_commit": "08c0d60",
+  "manifests": 57,
+  "shards": 966,
+  "docs": 99530597,
+  "tokens": 205222068574,
+  "bytes": 259484132141,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -14,10 +14,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 31,
-      "docs": 1993159,
-      "tokens": 4231000184,
-      "bytes": 1360947173
+      "shards": 32,
+      "docs": 2004451,
+      "tokens": 4239912737,
+      "bytes": 1367180231
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -321,9 +321,10 @@
     }
   },
   "languages": {
-    "en": 44,
+    "en": 45,
     "es": 2,
-    "mul": 10
+    "mul": 10,
+    "zh": 1
   },
   "programming_languages": {
     "Ada": 1,
@@ -4275,6 +4276,42 @@
           "tokens": 9754829
         }
       }
+    },
+    {
+      "path": "post-train/sft/toolace",
+      "name": "toolace",
+      "title": "ToolACE",
+      "description": "The pinned ToolACE multilingual synthetic tool-use conversations, including tool definitions, calls, results, and final answers.",
+      "sources": [
+        {
+          "name": "Team-ACE/ToolACE",
+          "origin": "Team-ACE/ToolACE",
+          "version": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+          "url": "https://huggingface.co/datasets/Team-ACE/ToolACE",
+          "input_formats": [
+            "json"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 11292,
+      "tokens": 8912553,
+      "bytes": 6233058,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 8912553
+        }
+      },
+      "input_formats": [
+        "json"
+      ]
     },
     {
       "path": "post-train/sft/oasst2",
