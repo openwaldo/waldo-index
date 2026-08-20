@@ -1,0 +1,91 @@
+kind: manifest
+schema: 2
+name: toolace
+title: ToolACE
+description: The pinned ToolACE multilingual synthetic tool-use conversations, including tool definitions, calls, results, and final answers.
+content:
+  languages:
+    - en
+    - zh
+license: Apache-2.0
+sources:
+  - name: Team-ACE/ToolACE
+    source: Team-ACE/ToolACE
+    version: 6bda777c88d21e5a204703c1ee45597a8fa4f734
+    input_formats:
+      - json
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache-2.0
+      url: https://huggingface.co/datasets/Team-ACE/ToolACE/tree/6bda777c88d21e5a204703c1ee45597a8fa4f734
+    url: https://huggingface.co/datasets/Team-ACE/ToolACE
+    category: public-dataset
+    sha256: 1176272848f921d551564f378878f3bbbac511a061d24368a810b7caea3e50dc
+    content:
+      types:
+        - assistant responses
+        - tool calls
+        - tool definitions
+        - tool results
+      languages:
+        - en
+        - zh
+      selection: The complete pinned data.json artifact containing 11,300 conversation records.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public synthetic tool-learning corpus released by Team ACE.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:5d40580ae74f3f6be5e5263b888a36eef8752bc047cc8e93e2a9e89dd72c42a0
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 337
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 163
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 775
+  ip_addresses: 267
+  phone_numbers: 113
+  mail_routing_headers: 0
+  credentials: 116
+shards:
+  - url: s3://openwaldo/lookaside/b5/bf/b5bfa27dca6cff650afd30237aeb8020448d418696491a27e9b00e6038697f3b
+    sha256: b5bfa27dca6cff650afd30237aeb8020448d418696491a27e9b00e6038697f3b
+    license: Apache-2.0
+    sources:
+      - Team-ACE/ToolACE
+    docs: 11292
+    tokens: 8912553
+    bytes: 6233058
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 337
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 163
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 775
+      ip_addresses: 267
+      phone_numbers: 113
+      mail_routing_headers: 0
+      credentials: 116
