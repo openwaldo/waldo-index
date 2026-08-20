@@ -18,6 +18,8 @@ entries:
     type: dir
   - name: openthoughts-114k
     type: dir
+  - name: openthoughts-agent
+    type: dir
   - name: smol-smoltalk
     type: dir
   - name: smoltalk2-tools

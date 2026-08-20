@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/openthoughts-agent
+entries:
+  - name: openthoughts-agent.yaml
+    type: manifest

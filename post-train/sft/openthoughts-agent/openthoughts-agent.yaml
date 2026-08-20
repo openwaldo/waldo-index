@@ -1,0 +1,93 @@
+kind: manifest
+schema: 2
+name: openthoughts-agent
+title: OpenThoughts Agent SFT
+description: The pinned OpenThoughts Agent SFT corpus of multi-step terminal interaction trajectories.
+content:
+  languages:
+    - en
+  programming_languages:
+    - shell
+license: Apache-2.0
+sources:
+  - name: open-thoughts/OpenThoughts-Agent-v1-SFT
+    source: open-thoughts/OpenThoughts-Agent-v1-SFT
+    version: c5dc896981f4e3b7c5382669b1d1be0bc4b6a1a6
+    input_formats:
+      - parquet
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache-2.0
+      url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-Agent-v1-SFT/tree/c5dc896981f4e3b7c5382669b1d1be0bc4b6a1a6
+    url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-Agent-v1-SFT
+    category: public-dataset
+    sha256: 0aaddbf092f11a5dfaf026e7c382486b7dd208d4f4bec027b8ef4bcabb5ef55a
+    content:
+      types:
+        - assistant responses
+        - reasoning traces
+        - shell commands
+        - tool results
+      languages:
+        - en
+      programming_languages:
+        - shell
+      selection: The complete pinned training Parquet shard containing terminal agent trajectories.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public agent trajectory corpus released by the OpenThoughts project.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:9bfd0825b8575f08ffdbfbf5235dc4305385dfd89f8384fd372b13950c002106
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 12767
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 13621
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 5216
+  ip_addresses: 14979
+  phone_numbers: 11059
+  mail_routing_headers: 0
+  credentials: 489
+shards:
+  - url: s3://openwaldo/lookaside/59/62/5962fc629b573ec8aa1d3383df2aa2c84abff0e6011c4a122ab9b6ff1b98c45d
+    sha256: 5962fc629b573ec8aa1d3383df2aa2c84abff0e6011c4a122ab9b6ff1b98c45d
+    license: Apache-2.0
+    sources:
+      - open-thoughts/OpenThoughts-Agent-v1-SFT
+    docs: 15206
+    tokens: 125408940
+    bytes: 40068705
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 12767
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 13621
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 5216
+      ip_addresses: 14979
+      phone_numbers: 11059
+      mail_routing_headers: 0
+      credentials: 489
