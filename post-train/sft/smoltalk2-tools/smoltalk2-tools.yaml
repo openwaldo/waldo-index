@@ -1,0 +1,90 @@
+kind: manifest
+schema: 2
+name: smoltalk2-tools
+title: SmolTalk2 Tool Traces
+description: The pinned SmolTalk2 smolagents subset containing multi-step reasoning, tool calls, observations, and final answers.
+content:
+  languages:
+    - en
+license: Apache-2.0
+sources:
+  - name: HuggingFaceTB/smoltalk2 smolagents_toolcalling_traces_think
+    source: HuggingFaceTB/smoltalk2 smolagents_toolcalling_traces_think
+    version: fc6cc2103c066455aade5d7fbb346039ae36ca5e
+    input_formats:
+      - parquet
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache-2.0 for the selected SmolTalk2 subset.
+      url: https://huggingface.co/datasets/HuggingFaceTB/smoltalk2/tree/fc6cc2103c066455aade5d7fbb346039ae36ca5e
+    url: https://huggingface.co/datasets/HuggingFaceTB/smoltalk2
+    category: public-dataset
+    sha256: 74312afeb7a795c82c4bf9a4ac72071c0da078a61dc1553665d3081f0773f0a9
+    content:
+      types:
+        - assistant responses
+        - reasoning traces
+        - tool calls
+        - tool definitions
+        - tool results
+      languages:
+        - en
+      selection: Only the pinned 9,079-record SFT/smolagents_toolcalling_traces_think Parquet shard; other SmolTalk2 subsets are excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public synthetic tool-use subset released by Hugging Face for SmolLM3 post-training.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:133b9e8ea1d79ce56e56d8dd895956d3549a44c55cd5ea0de439530956be1ebf
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 2986
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 501
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 936
+  ip_addresses: 1725
+  phone_numbers: 1752
+  mail_routing_headers: 0
+  credentials: 22
+shards:
+  - url: s3://openwaldo/lookaside/a7/a6/a7a684fd23d5bc7b0f9ec3d61c25fe8747e1ea38ba0c560200527255d779c6f4
+    sha256: a7a684fd23d5bc7b0f9ec3d61c25fe8747e1ea38ba0c560200527255d779c6f4
+    license: Apache-2.0
+    sources:
+      - HuggingFaceTB/smoltalk2 smolagents_toolcalling_traces_think
+    docs: 9079
+    tokens: 65660052
+    bytes: 47996295
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2986
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 501
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 936
+      ip_addresses: 1725
+      phone_numbers: 1752
+      mail_routing_headers: 0
+      credentials: 22

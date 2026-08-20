@@ -20,6 +20,8 @@ entries:
     type: dir
   - name: smol-smoltalk
     type: dir
+  - name: smoltalk2-tools
+    type: dir
   - name: toolace
     type: dir
   - name: tulu3
