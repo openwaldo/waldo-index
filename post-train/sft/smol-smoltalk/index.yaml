@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/smol-smoltalk
+entries:
+  - name: smol-smoltalk.yaml
+    type: manifest

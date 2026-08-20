@@ -1,0 +1,114 @@
+kind: manifest
+schema: 2
+name: smol-smoltalk
+title: Smol-SmolTalk
+description: The pinned compact SmolTalk instruction mixture for conversational adaptation of small language models.
+content:
+  languages:
+    - en
+license: Apache-2.0
+sources:
+  - name: HuggingFaceTB/smol-smoltalk
+    source: HuggingFaceTB/smol-smoltalk
+    version: f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc
+    input_formats:
+      - parquet
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache-2.0
+      url: https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk/tree/f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc
+    url: https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk
+    category: public-dataset
+    sha256: 9b7942b7994835aa6666b868269bb48286aef4eab829875a264a7dd7bd874209
+    content:
+      types:
+        - assistant responses
+        - instructions
+        - multi-turn conversations
+      languages:
+        - en
+      selection: The four pinned training Parquet shards; the held-out test shard is excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public instruction mixture released by Hugging Face for training compact language models.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:6db6f23b3a5eafdec6285352389ba1cc639da54e799b53268d85168d2c348b80
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 45575
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 20267
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 3795
+  ip_addresses: 44336
+  phone_numbers: 5063
+  mail_routing_headers: 2
+  credentials: 561
+shards:
+  - url: s3://openwaldo/lookaside/80/60/8060c6b3d3469334fd22fd34e76ea750b9d0f1665571c5851969626e22ef41e0
+    sha256: 8060c6b3d3469334fd22fd34e76ea750b9d0f1665571c5851969626e22ef41e0
+    license: Apache-2.0
+    sources:
+      - HuggingFaceTB/smol-smoltalk
+    docs: 232281
+    tokens: 207302285
+    bytes: 283612536
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 23119
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 10244
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 1499
+      ip_addresses: 21963
+      phone_numbers: 2097
+      mail_routing_headers: 1
+      credentials: 255
+  - url: s3://openwaldo/lookaside/df/f3/dff3f57a4fa79a1bf2043e9e5222c31574b0508bb63b45987d060a8d5950c6e5
+    sha256: dff3f57a4fa79a1bf2043e9e5222c31574b0508bb63b45987d060a8d5950c6e5
+    license: Apache-2.0
+    sources:
+      - HuggingFaceTB/smol-smoltalk
+    docs: 227941
+    tokens: 205001756
+    bytes: 279928504
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 22456
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 10023
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2296
+      ip_addresses: 22373
+      phone_numbers: 2966
+      mail_routing_headers: 1
+      credentials: 306

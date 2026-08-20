@@ -18,6 +18,8 @@ entries:
     type: dir
   - name: openthoughts-114k
     type: dir
+  - name: smol-smoltalk
+    type: dir
   - name: tulu3
     type: dir
   - name: ultrachat-200k
