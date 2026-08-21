@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-21T20:47:57Z",
-  "index_commit": "3165909",
-  "manifests": 60,
-  "shards": 969,
-  "docs": 99614408,
-  "tokens": 205433368931,
-  "bytes": 259587891492,
+  "generated": "2026-08-21T22:19:47Z",
+  "index_commit": "d16be8e",
+  "manifests": 61,
+  "shards": 1495,
+  "docs": 116005269,
+  "tokens": 347979267579,
+  "bytes": 403942430680,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -158,10 +158,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 405,
-      "docs": 11379904,
-      "tokens": 86081058603,
-      "bytes": 61457147514
+      "shards": 931,
+      "docs": 27770765,
+      "tokens": 228626957251,
+      "bytes": 205811686702
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 48,
+    "en": 49,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -359,6 +359,47 @@
     "shell": 1
   },
   "corpora": [
+    {
+      "path": "government/uspto",
+      "name": "uspto",
+      "title": "United States Patents and Patent Applications",
+      "description": "United States patent grants and published patent applications from the filtered Common Pile release.",
+      "sources": [
+        {
+          "name": "common-pile/uspto_filtered",
+          "origin": "common-pile/uspto_filtered",
+          "version": "13894c5462467c843163693269d9266ec2c772b4",
+          "url": "https://huggingface.co/datasets/common-pile/uspto_filtered"
+        },
+        {
+          "name": "common-pile/uspto_filtered-70737ea2d6ef",
+          "origin": "common-pile/uspto_filtered",
+          "version": "13894c5462467c843163693269d9266ec2c772b4",
+          "url": "https://huggingface.co/datasets/common-pile/uspto_filtered"
+        },
+        {
+          "name": "common-pile/uspto_filtered-adea8b64feda",
+          "origin": "common-pile/uspto_filtered",
+          "version": "13894c5462467c843163693269d9266ec2c772b4",
+          "url": "https://huggingface.co/datasets/common-pile/uspto_filtered"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 526,
+      "docs": 16390861,
+      "tokens": 142545898648,
+      "bytes": 144354539188,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 526,
+          "tokens": 142545898648
+        }
+      }
+    },
     {
       "path": "science/pes2o",
       "name": "pes2o",
