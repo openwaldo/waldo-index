@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-20T17:35:26Z",
-  "index_commit": "8b5f36f",
-  "manifests": 59,
-  "shards": 968,
-  "docs": 99554882,
-  "tokens": 205413137566,
-  "bytes": 259572197141,
+  "generated": "2026-08-21T06:29:23Z",
+  "index_commit": "7e64666",
+  "manifests": 60,
+  "shards": 969,
+  "docs": 99614408,
+  "tokens": 205433368931,
+  "bytes": 259587891492,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -158,10 +158,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 404,
-      "docs": 11320378,
-      "tokens": 86060827238,
-      "bytes": 61441453163
+      "shards": 405,
+      "docs": 11379904,
+      "tokens": 86081058603,
+      "bytes": 61457147514
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 47,
+    "en": 48,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -4198,6 +4198,41 @@
           "tokens": 20967715
         }
       }
+    },
+    {
+      "path": "post-train/sft/xlam-function-calling-60",
+      "name": "xlam-function-calling-60",
+      "title": "xLAM Function Calling 60k",
+      "description": "The pinned xLAM/APIGen single-turn function-calling corpus with executable API definitions and verified calls.",
+      "sources": [
+        {
+          "name": "Salesforce/xlam-function-calling-60k",
+          "origin": "Salesforce/xlam-function-calling-60k",
+          "version": "26d14ebfe18b1f7b524bd39b404b50af5dc97866",
+          "url": "https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k",
+          "input_formats": [
+            "json"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 59526,
+      "tokens": 20231365,
+      "bytes": 15694351,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 20231365
+        }
+      },
+      "input_formats": [
+        "json"
+      ]
     },
     {
       "path": "code/cloud-native-core",
