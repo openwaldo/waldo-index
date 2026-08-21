@@ -1,0 +1,88 @@
+kind: manifest
+schema: 2
+name: xlam-function-calling-60
+title: xLAM Function Calling 60k
+description: The pinned xLAM/APIGen single-turn function-calling corpus with executable API definitions and verified calls.
+content:
+  languages:
+    - en
+license: CC-BY-4.0
+sources:
+  - name: Salesforce/xlam-function-calling-60k
+    source: Salesforce/xlam-function-calling-60k
+    version: 26d14ebfe18b1f7b524bd39b404b50af5dc97866
+    input_formats:
+      - json
+    license: CC-BY-4.0
+    license_evidence:
+      declaration: CC-BY-4.0
+      url: https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k/tree/26d14ebfe18b1f7b524bd39b404b50af5dc97866
+    url: https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k
+    category: public-dataset
+    sha256: 4729b29bab05d24f4be8b33f5c4d38bc6c92aa75ab100f699bd3b7e649551929
+    content:
+      types:
+        - instructions
+        - tool calls
+        - tool definitions
+      languages:
+        - en
+      selection: All 60,000 verified records in the original pinned JSON artifact; requires prior acceptance of the Hugging Face access terms and HF_TOKEN.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public gated dataset released by Salesforce after acceptance of its access terms.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:534cf7ffcd8e6dbed9d16e3adad7adac8a0a775801daa27faa87e99f7dc1e7ac
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 2522
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 0
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 3715
+  ip_addresses: 3869
+  phone_numbers: 533
+  mail_routing_headers: 0
+  credentials: 52
+shards:
+  - url: s3://openwaldo/lookaside/2a/81/2a819bcbe9cd7b97d223ae32008fd773ccd17d024db8cd575f69e890edd4def8
+    sha256: 2a819bcbe9cd7b97d223ae32008fd773ccd17d024db8cd575f69e890edd4def8
+    license: CC-BY-4.0
+    sources:
+      - Salesforce/xlam-function-calling-60k
+    docs: 59526
+    tokens: 20231365
+    bytes: 15694351
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2522
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 0
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 3715
+      ip_addresses: 3869
+      phone_numbers: 533
+      mail_routing_headers: 0
+      credentials: 52

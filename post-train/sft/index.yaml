@@ -30,3 +30,5 @@ entries:
     type: dir
   - name: ultrachat-200k
     type: dir
+  - name: xlam-function-calling-60
+    type: dir
