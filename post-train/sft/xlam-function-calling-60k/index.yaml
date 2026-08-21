@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/xlam-function-calling-60k
+entries:
+  - name: xlam-function-calling-60k.yaml
+    type: manifest
