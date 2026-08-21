@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: government/uspto
+entries:
+  - name: uspto.yaml
+    type: manifest

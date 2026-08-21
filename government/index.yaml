@@ -10,3 +10,5 @@ entries:
     type: dir
   - name: usgpo
     type: dir
+  - name: uspto
+    type: dir
