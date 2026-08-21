@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T06:29:23Z",
-  "index_commit": "7e64666",
+  "generated": "2026-08-21T20:47:57Z",
+  "index_commit": "3165909",
   "manifests": 60,
   "shards": 969,
   "docs": 99614408,
@@ -4200,8 +4200,8 @@
       }
     },
     {
-      "path": "post-train/sft/xlam-function-calling-60",
-      "name": "xlam-function-calling-60",
+      "path": "post-train/sft/xlam-function-calling-60k",
+      "name": "xlam-function-calling-60k",
       "title": "xLAM Function Calling 60k",
       "description": "The pinned xLAM/APIGen single-turn function-calling corpus with executable API definitions and verified calls.",
       "sources": [
