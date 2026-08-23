@@ -17,10 +17,11 @@ sources:
     version: 1a1d3b50d77f834370f8eb4c0d174668dd1676bb
     license: LicenseRef-Mixed
     license_evidence:
+      declaration: LicenseRef-Mixed
       url: https://huggingface.co/datasets/common-pile/pressbooks_filtered/blob/1a1d3b50d77f834370f8eb4c0d174668dd1676bb/README.md
     url: https://huggingface.co/datasets/common-pile/pressbooks_filtered
     category: public-dataset
-    sha256: 9a88859d80ccd7ffa651dafeac7f51f79ffe7eee74b1ce2555adc156d40b3cec
+    sha256: 374516e1eb8c708c246bf328d538534c78da1285f7480ab4f5f143f6ac5c3a1c
     content:
       types:
         - books
@@ -35,14 +36,32 @@ sources:
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@083d5948f118410c2817ee925cf98f3b4a4b0d8d:recipes/education/pressbooks.yaml
-  profile: canonical-text-schema-1@sha256:62579e5dc91fe4f85e2815179beae56d7e7332e27f62d1a7f614193c922dbcf5
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v5-bom
+  profile: canonical-text-schema-2@sha256:fde22bf5a5a01fcbba6e067f5ba7050256af352f0d53766f8ba0728b724e6b49
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
   tokenizer: tiktoken/cl100k_base
-record_schema: 1
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 2571
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 1074
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 544
+  ip_addresses: 91
+  phone_numbers: 4041
+  mail_routing_headers: 0
+  credentials: 3
 shards:
-  - url: s3://openwaldo/lookaside/d8/d8/d8d86e53e4f39d4127516d367e8774acc664f1334d2cae10beff2275e2cfd948
-    sha256: d8d86e53e4f39d4127516d367e8774acc664f1334d2cae10beff2275e2cfd948
+  - url: s3://openwaldo/lookaside/dd/f4/ddf4f3038ce6f3fd3ca4b3ebe797980720965bc934860a2d512b7a322ebf15e5
+    sha256: ddf4f3038ce6f3fd3ca4b3ebe797980720965bc934860a2d512b7a322ebf15e5
     licenses:
       - CC-BY-4.0
       - CC-BY-SA-4.0
@@ -52,25 +71,43 @@ shards:
       CC-BY-4.0:
         shards: 0
         docs: 41858
-        tokens: 96696949
+        tokens: 96679685
         bytes: 0
       CC-BY-SA-4.0:
         shards: 0
         docs: 7832
-        tokens: 19028666
+        tokens: 19026554
         bytes: 0
       CC0-1.0:
         shards: 0
         docs: 1866
-        tokens: 1687464
+        tokens: 1687121
         bytes: 0
       LicenseRef-Public-Domain:
         shards: 0
         docs: 2878
-        tokens: 8392843
+        tokens: 8392255
         bytes: 0
     sources:
       - common-pile/pressbooks_filtered
     docs: 54434
-    tokens: 125805922
-    bytes: 180725993
+    tokens: 125785615
+    bytes: 180723505
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2571
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1074
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 544
+      ip_addresses: 91
+      phone_numbers: 4041
+      mail_routing_headers: 0
+      credentials: 3
