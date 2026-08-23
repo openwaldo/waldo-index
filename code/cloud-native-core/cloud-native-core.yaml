@@ -11,15 +11,37 @@ content:
     - TypeScript
 license: Apache-2.0
 sources:
+  - name: containerd/containerd
+    source: containerd/containerd
+    version: aad11006b869517fcd3009450b6f82da282e1a9b
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache-2.0
+      url: https://github.com/containerd/containerd/blob/aad11006b869517fcd3009450b6f82da282e1a9b/LICENSE
+    url: https://github.com/containerd/containerd
+    category: public-dataset
+    sha256: 69e224247829578b2622c15dc15d051fadbaabebcd1f86159ba18352d049d8da
+    content:
+      types:
+        - source code
+      languages:
+        - en
+      programming_languages:
+        - Go
+      selection: Project-owned source at v2.3.3 selected by the reviewed --source-code profile; 4,851 vendored files and generated API/build output are excluded.
+      copyrighted: yes
+    acquisition:
+      basis: Official Git repository at the immutable peeled v2.3.3 commit.
   - name: etcd-io/etcd
     source: etcd-io/etcd
     version: 5e7fd0de9a57db03ecc11794dc40403a734c07bb
     license: Apache-2.0
     license_evidence:
+      declaration: Apache-2.0
       url: https://github.com/etcd-io/etcd/blob/5e7fd0de9a57db03ecc11794dc40403a734c07bb/LICENSE
     url: https://github.com/etcd-io/etcd
     category: public-dataset
-    sha256: 65eca143c3a71bfdc73da443abe7bc2232f21528777f78bb657d270b026a8ab2
+    sha256: 2c77cdf2b11ef501e228ce24864480853cb469fa52f0fe53461e7eb8cbfd4d6a
     content:
       types:
         - source code
@@ -36,10 +58,11 @@ sources:
     version: bb5dff00cf8fdfbf5c65e0531aa835fa238a43a2
     license: Apache-2.0
     license_evidence:
+      declaration: Apache-2.0
       url: https://github.com/prometheus/prometheus/blob/bb5dff00cf8fdfbf5c65e0531aa835fa238a43a2/LICENSE
     url: https://github.com/prometheus/prometheus
     category: public-dataset
-    sha256: 919324750c7a77c00d0e917039642e3b4d327b2e89a57a18c3d1c009da48e43a
+    sha256: aecb333f1b774bacbd2e282efd76ac7532d725ee4824c497879586db23ca7b8f
     content:
       types:
         - source code
@@ -52,42 +75,58 @@ sources:
       copyrighted: yes
     acquisition:
       basis: Official Git repository at the immutable peeled v3.13.2 commit.
-  - name: containerd/containerd
-    source: containerd/containerd
-    version: aad11006b869517fcd3009450b6f82da282e1a9b
-    license: Apache-2.0
-    license_evidence:
-      url: https://github.com/containerd/containerd/blob/aad11006b869517fcd3009450b6f82da282e1a9b/LICENSE
-    url: https://github.com/containerd/containerd
-    category: public-dataset
-    sha256: 16c34f9b678fe44d40c17f101349ca503a89684d4ec1aa2676f952efe87c3697
-    content:
-      types:
-        - source code
-      languages:
-        - en
-      programming_languages:
-        - Go
-      selection: Project-owned source at v2.3.3 selected by the reviewed --source-code profile; 4,851 vendored files and generated API/build output are excluded.
-      copyrighted: yes
-    acquisition:
-      basis: Official Git repository at the immutable peeled v2.3.3 commit.
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@ad332a557eae5bae201a7817761bdbc035741c73:recipes/code/cloud-native-core.yaml#sha256=8d47a67429d76a5302024b5241410d26ded615076e42b745de86abb4e21f47b7
-  profile: canonical-text-schema-1
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v5-bom
+  profile: canonical-text-schema-2
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
   tokenizer: tiktoken/cl100k_base
-record_schema: 1
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 2050
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 2278
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 6667
+  ip_addresses: 1653
+  phone_numbers: 466
+  mail_routing_headers: 0
+  credentials: 82
 shards:
-  - url: s3://openwaldo/lookaside/ea/69/ea694c68ca0a4da56f9a2f0328e76a97d1cadc53f6c69a382406caf4e189f2f0
-    sha256: ea694c68ca0a4da56f9a2f0328e76a97d1cadc53f6c69a382406caf4e189f2f0
+  - url: s3://openwaldo/lookaside/9e/80/9e8085976fb272c501819531a7275c26f5365e24fc06e4f29437eb437186b42d
+    sha256: 9e8085976fb272c501819531a7275c26f5365e24fc06e4f29437eb437186b42d
     license: Apache-2.0
     sources:
       - containerd/containerd
       - etcd-io/etcd
       - prometheus/prometheus
-    docs: 4172
-    tokens: 16415995
-    bytes: 13561716
+    docs: 9153
+    tokens: 29226177
+    bytes: 14947362
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2050
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2278
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 6667
+      ip_addresses: 1653
+      phone_numbers: 466
+      mail_routing_headers: 0
+      credentials: 82
