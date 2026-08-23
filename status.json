@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-21T22:19:47Z",
-  "index_commit": "d16be8e",
+  "generated": "2026-08-23T00:30:40Z",
+  "index_commit": "8d9cfed",
   "manifests": 61,
   "shards": 1495,
   "docs": 116005269,
-  "tokens": 347979267579,
-  "bytes": 403942430680,
+  "tokens": 347997552139,
+  "bytes": 403951579876,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -190,8 +190,8 @@
     "CC-BY-SA-4.0": {
       "shards": 325,
       "docs": 47758445,
-      "tokens": 36386829228,
-      "bytes": 52324605766
+      "tokens": 36405113788,
+      "bytes": 52333754962
     },
     "CC-BY-SA-4.0 AND MIT": {
       "shards": 1,
@@ -475,7 +475,7 @@
         {
           "name": "common-pile/stackexchange_filtered",
           "origin": "common-pile/stackexchange_filtered",
-          "version": "v0.1",
+          "version": null,
           "url": "https://huggingface.co/datasets/common-pile/stackexchange_filtered"
         }
       ],
@@ -486,12 +486,12 @@
       "programming_languages": [],
       "shards": 113,
       "docs": 30987453,
-      "tokens": 21812312488,
-      "bytes": 31750405226,
+      "tokens": 21830597048,
+      "bytes": 31759554422,
       "licenses": {
         "CC-BY-SA-4.0": {
           "shards": 113,
-          "tokens": 21812312488
+          "tokens": 21830597048
         }
       }
     },
