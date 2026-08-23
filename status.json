@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-23T14:47:06Z",
-  "index_commit": "f9fda97",
+  "generated": "2026-08-23T15:34:57Z",
+  "index_commit": "593be40",
   "manifests": 61,
   "shards": 1498,
   "docs": 116005269,
-  "tokens": 348857016445,
-  "bytes": 404712405331,
+  "tokens": 348857006853,
+  "bytes": 404847774826,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -202,8 +202,8 @@
     "CC0-1.0": {
       "shards": 224,
       "docs": 3013224,
-      "tokens": 10331986352,
-      "bytes": 12960270164
+      "tokens": 10331976760,
+      "bytes": 13095639659
     },
     "CC0-1.0 AND MIT": {
       "shards": 1,
@@ -3634,12 +3634,12 @@
       "programming_languages": [],
       "shards": 4,
       "docs": 2504187,
-      "tokens": 522090679,
-      "bytes": 919577708,
+      "tokens": 522081087,
+      "bytes": 1054947203,
       "licenses": {
         "CC0-1.0": {
           "shards": 4,
-          "tokens": 522090679
+          "tokens": 522081087
         }
       }
     },
