@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-23T00:30:40Z",
-  "index_commit": "8d9cfed",
+  "generated": "2026-08-23T00:41:44Z",
+  "index_commit": "c058116",
   "manifests": 61,
   "shards": 1495,
   "docs": 116005269,
-  "tokens": 347997552139,
-  "bytes": 403951579876,
+  "tokens": 347997531832,
+  "bytes": 403951577388,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -160,7 +160,7 @@
     "CC-BY-4.0": {
       "shards": 931,
       "docs": 27770765,
-      "tokens": 228626957251,
+      "tokens": 228626939987,
       "bytes": 205811686702
     },
     "CC-BY-4.0 AND MIT": {
@@ -190,7 +190,7 @@
     "CC-BY-SA-4.0": {
       "shards": 325,
       "docs": 47758445,
-      "tokens": 36405113788,
+      "tokens": 36405111676,
       "bytes": 52333754962
     },
     "CC-BY-SA-4.0 AND MIT": {
@@ -202,7 +202,7 @@
     "CC0-1.0": {
       "shards": 224,
       "docs": 3013224,
-      "tokens": 10331986695,
+      "tokens": 10331986352,
       "bytes": 12960270164
     },
     "CC0-1.0 AND MIT": {
@@ -298,7 +298,7 @@
     "LicenseRef-Public-Domain": {
       "shards": 216,
       "docs": 19592987,
-      "tokens": 40966216757,
+      "tokens": 40966216169,
       "bytes": 57075213303
     },
     "LicenseRef-Publicly-Archived-Forum": {
@@ -3902,24 +3902,24 @@
       "programming_languages": [],
       "shards": 1,
       "docs": 54434,
-      "tokens": 125805922,
-      "bytes": 180725993,
+      "tokens": 125785615,
+      "bytes": 180723505,
       "licenses": {
         "CC-BY-4.0": {
           "shards": 1,
-          "tokens": 96696949
+          "tokens": 96679685
         },
         "CC-BY-SA-4.0": {
           "shards": 1,
-          "tokens": 19028666
+          "tokens": 19026554
         },
         "CC0-1.0": {
           "shards": 1,
-          "tokens": 1687464
+          "tokens": 1687121
         },
         "LicenseRef-Public-Domain": {
           "shards": 1,
-          "tokens": 8392843
+          "tokens": 8392255
         }
       }
     },
