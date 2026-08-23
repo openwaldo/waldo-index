@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-23T15:34:57Z",
-  "index_commit": "593be40",
+  "generated": "2026-08-23T16:09:48Z",
+  "index_commit": "9877143",
   "manifests": 61,
   "shards": 1498,
-  "docs": 116005269,
-  "tokens": 348857006853,
-  "bytes": 404847774826,
+  "docs": 116010250,
+  "tokens": 348869817035,
+  "bytes": 404849160472,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -15,9 +15,9 @@
     },
     "Apache-2.0": {
       "shards": 34,
-      "docs": 2028736,
-      "tokens": 4430981729,
-      "bytes": 1455245231
+      "docs": 2033717,
+      "tokens": 4443791911,
+      "bytes": 1456630877
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -4183,6 +4183,50 @@
       ]
     },
     {
+      "path": "code/cloud-native-core",
+      "name": "cloud-native-core",
+      "title": "Cloud Native Core \u2014 Permissive",
+      "description": "Project-owned source from immutable Apache-licensed releases of etcd, Prometheus, and containerd.",
+      "sources": [
+        {
+          "name": "containerd/containerd",
+          "origin": "containerd/containerd",
+          "version": "aad11006b869517fcd3009450b6f82da282e1a9b",
+          "url": "https://github.com/containerd/containerd"
+        },
+        {
+          "name": "etcd-io/etcd",
+          "origin": "etcd-io/etcd",
+          "version": "5e7fd0de9a57db03ecc11794dc40403a734c07bb",
+          "url": "https://github.com/etcd-io/etcd"
+        },
+        {
+          "name": "prometheus/prometheus",
+          "origin": "prometheus/prometheus",
+          "version": "bb5dff00cf8fdfbf5c65e0531aa835fa238a43a2",
+          "url": "https://github.com/prometheus/prometheus"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [
+        "Go",
+        "TypeScript"
+      ],
+      "shards": 1,
+      "docs": 9153,
+      "tokens": 29226177,
+      "bytes": 14947362,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 29226177
+        }
+      }
+    },
+    {
       "path": "community/alpine-linux-mailing-list",
       "name": "alpine-linux-mailing-list",
       "title": "Alpine Linux Development Mailing List",
@@ -4274,50 +4318,6 @@
       "input_formats": [
         "json"
       ]
-    },
-    {
-      "path": "code/cloud-native-core",
-      "name": "cloud-native-core",
-      "title": "Cloud Native Core \u2014 Permissive",
-      "description": "Project-owned source from immutable Apache-licensed releases of etcd, Prometheus, and containerd.",
-      "sources": [
-        {
-          "name": "etcd-io/etcd",
-          "origin": "etcd-io/etcd",
-          "version": "5e7fd0de9a57db03ecc11794dc40403a734c07bb",
-          "url": "https://github.com/etcd-io/etcd"
-        },
-        {
-          "name": "prometheus/prometheus",
-          "origin": "prometheus/prometheus",
-          "version": "bb5dff00cf8fdfbf5c65e0531aa835fa238a43a2",
-          "url": "https://github.com/prometheus/prometheus"
-        },
-        {
-          "name": "containerd/containerd",
-          "origin": "containerd/containerd",
-          "version": "aad11006b869517fcd3009450b6f82da282e1a9b",
-          "url": "https://github.com/containerd/containerd"
-        }
-      ],
-      "converted_by": "waldo index ingest",
-      "languages": [
-        "en"
-      ],
-      "programming_languages": [
-        "Go",
-        "TypeScript"
-      ],
-      "shards": 1,
-      "docs": 4172,
-      "tokens": 16415995,
-      "bytes": 13561716,
-      "licenses": {
-        "Apache-2.0": {
-          "shards": 1,
-          "tokens": 16415995
-        }
-      }
     },
     {
       "path": "core/common-pile/oercommons",
