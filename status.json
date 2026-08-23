@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-23T16:09:48Z",
-  "index_commit": "9877143",
-  "manifests": 61,
-  "shards": 1498,
-  "docs": 116010250,
-  "tokens": 348869817035,
-  "bytes": 404849160472,
+  "generated": "2026-08-23T22:10:04Z",
+  "index_commit": "ea19f83",
+  "manifests": 62,
+  "shards": 1715,
+  "docs": 151619708,
+  "tokens": 373337714606,
+  "bytes": 466315168219,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -314,14 +314,14 @@
       "bytes": 673652354
     },
     "ODC-BY-1.0": {
-      "shards": 4,
-      "docs": 928139,
-      "tokens": 834003797,
-      "bytes": 880938380
+      "shards": 221,
+      "docs": 36537597,
+      "tokens": 25301901368,
+      "bytes": 62346946127
     }
   },
   "languages": {
-    "en": 49,
+    "en": 50,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -465,6 +465,41 @@
           "tokens": 286718974
         }
       }
+    },
+    {
+      "path": "core/synthetic/cosmopedia-v2",
+      "name": "cosmopedia-v2",
+      "title": "Cosmopedia v2",
+      "description": "The pinned Cosmopedia v2 synthetic educational corpus used to strengthen broad explanatory knowledge during pretraining.",
+      "sources": [
+        {
+          "name": "HuggingFaceTB/smollm-corpus Cosmopedia v2",
+          "origin": "HuggingFaceTB/smollm-corpus Cosmopedia v2",
+          "version": "3ba9d605774198c5868892d7a8deda78031a781f",
+          "url": "https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus",
+          "input_formats": [
+            "parquet"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 217,
+      "docs": 35609458,
+      "tokens": 24467897571,
+      "bytes": 61466007747,
+      "licenses": {
+        "ODC-BY-1.0": {
+          "shards": 217,
+          "tokens": 24467897571
+        }
+      },
+      "input_formats": [
+        "parquet"
+      ]
     },
     {
       "path": "core/common-pile/stackexchange",
