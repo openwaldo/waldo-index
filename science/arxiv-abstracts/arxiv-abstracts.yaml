@@ -12,47 +12,151 @@ sources:
     source: common-pile/arxiv_abstracts_filtered
     version: dc1ceab4755eb037ec61e49cf1350dab7ceee6e7
     license: CC0-1.0
+    license_evidence:
+      declaration: CC0-1.0
+      url: https://huggingface.co/datasets/common-pile/arxiv_abstracts_filtered/blob/dc1ceab4755eb037ec61e49cf1350dab7ceee6e7/README.md
     url: https://huggingface.co/datasets/common-pile/arxiv_abstracts_filtered
     category: public-dataset
-    sha256: 90305a547a33b0bb61ebdd3be25c76a0ed0e24c62f160f0f73277ed63d634174
+    sha256: 8adb7a8cf092668cd6aabf688faf062d25a0ad54f8465faff89eb8c464d119d1
+    content:
+      types:
+        - academic abstracts
+        - scientific metadata
+      languages:
+        - mul
+      selection: Both gzip JSONL artifacts at the pinned filtered Common Pile revision; all 2,504,679 records declare CC0 for the abstract record. The source full_text_license field describes the separate full paper and is retained only as metadata. Exactly 263,151 identifiers overlap the full-paper corpus, while 2,241,527 identifiers occur only here. One identifier has two distinct source versions, and both are retained.
+      copyrighted: no
+      machine_generated: no
+    acquisition:
+      basis: Public filtered dataset at the pinned revision with a uniform per-record CC0 declaration, original ArXiv URL, and source provenance.
 converted_by:
   tool: waldo index ingest
   version: 0.1.0-dev
-  collector: git@github.com:openwaldo/waldo-fetchers@0e132ba9a7c0bc5e21f7997d3a99938209af6ce2:recipes/science/arxiv-abstracts.yaml
-  profile: canonical-text-schema-1@sha256:f56f638dd9e5c47db7e651b7581496453d6933be0cf8f4fa9e52f410a19e96d7
-  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v5-bom
+  profile: canonical-text-schema-2@sha256:56ba3e0e8d3dd2af39d688a7b95b2ac077638b1af34b1ab096e9ac30c1c4aa72
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
   tokenizer: tiktoken/cl100k_base
-record_schema: 1
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 8626
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 26
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 85
+  ip_addresses: 117
+  phone_numbers: 2417
+  mail_routing_headers: 0
+  credentials: 1
 shards:
-  - url: s3://openwaldo/lookaside/f2/e0/f2e0b22840c4c0c84b9e5f3f1bc04fbd41b60458fc4a068fde812fd332212fce
-    sha256: f2e0b22840c4c0c84b9e5f3f1bc04fbd41b60458fc4a068fde812fd332212fce
+  - url: s3://openwaldo/lookaside/b1/61/b16121c8d64a06392cc3badf56ffc6a1957493be3eda99df90b921474fc981fd
+    sha256: b16121c8d64a06392cc3badf56ffc6a1957493be3eda99df90b921474fc981fd
     license: CC0-1.0
     sources:
       - common-pile/arxiv_abstracts_filtered
-    docs: 833630
-    tokens: 163881927
-    bytes: 288884902
-  - url: s3://openwaldo/lookaside/72/fe/72fe36438a85bbb684cbf72ed76f8635f68fe71a0fed9e045cb5afd8196acc41
-    sha256: 72fe36438a85bbb684cbf72ed76f8635f68fe71a0fed9e045cb5afd8196acc41
+    docs: 693278
+    tokens: 134320829
+    bytes: 273322135
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2639
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 5
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 24
+      ip_addresses: 22
+      phone_numbers: 1130
+      mail_routing_headers: 0
+      credentials: 0
+  - url: s3://openwaldo/lookaside/e3/23/e323d40975b77decdf24b0f7830972896150b3a8182e9852bf85b242c93a2cf6
+    sha256: e323d40975b77decdf24b0f7830972896150b3a8182e9852bf85b242c93a2cf6
     license: CC0-1.0
     sources:
       - common-pile/arxiv_abstracts_filtered
-    docs: 712695
-    tokens: 159057614
-    bytes: 282666066
-  - url: s3://openwaldo/lookaside/bd/15/bd15e76f61c7e5a6f29cf66b05dc5748f107f358380e74c583fc7497f1bee95f
-    sha256: bd15e76f61c7e5a6f29cf66b05dc5748f107f358380e74c583fc7497f1bee95f
+    docs: 667376
+    tokens: 145637890
+    bytes: 296493333
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2625
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 10
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 20
+      ip_addresses: 39
+      phone_numbers: 511
+      mail_routing_headers: 0
+      credentials: 0
+  - url: s3://openwaldo/lookaside/b8/c7/b8c7342e009c2156a6647be8ce40d2cc7585ac32c4bea6dbc08042be43e3b27d
+    sha256: b8c7342e009c2156a6647be8ce40d2cc7585ac32c4bea6dbc08042be43e3b27d
     license: CC0-1.0
     sources:
       - common-pile/arxiv_abstracts_filtered
-    docs: 681224
-    tokens: 158105567
-    bytes: 278831784
-  - url: s3://openwaldo/lookaside/a3/63/a363df361082e714289e1ee859d75cfa09c0676f178b80793d9ad404f39672dd
-    sha256: a363df361082e714289e1ee859d75cfa09c0676f178b80793d9ad404f39672dd
+    docs: 606828
+    tokens: 142867403
+    bytes: 291693908
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 2066
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 2
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 22
+      ip_addresses: 26
+      phone_numbers: 352
+      mail_routing_headers: 0
+      credentials: 0
+  - url: s3://openwaldo/lookaside/9d/f2/9df2ca894f4bbbc0c9a89b46b84c52c3f3e1c7c4efe149d1b4d647aedeae091f
+    sha256: 9df2ca894f4bbbc0c9a89b46b84c52c3f3e1c7c4efe149d1b4d647aedeae091f
     license: CC0-1.0
     sources:
       - common-pile/arxiv_abstracts_filtered
-    docs: 276638
-    tokens: 41045571
-    bytes: 69194956
+    docs: 536705
+    tokens: 99254965
+    bytes: 193437827
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 1296
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 9
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 19
+      ip_addresses: 30
+      phone_numbers: 424
+      mail_routing_headers: 0
+      credentials: 1
