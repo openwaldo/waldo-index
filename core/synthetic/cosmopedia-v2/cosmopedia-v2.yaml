@@ -1,0 +1,5704 @@
+kind: manifest
+schema: 2
+name: cosmopedia-v2
+title: Cosmopedia v2
+description: The pinned Cosmopedia v2 synthetic educational corpus used to strengthen broad explanatory knowledge during pretraining.
+content:
+  languages:
+    - en
+license: ODC-BY-1.0
+sources:
+  - name: HuggingFaceTB/smollm-corpus Cosmopedia v2
+    source: HuggingFaceTB/smollm-corpus Cosmopedia v2
+    version: 3ba9d605774198c5868892d7a8deda78031a781f
+    input_formats:
+      - parquet
+    license: ODC-BY-1.0
+    license_evidence:
+      declaration: ODC-BY-1.0
+      url: https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus/tree/3ba9d605774198c5868892d7a8deda78031a781f
+    url: https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus
+    category: public-dataset
+    sha256: 2991658217d48f308bfc27a98bcff470f033c026bed77e3a7bb001632e316b66
+    content:
+      types:
+        - educational articles
+        - stories
+        - synthetic textbooks
+      languages:
+        - en
+      selection: All 104 Cosmopedia v2 Parquet shards at the pinned dataset revision; other SmolLM corpus subsets are excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public synthetic corpus released by Hugging Face as part of the SmolLM corpus.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:39c1292b30160913af35ba1c5f9c2a746135c069e507c3148f83e0806c5d1804
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  tokenizer: tiktoken/cl100k_base
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 150343
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 121400
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 486417
+  ip_addresses: 150942
+  phone_numbers: 616166
+  mail_routing_headers: 26085
+  credentials: 4792
+shards:
+  - url: s3://openwaldo/lookaside/06/f9/06f94451b2c05c91917abb69a90c53602d377dbf34f06865d01be24d144c5108
+    sha256: 06f94451b2c05c91917abb69a90c53602d377dbf34f06865d01be24d144c5108
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161189
+    tokens: 112315599
+    bytes: 282480586
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 613
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 503
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2274
+      ip_addresses: 635
+      phone_numbers: 2858
+      mail_routing_headers: 124
+      credentials: 19
+  - url: s3://openwaldo/lookaside/99/a2/99a2d053406d3d6c8023f19de336d9f9d803d7047b1a8c392dedaa13fcaa76ba
+    sha256: 99a2d053406d3d6c8023f19de336d9f9d803d7047b1a8c392dedaa13fcaa76ba
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 160936
+    tokens: 112307674
+    bytes: 282391165
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 639
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 501
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2258
+      ip_addresses: 741
+      phone_numbers: 2903
+      mail_routing_headers: 121
+      credentials: 12
+  - url: s3://openwaldo/lookaside/51/f1/51f1ece17d1f741ab95845d296ea50e9f3de9e8702ffe0fe7a99beaca6a2b528
+    sha256: 51f1ece17d1f741ab95845d296ea50e9f3de9e8702ffe0fe7a99beaca6a2b528
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161248
+    tokens: 112364653
+    bytes: 282489486
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 612
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 533
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2313
+      ip_addresses: 787
+      phone_numbers: 3059
+      mail_routing_headers: 126
+      credentials: 17
+  - url: s3://openwaldo/lookaside/8b/96/8b960a0a1be5ced2b21941c33b0294d076f981ebe4a39e14801a53a72883503e
+    sha256: 8b960a0a1be5ced2b21941c33b0294d076f981ebe4a39e14801a53a72883503e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161089
+    tokens: 112345232
+    bytes: 282451924
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 647
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 532
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2236
+      ip_addresses: 631
+      phone_numbers: 2917
+      mail_routing_headers: 126
+      credentials: 26
+  - url: s3://openwaldo/lookaside/28/49/2849cc095c5ed6dc1b623783e36136ebafef27428b3bfd8f8164fea13a9a60a4
+    sha256: 2849cc095c5ed6dc1b623783e36136ebafef27428b3bfd8f8164fea13a9a60a4
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161442
+    tokens: 112436749
+    bytes: 282599037
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 622
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 543
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2237
+      ip_addresses: 860
+      phone_numbers: 2953
+      mail_routing_headers: 111
+      credentials: 28
+  - url: s3://openwaldo/lookaside/5c/77/5c77c86cc651548c38906ec9a080dd6231527dfb6adc4d6e5896e81ad39e9966
+    sha256: 5c77c86cc651548c38906ec9a080dd6231527dfb6adc4d6e5896e81ad39e9966
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161131
+    tokens: 112361941
+    bytes: 282435589
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 601
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 494
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2262
+      ip_addresses: 532
+      phone_numbers: 2750
+      mail_routing_headers: 115
+      credentials: 24
+  - url: s3://openwaldo/lookaside/5d/cd/5dcd602f1f9419dc497a5acd68f0593b0057a97549d688a918fa3e27592bba8d
+    sha256: 5dcd602f1f9419dc497a5acd68f0593b0057a97549d688a918fa3e27592bba8d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 160988
+    tokens: 112377830
+    bytes: 282363170
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 582
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 500
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2368
+      ip_addresses: 589
+      phone_numbers: 2759
+      mail_routing_headers: 105
+      credentials: 14
+  - url: s3://openwaldo/lookaside/62/e5/62e5d81b8de1c8f933536004afb7ab3851dd5f22dbb99cfbd8f8e1df9aa27999
+    sha256: 62e5d81b8de1c8f933536004afb7ab3851dd5f22dbb99cfbd8f8e1df9aa27999
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161411
+    tokens: 112407071
+    bytes: 282568487
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 630
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 480
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2278
+      ip_addresses: 674
+      phone_numbers: 2719
+      mail_routing_headers: 133
+      credentials: 29
+  - url: s3://openwaldo/lookaside/9b/62/9b6259e76e197c3561bec1579b390584565be226ab3dd77009adefdeb91e3744
+    sha256: 9b6259e76e197c3561bec1579b390584565be226ab3dd77009adefdeb91e3744
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161124
+    tokens: 112344815
+    bytes: 282375908
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 631
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 504
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2298
+      ip_addresses: 732
+      phone_numbers: 2903
+      mail_routing_headers: 112
+      credentials: 28
+  - url: s3://openwaldo/lookaside/94/b1/94b1fd5ad09c72e00507d6443ce14b32bc278702dab4fed742d6cefb09160268
+    sha256: 94b1fd5ad09c72e00507d6443ce14b32bc278702dab4fed742d6cefb09160268
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161330
+    tokens: 112387329
+    bytes: 282543459
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 627
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 523
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2224
+      ip_addresses: 689
+      phone_numbers: 2995
+      mail_routing_headers: 101
+      credentials: 27
+  - url: s3://openwaldo/lookaside/22/a9/22a922f114d968c4750c0ff86f494f867b489758831b91b7c5853628fe97bac2
+    sha256: 22a922f114d968c4750c0ff86f494f867b489758831b91b7c5853628fe97bac2
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161404
+    tokens: 112364138
+    bytes: 282467188
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 630
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 554
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2189
+      ip_addresses: 662
+      phone_numbers: 2825
+      mail_routing_headers: 115
+      credentials: 12
+  - url: s3://openwaldo/lookaside/99/88/9988171a3bfb8d621e75457f1bb4a7f7d0bbed5a5dec692a2ceb1f85aba660a1
+    sha256: 9988171a3bfb8d621e75457f1bb4a7f7d0bbed5a5dec692a2ceb1f85aba660a1
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161146
+    tokens: 112419887
+    bytes: 282466373
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 624
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 493
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2067
+      ip_addresses: 612
+      phone_numbers: 2901
+      mail_routing_headers: 127
+      credentials: 9
+  - url: s3://openwaldo/lookaside/3d/b5/3db5e0b625be16d489dbcebb11aa90703ff6579d024604c22af744c280fe1c72
+    sha256: 3db5e0b625be16d489dbcebb11aa90703ff6579d024604c22af744c280fe1c72
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161452
+    tokens: 112468803
+    bytes: 282659938
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 650
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 540
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2198
+      ip_addresses: 734
+      phone_numbers: 2907
+      mail_routing_headers: 116
+      credentials: 27
+  - url: s3://openwaldo/lookaside/8a/dc/8adc3cfd14f761c557c37d76d091aa20346a29a68ad2dbc11de1129bdc411347
+    sha256: 8adc3cfd14f761c557c37d76d091aa20346a29a68ad2dbc11de1129bdc411347
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161243
+    tokens: 112395731
+    bytes: 282553178
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 589
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 490
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2413
+      ip_addresses: 672
+      phone_numbers: 2890
+      mail_routing_headers: 132
+      credentials: 24
+  - url: s3://openwaldo/lookaside/78/d4/78d4e6e3b3ee3d457cede324d80a19d5f3cc4d55808159df1154a30d0d49643d
+    sha256: 78d4e6e3b3ee3d457cede324d80a19d5f3cc4d55808159df1154a30d0d49643d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161606
+    tokens: 112435034
+    bytes: 282633168
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 663
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 521
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2195
+      ip_addresses: 556
+      phone_numbers: 2811
+      mail_routing_headers: 112
+      credentials: 11
+  - url: s3://openwaldo/lookaside/ae/04/ae0457abc4f8ad0699a8e850b4d623fe46deb8cc459aeffdff6a2ab48775e25b
+    sha256: ae0457abc4f8ad0699a8e850b4d623fe46deb8cc459aeffdff6a2ab48775e25b
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161576
+    tokens: 112415977
+    bytes: 282709567
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 603
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 465
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2274
+      ip_addresses: 652
+      phone_numbers: 2858
+      mail_routing_headers: 117
+      credentials: 17
+  - url: s3://openwaldo/lookaside/df/93/df934b5a4248b7439ac9b1a289bd6b354563210946000bbdb2669927cba622cb
+    sha256: df934b5a4248b7439ac9b1a289bd6b354563210946000bbdb2669927cba622cb
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161719
+    tokens: 112461903
+    bytes: 282880233
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 652
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 545
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2272
+      ip_addresses: 701
+      phone_numbers: 2892
+      mail_routing_headers: 126
+      credentials: 20
+  - url: s3://openwaldo/lookaside/ea/91/ea91fc73d20f6f84a6a79a5b18c6d849437e51d7cfbc6882060e7f61395e7977
+    sha256: ea91fc73d20f6f84a6a79a5b18c6d849437e51d7cfbc6882060e7f61395e7977
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161600
+    tokens: 112477574
+    bytes: 282852939
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 656
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 524
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2262
+      ip_addresses: 681
+      phone_numbers: 2940
+      mail_routing_headers: 107
+      credentials: 23
+  - url: s3://openwaldo/lookaside/49/e9/49e971aaf062b8195ea2a7bc6123a74e09008b8824ce00f7a90ddb7639b10a27
+    sha256: 49e971aaf062b8195ea2a7bc6123a74e09008b8824ce00f7a90ddb7639b10a27
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161733
+    tokens: 112483172
+    bytes: 282759865
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 600
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 464
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2325
+      ip_addresses: 668
+      phone_numbers: 2939
+      mail_routing_headers: 132
+      credentials: 20
+  - url: s3://openwaldo/lookaside/d5/2f/d52ffa5d92317274a3a7b0ded5ddca0612a53eb4933b5046325ce61314a565ed
+    sha256: d52ffa5d92317274a3a7b0ded5ddca0612a53eb4933b5046325ce61314a565ed
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161567
+    tokens: 112432934
+    bytes: 282652842
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 612
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 493
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2220
+      ip_addresses: 555
+      phone_numbers: 2804
+      mail_routing_headers: 122
+      credentials: 18
+  - url: s3://openwaldo/lookaside/2f/99/2f999470b46e82cdd8caaa55fd16d7ce0985e6bbf32ef5e180825c5ca9be8cce
+    sha256: 2f999470b46e82cdd8caaa55fd16d7ce0985e6bbf32ef5e180825c5ca9be8cce
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161744
+    tokens: 112467309
+    bytes: 282750769
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 611
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 459
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2200
+      ip_addresses: 615
+      phone_numbers: 3016
+      mail_routing_headers: 117
+      credentials: 27
+  - url: s3://openwaldo/lookaside/ac/be/acbead3dcda00abcdfde6cf3879d37637cdbe73c41b4742114304befa282daa2
+    sha256: acbead3dcda00abcdfde6cf3879d37637cdbe73c41b4742114304befa282daa2
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161796
+    tokens: 112490365
+    bytes: 282865133
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 635
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 526
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2337
+      ip_addresses: 721
+      phone_numbers: 2898
+      mail_routing_headers: 128
+      credentials: 18
+  - url: s3://openwaldo/lookaside/48/49/4849584d11ae0ddc5190fcbf648b5883b7248a28f907226d362a686b748ab32c
+    sha256: 4849584d11ae0ddc5190fcbf648b5883b7248a28f907226d362a686b748ab32c
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161815
+    tokens: 112498165
+    bytes: 282775006
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 600
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 512
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2220
+      ip_addresses: 710
+      phone_numbers: 2775
+      mail_routing_headers: 120
+      credentials: 15
+  - url: s3://openwaldo/lookaside/11/f3/11f36c7d0df516c15989138ed7159d7e9e03ce1828f56e7fe024ac8351ba0701
+    sha256: 11f36c7d0df516c15989138ed7159d7e9e03ce1828f56e7fe024ac8351ba0701
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161914
+    tokens: 112491971
+    bytes: 282795660
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 620
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 532
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2203
+      ip_addresses: 648
+      phone_numbers: 2927
+      mail_routing_headers: 118
+      credentials: 12
+  - url: s3://openwaldo/lookaside/59/63/596369cc1878236b3731bf4cb88cf6b9929a665cf2a9f0a6edf520d59fe6c8ec
+    sha256: 596369cc1878236b3731bf4cb88cf6b9929a665cf2a9f0a6edf520d59fe6c8ec
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161984
+    tokens: 112535238
+    bytes: 282938840
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 628
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 508
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2183
+      ip_addresses: 660
+      phone_numbers: 2770
+      mail_routing_headers: 132
+      credentials: 18
+  - url: s3://openwaldo/lookaside/ca/4c/ca4c5ba1e8fd00d57655ab18f7e255c887a99780a7cb3f6fdbda501b02b4c685
+    sha256: ca4c5ba1e8fd00d57655ab18f7e255c887a99780a7cb3f6fdbda501b02b4c685
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161801
+    tokens: 112532527
+    bytes: 282774827
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 651
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 514
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2230
+      ip_addresses: 631
+      phone_numbers: 2923
+      mail_routing_headers: 121
+      credentials: 14
+  - url: s3://openwaldo/lookaside/84/2d/842deace66a2b406d93b715385c3009eb5683cdb500db9723d4f1bfac1223758
+    sha256: 842deace66a2b406d93b715385c3009eb5683cdb500db9723d4f1bfac1223758
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162073
+    tokens: 112569966
+    bytes: 282976669
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 688
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 546
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2285
+      ip_addresses: 579
+      phone_numbers: 2792
+      mail_routing_headers: 105
+      credentials: 18
+  - url: s3://openwaldo/lookaside/49/40/4940e2ada8d698dae2fcf2b0913246b75465cb9ba5573c0dc8618215079b22be
+    sha256: 4940e2ada8d698dae2fcf2b0913246b75465cb9ba5573c0dc8618215079b22be
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161610
+    tokens: 112565615
+    bytes: 282682415
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 671
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 549
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2207
+      ip_addresses: 831
+      phone_numbers: 2929
+      mail_routing_headers: 110
+      credentials: 19
+  - url: s3://openwaldo/lookaside/a9/25/a9254d294cbd66e1a5c46e6afdf2079ff7aa586340f2b74fc4df7a389f34d3cd
+    sha256: a9254d294cbd66e1a5c46e6afdf2079ff7aa586340f2b74fc4df7a389f34d3cd
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162081
+    tokens: 112579236
+    bytes: 282990533
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 653
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 540
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2152
+      ip_addresses: 844
+      phone_numbers: 3004
+      mail_routing_headers: 119
+      credentials: 17
+  - url: s3://openwaldo/lookaside/5d/9f/5d9fdbd408ae6544526c23bc77cae90c8a1e6c9d7b5eba0102629113a9fb3d66
+    sha256: 5d9fdbd408ae6544526c23bc77cae90c8a1e6c9d7b5eba0102629113a9fb3d66
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162395
+    tokens: 112571455
+    bytes: 283258626
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 601
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 486
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2382
+      ip_addresses: 773
+      phone_numbers: 2812
+      mail_routing_headers: 122
+      credentials: 28
+  - url: s3://openwaldo/lookaside/c7/c4/c7c44070fd381e9271862981aff4da81adf1dec7ec36afd79a14005719c356af
+    sha256: c7c44070fd381e9271862981aff4da81adf1dec7ec36afd79a14005719c356af
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162216
+    tokens: 112635657
+    bytes: 283005649
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 673
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 539
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2277
+      ip_addresses: 728
+      phone_numbers: 2972
+      mail_routing_headers: 144
+      credentials: 24
+  - url: s3://openwaldo/lookaside/33/87/338775bfe41106af335610dd2f440ee0d71f6984a95d87a51b51bab4b793bd58
+    sha256: 338775bfe41106af335610dd2f440ee0d71f6984a95d87a51b51bab4b793bd58
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 161976
+    tokens: 112608346
+    bytes: 282858917
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 673
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 550
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2236
+      ip_addresses: 612
+      phone_numbers: 2876
+      mail_routing_headers: 124
+      credentials: 20
+  - url: s3://openwaldo/lookaside/bd/30/bd304b65fc5a12641ab25fec310f9d171ed88b80483954b4be6f854e5b2b9f40
+    sha256: bd304b65fc5a12641ab25fec310f9d171ed88b80483954b4be6f854e5b2b9f40
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162028
+    tokens: 112614491
+    bytes: 282927911
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 680
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 536
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2169
+      ip_addresses: 604
+      phone_numbers: 2848
+      mail_routing_headers: 114
+      credentials: 21
+  - url: s3://openwaldo/lookaside/c1/25/c12524462abf1d6cd90a8e9304a5ae07587706f23ac444e2aab0af80c2d140da
+    sha256: c12524462abf1d6cd90a8e9304a5ae07587706f23ac444e2aab0af80c2d140da
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162282
+    tokens: 112602125
+    bytes: 282954824
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 695
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 510
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2292
+      ip_addresses: 675
+      phone_numbers: 3007
+      mail_routing_headers: 135
+      credentials: 16
+  - url: s3://openwaldo/lookaside/97/8f/978f95c1abf3cde1503aa4e55918f79fb4fbe3637977c4e890daab926d2d02c8
+    sha256: 978f95c1abf3cde1503aa4e55918f79fb4fbe3637977c4e890daab926d2d02c8
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162046
+    tokens: 112575996
+    bytes: 282959246
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 663
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 489
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2190
+      ip_addresses: 624
+      phone_numbers: 2932
+      mail_routing_headers: 132
+      credentials: 22
+  - url: s3://openwaldo/lookaside/7c/db/7cdb0772f0edeeecb87c2623aad38a5be2dbf93faff9674afc081bb4f552c8bb
+    sha256: 7cdb0772f0edeeecb87c2623aad38a5be2dbf93faff9674afc081bb4f552c8bb
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162224
+    tokens: 112636591
+    bytes: 283073943
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 639
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 524
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2290
+      ip_addresses: 656
+      phone_numbers: 2852
+      mail_routing_headers: 112
+      credentials: 23
+  - url: s3://openwaldo/lookaside/ba/5e/ba5ec1775fe3a3686945f08f1886860628412c550eb4dff65d4d2b62ca4c8895
+    sha256: ba5ec1775fe3a3686945f08f1886860628412c550eb4dff65d4d2b62ca4c8895
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162643
+    tokens: 112568945
+    bytes: 283253430
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 622
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 505
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2313
+      ip_addresses: 557
+      phone_numbers: 2875
+      mail_routing_headers: 131
+      credentials: 23
+  - url: s3://openwaldo/lookaside/c3/3e/c33e0caab4ffacfc122949906f273f022bd54dda4556ddd0d3f7eb09d8ca0b2e
+    sha256: c33e0caab4ffacfc122949906f273f022bd54dda4556ddd0d3f7eb09d8ca0b2e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162195
+    tokens: 112663524
+    bytes: 283117076
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 650
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 539
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2174
+      ip_addresses: 846
+      phone_numbers: 2865
+      mail_routing_headers: 124
+      credentials: 17
+  - url: s3://openwaldo/lookaside/39/9d/399d334f224b902781a2794ff0299fb52e95e12e2d4d7b204d3ee56a8a51242f
+    sha256: 399d334f224b902781a2794ff0299fb52e95e12e2d4d7b204d3ee56a8a51242f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162377
+    tokens: 112684586
+    bytes: 283177176
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 655
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 488
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2337
+      ip_addresses: 755
+      phone_numbers: 2859
+      mail_routing_headers: 115
+      credentials: 18
+  - url: s3://openwaldo/lookaside/e8/4e/e84e65c324c01acafdea359eca8fc899750fa2c7670010e6c3f4134c5d231fc7
+    sha256: e84e65c324c01acafdea359eca8fc899750fa2c7670010e6c3f4134c5d231fc7
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162241
+    tokens: 112624042
+    bytes: 283089635
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 675
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 528
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2294
+      ip_addresses: 640
+      phone_numbers: 2859
+      mail_routing_headers: 113
+      credentials: 22
+  - url: s3://openwaldo/lookaside/99/4c/994c55460338a480612008091dbe6805027d6f58b5ddb521175572c436b18838
+    sha256: 994c55460338a480612008091dbe6805027d6f58b5ddb521175572c436b18838
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162384
+    tokens: 112693550
+    bytes: 283166093
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 671
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 510
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2296
+      ip_addresses: 748
+      phone_numbers: 2931
+      mail_routing_headers: 118
+      credentials: 27
+  - url: s3://openwaldo/lookaside/38/2a/382a28ced8ffc44f6d7aa329c6e2da126eebc90d730d63e147bd43c5c336b7cf
+    sha256: 382a28ced8ffc44f6d7aa329c6e2da126eebc90d730d63e147bd43c5c336b7cf
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162247
+    tokens: 112635097
+    bytes: 283100956
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 644
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 534
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2325
+      ip_addresses: 735
+      phone_numbers: 2903
+      mail_routing_headers: 126
+      credentials: 27
+  - url: s3://openwaldo/lookaside/4d/c4/4dc4480f3f9f57b03672c479ca0c181aba7c4ac8838cbc05de3b557c29282f3e
+    sha256: 4dc4480f3f9f57b03672c479ca0c181aba7c4ac8838cbc05de3b557c29282f3e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162420
+    tokens: 112697624
+    bytes: 283135144
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 661
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 562
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2198
+      ip_addresses: 562
+      phone_numbers: 2985
+      mail_routing_headers: 127
+      credentials: 27
+  - url: s3://openwaldo/lookaside/60/a5/60a563c89c1db5f3f16207a94af768184904215c386c94e6b95c8ddf31003692
+    sha256: 60a563c89c1db5f3f16207a94af768184904215c386c94e6b95c8ddf31003692
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162397
+    tokens: 112669696
+    bytes: 283160565
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 637
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 487
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2279
+      ip_addresses: 683
+      phone_numbers: 2958
+      mail_routing_headers: 135
+      credentials: 25
+  - url: s3://openwaldo/lookaside/68/e6/68e6c0b75df1ac9fca273f72e139dbaf39798d3a0d74d9ce7603fa5861329a71
+    sha256: 68e6c0b75df1ac9fca273f72e139dbaf39798d3a0d74d9ce7603fa5861329a71
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162556
+    tokens: 112660776
+    bytes: 283116007
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 673
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 495
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2291
+      ip_addresses: 720
+      phone_numbers: 2870
+      mail_routing_headers: 119
+      credentials: 20
+  - url: s3://openwaldo/lookaside/e0/e1/e0e1109002d56ef3312c1ad8bbccfcd4d01432fa2aad9b0d007fdcfc69a20b73
+    sha256: e0e1109002d56ef3312c1ad8bbccfcd4d01432fa2aad9b0d007fdcfc69a20b73
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162580
+    tokens: 112728086
+    bytes: 283211945
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 662
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 536
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2177
+      ip_addresses: 679
+      phone_numbers: 2769
+      mail_routing_headers: 117
+      credentials: 19
+  - url: s3://openwaldo/lookaside/7f/af/7faf6752606ca60b7865f229023b3bf54cfe0bcbe2a9f8162da79d1b8f3b6cf2
+    sha256: 7faf6752606ca60b7865f229023b3bf54cfe0bcbe2a9f8162da79d1b8f3b6cf2
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162534
+    tokens: 112736726
+    bytes: 283352524
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 647
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 480
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2187
+      ip_addresses: 661
+      phone_numbers: 2887
+      mail_routing_headers: 131
+      credentials: 29
+  - url: s3://openwaldo/lookaside/d6/f5/d6f5509bc8e7267451eee84828632210e57a6a1014013511aefc92400be4ec9d
+    sha256: d6f5509bc8e7267451eee84828632210e57a6a1014013511aefc92400be4ec9d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162723
+    tokens: 112738534
+    bytes: 283278833
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 683
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 534
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2178
+      ip_addresses: 592
+      phone_numbers: 2687
+      mail_routing_headers: 120
+      credentials: 23
+  - url: s3://openwaldo/lookaside/c0/9b/c09b2f038fa1beba02fa2a1d21497bfb9f774eecd1cb8d42965b557027880636
+    sha256: c09b2f038fa1beba02fa2a1d21497bfb9f774eecd1cb8d42965b557027880636
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162638
+    tokens: 112732730
+    bytes: 283187511
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 660
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 534
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2122
+      ip_addresses: 553
+      phone_numbers: 2933
+      mail_routing_headers: 135
+      credentials: 27
+  - url: s3://openwaldo/lookaside/69/db/69dbfb74e603211605090ac828cd1597abc0fd32605a36f5d243b245b79cb656
+    sha256: 69dbfb74e603211605090ac828cd1597abc0fd32605a36f5d243b245b79cb656
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162980
+    tokens: 112773245
+    bytes: 283410512
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 648
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 542
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2258
+      ip_addresses: 716
+      phone_numbers: 2848
+      mail_routing_headers: 113
+      credentials: 19
+  - url: s3://openwaldo/lookaside/63/4d/634d5c5a78a89681877bc9c3bf299e2e15ef27081a50ecf7e30d36e5440b2a68
+    sha256: 634d5c5a78a89681877bc9c3bf299e2e15ef27081a50ecf7e30d36e5440b2a68
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162826
+    tokens: 112766157
+    bytes: 283352035
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 698
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 524
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2307
+      ip_addresses: 705
+      phone_numbers: 2759
+      mail_routing_headers: 116
+      credentials: 22
+  - url: s3://openwaldo/lookaside/39/a2/39a2faa977c29d6a06f422a5a2352ba6d1b719fba475dce7ba5bffd9e6faefba
+    sha256: 39a2faa977c29d6a06f422a5a2352ba6d1b719fba475dce7ba5bffd9e6faefba
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163010
+    tokens: 112766337
+    bytes: 283527001
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 689
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 549
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2165
+      ip_addresses: 577
+      phone_numbers: 2679
+      mail_routing_headers: 113
+      credentials: 22
+  - url: s3://openwaldo/lookaside/61/b5/61b53bc70cdec72ce568fad6d4262baddb2af1ecd251511f91310843c179cbcd
+    sha256: 61b53bc70cdec72ce568fad6d4262baddb2af1ecd251511f91310843c179cbcd
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162664
+    tokens: 112678139
+    bytes: 283309033
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 643
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 549
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2255
+      ip_addresses: 733
+      phone_numbers: 2765
+      mail_routing_headers: 103
+      credentials: 27
+  - url: s3://openwaldo/lookaside/6c/1c/6c1c8f46cf59c9d16fa33da1eb3e8832f8670da2c0a5ec3841f452a30bd36bf4
+    sha256: 6c1c8f46cf59c9d16fa33da1eb3e8832f8670da2c0a5ec3841f452a30bd36bf4
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162814
+    tokens: 112728632
+    bytes: 283307904
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 668
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 530
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2350
+      ip_addresses: 682
+      phone_numbers: 2821
+      mail_routing_headers: 119
+      credentials: 20
+  - url: s3://openwaldo/lookaside/2e/2d/2e2d396bd7fe596fe3440788bd5d4c4ae2dbaa32a2e8091821445c4ca439130d
+    sha256: 2e2d396bd7fe596fe3440788bd5d4c4ae2dbaa32a2e8091821445c4ca439130d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162853
+    tokens: 112735896
+    bytes: 283288329
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 650
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 598
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2289
+      ip_addresses: 656
+      phone_numbers: 2628
+      mail_routing_headers: 122
+      credentials: 16
+  - url: s3://openwaldo/lookaside/de/c0/dec08a52f234cdfc5068889c334573c35aabac2d6fe0a8802f07d6077cbd3cca
+    sha256: dec08a52f234cdfc5068889c334573c35aabac2d6fe0a8802f07d6077cbd3cca
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162952
+    tokens: 112826249
+    bytes: 283408395
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 666
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 516
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2257
+      ip_addresses: 628
+      phone_numbers: 2853
+      mail_routing_headers: 125
+      credentials: 14
+  - url: s3://openwaldo/lookaside/c7/ba/c7baed46446018599db2756e4a40337882cd7298f6d72b14a08b3e4a38e078b9
+    sha256: c7baed46446018599db2756e4a40337882cd7298f6d72b14a08b3e4a38e078b9
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162853
+    tokens: 112791312
+    bytes: 283337100
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 666
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 561
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2222
+      ip_addresses: 765
+      phone_numbers: 2853
+      mail_routing_headers: 124
+      credentials: 18
+  - url: s3://openwaldo/lookaside/76/1f/761f51da10599f9f5e09b871eef018404df6006b97dee9cdde134505b7f0072f
+    sha256: 761f51da10599f9f5e09b871eef018404df6006b97dee9cdde134505b7f0072f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162991
+    tokens: 112802022
+    bytes: 283485320
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 647
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 522
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2242
+      ip_addresses: 734
+      phone_numbers: 2928
+      mail_routing_headers: 118
+      credentials: 20
+  - url: s3://openwaldo/lookaside/31/12/311206d62d27cb7bfd10d2c59639e1f372ba30d7564517734643e55fb42022e5
+    sha256: 311206d62d27cb7bfd10d2c59639e1f372ba30d7564517734643e55fb42022e5
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 162963
+    tokens: 112793103
+    bytes: 283477602
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 667
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 530
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2329
+      ip_addresses: 642
+      phone_numbers: 2897
+      mail_routing_headers: 136
+      credentials: 15
+  - url: s3://openwaldo/lookaside/5c/55/5c55c3938e056de56ea59d21f984598e0e7e8266d9e6868eefb8a194ee87836f
+    sha256: 5c55c3938e056de56ea59d21f984598e0e7e8266d9e6868eefb8a194ee87836f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163251
+    tokens: 112862689
+    bytes: 283579465
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 700
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 530
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2199
+      ip_addresses: 648
+      phone_numbers: 2915
+      mail_routing_headers: 127
+      credentials: 21
+  - url: s3://openwaldo/lookaside/ca/e0/cae0e6d7e738dbe0392c6d24f2f5912f118f7d8d91a6c1e2963b51979104d9b6
+    sha256: cae0e6d7e738dbe0392c6d24f2f5912f118f7d8d91a6c1e2963b51979104d9b6
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163310
+    tokens: 112788803
+    bytes: 283691885
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 679
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 515
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2302
+      ip_addresses: 678
+      phone_numbers: 2953
+      mail_routing_headers: 132
+      credentials: 11
+  - url: s3://openwaldo/lookaside/9b/31/9b31a2e712fcf29aea3d608e48aa692d384ef5c7674338aadf81f46d7113394e
+    sha256: 9b31a2e712fcf29aea3d608e48aa692d384ef5c7674338aadf81f46d7113394e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163100
+    tokens: 112842971
+    bytes: 283452868
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 671
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 552
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2289
+      ip_addresses: 559
+      phone_numbers: 2907
+      mail_routing_headers: 128
+      credentials: 16
+  - url: s3://openwaldo/lookaside/88/0a/880a2c91b725a15429be2143c087e2d4ac3ef9a2256eba8b93ef2f19742bbd8c
+    sha256: 880a2c91b725a15429be2143c087e2d4ac3ef9a2256eba8b93ef2f19742bbd8c
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163321
+    tokens: 112844518
+    bytes: 283560414
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 667
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 536
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2253
+      ip_addresses: 595
+      phone_numbers: 2663
+      mail_routing_headers: 106
+      credentials: 13
+  - url: s3://openwaldo/lookaside/f5/41/f541aaa3b55ae6bbf0d8adf8e73fc3a3039216056fa44f35567bb9007481483f
+    sha256: f541aaa3b55ae6bbf0d8adf8e73fc3a3039216056fa44f35567bb9007481483f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163383
+    tokens: 112822014
+    bytes: 283766473
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 696
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 545
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2155
+      ip_addresses: 806
+      phone_numbers: 2992
+      mail_routing_headers: 113
+      credentials: 16
+  - url: s3://openwaldo/lookaside/74/c6/74c6b8d6197884941b94971b72e6b6591cbf001728d2131ca7a63c37e6d7aa57
+    sha256: 74c6b8d6197884941b94971b72e6b6591cbf001728d2131ca7a63c37e6d7aa57
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163428
+    tokens: 112838327
+    bytes: 283563155
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 679
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 533
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2335
+      ip_addresses: 677
+      phone_numbers: 2718
+      mail_routing_headers: 120
+      credentials: 17
+  - url: s3://openwaldo/lookaside/d5/95/d59520d946b2e43e9e5530fedbb94c752a36724a0070375bcd549e3646b1e5e8
+    sha256: d59520d946b2e43e9e5530fedbb94c752a36724a0070375bcd549e3646b1e5e8
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163407
+    tokens: 112881401
+    bytes: 283658272
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 648
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 540
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2368
+      ip_addresses: 672
+      phone_numbers: 2902
+      mail_routing_headers: 115
+      credentials: 37
+  - url: s3://openwaldo/lookaside/05/df/05dfbae400777ad4c309e8fb38808625cd0db3010205db9fd4dc7cc3a06d5cdf
+    sha256: 05dfbae400777ad4c309e8fb38808625cd0db3010205db9fd4dc7cc3a06d5cdf
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163427
+    tokens: 112873680
+    bytes: 283699831
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 642
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 510
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2282
+      ip_addresses: 575
+      phone_numbers: 2843
+      mail_routing_headers: 111
+      credentials: 27
+  - url: s3://openwaldo/lookaside/e4/e2/e4e2de421e29b3b4afe4c7d5143c91c90bf6a8cf7892f38c68e3b4d52b2b9c8d
+    sha256: e4e2de421e29b3b4afe4c7d5143c91c90bf6a8cf7892f38c68e3b4d52b2b9c8d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163308
+    tokens: 112914010
+    bytes: 283619548
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 678
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 555
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2204
+      ip_addresses: 662
+      phone_numbers: 2775
+      mail_routing_headers: 129
+      credentials: 15
+  - url: s3://openwaldo/lookaside/8e/57/8e572b3cc94cb60e02c6af61f2faebd16149855e57cc6b2fb44528e6c8f95dd3
+    sha256: 8e572b3cc94cb60e02c6af61f2faebd16149855e57cc6b2fb44528e6c8f95dd3
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163629
+    tokens: 112942481
+    bytes: 283765118
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 672
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 539
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2246
+      ip_addresses: 747
+      phone_numbers: 3000
+      mail_routing_headers: 138
+      credentials: 23
+  - url: s3://openwaldo/lookaside/03/67/0367f1d4da5e1bbbf22f42340127e90ef862ca39dce9b1fc073bd88af237c7c2
+    sha256: 0367f1d4da5e1bbbf22f42340127e90ef862ca39dce9b1fc073bd88af237c7c2
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163454
+    tokens: 112884830
+    bytes: 283697336
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 679
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 590
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2207
+      ip_addresses: 695
+      phone_numbers: 2972
+      mail_routing_headers: 116
+      credentials: 17
+  - url: s3://openwaldo/lookaside/a8/ba/a8ba5fbd4a7ba144e8d2ac22f1350091c3b1e54dde4f296418e4d4add74fb079
+    sha256: a8ba5fbd4a7ba144e8d2ac22f1350091c3b1e54dde4f296418e4d4add74fb079
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163807
+    tokens: 112903878
+    bytes: 283798566
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 656
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 523
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2275
+      ip_addresses: 724
+      phone_numbers: 2763
+      mail_routing_headers: 120
+      credentials: 34
+  - url: s3://openwaldo/lookaside/f8/56/f8565340cac1df5e552d5e67828ca5be0d85037680674efc74ebf50c5a58fb1b
+    sha256: f8565340cac1df5e552d5e67828ca5be0d85037680674efc74ebf50c5a58fb1b
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163639
+    tokens: 112930875
+    bytes: 283829643
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 681
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 543
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2260
+      ip_addresses: 603
+      phone_numbers: 2905
+      mail_routing_headers: 128
+      credentials: 22
+  - url: s3://openwaldo/lookaside/38/4f/384f3f3981d7e2172e8b66d7cb09b8c8e53dbac4653b29d690444b22845b4105
+    sha256: 384f3f3981d7e2172e8b66d7cb09b8c8e53dbac4653b29d690444b22845b4105
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163395
+    tokens: 112921854
+    bytes: 283627599
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 636
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 565
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2314
+      ip_addresses: 705
+      phone_numbers: 2853
+      mail_routing_headers: 119
+      credentials: 23
+  - url: s3://openwaldo/lookaside/3d/15/3d15f15f05cd2198bfb1b6fb945aeacb14f7ca5611ac01ee988288225bbbaeb8
+    sha256: 3d15f15f05cd2198bfb1b6fb945aeacb14f7ca5611ac01ee988288225bbbaeb8
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163488
+    tokens: 112876794
+    bytes: 283600485
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 638
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 563
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2372
+      ip_addresses: 712
+      phone_numbers: 2814
+      mail_routing_headers: 132
+      credentials: 23
+  - url: s3://openwaldo/lookaside/f7/d5/f7d537f1bf36e944389d60ad0ba2bfadbded80091a602db64085b56f4c4e312d
+    sha256: f7d537f1bf36e944389d60ad0ba2bfadbded80091a602db64085b56f4c4e312d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163871
+    tokens: 112953719
+    bytes: 283868327
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 702
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 568
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2247
+      ip_addresses: 641
+      phone_numbers: 2844
+      mail_routing_headers: 107
+      credentials: 25
+  - url: s3://openwaldo/lookaside/d0/e0/d0e0c150c9890e411452928d1e0b324280f0f44e1f795c4198391290b1818bf9
+    sha256: d0e0c150c9890e411452928d1e0b324280f0f44e1f795c4198391290b1818bf9
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163418
+    tokens: 112898042
+    bytes: 283633038
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 648
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 558
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2224
+      ip_addresses: 644
+      phone_numbers: 2828
+      mail_routing_headers: 142
+      credentials: 21
+  - url: s3://openwaldo/lookaside/5a/70/5a709580c153efe74ca42c8ee7f82260782167ff3a5087fc446992d77e7b934f
+    sha256: 5a709580c153efe74ca42c8ee7f82260782167ff3a5087fc446992d77e7b934f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163944
+    tokens: 112919744
+    bytes: 283901662
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 642
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 520
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2275
+      ip_addresses: 743
+      phone_numbers: 2819
+      mail_routing_headers: 127
+      credentials: 17
+  - url: s3://openwaldo/lookaside/ba/2f/ba2f9ee567e59d43b07db9a72cb8ea6b6bc07122af3db144315dc8cebe633340
+    sha256: ba2f9ee567e59d43b07db9a72cb8ea6b6bc07122af3db144315dc8cebe633340
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163993
+    tokens: 112975536
+    bytes: 283969935
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 697
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 541
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2191
+      ip_addresses: 729
+      phone_numbers: 2970
+      mail_routing_headers: 128
+      credentials: 15
+  - url: s3://openwaldo/lookaside/11/46/1146cced9f3b4be51f70817abc040da9206f847be1f71cbe51dfa917dac6a611
+    sha256: 1146cced9f3b4be51f70817abc040da9206f847be1f71cbe51dfa917dac6a611
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163973
+    tokens: 112994207
+    bytes: 283983031
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 687
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 543
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2191
+      ip_addresses: 664
+      phone_numbers: 3156
+      mail_routing_headers: 125
+      credentials: 35
+  - url: s3://openwaldo/lookaside/6e/bb/6ebb6b2392bd5dc584e0979d740b35ae8e9620f31acaa38991976b1b4add5ecd
+    sha256: 6ebb6b2392bd5dc584e0979d740b35ae8e9620f31acaa38991976b1b4add5ecd
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163902
+    tokens: 113029346
+    bytes: 283948857
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 684
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 560
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2132
+      ip_addresses: 821
+      phone_numbers: 3018
+      mail_routing_headers: 124
+      credentials: 27
+  - url: s3://openwaldo/lookaside/ae/8d/ae8dbd98f9653de1fac0c83b08906ed85153b9e36d677f70e80f1b81ad6d581f
+    sha256: ae8dbd98f9653de1fac0c83b08906ed85153b9e36d677f70e80f1b81ad6d581f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163838
+    tokens: 112922851
+    bytes: 283835304
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 683
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 533
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2183
+      ip_addresses: 663
+      phone_numbers: 2696
+      mail_routing_headers: 98
+      credentials: 27
+  - url: s3://openwaldo/lookaside/55/18/5518796f51c0378932c90ce88939a39c7dcc703b4c5a3224557239a5a5c24a57
+    sha256: 5518796f51c0378932c90ce88939a39c7dcc703b4c5a3224557239a5a5c24a57
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163926
+    tokens: 113038027
+    bytes: 283842289
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 719
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 534
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2396
+      ip_addresses: 587
+      phone_numbers: 2933
+      mail_routing_headers: 124
+      credentials: 25
+  - url: s3://openwaldo/lookaside/25/15/251536f838c8ffaa75a0df2b8974290aab77bc55968ed19fb89aab0006e32376
+    sha256: 251536f838c8ffaa75a0df2b8974290aab77bc55968ed19fb89aab0006e32376
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163725
+    tokens: 112992097
+    bytes: 283745408
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 682
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 533
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2356
+      ip_addresses: 580
+      phone_numbers: 2844
+      mail_routing_headers: 137
+      credentials: 18
+  - url: s3://openwaldo/lookaside/74/95/7495e90848494b4fe01180b143e1c899f9e8e300f192298cfce6b04fcc3a7155
+    sha256: 7495e90848494b4fe01180b143e1c899f9e8e300f192298cfce6b04fcc3a7155
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163867
+    tokens: 112948151
+    bytes: 283908764
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 679
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 550
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2245
+      ip_addresses: 764
+      phone_numbers: 2764
+      mail_routing_headers: 108
+      credentials: 24
+  - url: s3://openwaldo/lookaside/d3/31/d331420c32d67c6a1ae464599757c0527c1ecb9b7cfe26e5176a22bba329eeae
+    sha256: d331420c32d67c6a1ae464599757c0527c1ecb9b7cfe26e5176a22bba329eeae
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 163924
+    tokens: 112993371
+    bytes: 283840570
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 712
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 579
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2197
+      ip_addresses: 521
+      phone_numbers: 2831
+      mail_routing_headers: 135
+      credentials: 24
+  - url: s3://openwaldo/lookaside/93/25/9325254ae7b92de4f033d48d7ffb141fe3df6deb6137fcbc1247865eaf67a678
+    sha256: 9325254ae7b92de4f033d48d7ffb141fe3df6deb6137fcbc1247865eaf67a678
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164049
+    tokens: 113030119
+    bytes: 283997561
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 673
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 560
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2226
+      ip_addresses: 655
+      phone_numbers: 2909
+      mail_routing_headers: 135
+      credentials: 19
+  - url: s3://openwaldo/lookaside/ae/d1/aed18ba5ad557ee52cdc0871972e8ca6bc566332c681c665b4c16648cab77deb
+    sha256: aed18ba5ad557ee52cdc0871972e8ca6bc566332c681c665b4c16648cab77deb
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164075
+    tokens: 112977713
+    bytes: 283956013
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 694
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 558
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2076
+      ip_addresses: 613
+      phone_numbers: 2770
+      mail_routing_headers: 122
+      credentials: 15
+  - url: s3://openwaldo/lookaside/60/88/60882f5f2f00721cfff1d06415b23365c30781b214b8f9610532e83e13e9ba6c
+    sha256: 60882f5f2f00721cfff1d06415b23365c30781b214b8f9610532e83e13e9ba6c
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164173
+    tokens: 113068374
+    bytes: 284027213
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 673
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 573
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2305
+      ip_addresses: 640
+      phone_numbers: 2887
+      mail_routing_headers: 118
+      credentials: 17
+  - url: s3://openwaldo/lookaside/00/d2/00d26ab1c983a7d72646028f57d66e3973086de254dbb040f618582aba621e9e
+    sha256: 00d26ab1c983a7d72646028f57d66e3973086de254dbb040f618582aba621e9e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164183
+    tokens: 113009383
+    bytes: 284033050
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 659
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 516
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2335
+      ip_addresses: 704
+      phone_numbers: 2783
+      mail_routing_headers: 120
+      credentials: 12
+  - url: s3://openwaldo/lookaside/da/ae/daae76310e836fc42eae6f5bcdb4769d65dc4d4426f775a3c4d0f75f91f89810
+    sha256: daae76310e836fc42eae6f5bcdb4769d65dc4d4426f775a3c4d0f75f91f89810
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164060
+    tokens: 113061616
+    bytes: 284027157
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 649
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 558
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2266
+      ip_addresses: 640
+      phone_numbers: 2933
+      mail_routing_headers: 104
+      credentials: 13
+  - url: s3://openwaldo/lookaside/c8/cb/c8cb437017b089c3a767cf46dc2fc4c08e45389c75bc38c701fb57ca7471c234
+    sha256: c8cb437017b089c3a767cf46dc2fc4c08e45389c75bc38c701fb57ca7471c234
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164407
+    tokens: 113080302
+    bytes: 284179015
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 752
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 573
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2305
+      ip_addresses: 763
+      phone_numbers: 2817
+      mail_routing_headers: 115
+      credentials: 17
+  - url: s3://openwaldo/lookaside/c5/22/c522110e6f363d8d2eeb89db2b45dd19b946481389d8bcf6af2d50d2fa1694e1
+    sha256: c522110e6f363d8d2eeb89db2b45dd19b946481389d8bcf6af2d50d2fa1694e1
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164114
+    tokens: 113069139
+    bytes: 283988310
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 672
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 544
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2234
+      ip_addresses: 670
+      phone_numbers: 2841
+      mail_routing_headers: 122
+      credentials: 24
+  - url: s3://openwaldo/lookaside/fa/b9/fab98b2e293763def6f62a8add0297fbdb0d3222394f44fffa0c03618cd79222
+    sha256: fab98b2e293763def6f62a8add0297fbdb0d3222394f44fffa0c03618cd79222
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164339
+    tokens: 113095249
+    bytes: 284095913
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 701
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 547
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2298
+      ip_addresses: 671
+      phone_numbers: 3015
+      mail_routing_headers: 123
+      credentials: 25
+  - url: s3://openwaldo/lookaside/a6/68/a668d6bfae9ab219ea0ca0d67c4d4b17d23832ddc7941bc7dec5443eda14842c
+    sha256: a668d6bfae9ab219ea0ca0d67c4d4b17d23832ddc7941bc7dec5443eda14842c
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164150
+    tokens: 113069111
+    bytes: 284077140
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 710
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 554
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2215
+      ip_addresses: 724
+      phone_numbers: 2976
+      mail_routing_headers: 109
+      credentials: 23
+  - url: s3://openwaldo/lookaside/97/b3/97b3212d8d7bc8e76db05b889431c6d04149520f8bfdd73ef48bc3bbc2f7b95f
+    sha256: 97b3212d8d7bc8e76db05b889431c6d04149520f8bfdd73ef48bc3bbc2f7b95f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164283
+    tokens: 113051856
+    bytes: 284068607
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 686
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 566
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2197
+      ip_addresses: 694
+      phone_numbers: 2676
+      mail_routing_headers: 110
+      credentials: 27
+  - url: s3://openwaldo/lookaside/be/74/be74d2db588721a47772ad2b8cfafc1c8eb64c8a2cbe4737f30e19cf6776b2ef
+    sha256: be74d2db588721a47772ad2b8cfafc1c8eb64c8a2cbe4737f30e19cf6776b2ef
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164367
+    tokens: 113127220
+    bytes: 284106665
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 700
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 568
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2264
+      ip_addresses: 611
+      phone_numbers: 2933
+      mail_routing_headers: 119
+      credentials: 23
+  - url: s3://openwaldo/lookaside/50/c8/50c8083ca3f48df839514cc3be9ee57a746f9b2f15ae29f5c8895db456472200
+    sha256: 50c8083ca3f48df839514cc3be9ee57a746f9b2f15ae29f5c8895db456472200
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164670
+    tokens: 113120106
+    bytes: 284211414
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 716
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 599
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2283
+      ip_addresses: 667
+      phone_numbers: 2855
+      mail_routing_headers: 108
+      credentials: 14
+  - url: s3://openwaldo/lookaside/59/71/59719f5c87ae98897247254bc12aa536cf5ab53c54b866a125bccefc508bfb17
+    sha256: 59719f5c87ae98897247254bc12aa536cf5ab53c54b866a125bccefc508bfb17
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164557
+    tokens: 113114829
+    bytes: 284269022
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 673
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 542
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2181
+      ip_addresses: 696
+      phone_numbers: 2714
+      mail_routing_headers: 122
+      credentials: 14
+  - url: s3://openwaldo/lookaside/db/a8/dba83f8110dd2cc6722ec4518e3779c6288434f8b456aad26a276939c5f98c46
+    sha256: dba83f8110dd2cc6722ec4518e3779c6288434f8b456aad26a276939c5f98c46
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164547
+    tokens: 113152195
+    bytes: 284276062
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 669
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 570
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2369
+      ip_addresses: 678
+      phone_numbers: 2967
+      mail_routing_headers: 111
+      credentials: 16
+  - url: s3://openwaldo/lookaside/54/90/549046219ed7e709f6adb873ebc47125b4d13b40b07b2e4468f139a6f434f4fe
+    sha256: 549046219ed7e709f6adb873ebc47125b4d13b40b07b2e4468f139a6f434f4fe
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164556
+    tokens: 113169362
+    bytes: 284210140
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 718
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 585
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2130
+      ip_addresses: 835
+      phone_numbers: 2660
+      mail_routing_headers: 128
+      credentials: 21
+  - url: s3://openwaldo/lookaside/be/fb/befba79440be0b249744ed38523edddc44bac9877b5539ed4adf52b8d63f8cb0
+    sha256: befba79440be0b249744ed38523edddc44bac9877b5539ed4adf52b8d63f8cb0
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164687
+    tokens: 113160216
+    bytes: 284229590
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 732
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 568
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2164
+      ip_addresses: 774
+      phone_numbers: 2878
+      mail_routing_headers: 110
+      credentials: 26
+  - url: s3://openwaldo/lookaside/c1/38/c1387e60f0fba92656f8303c6f814a63926898c5b37f583b2ca77f50523d3bd7
+    sha256: c1387e60f0fba92656f8303c6f814a63926898c5b37f583b2ca77f50523d3bd7
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164810
+    tokens: 113159402
+    bytes: 284427775
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 683
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 559
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2268
+      ip_addresses: 642
+      phone_numbers: 2946
+      mail_routing_headers: 109
+      credentials: 29
+  - url: s3://openwaldo/lookaside/5d/a2/5da211df1288782f913391d2757389c21e2166d113bffa40e4d1ac3c9b91f967
+    sha256: 5da211df1288782f913391d2757389c21e2166d113bffa40e4d1ac3c9b91f967
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164737
+    tokens: 113183126
+    bytes: 284216365
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 712
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 591
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2208
+      ip_addresses: 638
+      phone_numbers: 2861
+      mail_routing_headers: 104
+      credentials: 20
+  - url: s3://openwaldo/lookaside/e9/9d/e99d12d91043f6af81bd1d28cb0858248e47111b01a6eb4f3b1f46d67b9cd3ce
+    sha256: e99d12d91043f6af81bd1d28cb0858248e47111b01a6eb4f3b1f46d67b9cd3ce
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164916
+    tokens: 113157404
+    bytes: 284410052
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 674
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 544
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2300
+      ip_addresses: 702
+      phone_numbers: 2940
+      mail_routing_headers: 118
+      credentials: 25
+  - url: s3://openwaldo/lookaside/19/a0/19a09a4925cbacd19426d923a77572a7d144fdfed4dd921d0e1f8c6945ba0773
+    sha256: 19a09a4925cbacd19426d923a77572a7d144fdfed4dd921d0e1f8c6945ba0773
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164749
+    tokens: 113203611
+    bytes: 284416874
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 702
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 542
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2315
+      ip_addresses: 793
+      phone_numbers: 2860
+      mail_routing_headers: 104
+      credentials: 28
+  - url: s3://openwaldo/lookaside/17/9c/179c271364b1c86c79bf17a5ced3027291969c1c08f93ba80408d76cf7f06d62
+    sha256: 179c271364b1c86c79bf17a5ced3027291969c1c08f93ba80408d76cf7f06d62
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164695
+    tokens: 113157603
+    bytes: 284248487
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 699
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 545
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2246
+      ip_addresses: 632
+      phone_numbers: 2858
+      mail_routing_headers: 106
+      credentials: 18
+  - url: s3://openwaldo/lookaside/ae/f5/aef50db4e235507f4a7b7a4672329b38fc68fbb153c3f064197afd89d9ad7ff5
+    sha256: aef50db4e235507f4a7b7a4672329b38fc68fbb153c3f064197afd89d9ad7ff5
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164744
+    tokens: 113167138
+    bytes: 284363406
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 667
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 545
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2157
+      ip_addresses: 644
+      phone_numbers: 2695
+      mail_routing_headers: 138
+      credentials: 16
+  - url: s3://openwaldo/lookaside/4d/13/4d13c3d19ddc6a2a4cf197999d2f08c54529fc1ab34ca18e43695a3a54007285
+    sha256: 4d13c3d19ddc6a2a4cf197999d2f08c54529fc1ab34ca18e43695a3a54007285
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164886
+    tokens: 113175575
+    bytes: 284314286
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 669
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 562
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2302
+      ip_addresses: 723
+      phone_numbers: 2849
+      mail_routing_headers: 120
+      credentials: 19
+  - url: s3://openwaldo/lookaside/59/24/59240a07d2bf6a7683dc112fd6abecfb371db71d906370abee15a378253fc945
+    sha256: 59240a07d2bf6a7683dc112fd6abecfb371db71d906370abee15a378253fc945
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165099
+    tokens: 113207499
+    bytes: 284426624
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 710
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 567
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2264
+      ip_addresses: 817
+      phone_numbers: 2847
+      mail_routing_headers: 104
+      credentials: 20
+  - url: s3://openwaldo/lookaside/1b/8f/1b8f2aa573a41855f24082c4429806fcd57ee95bc4740d96ac7fa2eaeab3659e
+    sha256: 1b8f2aa573a41855f24082c4429806fcd57ee95bc4740d96ac7fa2eaeab3659e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165000
+    tokens: 113268991
+    bytes: 284543370
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 722
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 578
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2222
+      ip_addresses: 609
+      phone_numbers: 2778
+      mail_routing_headers: 111
+      credentials: 26
+  - url: s3://openwaldo/lookaside/13/a6/13a6eb36391b3925f0a44198dae06cdf607791cfcdd08715c87713370c9d6bde
+    sha256: 13a6eb36391b3925f0a44198dae06cdf607791cfcdd08715c87713370c9d6bde
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164752
+    tokens: 113219681
+    bytes: 284242251
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 667
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 602
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2241
+      ip_addresses: 736
+      phone_numbers: 2965
+      mail_routing_headers: 140
+      credentials: 23
+  - url: s3://openwaldo/lookaside/f4/50/f45037a4ede201eb7029e061d3d1d457215d956839d2a5acf5cc9007443bc230
+    sha256: f45037a4ede201eb7029e061d3d1d457215d956839d2a5acf5cc9007443bc230
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165065
+    tokens: 113229716
+    bytes: 284471749
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 678
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 548
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2308
+      ip_addresses: 863
+      phone_numbers: 2950
+      mail_routing_headers: 134
+      credentials: 17
+  - url: s3://openwaldo/lookaside/43/90/4390eb706fa4fc085dd2268b9940af66e57ab519a4bf8db7b2d194ed6a3b07b1
+    sha256: 4390eb706fa4fc085dd2268b9940af66e57ab519a4bf8db7b2d194ed6a3b07b1
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 164945
+    tokens: 113254003
+    bytes: 284356996
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 712
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 590
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2170
+      ip_addresses: 748
+      phone_numbers: 2721
+      mail_routing_headers: 120
+      credentials: 16
+  - url: s3://openwaldo/lookaside/e6/30/e63087ef6520591cf2f5b2f53db4a4ac371823c6e8ae28f5b378374781ddf408
+    sha256: e63087ef6520591cf2f5b2f53db4a4ac371823c6e8ae28f5b378374781ddf408
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165093
+    tokens: 113257706
+    bytes: 284564319
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 670
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 580
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2152
+      ip_addresses: 606
+      phone_numbers: 2929
+      mail_routing_headers: 118
+      credentials: 20
+  - url: s3://openwaldo/lookaside/e3/56/e356cde54164c22c872ba2eafd396ae043e5b255f4f59491fa5c8e500f234eca
+    sha256: e356cde54164c22c872ba2eafd396ae043e5b255f4f59491fa5c8e500f234eca
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165268
+    tokens: 113334815
+    bytes: 284612184
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 704
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 588
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2268
+      ip_addresses: 757
+      phone_numbers: 2752
+      mail_routing_headers: 116
+      credentials: 33
+  - url: s3://openwaldo/lookaside/a2/62/a262c9eb20989e00667fac553e283329c528b6d27f2863af5622fb66a9f48cee
+    sha256: a262c9eb20989e00667fac553e283329c528b6d27f2863af5622fb66a9f48cee
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165466
+    tokens: 113272648
+    bytes: 284690285
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 686
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 571
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2209
+      ip_addresses: 917
+      phone_numbers: 2908
+      mail_routing_headers: 144
+      credentials: 26
+  - url: s3://openwaldo/lookaside/ff/eb/ffeb8e2221c5bd9c2b63f6626c61e610a2310b736c096fe78e1f4884e1de2fcb
+    sha256: ffeb8e2221c5bd9c2b63f6626c61e610a2310b736c096fe78e1f4884e1de2fcb
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165094
+    tokens: 113266736
+    bytes: 284561631
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 693
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 532
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2176
+      ip_addresses: 638
+      phone_numbers: 2775
+      mail_routing_headers: 126
+      credentials: 25
+  - url: s3://openwaldo/lookaside/a0/00/a0009108fd9c5da888b373f86f237c708a02d2c17a0f81919f230e90ed3787cc
+    sha256: a0009108fd9c5da888b373f86f237c708a02d2c17a0f81919f230e90ed3787cc
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165177
+    tokens: 113246165
+    bytes: 284478678
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 728
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 568
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2295
+      ip_addresses: 563
+      phone_numbers: 2961
+      mail_routing_headers: 113
+      credentials: 31
+  - url: s3://openwaldo/lookaside/95/e8/95e8fb9f1f85e325bfb7f12e971bcd48997e859ad6b9902cc4393066f578cbf7
+    sha256: 95e8fb9f1f85e325bfb7f12e971bcd48997e859ad6b9902cc4393066f578cbf7
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165025
+    tokens: 113270137
+    bytes: 284436831
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 706
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 562
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2259
+      ip_addresses: 834
+      phone_numbers: 2812
+      mail_routing_headers: 122
+      credentials: 23
+  - url: s3://openwaldo/lookaside/3a/3d/3a3da374e5432a1fae79ff94d1f78e0d2f4eb5b525e2e9437ff9b4e29d6adeff
+    sha256: 3a3da374e5432a1fae79ff94d1f78e0d2f4eb5b525e2e9437ff9b4e29d6adeff
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165311
+    tokens: 113273049
+    bytes: 284615214
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 647
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 511
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2255
+      ip_addresses: 797
+      phone_numbers: 2808
+      mail_routing_headers: 111
+      credentials: 15
+  - url: s3://openwaldo/lookaside/f8/be/f8beb22d8f9d6a03d965c3d21c5afc971c70e4c07a4f5fb9a7bc24c8e8cd758c
+    sha256: f8beb22d8f9d6a03d965c3d21c5afc971c70e4c07a4f5fb9a7bc24c8e8cd758c
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165209
+    tokens: 113302307
+    bytes: 284496933
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 752
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 600
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2247
+      ip_addresses: 832
+      phone_numbers: 2791
+      mail_routing_headers: 121
+      credentials: 20
+  - url: s3://openwaldo/lookaside/1f/44/1f44e57dc92ed64cc8401d9a1df86393008fb24aec54cb0892ed2b31f494cff1
+    sha256: 1f44e57dc92ed64cc8401d9a1df86393008fb24aec54cb0892ed2b31f494cff1
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165228
+    tokens: 113283099
+    bytes: 284583267
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 665
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 588
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2184
+      ip_addresses: 565
+      phone_numbers: 2769
+      mail_routing_headers: 122
+      credentials: 28
+  - url: s3://openwaldo/lookaside/30/e8/30e86401d243af47179642ee510abcdbafe23a2093d29edccdbb7452283c7327
+    sha256: 30e86401d243af47179642ee510abcdbafe23a2093d29edccdbb7452283c7327
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165199
+    tokens: 113317362
+    bytes: 284446395
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 743
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 632
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2326
+      ip_addresses: 609
+      phone_numbers: 2720
+      mail_routing_headers: 122
+      credentials: 20
+  - url: s3://openwaldo/lookaside/97/d2/97d2f6f16c8ed1264b11c83e865238708d45917e93abd5f1ba6b416d57eb41e0
+    sha256: 97d2f6f16c8ed1264b11c83e865238708d45917e93abd5f1ba6b416d57eb41e0
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165297
+    tokens: 113309943
+    bytes: 284680251
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 712
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 580
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2255
+      ip_addresses: 655
+      phone_numbers: 2784
+      mail_routing_headers: 116
+      credentials: 21
+  - url: s3://openwaldo/lookaside/83/2d/832d63706e4f3ef40de248f18cf854873bb0aff4bf3aeee62891013f4d2fa375
+    sha256: 832d63706e4f3ef40de248f18cf854873bb0aff4bf3aeee62891013f4d2fa375
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165404
+    tokens: 113256606
+    bytes: 284676995
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 671
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 559
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2391
+      ip_addresses: 730
+      phone_numbers: 2969
+      mail_routing_headers: 132
+      credentials: 23
+  - url: s3://openwaldo/lookaside/fb/18/fb18c0f9a03400e72c4a40ec163b604c2cd95c1cfa46aae12435abe6c5206a1a
+    sha256: fb18c0f9a03400e72c4a40ec163b604c2cd95c1cfa46aae12435abe6c5206a1a
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165626
+    tokens: 113346563
+    bytes: 284850664
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 697
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 556
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2359
+      ip_addresses: 699
+      phone_numbers: 3006
+      mail_routing_headers: 115
+      credentials: 32
+  - url: s3://openwaldo/lookaside/59/ab/59abe4d578bc08a5fa346dfca18767250df7117635611ea433bded6fade77e46
+    sha256: 59abe4d578bc08a5fa346dfca18767250df7117635611ea433bded6fade77e46
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165877
+    tokens: 113412499
+    bytes: 284857903
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 743
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 558
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2255
+      ip_addresses: 570
+      phone_numbers: 2901
+      mail_routing_headers: 112
+      credentials: 28
+  - url: s3://openwaldo/lookaside/3d/dd/3ddde1d9fdb3f83106bef5eb414b6af9f5eb31412f828047dc675942b92f2e1f
+    sha256: 3ddde1d9fdb3f83106bef5eb414b6af9f5eb31412f828047dc675942b92f2e1f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165602
+    tokens: 113368004
+    bytes: 284805311
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 716
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 574
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2260
+      ip_addresses: 675
+      phone_numbers: 2844
+      mail_routing_headers: 108
+      credentials: 23
+  - url: s3://openwaldo/lookaside/7a/5a/7a5a539ab378ad95120c32fdfe2da135001fa2af80f6d42456ae86443a9f441c
+    sha256: 7a5a539ab378ad95120c32fdfe2da135001fa2af80f6d42456ae86443a9f441c
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165589
+    tokens: 113361635
+    bytes: 284677501
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 689
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 590
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2147
+      ip_addresses: 585
+      phone_numbers: 2826
+      mail_routing_headers: 107
+      credentials: 15
+  - url: s3://openwaldo/lookaside/48/b4/48b406f26c774d2a9863cfc3eac2020ae1f498008f2166e222e47183a444c55d
+    sha256: 48b406f26c774d2a9863cfc3eac2020ae1f498008f2166e222e47183a444c55d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165784
+    tokens: 113379840
+    bytes: 284907677
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 685
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 559
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2332
+      ip_addresses: 695
+      phone_numbers: 2948
+      mail_routing_headers: 120
+      credentials: 36
+  - url: s3://openwaldo/lookaside/f2/8f/f28f59e2b0be2e7e7eb33d713d50399f7a60cb90aede579d19d0036b65472b91
+    sha256: f28f59e2b0be2e7e7eb33d713d50399f7a60cb90aede579d19d0036b65472b91
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165470
+    tokens: 113344429
+    bytes: 284655267
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 724
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 559
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2309
+      ip_addresses: 817
+      phone_numbers: 2744
+      mail_routing_headers: 121
+      credentials: 22
+  - url: s3://openwaldo/lookaside/78/4f/784f0374116e5616917d164c872a9741d4f096eb750f536ce248562305b9137d
+    sha256: 784f0374116e5616917d164c872a9741d4f096eb750f536ce248562305b9137d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165709
+    tokens: 113432875
+    bytes: 284809286
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 691
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 567
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2131
+      ip_addresses: 828
+      phone_numbers: 2887
+      mail_routing_headers: 121
+      credentials: 20
+  - url: s3://openwaldo/lookaside/94/d8/94d81f97c75fe0d02bfc56c16a85e74839c9578057679a47428e1f1c6c1e8468
+    sha256: 94d81f97c75fe0d02bfc56c16a85e74839c9578057679a47428e1f1c6c1e8468
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165562
+    tokens: 113352152
+    bytes: 284623176
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 708
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 595
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2266
+      ip_addresses: 731
+      phone_numbers: 2843
+      mail_routing_headers: 109
+      credentials: 30
+  - url: s3://openwaldo/lookaside/8d/05/8d05547ec24f64563e5aedad449b26f86bc2a8d9733591757db2603f567deda8
+    sha256: 8d05547ec24f64563e5aedad449b26f86bc2a8d9733591757db2603f567deda8
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165680
+    tokens: 113374018
+    bytes: 284745531
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 727
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 579
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2262
+      ip_addresses: 690
+      phone_numbers: 2832
+      mail_routing_headers: 113
+      credentials: 21
+  - url: s3://openwaldo/lookaside/66/a2/66a25661f636af8df0058341b5391ca3cf7c4acd75cde036f666c8b8a44e6106
+    sha256: 66a25661f636af8df0058341b5391ca3cf7c4acd75cde036f666c8b8a44e6106
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165551
+    tokens: 113287568
+    bytes: 284696963
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 667
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 543
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2181
+      ip_addresses: 638
+      phone_numbers: 2841
+      mail_routing_headers: 113
+      credentials: 28
+  - url: s3://openwaldo/lookaside/8d/3b/8d3bed83a81a8a572bbae0709d65a4e47d2994d103bac8a02106523fee50a735
+    sha256: 8d3bed83a81a8a572bbae0709d65a4e47d2994d103bac8a02106523fee50a735
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165681
+    tokens: 113403317
+    bytes: 284699311
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 714
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 592
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2214
+      ip_addresses: 804
+      phone_numbers: 2889
+      mail_routing_headers: 137
+      credentials: 22
+  - url: s3://openwaldo/lookaside/55/bc/55bc510aeb4e8b547d303bb15fb766f52374ca211044ffafc23f21cee76c8a23
+    sha256: 55bc510aeb4e8b547d303bb15fb766f52374ca211044ffafc23f21cee76c8a23
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165728
+    tokens: 113346782
+    bytes: 284775896
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 710
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 593
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2198
+      ip_addresses: 681
+      phone_numbers: 2770
+      mail_routing_headers: 131
+      credentials: 20
+  - url: s3://openwaldo/lookaside/b9/a4/b9a4a1e17bcecb8a2fb0a7ebbc7bc1d8d8e1749f4d142d97461e8bb819c6efbd
+    sha256: b9a4a1e17bcecb8a2fb0a7ebbc7bc1d8d8e1749f4d142d97461e8bb819c6efbd
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166001
+    tokens: 113414260
+    bytes: 285030265
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 726
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 571
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2138
+      ip_addresses: 669
+      phone_numbers: 2879
+      mail_routing_headers: 127
+      credentials: 22
+  - url: s3://openwaldo/lookaside/a3/02/a30246ad5bc2178c4895894211fe778981a84cdd69a5579c03134a69acf8b451
+    sha256: a30246ad5bc2178c4895894211fe778981a84cdd69a5579c03134a69acf8b451
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166014
+    tokens: 113423836
+    bytes: 284845234
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 758
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 561
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2241
+      ip_addresses: 742
+      phone_numbers: 2750
+      mail_routing_headers: 108
+      credentials: 24
+  - url: s3://openwaldo/lookaside/76/94/76949a55018af74cdab59ed989c11a81aa4d48b460b67fc5f08ced3a16bc606b
+    sha256: 76949a55018af74cdab59ed989c11a81aa4d48b460b67fc5f08ced3a16bc606b
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165878
+    tokens: 113467321
+    bytes: 284857067
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 765
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 567
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2078
+      ip_addresses: 654
+      phone_numbers: 2685
+      mail_routing_headers: 116
+      credentials: 20
+  - url: s3://openwaldo/lookaside/62/15/62156794107a17830c97f14b5c73b7b5d08ac52ab36774aaf3d3090821ca1cf5
+    sha256: 62156794107a17830c97f14b5c73b7b5d08ac52ab36774aaf3d3090821ca1cf5
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165983
+    tokens: 113486686
+    bytes: 285012576
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 765
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 616
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2263
+      ip_addresses: 753
+      phone_numbers: 2776
+      mail_routing_headers: 96
+      credentials: 13
+  - url: s3://openwaldo/lookaside/29/7a/297a2088f6dee8f5be399f53af4e1ba1fe14e44fa56ea7871a4bec9a596788ba
+    sha256: 297a2088f6dee8f5be399f53af4e1ba1fe14e44fa56ea7871a4bec9a596788ba
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165960
+    tokens: 113443885
+    bytes: 284891149
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 714
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 570
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2285
+      ip_addresses: 637
+      phone_numbers: 2977
+      mail_routing_headers: 125
+      credentials: 38
+  - url: s3://openwaldo/lookaside/c0/02/c002cb4aa298570f6a7e14cc1584406b92726a4bb1b233b70b32d34d92e59148
+    sha256: c002cb4aa298570f6a7e14cc1584406b92726a4bb1b233b70b32d34d92e59148
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165836
+    tokens: 113457871
+    bytes: 284893479
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 727
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 608
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2228
+      ip_addresses: 635
+      phone_numbers: 2732
+      mail_routing_headers: 120
+      credentials: 31
+  - url: s3://openwaldo/lookaside/b8/26/b8263e6dbb5fd3e3f9101920d18fc925317996a7ce1feb8c07bcb9d47fd3b019
+    sha256: b8263e6dbb5fd3e3f9101920d18fc925317996a7ce1feb8c07bcb9d47fd3b019
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166310
+    tokens: 113472889
+    bytes: 285134545
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 700
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 596
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2276
+      ip_addresses: 649
+      phone_numbers: 2799
+      mail_routing_headers: 111
+      credentials: 15
+  - url: s3://openwaldo/lookaside/a1/dc/a1dc8a0c15a62fc754fc4d05f39ed279badc7bb03b1c79747db94a0d2399edb9
+    sha256: a1dc8a0c15a62fc754fc4d05f39ed279badc7bb03b1c79747db94a0d2399edb9
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166095
+    tokens: 113407890
+    bytes: 284962805
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 695
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 567
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2217
+      ip_addresses: 667
+      phone_numbers: 2742
+      mail_routing_headers: 123
+      credentials: 21
+  - url: s3://openwaldo/lookaside/81/dd/81dd63ef32b33a55667f41412d21c54a705b7e6551fd21cf330d41bb585fa259
+    sha256: 81dd63ef32b33a55667f41412d21c54a705b7e6551fd21cf330d41bb585fa259
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 165993
+    tokens: 113458790
+    bytes: 284949250
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 760
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 592
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2337
+      ip_addresses: 704
+      phone_numbers: 2865
+      mail_routing_headers: 120
+      credentials: 14
+  - url: s3://openwaldo/lookaside/7b/52/7b52fb45a34b576089ea140c1e8fcfd81d4657197033d18006c1e53be21fd4cb
+    sha256: 7b52fb45a34b576089ea140c1e8fcfd81d4657197033d18006c1e53be21fd4cb
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166356
+    tokens: 113426568
+    bytes: 285135693
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 715
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 575
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2212
+      ip_addresses: 704
+      phone_numbers: 2961
+      mail_routing_headers: 121
+      credentials: 31
+  - url: s3://openwaldo/lookaside/5f/a4/5fa484c67c69cef7fdd921db4fcfa97de26edff421700cf6437170e844621d3d
+    sha256: 5fa484c67c69cef7fdd921db4fcfa97de26edff421700cf6437170e844621d3d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166190
+    tokens: 113487697
+    bytes: 285034738
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 671
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 566
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2274
+      ip_addresses: 653
+      phone_numbers: 2825
+      mail_routing_headers: 111
+      credentials: 23
+  - url: s3://openwaldo/lookaside/9d/49/9d493986479ef9fe858eff7b1b99355ebfd3c6724f412ba67993edf9eb51dea5
+    sha256: 9d493986479ef9fe858eff7b1b99355ebfd3c6724f412ba67993edf9eb51dea5
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166203
+    tokens: 113517382
+    bytes: 285030282
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 760
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 570
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2218
+      ip_addresses: 742
+      phone_numbers: 2916
+      mail_routing_headers: 143
+      credentials: 22
+  - url: s3://openwaldo/lookaside/e0/db/e0db344ecfcd784ce02ad5051da7e2a09c0afff9fcb70e34186f0fbbfb624796
+    sha256: e0db344ecfcd784ce02ad5051da7e2a09c0afff9fcb70e34186f0fbbfb624796
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166419
+    tokens: 113511064
+    bytes: 285123999
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 694
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 581
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2304
+      ip_addresses: 760
+      phone_numbers: 2792
+      mail_routing_headers: 128
+      credentials: 19
+  - url: s3://openwaldo/lookaside/f5/f7/f5f7978e120f0958a43f900302757d939044aa5cab085b2392e9af59f692f6b6
+    sha256: f5f7978e120f0958a43f900302757d939044aa5cab085b2392e9af59f692f6b6
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166159
+    tokens: 113501737
+    bytes: 285145008
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 684
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 567
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2281
+      ip_addresses: 686
+      phone_numbers: 2875
+      mail_routing_headers: 119
+      credentials: 21
+  - url: s3://openwaldo/lookaside/b9/2f/b92fe205b50794f06dcf5f5a7fc975dde4b268aa2993b8668b2570c3eca61d99
+    sha256: b92fe205b50794f06dcf5f5a7fc975dde4b268aa2993b8668b2570c3eca61d99
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166237
+    tokens: 113482276
+    bytes: 285155213
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 684
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 548
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2189
+      ip_addresses: 566
+      phone_numbers: 2770
+      mail_routing_headers: 120
+      credentials: 36
+  - url: s3://openwaldo/lookaside/6a/20/6a20eeb24165f85e78722a552a3b1bb3d0f196341396c141307a858787e97434
+    sha256: 6a20eeb24165f85e78722a552a3b1bb3d0f196341396c141307a858787e97434
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166221
+    tokens: 113505193
+    bytes: 284974070
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 717
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 577
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2190
+      ip_addresses: 798
+      phone_numbers: 2814
+      mail_routing_headers: 112
+      credentials: 27
+  - url: s3://openwaldo/lookaside/de/6e/de6e80ffb9f9abc58fd1b68a5aa94616f437295e38b1502f4cf7464ebfd18c03
+    sha256: de6e80ffb9f9abc58fd1b68a5aa94616f437295e38b1502f4cf7464ebfd18c03
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166090
+    tokens: 113504677
+    bytes: 284977184
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 729
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 548
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2418
+      ip_addresses: 854
+      phone_numbers: 2774
+      mail_routing_headers: 118
+      credentials: 23
+  - url: s3://openwaldo/lookaside/be/23/be23622d9e5474e72e0c518b20cf1ffccebfa3ee7f2811e0b6c3c2e82a3a1f1a
+    sha256: be23622d9e5474e72e0c518b20cf1ffccebfa3ee7f2811e0b6c3c2e82a3a1f1a
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166355
+    tokens: 113530678
+    bytes: 285055170
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 729
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 578
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2396
+      ip_addresses: 683
+      phone_numbers: 3021
+      mail_routing_headers: 123
+      credentials: 20
+  - url: s3://openwaldo/lookaside/0a/a3/0aa3203795ac85e38a8e3b6057c066483e1d4ae7c386d01f60360ae20d57ba36
+    sha256: 0aa3203795ac85e38a8e3b6057c066483e1d4ae7c386d01f60360ae20d57ba36
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166385
+    tokens: 113537526
+    bytes: 285117665
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 747
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 553
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2258
+      ip_addresses: 824
+      phone_numbers: 2872
+      mail_routing_headers: 114
+      credentials: 39
+  - url: s3://openwaldo/lookaside/8d/20/8d20deffecc3d209612dda4b3387ec2cbe3379257889e67f9f62e442e1fd42ec
+    sha256: 8d20deffecc3d209612dda4b3387ec2cbe3379257889e67f9f62e442e1fd42ec
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166359
+    tokens: 113480064
+    bytes: 285143305
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 728
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 607
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2222
+      ip_addresses: 774
+      phone_numbers: 2743
+      mail_routing_headers: 134
+      credentials: 19
+  - url: s3://openwaldo/lookaside/41/b1/41b10d8673b733224629b99aae1b98ce774a1dd5bb46d5b65d0575e82c241a1c
+    sha256: 41b10d8673b733224629b99aae1b98ce774a1dd5bb46d5b65d0575e82c241a1c
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166276
+    tokens: 113488756
+    bytes: 285162892
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 724
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 531
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2234
+      ip_addresses: 784
+      phone_numbers: 2661
+      mail_routing_headers: 105
+      credentials: 22
+  - url: s3://openwaldo/lookaside/d7/aa/d7aabdf17231407c14e2ba94750292bb39403624f2937a0e9700234349a4b92f
+    sha256: d7aabdf17231407c14e2ba94750292bb39403624f2937a0e9700234349a4b92f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166428
+    tokens: 113574446
+    bytes: 285186318
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 703
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 567
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2171
+      ip_addresses: 729
+      phone_numbers: 2894
+      mail_routing_headers: 102
+      credentials: 18
+  - url: s3://openwaldo/lookaside/45/50/455077703ab4b2b88ffc427ccf2e243169023cb1d75cd562020e074fefb05fbb
+    sha256: 455077703ab4b2b88ffc427ccf2e243169023cb1d75cd562020e074fefb05fbb
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166651
+    tokens: 113561809
+    bytes: 285201639
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 744
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 611
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2177
+      ip_addresses: 773
+      phone_numbers: 2800
+      mail_routing_headers: 121
+      credentials: 28
+  - url: s3://openwaldo/lookaside/dd/e0/dde09b55157429904054feb4bd5ec4fb2d849ca773d63273ee7c10b341d1aacb
+    sha256: dde09b55157429904054feb4bd5ec4fb2d849ca773d63273ee7c10b341d1aacb
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166577
+    tokens: 113551788
+    bytes: 285260810
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 704
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 550
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2293
+      ip_addresses: 736
+      phone_numbers: 2930
+      mail_routing_headers: 134
+      credentials: 26
+  - url: s3://openwaldo/lookaside/ee/d9/eed940d95d822bee351f5599a73b3e792af64329c8066dd2bb77f2cda0ec83d8
+    sha256: eed940d95d822bee351f5599a73b3e792af64329c8066dd2bb77f2cda0ec83d8
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166591
+    tokens: 113544023
+    bytes: 285199480
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 692
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 550
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2255
+      ip_addresses: 629
+      phone_numbers: 2664
+      mail_routing_headers: 124
+      credentials: 16
+  - url: s3://openwaldo/lookaside/b8/fc/b8fc8324570c8b14029637e9e1ff76ac29e115e72ebce5866268e4a04ef26df0
+    sha256: b8fc8324570c8b14029637e9e1ff76ac29e115e72ebce5866268e4a04ef26df0
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166543
+    tokens: 113598542
+    bytes: 285248462
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 658
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 627
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2173
+      ip_addresses: 689
+      phone_numbers: 2859
+      mail_routing_headers: 127
+      credentials: 21
+  - url: s3://openwaldo/lookaside/c8/3b/c83b7e7252246f859a522155fc2d2dedfbf3035eeef664e05231ee249c735957
+    sha256: c83b7e7252246f859a522155fc2d2dedfbf3035eeef664e05231ee249c735957
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166620
+    tokens: 113632287
+    bytes: 285236875
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 737
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 563
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2220
+      ip_addresses: 639
+      phone_numbers: 2668
+      mail_routing_headers: 129
+      credentials: 23
+  - url: s3://openwaldo/lookaside/28/a0/28a09cc72d023f666583ba191e19f2a238ff4d83db1bdd88050247b922aa5598
+    sha256: 28a09cc72d023f666583ba191e19f2a238ff4d83db1bdd88050247b922aa5598
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166520
+    tokens: 113519498
+    bytes: 285157263
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 721
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 594
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2373
+      ip_addresses: 834
+      phone_numbers: 3024
+      mail_routing_headers: 127
+      credentials: 24
+  - url: s3://openwaldo/lookaside/c6/ed/c6edeb2918e1740f348c46ce8c8c17f9787224aa161d6b0ec14f0406352607b1
+    sha256: c6edeb2918e1740f348c46ce8c8c17f9787224aa161d6b0ec14f0406352607b1
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166445
+    tokens: 113618955
+    bytes: 285023660
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 767
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 592
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2144
+      ip_addresses: 683
+      phone_numbers: 2905
+      mail_routing_headers: 110
+      credentials: 30
+  - url: s3://openwaldo/lookaside/a8/9a/a89aef8f86f80000e880b08a2fc484bcf6ecbe54a6a117588659429ef39d49e3
+    sha256: a89aef8f86f80000e880b08a2fc484bcf6ecbe54a6a117588659429ef39d49e3
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166776
+    tokens: 113658813
+    bytes: 285232174
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 785
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 621
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2163
+      ip_addresses: 760
+      phone_numbers: 2837
+      mail_routing_headers: 129
+      credentials: 15
+  - url: s3://openwaldo/lookaside/db/73/db737e967723f3dfbdfc8b52aa4182b315c00b4d252da1d7d8304821bec201b9
+    sha256: db737e967723f3dfbdfc8b52aa4182b315c00b4d252da1d7d8304821bec201b9
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166809
+    tokens: 113594630
+    bytes: 285307389
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 729
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 630
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2261
+      ip_addresses: 779
+      phone_numbers: 2848
+      mail_routing_headers: 120
+      credentials: 18
+  - url: s3://openwaldo/lookaside/9e/4d/9e4dc75bd34be4652eb877d5ec4a91777a4782b03ce97e258ffbf8de661136df
+    sha256: 9e4dc75bd34be4652eb877d5ec4a91777a4782b03ce97e258ffbf8de661136df
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166506
+    tokens: 113588817
+    bytes: 285152073
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 721
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 608
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2186
+      ip_addresses: 681
+      phone_numbers: 2760
+      mail_routing_headers: 128
+      credentials: 20
+  - url: s3://openwaldo/lookaside/d1/1d/d11d716f0cd11b7cb44f1b0a943f3619c6ffca16caf1c6e5e1b0f11dc56c4ab6
+    sha256: d11d716f0cd11b7cb44f1b0a943f3619c6ffca16caf1c6e5e1b0f11dc56c4ab6
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166855
+    tokens: 113624592
+    bytes: 285298731
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 725
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 542
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2246
+      ip_addresses: 719
+      phone_numbers: 2813
+      mail_routing_headers: 127
+      credentials: 27
+  - url: s3://openwaldo/lookaside/f2/a2/f2a2e06205824741e200bdd7a8ee3a7e6578a349c034777ef3734da64f71ab23
+    sha256: f2a2e06205824741e200bdd7a8ee3a7e6578a349c034777ef3734da64f71ab23
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166685
+    tokens: 113639179
+    bytes: 285269154
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 715
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 588
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2293
+      ip_addresses: 708
+      phone_numbers: 2902
+      mail_routing_headers: 122
+      credentials: 25
+  - url: s3://openwaldo/lookaside/01/1c/011c4b20b1a21fb10ca874f4ebbaa3efba0d13d7c260f2ca2b53dc969d78591a
+    sha256: 011c4b20b1a21fb10ca874f4ebbaa3efba0d13d7c260f2ca2b53dc969d78591a
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166836
+    tokens: 113608077
+    bytes: 285193856
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 790
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 590
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2238
+      ip_addresses: 742
+      phone_numbers: 2913
+      mail_routing_headers: 115
+      credentials: 24
+  - url: s3://openwaldo/lookaside/42/ae/42aef035d8de1fb51a381ac4504c6207ff83fb8f50ec07fbaffb924efbbef3ab
+    sha256: 42aef035d8de1fb51a381ac4504c6207ff83fb8f50ec07fbaffb924efbbef3ab
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166705
+    tokens: 113619505
+    bytes: 285246704
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 744
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 617
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2157
+      ip_addresses: 685
+      phone_numbers: 2858
+      mail_routing_headers: 122
+      credentials: 34
+  - url: s3://openwaldo/lookaside/f5/cd/f5cdfc8b301ae434f8a8cd9709080bc534f039e3407fe37f2912e1604414e825
+    sha256: f5cdfc8b301ae434f8a8cd9709080bc534f039e3407fe37f2912e1604414e825
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166873
+    tokens: 113659416
+    bytes: 285337724
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 783
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 595
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2243
+      ip_addresses: 564
+      phone_numbers: 2668
+      mail_routing_headers: 109
+      credentials: 22
+  - url: s3://openwaldo/lookaside/ef/29/ef295b21dd635b13cea4e177d701eeac1c696ae5388b82fbfe8e5ce7368eba44
+    sha256: ef295b21dd635b13cea4e177d701eeac1c696ae5388b82fbfe8e5ce7368eba44
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167033
+    tokens: 113561829
+    bytes: 285396517
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 765
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 576
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2276
+      ip_addresses: 855
+      phone_numbers: 2934
+      mail_routing_headers: 120
+      credentials: 22
+  - url: s3://openwaldo/lookaside/4a/e3/4ae3d214a0aa6b9e462ceea25958f274fdc8c62c3c67b80bbd12bec414b0be0a
+    sha256: 4ae3d214a0aa6b9e462ceea25958f274fdc8c62c3c67b80bbd12bec414b0be0a
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166916
+    tokens: 113637517
+    bytes: 285514496
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 699
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 556
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2213
+      ip_addresses: 621
+      phone_numbers: 2780
+      mail_routing_headers: 119
+      credentials: 32
+  - url: s3://openwaldo/lookaside/02/ff/02ffecb1ce3e396b5a980b298c84e4bcbb82b4020c0c7fbdae7ec9eb4ea9f9ef
+    sha256: 02ffecb1ce3e396b5a980b298c84e4bcbb82b4020c0c7fbdae7ec9eb4ea9f9ef
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166759
+    tokens: 113681745
+    bytes: 285201835
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 768
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 625
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2182
+      ip_addresses: 659
+      phone_numbers: 2909
+      mail_routing_headers: 131
+      credentials: 22
+  - url: s3://openwaldo/lookaside/35/30/35309bf07d0ed13834d19a1a2f52729851791c72ae360a01c25cb86db8226d77
+    sha256: 35309bf07d0ed13834d19a1a2f52729851791c72ae360a01c25cb86db8226d77
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167009
+    tokens: 113645683
+    bytes: 285412731
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 735
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 620
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2226
+      ip_addresses: 652
+      phone_numbers: 2893
+      mail_routing_headers: 121
+      credentials: 28
+  - url: s3://openwaldo/lookaside/db/12/db1223018b6b73dfb9eea295bc387419f6014d91bf7a3e6b2f7ff46630d0a964
+    sha256: db1223018b6b73dfb9eea295bc387419f6014d91bf7a3e6b2f7ff46630d0a964
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167068
+    tokens: 113677604
+    bytes: 285461651
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 782
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 569
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2282
+      ip_addresses: 722
+      phone_numbers: 2927
+      mail_routing_headers: 124
+      credentials: 20
+  - url: s3://openwaldo/lookaside/08/0f/080ff0868c8baa806be92c61af2db789a204be3193fce916610d0f7bf2b4da68
+    sha256: 080ff0868c8baa806be92c61af2db789a204be3193fce916610d0f7bf2b4da68
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166984
+    tokens: 113617911
+    bytes: 285537171
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 697
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 555
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2256
+      ip_addresses: 758
+      phone_numbers: 2718
+      mail_routing_headers: 126
+      credentials: 17
+  - url: s3://openwaldo/lookaside/3d/40/3d4073ccb180f9b174e7976fca479b7b86dba61a9106a6d9c2d9cf147f1823e5
+    sha256: 3d4073ccb180f9b174e7976fca479b7b86dba61a9106a6d9c2d9cf147f1823e5
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166888
+    tokens: 113705289
+    bytes: 285345398
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 749
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 587
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2174
+      ip_addresses: 686
+      phone_numbers: 2789
+      mail_routing_headers: 124
+      credentials: 17
+  - url: s3://openwaldo/lookaside/29/e5/29e504435262d7ad58ff83309bba56ec173d9cac16d63ee035eb960480ed6958
+    sha256: 29e504435262d7ad58ff83309bba56ec173d9cac16d63ee035eb960480ed6958
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167073
+    tokens: 113705671
+    bytes: 285436347
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 748
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 615
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2099
+      ip_addresses: 750
+      phone_numbers: 2679
+      mail_routing_headers: 110
+      credentials: 29
+  - url: s3://openwaldo/lookaside/ce/ab/ceabd4ef03d7f46e5defce94180cf2a1f6aa2aa2d8ab49b2f2d8d8b8e06db9b2
+    sha256: ceabd4ef03d7f46e5defce94180cf2a1f6aa2aa2d8ab49b2f2d8d8b8e06db9b2
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166716
+    tokens: 113664145
+    bytes: 285282914
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 682
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 578
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2260
+      ip_addresses: 814
+      phone_numbers: 2708
+      mail_routing_headers: 114
+      credentials: 27
+  - url: s3://openwaldo/lookaside/75/5b/755b9789f45cfef3a98dbde5f1c5e6d81300503c6e222b9d4cc45cd8f7bee029
+    sha256: 755b9789f45cfef3a98dbde5f1c5e6d81300503c6e222b9d4cc45cd8f7bee029
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167044
+    tokens: 113673154
+    bytes: 285429249
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 743
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 568
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2381
+      ip_addresses: 885
+      phone_numbers: 3026
+      mail_routing_headers: 123
+      credentials: 12
+  - url: s3://openwaldo/lookaside/0a/c7/0ac7776dd43b3cfed0fa68241ef8953f10eeca9ba339885d2bf29cbd9f7e4193
+    sha256: 0ac7776dd43b3cfed0fa68241ef8953f10eeca9ba339885d2bf29cbd9f7e4193
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167029
+    tokens: 113707529
+    bytes: 285504871
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 725
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 605
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2353
+      ip_addresses: 782
+      phone_numbers: 2823
+      mail_routing_headers: 120
+      credentials: 16
+  - url: s3://openwaldo/lookaside/53/83/53832580af54a1feb46c0c0ba69c5794863f545985178238431eb9574b828396
+    sha256: 53832580af54a1feb46c0c0ba69c5794863f545985178238431eb9574b828396
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167098
+    tokens: 113724387
+    bytes: 285405230
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 800
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 616
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2273
+      ip_addresses: 809
+      phone_numbers: 2901
+      mail_routing_headers: 117
+      credentials: 18
+  - url: s3://openwaldo/lookaside/68/b5/68b5a9b148345776d69c921ec25ebb8e67c0fdfee2087b083019c8674fff0b64
+    sha256: 68b5a9b148345776d69c921ec25ebb8e67c0fdfee2087b083019c8674fff0b64
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167139
+    tokens: 113662124
+    bytes: 285452642
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 713
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 613
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2222
+      ip_addresses: 758
+      phone_numbers: 2736
+      mail_routing_headers: 117
+      credentials: 27
+  - url: s3://openwaldo/lookaside/1c/a5/1ca5de454b67cfe4e491a5dc5d20676f127cdc8745645ceababf93b155e554da
+    sha256: 1ca5de454b67cfe4e491a5dc5d20676f127cdc8745645ceababf93b155e554da
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167026
+    tokens: 113711865
+    bytes: 285438369
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 690
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 600
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2258
+      ip_addresses: 636
+      phone_numbers: 2761
+      mail_routing_headers: 130
+      credentials: 37
+  - url: s3://openwaldo/lookaside/97/22/97229331664a240979af51f6da742cf4d00d042f31fbd77235ca3377320b5fa1
+    sha256: 97229331664a240979af51f6da742cf4d00d042f31fbd77235ca3377320b5fa1
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167143
+    tokens: 113694580
+    bytes: 285462758
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 690
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 558
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2386
+      ip_addresses: 717
+      phone_numbers: 2809
+      mail_routing_headers: 116
+      credentials: 24
+  - url: s3://openwaldo/lookaside/74/99/7499510f8ee9245f438833986c20d5eafbf03e78bf805b18296c56d33db1f109
+    sha256: 7499510f8ee9245f438833986c20d5eafbf03e78bf805b18296c56d33db1f109
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166899
+    tokens: 113741247
+    bytes: 285340939
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 792
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 581
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2320
+      ip_addresses: 754
+      phone_numbers: 2891
+      mail_routing_headers: 127
+      credentials: 30
+  - url: s3://openwaldo/lookaside/c4/bd/c4bdfd24acb085aadf05e2db08c180b075fdcc97b74351e71caf69e3d2ffcdb4
+    sha256: c4bdfd24acb085aadf05e2db08c180b075fdcc97b74351e71caf69e3d2ffcdb4
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167338
+    tokens: 113698323
+    bytes: 285666243
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 737
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 577
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2252
+      ip_addresses: 705
+      phone_numbers: 2756
+      mail_routing_headers: 124
+      credentials: 25
+  - url: s3://openwaldo/lookaside/cc/68/cc685e7a94c2e4edcc67ff45a300f1de5113c3f650dd8062c9ca51f336ad0801
+    sha256: cc685e7a94c2e4edcc67ff45a300f1de5113c3f650dd8062c9ca51f336ad0801
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167284
+    tokens: 113764880
+    bytes: 285604958
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 743
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 614
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2235
+      ip_addresses: 799
+      phone_numbers: 2694
+      mail_routing_headers: 103
+      credentials: 23
+  - url: s3://openwaldo/lookaside/3f/7d/3f7da72ad429a9a5968eb14d48b99e623d133ed21338fcd9d85db8e480df660e
+    sha256: 3f7da72ad429a9a5968eb14d48b99e623d133ed21338fcd9d85db8e480df660e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 166854
+    tokens: 113656759
+    bytes: 285308278
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 793
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 618
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2176
+      ip_addresses: 659
+      phone_numbers: 2755
+      mail_routing_headers: 110
+      credentials: 30
+  - url: s3://openwaldo/lookaside/3c/65/3c65295aab0e2002e00f250bd81a1ef6bb799d5da9506b31b6effc04f1a6997f
+    sha256: 3c65295aab0e2002e00f250bd81a1ef6bb799d5da9506b31b6effc04f1a6997f
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167317
+    tokens: 113689637
+    bytes: 285589843
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 740
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 590
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2201
+      ip_addresses: 750
+      phone_numbers: 2826
+      mail_routing_headers: 130
+      credentials: 26
+  - url: s3://openwaldo/lookaside/5b/f9/5bf90705f3141d93b6abf7d2d765be61a3b8478611adf61563b22cde75aeefba
+    sha256: 5bf90705f3141d93b6abf7d2d765be61a3b8478611adf61563b22cde75aeefba
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167281
+    tokens: 113799483
+    bytes: 285520295
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 770
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 626
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2418
+      ip_addresses: 618
+      phone_numbers: 2818
+      mail_routing_headers: 117
+      credentials: 23
+  - url: s3://openwaldo/lookaside/43/48/4348cfcca90bc354fb56c2d5c542122cc792fa60afc7dc4e0397718fe3de6a44
+    sha256: 4348cfcca90bc354fb56c2d5c542122cc792fa60afc7dc4e0397718fe3de6a44
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167166
+    tokens: 113718736
+    bytes: 285397624
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 713
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 621
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2287
+      ip_addresses: 711
+      phone_numbers: 2732
+      mail_routing_headers: 144
+      credentials: 28
+  - url: s3://openwaldo/lookaside/e3/b4/e3b4288802258dd95ec7553c7cff04715f6adeac1f312b8925080d9b79c8535b
+    sha256: e3b4288802258dd95ec7553c7cff04715f6adeac1f312b8925080d9b79c8535b
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167525
+    tokens: 113740501
+    bytes: 285704535
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 695
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 604
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2143
+      ip_addresses: 614
+      phone_numbers: 2916
+      mail_routing_headers: 121
+      credentials: 11
+  - url: s3://openwaldo/lookaside/26/5a/265ac8458bcc75ae5c6b45c1b382999f573a8b0dae84e37542c4884da754eae6
+    sha256: 265ac8458bcc75ae5c6b45c1b382999f573a8b0dae84e37542c4884da754eae6
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167406
+    tokens: 113736925
+    bytes: 285673771
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 736
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 589
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2269
+      ip_addresses: 850
+      phone_numbers: 2762
+      mail_routing_headers: 118
+      credentials: 21
+  - url: s3://openwaldo/lookaside/4f/18/4f18a8be8ccc33f23323f23c07977cc457b98eecdd03e7b28e560d1227f672bc
+    sha256: 4f18a8be8ccc33f23323f23c07977cc457b98eecdd03e7b28e560d1227f672bc
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167078
+    tokens: 113755226
+    bytes: 285392710
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 731
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 638
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2240
+      ip_addresses: 767
+      phone_numbers: 2802
+      mail_routing_headers: 123
+      credentials: 22
+  - url: s3://openwaldo/lookaside/00/e4/00e4357e495f4d28cddb22267b280b2976b34cc8bad9fbcb74bdb7e4ace004ca
+    sha256: 00e4357e495f4d28cddb22267b280b2976b34cc8bad9fbcb74bdb7e4ace004ca
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167158
+    tokens: 113753456
+    bytes: 285452256
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 774
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 652
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2288
+      ip_addresses: 824
+      phone_numbers: 2730
+      mail_routing_headers: 124
+      credentials: 24
+  - url: s3://openwaldo/lookaside/60/c1/60c1b39b85d0da62348ae62751d30eebc79de18035d428b66dcc73704f94ac6e
+    sha256: 60c1b39b85d0da62348ae62751d30eebc79de18035d428b66dcc73704f94ac6e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167728
+    tokens: 113836347
+    bytes: 285771123
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 791
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 584
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2094
+      ip_addresses: 668
+      phone_numbers: 2826
+      mail_routing_headers: 125
+      credentials: 23
+  - url: s3://openwaldo/lookaside/2e/49/2e49bd243aa4ad0c0632e6b5bb7f08e744b817fd3c6ed689f2bb563badd54a24
+    sha256: 2e49bd243aa4ad0c0632e6b5bb7f08e744b817fd3c6ed689f2bb563badd54a24
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167523
+    tokens: 113791939
+    bytes: 285694393
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 814
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 595
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2189
+      ip_addresses: 727
+      phone_numbers: 2854
+      mail_routing_headers: 128
+      credentials: 16
+  - url: s3://openwaldo/lookaside/4f/b5/4fb5ec5ae52d27f481567767ae7a16d656a75490495b0fc7bc03fbfa541b44e4
+    sha256: 4fb5ec5ae52d27f481567767ae7a16d656a75490495b0fc7bc03fbfa541b44e4
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167600
+    tokens: 113796352
+    bytes: 285708939
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 749
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 599
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2336
+      ip_addresses: 699
+      phone_numbers: 2844
+      mail_routing_headers: 101
+      credentials: 26
+  - url: s3://openwaldo/lookaside/0e/ae/0eaecfb0998d53574080936f4d16f7019c497c120e51af6fe85d877dfc7b7cce
+    sha256: 0eaecfb0998d53574080936f4d16f7019c497c120e51af6fe85d877dfc7b7cce
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167650
+    tokens: 113796531
+    bytes: 285754783
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 764
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 650
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2270
+      ip_addresses: 675
+      phone_numbers: 2898
+      mail_routing_headers: 140
+      credentials: 26
+  - url: s3://openwaldo/lookaside/38/e1/38e10d489e71f9a29f8248f533ef75e0d537d7842ba531037d12d91162829eff
+    sha256: 38e10d489e71f9a29f8248f533ef75e0d537d7842ba531037d12d91162829eff
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167263
+    tokens: 113721989
+    bytes: 285476628
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 792
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 648
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2199
+      ip_addresses: 706
+      phone_numbers: 2903
+      mail_routing_headers: 128
+      credentials: 29
+  - url: s3://openwaldo/lookaside/a4/ac/a4ac658af4ffc1bf4ad6815ffcbd49249a676d11dbb3a2934d3924d5a8d12871
+    sha256: a4ac658af4ffc1bf4ad6815ffcbd49249a676d11dbb3a2934d3924d5a8d12871
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167612
+    tokens: 113831235
+    bytes: 285719120
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 785
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 599
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2302
+      ip_addresses: 844
+      phone_numbers: 2915
+      mail_routing_headers: 139
+      credentials: 20
+  - url: s3://openwaldo/lookaside/c2/f5/c2f562d55d20bef1b7a65bfb8934ebf5c8d9f84f23d0f91a7609fb190937930d
+    sha256: c2f562d55d20bef1b7a65bfb8934ebf5c8d9f84f23d0f91a7609fb190937930d
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167557
+    tokens: 113777880
+    bytes: 285721865
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 724
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 608
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2375
+      ip_addresses: 729
+      phone_numbers: 2969
+      mail_routing_headers: 131
+      credentials: 37
+  - url: s3://openwaldo/lookaside/f3/06/f3062b323b26172c2f9405d81bb87064cf97f0b12ef32f97e6c8478494f545a8
+    sha256: f3062b323b26172c2f9405d81bb87064cf97f0b12ef32f97e6c8478494f545a8
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167439
+    tokens: 113799657
+    bytes: 285596139
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 693
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 607
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2237
+      ip_addresses: 761
+      phone_numbers: 2754
+      mail_routing_headers: 122
+      credentials: 21
+  - url: s3://openwaldo/lookaside/aa/22/aa22604d2ddcb96f28f0d6ca23d3bd6229e93d3f712bd0dd040ba613279118ae
+    sha256: aa22604d2ddcb96f28f0d6ca23d3bd6229e93d3f712bd0dd040ba613279118ae
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167433
+    tokens: 113842420
+    bytes: 285709631
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 722
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 639
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2366
+      ip_addresses: 787
+      phone_numbers: 2944
+      mail_routing_headers: 117
+      credentials: 28
+  - url: s3://openwaldo/lookaside/cb/07/cb07d7a31382b1b79fdbde043b26b02dde4345051eb143aa4fbe45fa0d47c186
+    sha256: cb07d7a31382b1b79fdbde043b26b02dde4345051eb143aa4fbe45fa0d47c186
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167685
+    tokens: 113807231
+    bytes: 285632120
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 763
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 647
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2312
+      ip_addresses: 677
+      phone_numbers: 2728
+      mail_routing_headers: 130
+      credentials: 28
+  - url: s3://openwaldo/lookaside/ba/7d/ba7d4eb11b04217f6b246f235cc4d6bc323d7854e2b28001828662647327c5d1
+    sha256: ba7d4eb11b04217f6b246f235cc4d6bc323d7854e2b28001828662647327c5d1
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167384
+    tokens: 113823485
+    bytes: 285487469
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 745
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 624
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2135
+      ip_addresses: 781
+      phone_numbers: 2894
+      mail_routing_headers: 119
+      credentials: 24
+  - url: s3://openwaldo/lookaside/fc/cb/fccbce021befa2d010e47477dcabc8a9cd09b3f4a74f21937c78b4234bd5af7e
+    sha256: fccbce021befa2d010e47477dcabc8a9cd09b3f4a74f21937c78b4234bd5af7e
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167366
+    tokens: 113813947
+    bytes: 285577175
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 803
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 648
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2161
+      ip_addresses: 623
+      phone_numbers: 2857
+      mail_routing_headers: 133
+      credentials: 19
+  - url: s3://openwaldo/lookaside/93/93/9393037d12168a5dc57957f3ece810b1423da3aa0e41c055835a46a4ff723b34
+    sha256: 9393037d12168a5dc57957f3ece810b1423da3aa0e41c055835a46a4ff723b34
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167548
+    tokens: 113793814
+    bytes: 285725365
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 751
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 594
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2162
+      ip_addresses: 812
+      phone_numbers: 2717
+      mail_routing_headers: 96
+      credentials: 18
+  - url: s3://openwaldo/lookaside/07/c2/07c2fb45c5cb841612e76278dc237d63b134aa82791cf312ad2d6eaa5e9de7d8
+    sha256: 07c2fb45c5cb841612e76278dc237d63b134aa82791cf312ad2d6eaa5e9de7d8
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167404
+    tokens: 113809046
+    bytes: 285495305
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 772
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 573
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2354
+      ip_addresses: 642
+      phone_numbers: 2912
+      mail_routing_headers: 121
+      credentials: 18
+  - url: s3://openwaldo/lookaside/c5/cf/c5cffa15954ed14786dda3eb07fd418766812f9ea1e1e69ca83580e83f9fdf6b
+    sha256: c5cffa15954ed14786dda3eb07fd418766812f9ea1e1e69ca83580e83f9fdf6b
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167732
+    tokens: 113872715
+    bytes: 285783653
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 774
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 615
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2373
+      ip_addresses: 664
+      phone_numbers: 2819
+      mail_routing_headers: 136
+      credentials: 27
+  - url: s3://openwaldo/lookaside/36/9c/369ce94fa2c29c6c84acfbeaa685f20c9664bf8eeacc3b1ccb7fd9b697518e96
+    sha256: 369ce94fa2c29c6c84acfbeaa685f20c9664bf8eeacc3b1ccb7fd9b697518e96
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 167506
+    tokens: 113817602
+    bytes: 285587866
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 803
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 643
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 2211
+      ip_addresses: 777
+      phone_numbers: 2848
+      mail_routing_headers: 125
+      credentials: 11
+  - url: s3://openwaldo/lookaside/85/7e/857eebf1d457934cee11535353c2d53ee230297b60a00968383a5d758106e51a
+    sha256: 857eebf1d457934cee11535353c2d53ee230297b60a00968383a5d758106e51a
+    license: ODC-BY-1.0
+    sources:
+      - HuggingFaceTB/smollm-corpus Cosmopedia v2
+    docs: 37324
+    tokens: 25428635
+    bytes: 63749026
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 155
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 159
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 480
+      ip_addresses: 171
+      phone_numbers: 638
+      mail_routing_headers: 25
+      credentials: 7

@@ -6,3 +6,5 @@ entries:
     type: dir
   - name: common-pile
     type: dir
+  - name: synthetic
+    type: dir

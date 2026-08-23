@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: core/synthetic
+entries:
+  - name: cosmopedia-v2
+    type: dir
