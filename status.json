@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-23T00:41:44Z",
-  "index_commit": "c058116",
+  "generated": "2026-08-23T14:47:06Z",
+  "index_commit": "f9fda97",
   "manifests": 61,
-  "shards": 1495,
+  "shards": 1498,
   "docs": 116005269,
-  "tokens": 347997531832,
-  "bytes": 403951577388,
+  "tokens": 348857016445,
+  "bytes": 404712405331,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -158,10 +158,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 931,
+      "shards": 934,
       "docs": 27770765,
-      "tokens": 228626939987,
-      "bytes": 205811686702
+      "tokens": 229486424600,
+      "bytes": 206572514645
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -2914,6 +2914,35 @@
       }
     },
     {
+      "path": "science/plos",
+      "name": "plos",
+      "title": "PLOS Articles",
+      "description": "Peer-reviewed research articles published by the Public Library of Science.",
+      "sources": [
+        {
+          "name": "plos",
+          "origin": "plos",
+          "version": null,
+          "url": "https://allof.plos.org/allofplos.zip"
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 17,
+      "docs": 391470,
+      "tokens": 3586020662,
+      "bytes": 4539885996,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 17,
+          "tokens": 3586020662
+        }
+      }
+    },
+    {
       "path": "core/common-pile/wikiteam",
       "name": "wikiteam",
       "title": "WikiTeam Archives",
@@ -2968,35 +2997,6 @@
         "CC-BY-4.0": {
           "shards": 12,
           "tokens": 2804023657
-        }
-      }
-    },
-    {
-      "path": "science/plos",
-      "name": "plos",
-      "title": "PLOS Articles",
-      "description": "Peer-reviewed research articles published by the Public Library of Science.",
-      "sources": [
-        {
-          "name": "plos",
-          "origin": "plos",
-          "version": "2026-07-30 fetch",
-          "url": "https://allof.plos.org/allofplos.zip"
-        }
-      ],
-      "converted_by": "waldo index ingest",
-      "languages": [
-        "en"
-      ],
-      "programming_languages": [],
-      "shards": 14,
-      "docs": 391470,
-      "tokens": 2726536049,
-      "bytes": 3779058053,
-      "licenses": {
-        "CC-BY-4.0": {
-          "shards": 14,
-          "tokens": 2726536049
         }
       }
     },
