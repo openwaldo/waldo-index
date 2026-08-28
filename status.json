@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-24T02:37:29Z",
-  "index_commit": "39eb1e7",
-  "manifests": 62,
-  "shards": 1703,
-  "docs": 151594789,
-  "tokens": 369732679834,
-  "bytes": 462777941083,
+  "generated": "2026-08-28T23:56:23Z",
+  "index_commit": "134bf25",
+  "manifests": 64,
+  "shards": 1705,
+  "docs": 151653051,
+  "tokens": 369754821022,
+  "bytes": 462796394437,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -158,10 +158,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 934,
-      "docs": 27770765,
-      "tokens": 229486424600,
-      "bytes": 206572514645
+      "shards": 936,
+      "docs": 27829027,
+      "tokens": 229508565788,
+      "bytes": 206590967999
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 50,
+    "en": 52,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -4262,6 +4262,41 @@
       }
     },
     {
+      "path": "post-train/conversation/taskmaster",
+      "name": "taskmaster",
+      "title": "Google Taskmaster Dialog Corpus",
+      "description": "The complete Taskmaster 1 through 4 collections of crowdworker-authored task-oriented conversations across everyday service domains.",
+      "sources": [
+        {
+          "name": "Google Taskmaster",
+          "origin": "Google Taskmaster",
+          "version": "d92cb6af3005f1dc09c39e75e7daf4a04905e00b",
+          "url": "https://github.com/google-research-datasets/Taskmaster",
+          "input_formats": [
+            "json"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 57760,
+      "tokens": 21869515,
+      "bytes": 18186783,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 21869515
+        }
+      },
+      "input_formats": [
+        "json"
+      ]
+    },
+    {
       "path": "community/alpine-linux-mailing-list",
       "name": "alpine-linux-mailing-list",
       "title": "Alpine Linux Development Mailing List",
@@ -4744,6 +4779,41 @@
           "tokens": 12735
         }
       }
+    },
+    {
+      "path": "post-train/conversation/ccpe",
+      "name": "ccpe",
+      "title": "Coached Conversational Preference Elicitation",
+      "description": "The complete Coached Conversational Preference Elicitation corpus of natural human conversations about movie preferences.",
+      "sources": [
+        {
+          "name": "Google CCPE-M",
+          "origin": "Google CCPE-M",
+          "version": "2c9cd30f33f3a154b5a27d015333679262ff36f5",
+          "url": "https://github.com/google-research-datasets/ccpe",
+          "input_formats": [
+            "json"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 502,
+      "tokens": 271673,
+      "bytes": 266571,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 271673
+        }
+      },
+      "input_formats": [
+        "json"
+      ]
     },
     {
       "path": "math/lopez-mateos/conjuntos-logica-funciones",
