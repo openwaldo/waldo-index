@@ -2,5 +2,7 @@ kind: index
 schema: 1
 path: post-train
 entries:
+  - name: conversation
+    type: dir
   - name: sft
     type: dir

@@ -1,0 +1,88 @@
+kind: manifest
+schema: 2
+name: ccpe
+title: Coached Conversational Preference Elicitation
+description: The complete Coached Conversational Preference Elicitation corpus of natural human conversations about movie preferences.
+content:
+  languages:
+    - en
+license: CC-BY-4.0
+sources:
+  - name: Google CCPE-M
+    source: Google CCPE-M
+    version: 2c9cd30f33f3a154b5a27d015333679262ff36f5
+    input_formats:
+      - json
+    license: CC-BY-4.0
+    license_evidence:
+      declaration: Google declares the CCPE data available under Creative Commons Attribution 4.0 in the repository README.
+      url: https://github.com/google-research-datasets/ccpe/blob/2c9cd30f33f3a154b5a27d015333679262ff36f5/README.md
+    url: https://github.com/google-research-datasets/ccpe
+    category: public-dataset
+    sha256: 0dc7411c1818f012976b44450807d83b966e1163e88297cfde7f7b9c169813fc
+    content:
+      types:
+        - human conversations
+        - movie preference discussions
+        - spoken dialogue transcripts
+      languages:
+        - en
+      selection: The complete 502-dialog data.json corpus; annotations are retained in the raw records while repository documentation is excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: no
+    acquisition:
+      basis: The complete dataset is retained directly from the publisher's revision-pinned repository without transformation.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:7114e0031bbdeec49370b947131a9df3bb6a269485ed1abe240da6d3a7de1cd1
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 5
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 0
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 0
+  phone_numbers: 0
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: s3://openwaldo/lookaside/09/0c/090c7c16d0a5d7a80f5d356bf6e20118e5b5b2f5cd9dd2e7a4138bad8eee45f8
+    sha256: 090c7c16d0a5d7a80f5d356bf6e20118e5b5b2f5cd9dd2e7a4138bad8eee45f8
+    license: CC-BY-4.0
+    sources:
+      - Google CCPE-M
+    docs: 502
+    tokens: 271673
+    bytes: 266571
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 5
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 0
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 0
+      phone_numbers: 0
+      mail_routing_headers: 0
+      credentials: 0

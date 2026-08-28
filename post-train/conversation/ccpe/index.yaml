@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/conversation/ccpe
+entries:
+  - name: ccpe.yaml
+    type: manifest

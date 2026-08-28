@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/conversation
+entries:
+  - name: ccpe
+    type: dir
