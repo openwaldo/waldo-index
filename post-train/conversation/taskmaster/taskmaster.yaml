@@ -1,0 +1,89 @@
+kind: manifest
+schema: 2
+name: taskmaster
+title: Google Taskmaster Dialog Corpus
+description: The complete Taskmaster 1 through 4 collections of crowdworker-authored task-oriented conversations across everyday service domains.
+content:
+  languages:
+    - en
+license: CC-BY-4.0
+sources:
+  - name: Google Taskmaster
+    source: Google Taskmaster
+    version: d92cb6af3005f1dc09c39e75e7daf4a04905e00b
+    input_formats:
+      - json
+    license: CC-BY-4.0
+    license_evidence:
+      declaration: Each selected Taskmaster release declares Creative Commons Attribution 4.0 in its release README.
+      url: https://github.com/google-research-datasets/Taskmaster/tree/d92cb6af3005f1dc09c39e75e7daf4a04905e00b
+    url: https://github.com/google-research-datasets/Taskmaster
+    category: public-dataset
+    sha256: 3742a7a18daea2114a5b3c416a9b26db8cb636e5c72bd2b3e580b903f2b03a88
+    content:
+      types:
+        - human conversations
+        - self-dialogues
+        - spoken dialogue transcripts
+        - task-oriented dialogue
+      languages:
+        - en
+      selection: All 60,793 dialog records from the TM-1, TM-2, TM-3, and TM-4 data files; samples, ontologies, instructions, split lists, and reward examples are excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: no
+    acquisition:
+      basis: All dialogue JSON is retained directly from the publisher's revision-pinned repository without transformation.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:7ca06aa33004020118f0ebba4b6b848031085c3ce8cf40ff79e31c23f447af76
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 925
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 80
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 575
+  ip_addresses: 1
+  phone_numbers: 5327
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: s3://openwaldo/lookaside/64/d0/64d04179fa07fa7c9ff847eee69c46d29af673c79ae74cedf71c39b4c491b5b7
+    sha256: 64d04179fa07fa7c9ff847eee69c46d29af673c79ae74cedf71c39b4c491b5b7
+    license: CC-BY-4.0
+    sources:
+      - Google Taskmaster
+    docs: 57760
+    tokens: 21869515
+    bytes: 18186783
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 925
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 80
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 575
+      ip_addresses: 1
+      phone_numbers: 5327
+      mail_routing_headers: 0
+      credentials: 0

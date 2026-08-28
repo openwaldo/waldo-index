@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/conversation/taskmaster
+entries:
+  - name: taskmaster.yaml
+    type: manifest
