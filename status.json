@@ -1,22 +1,28 @@
 {
-  "generated": "2026-08-29T00:09:55Z",
-  "index_commit": "8a41311",
-  "manifests": 65,
-  "shards": 1706,
-  "docs": 151675874,
-  "tokens": 369764101629,
-  "bytes": 462803434181,
+  "generated": "2026-08-29T14:19:41Z",
+  "index_commit": "51f6836",
+  "manifests": 66,
+  "shards": 1758,
+  "docs": 175021298,
+  "tokens": 379966290072,
+  "bytes": 477491790739,
   "licenses": {
     "0BSD": {
-      "shards": 1,
-      "docs": 592,
-      "tokens": 3573356,
+      "shards": 53,
+      "docs": 15029,
+      "tokens": 8406154,
+      "bytes": 0
+    },
+    "AFL-3.0": {
+      "shards": 52,
+      "docs": 4700,
+      "tokens": 1284231,
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 23,
-      "docs": 2026805,
-      "tokens": 2785449095,
+      "shards": 75,
+      "docs": 8680088,
+      "tokens": 5926778773,
       "bytes": 1456630877
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
@@ -109,10 +115,16 @@
       "tokens": 49618936,
       "bytes": 0
     },
+    "Artistic-2.0": {
+      "shards": 52,
+      "docs": 10537,
+      "tokens": 5099851,
+      "bytes": 0
+    },
     "BSD-2-Clause": {
-      "shards": 7,
-      "docs": 112387,
-      "tokens": 376354830,
+      "shards": 59,
+      "docs": 308143,
+      "tokens": 465690078,
       "bytes": 0
     },
     "BSD-2-Clause AND BSD-3-Clause AND MIT": {
@@ -140,15 +152,33 @@
       "bytes": 0
     },
     "BSD-3-Clause": {
-      "shards": 7,
-      "docs": 164602,
-      "tokens": 429074144,
+      "shards": 59,
+      "docs": 1300344,
+      "tokens": 1112810032,
       "bytes": 0
     },
     "BSD-3-Clause AND MIT": {
       "shards": 1,
       "docs": 53,
       "tokens": 19120,
+      "bytes": 0
+    },
+    "BSD-3-Clause-Clear": {
+      "shards": 52,
+      "docs": 8679,
+      "tokens": 4073424,
+      "bytes": 0
+    },
+    "BSD-4-Clause": {
+      "shards": 52,
+      "docs": 2203,
+      "tokens": 589933,
+      "bytes": 0
+    },
+    "BSL-1.0": {
+      "shards": 52,
+      "docs": 41602,
+      "tokens": 21103228,
       "bytes": 0
     },
     "CC-BY-3.0": {
@@ -158,9 +188,9 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 936,
-      "docs": 27829027,
-      "tokens": 229508565788,
+      "shards": 988,
+      "docs": 28452207,
+      "tokens": 229757383043,
       "bytes": 206590967999
     },
     "CC-BY-4.0 AND MIT": {
@@ -200,15 +230,21 @@
       "bytes": 0
     },
     "CC0-1.0": {
-      "shards": 224,
-      "docs": 3013224,
-      "tokens": 10331976760,
+      "shards": 276,
+      "docs": 3217283,
+      "tokens": 10404330275,
       "bytes": 13095639659
     },
     "CC0-1.0 AND MIT": {
       "shards": 1,
       "docs": 1,
       "tokens": 242,
+      "bytes": 0
+    },
+    "ECL-2.0": {
+      "shards": 52,
+      "docs": 10432,
+      "tokens": 3322800,
       "bytes": 0
     },
     "GNU Free Documentation License": {
@@ -247,6 +283,12 @@
       "tokens": 521660603,
       "bytes": 0
     },
+    "ISC": {
+      "shards": 52,
+      "docs": 83235,
+      "tokens": 31875977,
+      "bytes": 0
+    },
     "ISC AND MIT": {
       "shards": 1,
       "docs": 7,
@@ -257,6 +299,12 @@
       "shards": 1,
       "docs": 19488,
       "tokens": 113027735,
+      "bytes": 0
+    },
+    "LPPL-1.3c": {
+      "shards": 52,
+      "docs": 3001,
+      "tokens": 1596958,
       "bytes": 0
     },
     "LicenseRef-Apache-Public-Forum": {
@@ -308,20 +356,122 @@
       "bytes": 3204733700
     },
     "MIT": {
-      "shards": 10,
-      "docs": 628432,
-      "tokens": 802071009,
+      "shards": 62,
+      "docs": 9864297,
+      "tokens": 4599336082,
       "bytes": 374455862
+    },
+    "MIT-0": {
+      "shards": 52,
+      "docs": 23765,
+      "tokens": 11201349,
+      "bytes": 0
+    },
+    "MS-PL": {
+      "shards": 52,
+      "docs": 8627,
+      "tokens": 3569901,
+      "bytes": 0
+    },
+    "MulanPSL-2.0": {
+      "shards": 52,
+      "docs": 567,
+      "tokens": 245173,
+      "bytes": 0
+    },
+    "NCSA": {
+      "shards": 52,
+      "docs": 2580,
+      "tokens": 854551,
+      "bytes": 0
     },
     "ODC-BY-1.0": {
       "shards": 221,
       "docs": 36537597,
       "tokens": 25301901368,
       "bytes": 62346946127
+    },
+    "PostgreSQL": {
+      "shards": 52,
+      "docs": 3648,
+      "tokens": 1985840,
+      "bytes": 0
+    },
+    "UPL-1.0": {
+      "shards": 52,
+      "docs": 10786,
+      "tokens": 5220911,
+      "bytes": 0
+    },
+    "Unlicense": {
+      "shards": 52,
+      "docs": 122152,
+      "tokens": 73237627,
+      "bytes": 0
+    },
+    "Vim": {
+      "shards": 52,
+      "docs": 13919,
+      "tokens": 11098923,
+      "bytes": 0
+    },
+    "WTFPL": {
+      "shards": 52,
+      "docs": 29778,
+      "tokens": 10215508,
+      "bytes": 0
+    },
+    "Zlib": {
+      "shards": 52,
+      "docs": 38701,
+      "tokens": 23111372,
+      "bytes": 0
+    },
+    "apache-2.0": {
+      "shards": 52,
+      "docs": 1489195,
+      "tokens": 644795980,
+      "bytes": 0
+    },
+    "artistic-2.0": {
+      "shards": 52,
+      "docs": 4612,
+      "tokens": 2085857,
+      "bytes": 0
+    },
+    "bsd-2-clause": {
+      "shards": 52,
+      "docs": 126620,
+      "tokens": 58761570,
+      "bytes": 0
+    },
+    "bsd-3-clause": {
+      "shards": 52,
+      "docs": 381205,
+      "tokens": 169048027,
+      "bytes": 0
+    },
+    "isc": {
+      "shards": 52,
+      "docs": 39794,
+      "tokens": 16469062,
+      "bytes": 0
+    },
+    "mit": {
+      "shards": 52,
+      "docs": 2789268,
+      "tokens": 1050080327,
+      "bytes": 0
+    },
+    "unlicense": {
+      "shards": 52,
+      "docs": 33496,
+      "tokens": 13590608,
+      "bytes": 0
     }
   },
   "languages": {
-    "en": 53,
+    "en": 54,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -587,6 +737,165 @@
           "tokens": 10571397129
         }
       }
+    },
+    {
+      "path": "community/github-archive",
+      "name": "github-archive",
+      "title": "Open-Source GitHub Discussions",
+      "description": "Filtered issues, pull requests, and comments from openly licensed GitHub repositories, retained as technical community text.",
+      "sources": [
+        {
+          "name": "common-pile/github_archive_filtered",
+          "origin": "common-pile/github_archive_filtered",
+          "version": "52282fe96670254bdc0d44dd718ee7a27210ee85",
+          "url": "https://huggingface.co/datasets/common-pile/github_archive_filtered",
+          "input_formats": [
+            "jsonl"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 52,
+      "docs": 23345424,
+      "tokens": 10202188443,
+      "bytes": 14688356558,
+      "licenses": {
+        "0BSD": {
+          "shards": 52,
+          "tokens": 4832798
+        },
+        "AFL-3.0": {
+          "shards": 52,
+          "tokens": 1284231
+        },
+        "Apache-2.0": {
+          "shards": 52,
+          "tokens": 3141329678
+        },
+        "Artistic-2.0": {
+          "shards": 52,
+          "tokens": 5099851
+        },
+        "BSD-2-Clause": {
+          "shards": 52,
+          "tokens": 89335248
+        },
+        "BSD-3-Clause": {
+          "shards": 52,
+          "tokens": 683735888
+        },
+        "BSD-3-Clause-Clear": {
+          "shards": 52,
+          "tokens": 4073424
+        },
+        "BSD-4-Clause": {
+          "shards": 52,
+          "tokens": 589933
+        },
+        "BSL-1.0": {
+          "shards": 52,
+          "tokens": 21103228
+        },
+        "CC-BY-4.0": {
+          "shards": 52,
+          "tokens": 248817255
+        },
+        "CC0-1.0": {
+          "shards": 52,
+          "tokens": 72353515
+        },
+        "ECL-2.0": {
+          "shards": 52,
+          "tokens": 3322800
+        },
+        "ISC": {
+          "shards": 52,
+          "tokens": 31875977
+        },
+        "LPPL-1.3c": {
+          "shards": 52,
+          "tokens": 1596958
+        },
+        "MIT": {
+          "shards": 52,
+          "tokens": 3797265073
+        },
+        "MIT-0": {
+          "shards": 52,
+          "tokens": 11201349
+        },
+        "MS-PL": {
+          "shards": 52,
+          "tokens": 3569901
+        },
+        "MulanPSL-2.0": {
+          "shards": 52,
+          "tokens": 245173
+        },
+        "NCSA": {
+          "shards": 52,
+          "tokens": 854551
+        },
+        "PostgreSQL": {
+          "shards": 52,
+          "tokens": 1985840
+        },
+        "UPL-1.0": {
+          "shards": 52,
+          "tokens": 5220911
+        },
+        "Unlicense": {
+          "shards": 52,
+          "tokens": 73237627
+        },
+        "Vim": {
+          "shards": 52,
+          "tokens": 11098923
+        },
+        "WTFPL": {
+          "shards": 52,
+          "tokens": 10215508
+        },
+        "Zlib": {
+          "shards": 52,
+          "tokens": 23111372
+        },
+        "apache-2.0": {
+          "shards": 52,
+          "tokens": 644795980
+        },
+        "artistic-2.0": {
+          "shards": 52,
+          "tokens": 2085857
+        },
+        "bsd-2-clause": {
+          "shards": 52,
+          "tokens": 58761570
+        },
+        "bsd-3-clause": {
+          "shards": 52,
+          "tokens": 169048027
+        },
+        "isc": {
+          "shards": 52,
+          "tokens": 16469062
+        },
+        "mit": {
+          "shards": 52,
+          "tokens": 1050080327
+        },
+        "unlicense": {
+          "shards": 52,
+          "tokens": 13590608
+        }
+      },
+      "input_formats": [
+        "jsonl"
+      ]
     },
     {
       "path": "core/common-pile/biodiversity-heritage-library",
