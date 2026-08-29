@@ -10,6 +10,8 @@ entries:
     type: dir
   - name: git-mailing-list
     type: dir
+  - name: github-archive
+    type: dir
   - name: glibc-mailing-lists
     type: dir
   - name: gnu-mailing-lists

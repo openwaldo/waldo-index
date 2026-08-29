@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: community/github-archive
+entries:
+  - name: github-archive.yaml
+    type: manifest
