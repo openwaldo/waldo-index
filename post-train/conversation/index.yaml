@@ -4,5 +4,7 @@ path: post-train/conversation
 entries:
   - name: ccpe
     type: dir
+  - name: schema-guided-dialogue
+    type: dir
   - name: taskmaster
     type: dir

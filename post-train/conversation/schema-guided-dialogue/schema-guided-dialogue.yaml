@@ -1,0 +1,88 @@
+kind: manifest
+schema: 2
+name: schema-guided-dialogue
+title: Schema-Guided Dialogue
+description: The complete original Schema-Guided Dialogue dataset of annotated multi-domain conversations between users and virtual assistants.
+content:
+  languages:
+    - en
+license: CC-BY-SA-4.0
+sources:
+  - name: Google Schema-Guided Dialogue Dataset
+    source: Google Schema-Guided Dialogue Dataset
+    version: e852981ae34990f4358979625854259302feaa78
+    input_formats:
+      - json
+    license: CC-BY-SA-4.0
+    license_evidence:
+      declaration: Google releases the SGD and SGD-X datasets under Creative Commons Attribution-ShareAlike 4.0; this selection contains only the original SGD dialogue records.
+      url: https://github.com/google-research-datasets/dstc8-schema-guided-dialogue/blob/e852981ae34990f4358979625854259302feaa78/LICENSE.txt
+    url: https://github.com/google-research-datasets/dstc8-schema-guided-dialogue
+    category: public-dataset
+    sha256: 7d32b7ccebd54afbf9a523ba8cb305cd9a7a94edf21be12e585d0960b3534d38
+    content:
+      types:
+        - human conversations
+        - task-oriented dialogue
+        - virtual assistant dialogue
+      languages:
+        - en
+      selection: All original train, development, and test dialogue JSON files; schemas, SGD-X variants, images, documentation, and code are excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Dialogue JSON is retained directly from the publisher's immutable repository revision without transformation.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:dea7b7ba44c4570d28f38db2ff3e8c06397119055ac6fd0704660b6d36f4c000
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 131
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 0
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 0
+  phone_numbers: 6093
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: s3://openwaldo/lookaside/e4/59/e4591e64a28286d526e4b392ec4d2b6bcdb738d96aae30122420ff4abe859c60
+    sha256: e4591e64a28286d526e4b392ec4d2b6bcdb738d96aae30122420ff4abe859c60
+    license: CC-BY-SA-4.0
+    sources:
+      - Google Schema-Guided Dialogue Dataset
+    docs: 22823
+    tokens: 9280607
+    bytes: 7039744
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 131
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 0
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 0
+      phone_numbers: 6093
+      mail_routing_headers: 0
+      credentials: 0
