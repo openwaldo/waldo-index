@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-28T23:56:23Z",
-  "index_commit": "134bf25",
-  "manifests": 64,
-  "shards": 1705,
-  "docs": 151653051,
-  "tokens": 369754821022,
-  "bytes": 462796394437,
+  "generated": "2026-08-29T00:09:55Z",
+  "index_commit": "8a41311",
+  "manifests": 65,
+  "shards": 1706,
+  "docs": 151675874,
+  "tokens": 369764101629,
+  "bytes": 462803434181,
   "licenses": {
     "0BSD": {
       "shards": 1,
@@ -188,10 +188,10 @@
       "bytes": 0
     },
     "CC-BY-SA-4.0": {
-      "shards": 325,
-      "docs": 47758445,
-      "tokens": 36405111676,
-      "bytes": 52333754962
+      "shards": 326,
+      "docs": 47781268,
+      "tokens": 36414392283,
+      "bytes": 52340794706
     },
     "CC-BY-SA-4.0 AND MIT": {
       "shards": 1,
@@ -321,7 +321,7 @@
     }
   },
   "languages": {
-    "en": 52,
+    "en": 53,
     "es": 2,
     "mul": 10,
     "zh": 1
@@ -4495,6 +4495,41 @@
           "tokens": 9754829
         }
       }
+    },
+    {
+      "path": "post-train/conversation/schema-guided-dialogue",
+      "name": "schema-guided-dialogue",
+      "title": "Schema-Guided Dialogue",
+      "description": "The complete original Schema-Guided Dialogue dataset of annotated multi-domain conversations between users and virtual assistants.",
+      "sources": [
+        {
+          "name": "Google Schema-Guided Dialogue Dataset",
+          "origin": "Google Schema-Guided Dialogue Dataset",
+          "version": "e852981ae34990f4358979625854259302feaa78",
+          "url": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
+          "input_formats": [
+            "json"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 22823,
+      "tokens": 9280607,
+      "bytes": 7039744,
+      "licenses": {
+        "CC-BY-SA-4.0": {
+          "shards": 1,
+          "tokens": 9280607
+        }
+      },
+      "input_formats": [
+        "json"
+      ]
     },
     {
       "path": "post-train/sft/toolace",
