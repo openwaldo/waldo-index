@@ -1,29 +1,365 @@
 {
-  "generated": "2026-08-29T14:19:41Z",
-  "index_commit": "51f6836",
-  "manifests": 66,
-  "shards": 1758,
-  "docs": 175021298,
-  "tokens": 379966290072,
-  "bytes": 477491790739,
+  "generated": "2026-08-29T20:34:46Z",
+  "index_commit": "ee145f2",
+  "manifests": 67,
+  "shards": 1764,
+  "docs": 176683567,
+  "tokens": 381070454888,
+  "bytes": 479146074323,
   "licenses": {
     "0BSD": {
-      "shards": 53,
-      "docs": 15029,
-      "tokens": 8406154,
+      "shards": 59,
+      "docs": 17722,
+      "tokens": 12050733,
+      "bytes": 0
+    },
+    "0BSD AND Apache-2.0": {
+      "shards": 6,
+      "docs": 55,
+      "tokens": 95947,
+      "bytes": 0
+    },
+    "0BSD AND Apache-2.0 AND MIT": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 379,
+      "bytes": 0
+    },
+    "0BSD AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 41,
+      "tokens": 92534,
+      "bytes": 0
+    },
+    "0BSD AND BSD-3-Clause AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 69,
+      "bytes": 0
+    },
+    "0BSD AND CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 587,
+      "bytes": 0
+    },
+    "0BSD AND MIT": {
+      "shards": 6,
+      "docs": 42,
+      "tokens": 39292,
+      "bytes": 0
+    },
+    "AFL-2.1": {
+      "shards": 4,
+      "docs": 8,
+      "tokens": 1887,
+      "bytes": 0
+    },
+    "AFL-2.1 AND AFL-3.0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 989,
+      "bytes": 0
+    },
+    "AFL-2.1 AND AFL-3.0 AND Apache-2.0 AND BSD-3-Clause": {
+      "shards": 5,
+      "docs": 13,
+      "tokens": 15732,
+      "bytes": 0
+    },
+    "AFL-2.1 AND AFL-3.0 AND BSD-2-Clause AND BSD-3-Clause": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 50,
+      "bytes": 0
+    },
+    "AFL-2.1 AND AFL-3.0 AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 53,
+      "tokens": 4768,
+      "bytes": 0
+    },
+    "AFL-2.1 AND AFL-3.0 AND BSD-3-Clause AND MIT": {
+      "shards": 6,
+      "docs": 47,
+      "tokens": 48052,
+      "bytes": 0
+    },
+    "AFL-2.1 AND AFL-3.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 479,
+      "bytes": 0
+    },
+    "AFL-2.1 AND Apache-2.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 514,
+      "bytes": 0
+    },
+    "AFL-2.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
+      "shards": 6,
+      "docs": 40,
+      "tokens": 26284,
+      "bytes": 0
+    },
+    "AFL-2.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+      "shards": 6,
+      "docs": 27,
+      "tokens": 15841,
+      "bytes": 0
+    },
+    "AFL-2.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 6,
+      "docs": 20,
+      "tokens": 14178,
+      "bytes": 0
+    },
+    "AFL-2.1 AND Apache-2.0 AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 329,
+      "tokens": 34594,
+      "bytes": 0
+    },
+    "AFL-2.1 AND Apache-2.0 AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 32,
+      "bytes": 0
+    },
+    "AFL-2.1 AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 196,
+      "tokens": 53644,
+      "bytes": 0
+    },
+    "AFL-2.1 AND BSD-3-Clause AND MIT": {
+      "shards": 6,
+      "docs": 140,
+      "tokens": 106745,
+      "bytes": 0
+    },
+    "AFL-2.1 AND MIT AND Python-2.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 30496,
       "bytes": 0
     },
     "AFL-3.0": {
-      "shards": 52,
-      "docs": 4700,
-      "tokens": 1284231,
+      "shards": 58,
+      "docs": 4876,
+      "tokens": 1402883,
+      "bytes": 0
+    },
+    "AFL-3.0 AND BSD-2-Clause AND BSD-3-Clause": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 946,
+      "bytes": 0
+    },
+    "AFL-3.0 AND BSD-3-Clause": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 379,
+      "bytes": 0
+    },
+    "AFL-3.0 AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 32,
+      "bytes": 0
+    },
+    "AFL-3.0 AND MIT": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 158,
+      "bytes": 0
+    },
+    "AML": {
+      "shards": 6,
+      "docs": 24,
+      "tokens": 46220,
+      "bytes": 0
+    },
+    "ANTLR-PD": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 241,
+      "bytes": 0
+    },
+    "ANTLR-PD AND Apache-2.0 AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 59,
+      "tokens": 75900,
+      "bytes": 0
+    },
+    "Apache-1.0": {
+      "shards": 6,
+      "docs": 101,
+      "tokens": 138415,
+      "bytes": 0
+    },
+    "Apache-1.0 AND Apache-2.0": {
+      "shards": 4,
+      "docs": 5,
+      "tokens": 2242,
+      "bytes": 0
+    },
+    "Apache-1.1": {
+      "shards": 6,
+      "docs": 192,
+      "tokens": 167795,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0": {
+      "shards": 6,
+      "docs": 1025,
+      "tokens": 1541998,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause": {
+      "shards": 6,
+      "docs": 508,
+      "tokens": 508758,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 141,
+      "tokens": 88680,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 328,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND MIT": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 2951,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND OpenSSL": {
+      "shards": 6,
+      "docs": 127,
+      "tokens": 86396,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0 AND BSD-3-Clause": {
+      "shards": 3,
+      "docs": 8,
+      "tokens": 6124,
+      "bytes": 0
+    },
+    "Apache-1.1 AND Apache-2.0 AND MIT": {
+      "shards": 6,
+      "docs": 83,
+      "tokens": 49255,
+      "bytes": 0
+    },
+    "Apache-1.1 AND BSD-2-Clause": {
+      "shards": 6,
+      "docs": 92,
+      "tokens": 86132,
+      "bytes": 0
+    },
+    "Apache-1.1 AND BSD-2-Clause AND MIT": {
+      "shards": 6,
+      "docs": 24,
+      "tokens": 11400,
+      "bytes": 0
+    },
+    "Apache-1.1 AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 101,
+      "tokens": 66381,
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 75,
-      "docs": 8680088,
-      "tokens": 5926778773,
+      "shards": 81,
+      "docs": 8978923,
+      "tokens": 6155133944,
       "bytes": 1456630877
+    },
+    "Apache-2.0 AND Artistic-2.0": {
+      "shards": 6,
+      "docs": 25,
+      "tokens": 5493,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Artistic-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 19891,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Artistic-2.0 AND BSD-3-Clause": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 290,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Artistic-2.0 AND BSD-3-Clause AND MIT": {
+      "shards": 6,
+      "docs": 16,
+      "tokens": 19284,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Artistic-2.0 AND MIT": {
+      "shards": 4,
+      "docs": 12,
+      "tokens": 3021,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause": {
+      "shards": 6,
+      "docs": 482,
+      "tokens": 552629,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause": {
+      "shards": 5,
+      "docs": 5,
+      "tokens": 4081,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND Intel AND Zlib": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 7764,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND MIT": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 5539,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 350,
+      "tokens": 365077,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 386,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 308,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 911,
+      "bytes": 0
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
@@ -31,40 +367,400 @@
       "tokens": 34267,
       "bytes": 0
     },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 462,
+      "bytes": 0
+    },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+      "shards": 4,
+      "docs": 26,
+      "tokens": 13222,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND Libpng AND MIT AND Python-2.0 AND Zlib": {
       "shards": 1,
-      "docs": 19,
-      "tokens": 5422,
+      "docs": 1,
+      "tokens": 90,
       "bytes": 0
     },
     "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 7,
+      "docs": 925,
+      "tokens": 632377,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND PHP-3.01": {
       "shards": 1,
-      "docs": 761,
-      "tokens": 278790,
+      "docs": 2,
+      "tokens": 1358,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND Ruby": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 16928,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 5229,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND Zlib AND xpp": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 480,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND zlib-acknowledgement": {
+      "shards": 5,
+      "docs": 8,
+      "tokens": 1993,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND Python-2.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 30,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND xpp": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 206,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND BSL-1.0 AND ISC AND MIT": {
+      "shards": 4,
+      "docs": 10,
+      "tokens": 7949,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND CC0-1.0 AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 521,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND CC0-1.0 AND MIT AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 3169,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND ISC": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 2529,
       "bytes": 0
     },
     "Apache-2.0 AND BSD-2-Clause AND MIT": {
+      "shards": 7,
+      "docs": 63,
+      "tokens": 17168,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND MIT AND Zlib": {
+      "shards": 6,
+      "docs": 23,
+      "tokens": 29889,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND MIT-feh": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 10480,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND NetCDF": {
       "shards": 1,
-      "docs": 2,
-      "tokens": 1287,
+      "docs": 1,
+      "tokens": 45,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause AND Zlib": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 9380,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause-Views": {
+      "shards": 6,
+      "docs": 13,
+      "tokens": 4095,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause-Views AND BSD-3-Clause": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 58,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause-Views AND ISC AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1574,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-2-Clause-Views AND MIT": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 6719,
       "bytes": 0
     },
     "Apache-2.0 AND BSD-3-Clause": {
+      "shards": 7,
+      "docs": 58547,
+      "tokens": 3877612,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND BSD-Source-Code AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 3415,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND BSL-1.0": {
       "shards": 1,
-      "docs": 56201,
-      "tokens": 1157410,
+      "docs": 1,
+      "tokens": 5665,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND BSL-1.0 AND MIT": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 267,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND BSL-1.0 AND MIT AND Zlib": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 152,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND CC0-1.0": {
+      "shards": 6,
+      "docs": 9,
+      "tokens": 9673,
       "bytes": 0
     },
     "Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+      "shards": 6,
+      "docs": 33,
+      "tokens": 6973,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND ICU": {
+      "shards": 6,
+      "docs": 43,
+      "tokens": 53901,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND ISC": {
       "shards": 1,
-      "docs": 22,
-      "tokens": 6015,
+      "docs": 1,
+      "tokens": 748,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 135,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND Unlicense": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 147,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND bzip2-1.0.6": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 336,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND Intel": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 407,
       "bytes": 0
     },
     "Apache-2.0 AND BSD-3-Clause AND MIT": {
+      "shards": 7,
+      "docs": 1497,
+      "tokens": 1293648,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND MIT-0": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 362,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND MS-PL": {
       "shards": 1,
-      "docs": 180,
-      "tokens": 69272,
+      "docs": 1,
+      "tokens": 311,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND NCSA": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 9477,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND PHP-3.01": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 637,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND PostgreSQL": {
+      "shards": 6,
+      "docs": 9,
+      "tokens": 27885,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND Python-2.0": {
+      "shards": 6,
+      "docs": 82,
+      "tokens": 137085,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND Ruby": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 2061,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND UPL-1.0": {
+      "shards": 2,
+      "docs": 5,
+      "tokens": 214,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND Unlicense": {
+      "shards": 5,
+      "docs": 7,
+      "tokens": 1891,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND W3C": {
+      "shards": 6,
+      "docs": 13,
+      "tokens": 2916,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND ZPL-2.1": {
+      "shards": 6,
+      "docs": 10,
+      "tokens": 12841,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND MIT AND Zlib": {
+      "shards": 5,
+      "docs": 8,
+      "tokens": 5803,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND NIST-Software": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 105,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND OpenSSL": {
+      "shards": 3,
+      "docs": 4,
+      "tokens": 1517,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND Python-2.0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 94,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND SunPro": {
+      "shards": 3,
+      "docs": 4,
+      "tokens": 556,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND SunPro AND bzip2-1.0.6": {
+      "shards": 1,
+      "docs": 3,
+      "tokens": 267,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND TCL": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1415,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND Zlib": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 1900,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause AND zlib-acknowledgement": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 540,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause-Clear": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 114,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause-No-Nuclear-Warranty": {
+      "shards": 6,
+      "docs": 37,
+      "tokens": 19148,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-3-Clause-Open-MPI": {
+      "shards": 4,
+      "docs": 7,
+      "tokens": 28565,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSD-4-Clause-UC": {
+      "shards": 3,
+      "docs": 7,
+      "tokens": 101736,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSL-1.0": {
+      "shards": 6,
+      "docs": 38,
+      "tokens": 38044,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSL-1.0 AND MIT": {
+      "shards": 6,
+      "docs": 12,
+      "tokens": 1852,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSL-1.0 AND Python-2.0": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 7682,
+      "bytes": 0
+    },
+    "Apache-2.0 AND BSL-1.0 AND SGI-B-2.0": {
+      "shards": 5,
+      "docs": 9,
+      "tokens": 8726,
       "bytes": 0
     },
     "Apache-2.0 AND CC-BY-3.0": {
@@ -92,15 +788,21 @@
       "bytes": 0
     },
     "Apache-2.0 AND CC0-1.0": {
+      "shards": 8,
+      "docs": 1216,
+      "tokens": 347421,
+      "bytes": 0
+    },
+    "Apache-2.0 AND CC0-1.0 AND ISC AND MIT": {
       "shards": 2,
-      "docs": 1099,
-      "tokens": 315677,
+      "docs": 2,
+      "tokens": 695,
       "bytes": 0
     },
     "Apache-2.0 AND CC0-1.0 AND MIT": {
-      "shards": 1,
-      "docs": 37,
-      "tokens": 14625,
+      "shards": 7,
+      "docs": 54,
+      "tokens": 44413,
       "bytes": 0
     },
     "Apache-2.0 AND CDLA-Permissive-1.0": {
@@ -109,76 +811,1366 @@
       "tokens": 12223993,
       "bytes": 0
     },
-    "Apache-2.0 AND MIT": {
+    "Apache-2.0 AND Cube": {
       "shards": 2,
-      "docs": 327108,
-      "tokens": 49618936,
+      "docs": 3,
+      "tokens": 1745,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Cube AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 33,
+      "bytes": 0
+    },
+    "Apache-2.0 AND ECL-1.0": {
+      "shards": 6,
+      "docs": 46,
+      "tokens": 14149,
+      "bytes": 0
+    },
+    "Apache-2.0 AND ECL-2.0": {
+      "shards": 6,
+      "docs": 27,
+      "tokens": 11562,
+      "bytes": 0
+    },
+    "Apache-2.0 AND FTL": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 497,
+      "bytes": 0
+    },
+    "Apache-2.0 AND HTMLTIDY": {
+      "shards": 5,
+      "docs": 8,
+      "tokens": 11443,
+      "bytes": 0
+    },
+    "Apache-2.0 AND ICU": {
+      "shards": 6,
+      "docs": 26,
+      "tokens": 36129,
+      "bytes": 0
+    },
+    "Apache-2.0 AND ICU AND MIT": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 1082,
+      "bytes": 0
+    },
+    "Apache-2.0 AND ISC": {
+      "shards": 6,
+      "docs": 126,
+      "tokens": 93671,
+      "bytes": 0
+    },
+    "Apache-2.0 AND ISC AND MIT": {
+      "shards": 6,
+      "docs": 22,
+      "tokens": 14547,
+      "bytes": 0
+    },
+    "Apache-2.0 AND ISC AND MIT AND MS-PL AND PostgreSQL": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 70,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Intel": {
+      "shards": 4,
+      "docs": 8,
+      "tokens": 4239,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Intel AND MIT": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 1215,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Intel AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 387,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT": {
+      "shards": 8,
+      "docs": 343681,
+      "tokens": 59480303,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND MIT-0": {
+      "shards": 6,
+      "docs": 8,
+      "tokens": 22303,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND MIT-0 AND MS-PL": {
+      "shards": 4,
+      "docs": 10,
+      "tokens": 20589,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND MIT-open-group": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 721,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND MS-PL": {
+      "shards": 6,
+      "docs": 35,
+      "tokens": 19367,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND MS-PL AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1645,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND NCSA": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1182,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND PHP-3.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 102,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND PostgreSQL": {
+      "shards": 6,
+      "docs": 39,
+      "tokens": 16860,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND Python-2.0": {
+      "shards": 5,
+      "docs": 10,
+      "tokens": 10795,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND Ruby": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 273,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND Unlicense": {
+      "shards": 6,
+      "docs": 70,
+      "tokens": 12260,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND X11": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 34,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT AND Zlib": {
+      "shards": 6,
+      "docs": 29,
+      "tokens": 7200,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT-0": {
+      "shards": 6,
+      "docs": 155,
+      "tokens": 269984,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MIT-Modern-Variant": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 11945,
+      "bytes": 0
+    },
+    "Apache-2.0 AND MS-PL": {
+      "shards": 6,
+      "docs": 42,
+      "tokens": 85494,
+      "bytes": 0
+    },
+    "Apache-2.0 AND NCSA": {
+      "shards": 6,
+      "docs": 28,
+      "tokens": 22393,
+      "bytes": 0
+    },
+    "Apache-2.0 AND OpenSSL": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 741,
+      "bytes": 0
+    },
+    "Apache-2.0 AND PHP-3.0": {
+      "shards": 6,
+      "docs": 89,
+      "tokens": 7498,
+      "bytes": 0
+    },
+    "Apache-2.0 AND PHP-3.01": {
+      "shards": 5,
+      "docs": 11,
+      "tokens": 2910,
+      "bytes": 0
+    },
+    "Apache-2.0 AND PostgreSQL": {
+      "shards": 6,
+      "docs": 563,
+      "tokens": 758083,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Python-2.0": {
+      "shards": 6,
+      "docs": 30,
+      "tokens": 30639,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Ruby": {
+      "shards": 6,
+      "docs": 40,
+      "tokens": 10639,
+      "bytes": 0
+    },
+    "Apache-2.0 AND UPL-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 22,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Unlicense": {
+      "shards": 6,
+      "docs": 84,
+      "tokens": 38659,
+      "bytes": 0
+    },
+    "Apache-2.0 AND W3C": {
+      "shards": 6,
+      "docs": 27,
+      "tokens": 11531,
+      "bytes": 0
+    },
+    "Apache-2.0 AND Zlib": {
+      "shards": 6,
+      "docs": 29,
+      "tokens": 60428,
+      "bytes": 0
+    },
+    "Apache-2.0 AND bzip2-1.0.6": {
+      "shards": 6,
+      "docs": 19,
+      "tokens": 31456,
       "bytes": 0
     },
     "Artistic-2.0": {
-      "shards": 52,
-      "docs": 10537,
-      "tokens": 5099851,
+      "shards": 58,
+      "docs": 12431,
+      "tokens": 7092674,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND BSD-2-Clause AND MIT": {
+      "shards": 1,
+      "docs": 2,
+      "tokens": 2266,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND BSD-3-Clause": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 829,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 27,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 26,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND CC0-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 40,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND MIT": {
+      "shards": 6,
+      "docs": 143,
+      "tokens": 86322,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND MS-PL": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1444,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND Unlicense": {
+      "shards": 6,
+      "docs": 12,
+      "tokens": 1694,
+      "bytes": 0
+    },
+    "Artistic-2.0 AND Zlib": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 664,
+      "bytes": 0
+    },
+    "BSD-1-Clause": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 138,
+      "bytes": 0
+    },
+    "BSD-1-Clause AND BSD-2-Clause": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 726,
+      "bytes": 0
+    },
+    "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 2915,
+      "bytes": 0
+    },
+    "BSD-1-Clause AND BSD-3-Clause": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 2232,
+      "bytes": 0
+    },
+    "BSD-1-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 5,
+      "docs": 7,
+      "tokens": 22742,
+      "bytes": 0
+    },
+    "BSD-1-Clause AND MIT": {
+      "shards": 3,
+      "docs": 4,
+      "tokens": 3805,
       "bytes": 0
     },
     "BSD-2-Clause": {
-      "shards": 59,
-      "docs": 308143,
-      "tokens": 465690078,
+      "shards": 65,
+      "docs": 416551,
+      "tokens": 520831137,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-2-Clause-Views": {
+      "shards": 6,
+      "docs": 323,
+      "tokens": 467242,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 40,
+      "tokens": 82892,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-2-Clause-Views AND ISC AND MIT": {
+      "shards": 1,
+      "docs": 2,
+      "tokens": 448,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-2-Clause-Views AND MIT": {
+      "shards": 6,
+      "docs": 10,
+      "tokens": 13262,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-2-Clause-Views AND OpenSSL AND Zlib": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 1737,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 3894,
+      "tokens": 3486115,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-3-Clause-Attribution": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 64,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-3-Clause-LBNL AND MIT AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 513,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-3-Clause-No-Nuclear-Warranty AND BSD-4-Clause": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 1574,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSD-4-Clause-Shortened AND BSD-4-Clause-UC AND MIT-CMU": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 1516,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND CC0-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 166,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND ISC AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 128,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 249939,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 104,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 80,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND BSL-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 2441,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND CC0-1.0": {
+      "shards": 6,
+      "docs": 21,
+      "tokens": 27196,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 339,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND ECL-2.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 39,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND ISC": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 8473,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+      "shards": 6,
+      "docs": 59,
+      "tokens": 52984,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MIT-0": {
+      "shards": 3,
+      "docs": 7,
+      "tokens": 749,
       "bytes": 0
     },
     "BSD-2-Clause AND BSD-3-Clause AND MIT": {
+      "shards": 7,
+      "docs": 545,
+      "tokens": 773347,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND MIT AND Python-2.0": {
       "shards": 1,
-      "docs": 66,
-      "tokens": 30192,
+      "docs": 1,
+      "tokens": 61,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND NCSA": {
+      "shards": 6,
+      "docs": 42,
+      "tokens": 58676,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND NCSA AND Zlib AND curl": {
+      "shards": 3,
+      "docs": 6,
+      "tokens": 3794,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND NTP": {
+      "shards": 6,
+      "docs": 16,
+      "tokens": 13412,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND OpenSSL AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 914,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND Python-2.0": {
+      "shards": 1,
+      "docs": 2,
+      "tokens": 103,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND Ruby": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 593,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND TCL": {
+      "shards": 6,
+      "docs": 10,
+      "tokens": 10937,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND Unlicense": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 13607,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND VSL-1.0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 536,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND ZPL-2.1": {
+      "shards": 6,
+      "docs": 21,
+      "tokens": 33736,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND Zlib": {
+      "shards": 5,
+      "docs": 13,
+      "tokens": 3543,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND bzip2-1.0.6": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 18478,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-3-Clause AND libtiff": {
+      "shards": 6,
+      "docs": 33,
+      "tokens": 40047,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-4-Clause": {
+      "shards": 6,
+      "docs": 39,
+      "tokens": 19255,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-4-Clause AND BSD-4-Clause-UC": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 81,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-4-Clause AND MIT": {
+      "shards": 4,
+      "docs": 7,
+      "tokens": 916,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-4-Clause-Shortened": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 3180,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-4-Clause-UC": {
+      "shards": 6,
+      "docs": 298,
+      "tokens": 126874,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSD-Source-Code": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 2316,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND BSL-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 633,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND CC0-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1362,
       "bytes": 0
     },
     "BSD-2-Clause AND CC0-1.0 AND MIT": {
-      "shards": 1,
-      "docs": 21,
-      "tokens": 9302,
+      "shards": 7,
+      "docs": 43,
+      "tokens": 16526,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND ISC": {
+      "shards": 6,
+      "docs": 113,
+      "tokens": 52313,
       "bytes": 0
     },
     "BSD-2-Clause AND ISC AND MIT": {
-      "shards": 1,
-      "docs": 3,
-      "tokens": 1597,
+      "shards": 7,
+      "docs": 22,
+      "tokens": 27966,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND Linux-OpenIB AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 121,
       "bytes": 0
     },
     "BSD-2-Clause AND MIT": {
+      "shards": 7,
+      "docs": 1213,
+      "tokens": 838158,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT AND MIT-0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 103,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT AND MIT-Modern-Variant": {
       "shards": 1,
-      "docs": 27,
-      "tokens": 12621,
+      "docs": 1,
+      "tokens": 84,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT AND OpenSSL": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 40,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT AND Ruby": {
+      "shards": 2,
+      "docs": 5,
+      "tokens": 747,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT AND Unlicense": {
+      "shards": 5,
+      "docs": 14,
+      "tokens": 11115,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT AND Zlib": {
+      "shards": 5,
+      "docs": 8,
+      "tokens": 57731,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MIT-feh": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 5894,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND MS-PL": {
+      "shards": 4,
+      "docs": 5,
+      "tokens": 398,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND NCSA": {
+      "shards": 5,
+      "docs": 7,
+      "tokens": 7775,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND NCSA AND Zlib": {
+      "shards": 5,
+      "docs": 9,
+      "tokens": 3889,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND NCSA AND Zlib AND curl": {
+      "shards": 6,
+      "docs": 19,
+      "tokens": 19930,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND NTP": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 4188,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND OpenSSL": {
+      "shards": 6,
+      "docs": 37,
+      "tokens": 29760,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND PostgreSQL": {
+      "shards": 6,
+      "docs": 32,
+      "tokens": 12511,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND PostgreSQL AND Ruby": {
+      "shards": 5,
+      "docs": 13,
+      "tokens": 79858,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND Python-2.0": {
+      "shards": 5,
+      "docs": 14,
+      "tokens": 5712,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND Ruby": {
+      "shards": 5,
+      "docs": 12,
+      "tokens": 6473,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND SMLNJ AND W3C": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 108,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND TCL": {
+      "shards": 6,
+      "docs": 231,
+      "tokens": 417956,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND Unlicense": {
+      "shards": 6,
+      "docs": 88,
+      "tokens": 102708,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND VSL-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 2143,
+      "bytes": 0
+    },
+    "BSD-2-Clause AND Zlib": {
+      "shards": 6,
+      "docs": 12,
+      "tokens": 2642,
+      "bytes": 0
+    },
+    "BSD-2-Clause-Patent": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 3907,
+      "bytes": 0
+    },
+    "BSD-2-Clause-Views": {
+      "shards": 6,
+      "docs": 579,
+      "tokens": 325038,
+      "bytes": 0
+    },
+    "BSD-2-Clause-Views AND BSD-3-Clause": {
+      "shards": 6,
+      "docs": 205,
+      "tokens": 193932,
+      "bytes": 0
+    },
+    "BSD-2-Clause-Views AND BSD-3-Clause AND MIT": {
+      "shards": 1,
+      "docs": 2,
+      "tokens": 36843,
+      "bytes": 0
+    },
+    "BSD-2-Clause-Views AND MIT": {
+      "shards": 6,
+      "docs": 39,
+      "tokens": 5600,
       "bytes": 0
     },
     "BSD-3-Clause": {
-      "shards": 59,
-      "docs": 1300344,
-      "tokens": 1112810032,
+      "shards": 65,
+      "docs": 1356508,
+      "tokens": 1168230142,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-3-Clause-Clear": {
+      "shards": 6,
+      "docs": 13,
+      "tokens": 8139,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-3-Clause-Clear AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 168,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-3-Clause-LBNL": {
+      "shards": 6,
+      "docs": 40,
+      "tokens": 15816,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-3-Clause-LBNL AND MIT-Modern-Variant": {
+      "shards": 1,
+      "docs": 3,
+      "tokens": 6991,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-3-Clause-Modification AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 49,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-3-Clause-No-Nuclear-Warranty": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 11801,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-3-Clause-Open-MPI": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 8463,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-4-Clause": {
+      "shards": 5,
+      "docs": 10,
+      "tokens": 5761,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-Source-Code": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 6842,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSD-Source-Code AND MIT": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 3481,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSL-1.0": {
+      "shards": 6,
+      "docs": 25,
+      "tokens": 17052,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSL-1.0 AND ISC AND MIT AND MIT-Wu": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 7059,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSL-1.0 AND MIT": {
+      "shards": 2,
+      "docs": 4,
+      "tokens": 38786,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND BSL-1.0 AND Zlib": {
+      "shards": 5,
+      "docs": 17,
+      "tokens": 192917,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND CC0-1.0": {
+      "shards": 6,
+      "docs": 50,
+      "tokens": 14442,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND CC0-1.0 AND MIT": {
+      "shards": 5,
+      "docs": 12,
+      "tokens": 3435,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ECL-2.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 216,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ECL-2.0 AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1417,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ICU": {
+      "shards": 6,
+      "docs": 20,
+      "tokens": 81761,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ICU AND MIT AND Python-2.0": {
+      "shards": 5,
+      "docs": 10,
+      "tokens": 3466,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ISC": {
+      "shards": 6,
+      "docs": 105,
+      "tokens": 46565,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ISC AND MIT": {
+      "shards": 5,
+      "docs": 20,
+      "tokens": 52360,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ISC AND MIT AND MIT-advertising": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 4793,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND ISC AND MIT AND Zlib": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 2283,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Intel": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1378,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND LPPL-1.3c": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 9541,
       "bytes": 0
     },
     "BSD-3-Clause AND MIT": {
+      "shards": 7,
+      "docs": 5753,
+      "tokens": 4539759,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND MIT-0": {
+      "shards": 5,
+      "docs": 6,
+      "tokens": 591,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND MIT-Wu": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 1081,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND MS-PL": {
+      "shards": 6,
+      "docs": 69,
+      "tokens": 10256,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND NCSA": {
+      "shards": 5,
+      "docs": 7,
+      "tokens": 4764,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND NIST-Software": {
+      "shards": 5,
+      "docs": 10,
+      "tokens": 877,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND OpenSSL": {
       "shards": 1,
-      "docs": 53,
-      "tokens": 19120,
+      "docs": 1,
+      "tokens": 329,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND PostgreSQL": {
+      "shards": 3,
+      "docs": 6,
+      "tokens": 813,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND PostgreSQL AND Zlib": {
+      "shards": 6,
+      "docs": 12,
+      "tokens": 110808,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND Python-2.0": {
+      "shards": 4,
+      "docs": 7,
+      "tokens": 3043,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND Ruby": {
+      "shards": 5,
+      "docs": 7,
+      "tokens": 6059,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND SGI-B-2.0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 189,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND Unlicense": {
+      "shards": 4,
+      "docs": 7,
+      "tokens": 1770,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND W3C": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 2350,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND Zlib": {
+      "shards": 6,
+      "docs": 33,
+      "tokens": 52547,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT AND bzip2-1.0.6": {
+      "shards": 5,
+      "docs": 6,
+      "tokens": 17888,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT-0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 1065,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT-CMU": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1566,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MIT-Wu": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 1468,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND MS-PL": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 3617,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND NCSA": {
+      "shards": 5,
+      "docs": 14,
+      "tokens": 61757,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND NIST-Software": {
+      "shards": 5,
+      "docs": 8,
+      "tokens": 679,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND NetCDF": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 302,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND OpenSSL": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 38409,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Plexus": {
+      "shards": 6,
+      "docs": 37,
+      "tokens": 79664,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND PostgreSQL": {
+      "shards": 6,
+      "docs": 122,
+      "tokens": 40462,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND PostgreSQL AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 3556,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Python-2.0": {
+      "shards": 6,
+      "docs": 64,
+      "tokens": 72606,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Ruby": {
+      "shards": 6,
+      "docs": 368,
+      "tokens": 882455,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND SGI-B-2.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 381,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND SMLNJ": {
+      "shards": 6,
+      "docs": 14,
+      "tokens": 14035,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND SunPro": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 5404,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND SunPro AND bzip2-1.0.6": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 54,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND TCL": {
+      "shards": 6,
+      "docs": 87,
+      "tokens": 277068,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Unlicense": {
+      "shards": 5,
+      "docs": 8,
+      "tokens": 1175,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Xfig": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 4356,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Zlib": {
+      "shards": 6,
+      "docs": 337,
+      "tokens": 353647,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND Zlib AND zlib-acknowledgement": {
+      "shards": 3,
+      "docs": 4,
+      "tokens": 2021,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND bzip2-1.0.6": {
+      "shards": 3,
+      "docs": 4,
+      "tokens": 10000,
+      "bytes": 0
+    },
+    "BSD-3-Clause AND libtiff": {
+      "shards": 6,
+      "docs": 25,
+      "tokens": 21278,
       "bytes": 0
     },
     "BSD-3-Clause-Clear": {
-      "shards": 52,
-      "docs": 8679,
-      "tokens": 4073424,
+      "shards": 58,
+      "docs": 8915,
+      "tokens": 4345867,
+      "bytes": 0
+    },
+    "BSD-3-Clause-Clear AND MIT": {
+      "shards": 6,
+      "docs": 9,
+      "tokens": 2320,
+      "bytes": 0
+    },
+    "BSD-3-Clause-LBNL": {
+      "shards": 6,
+      "docs": 119,
+      "tokens": 184794,
+      "bytes": 0
+    },
+    "BSD-3-Clause-LBNL AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 876,
+      "bytes": 0
+    },
+    "BSD-3-Clause-Modification": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 49,
+      "bytes": 0
+    },
+    "BSD-3-Clause-No-Nuclear-License-2014": {
+      "shards": 6,
+      "docs": 218,
+      "tokens": 381453,
+      "bytes": 0
+    },
+    "BSD-3-Clause-No-Nuclear-Warranty": {
+      "shards": 4,
+      "docs": 5,
+      "tokens": 4076,
+      "bytes": 0
+    },
+    "BSD-3-Clause-Open-MPI": {
+      "shards": 6,
+      "docs": 32,
+      "tokens": 95243,
       "bytes": 0
     },
     "BSD-4-Clause": {
-      "shards": 52,
-      "docs": 2203,
-      "tokens": 589933,
+      "shards": 57,
+      "docs": 2217,
+      "tokens": 598025,
+      "bytes": 0
+    },
+    "BSD-4-Clause-UC": {
+      "shards": 5,
+      "docs": 18,
+      "tokens": 21538,
+      "bytes": 0
+    },
+    "BSD-4-Clause-UC AND BSD-Source-Code": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 601,
+      "bytes": 0
+    },
+    "BSD-4-Clause-UC AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 4446,
+      "bytes": 0
+    },
+    "BSD-Source-Code": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 161,
+      "bytes": 0
+    },
+    "BSD-Source-Code AND MIT": {
+      "shards": 3,
+      "docs": 3,
+      "tokens": 865,
       "bytes": 0
     },
     "BSL-1.0": {
-      "shards": 52,
-      "docs": 41602,
-      "tokens": 21103228,
+      "shards": 58,
+      "docs": 44415,
+      "tokens": 24608223,
+      "bytes": 0
+    },
+    "BSL-1.0 AND FTL": {
+      "shards": 6,
+      "docs": 226,
+      "tokens": 237587,
+      "bytes": 0
+    },
+    "BSL-1.0 AND MIT": {
+      "shards": 6,
+      "docs": 197,
+      "tokens": 229935,
+      "bytes": 0
+    },
+    "BSL-1.0 AND MIT AND Zlib": {
+      "shards": 4,
+      "docs": 5,
+      "tokens": 1143,
+      "bytes": 0
+    },
+    "BSL-1.0 AND MIT AND curl": {
+      "shards": 6,
+      "docs": 13,
+      "tokens": 9771,
+      "bytes": 0
+    },
+    "BSL-1.0 AND Python-2.0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 990,
+      "bytes": 0
+    },
+    "BSL-1.0 AND Zlib": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 1213,
+      "bytes": 0
+    },
+    "BlueOak-1.0.0": {
+      "shards": 6,
+      "docs": 39,
+      "tokens": 36532,
+      "bytes": 0
+    },
+    "BlueOak-1.0.0 AND MIT": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 180,
       "bytes": 0
     },
     "CC-BY-3.0": {
@@ -230,21 +2222,105 @@
       "bytes": 0
     },
     "CC0-1.0": {
-      "shards": 276,
-      "docs": 3217283,
-      "tokens": 10404330275,
+      "shards": 282,
+      "docs": 3242347,
+      "tokens": 10428484851,
       "bytes": 13095639659
     },
-    "CC0-1.0 AND MIT": {
+    "CC0-1.0 AND ISC": {
+      "shards": 4,
+      "docs": 7,
+      "tokens": 766,
+      "bytes": 0
+    },
+    "CC0-1.0 AND ISC AND MIT": {
       "shards": 1,
       "docs": 1,
-      "tokens": 242,
+      "tokens": 25,
+      "bytes": 0
+    },
+    "CC0-1.0 AND MIT": {
+      "shards": 7,
+      "docs": 1694,
+      "tokens": 1192659,
+      "bytes": 0
+    },
+    "CC0-1.0 AND MIT AND Unlicense": {
+      "shards": 5,
+      "docs": 20,
+      "tokens": 12194,
+      "bytes": 0
+    },
+    "CC0-1.0 AND MIT AND Zlib": {
+      "shards": 4,
+      "docs": 12,
+      "tokens": 13716,
+      "bytes": 0
+    },
+    "CC0-1.0 AND NIST-Software": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 364,
+      "bytes": 0
+    },
+    "CC0-1.0 AND PostgreSQL": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 219,
+      "bytes": 0
+    },
+    "CC0-1.0 AND Python-2.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 62,
+      "bytes": 0
+    },
+    "CC0-1.0 AND Unlicense": {
+      "shards": 6,
+      "docs": 62,
+      "tokens": 26560,
+      "bytes": 0
+    },
+    "CC0-1.0 AND Unlicense AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 651,
+      "bytes": 0
+    },
+    "CC0-1.0 AND Zlib": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 233,
+      "bytes": 0
+    },
+    "CC0-1.0 AND curl": {
+      "shards": 4,
+      "docs": 5,
+      "tokens": 3001,
+      "bytes": 0
+    },
+    "CFITSIO": {
+      "shards": 6,
+      "docs": 83,
+      "tokens": 58517,
       "bytes": 0
     },
     "ECL-2.0": {
-      "shards": 52,
-      "docs": 10432,
-      "tokens": 3322800,
+      "shards": 58,
+      "docs": 10812,
+      "tokens": 3451202,
+      "bytes": 0
+    },
+    "ECL-2.0 AND MIT": {
+      "shards": 6,
+      "docs": 95,
+      "tokens": 39715,
+      "bytes": 0
+    },
+    "FTL": {
+      "shards": 6,
+      "docs": 17,
+      "tokens": 38607,
       "bytes": 0
     },
     "GNU Free Documentation License": {
@@ -283,16 +2359,82 @@
       "tokens": 521660603,
       "bytes": 0
     },
+    "HTMLTIDY": {
+      "shards": 6,
+      "docs": 23,
+      "tokens": 2545,
+      "bytes": 0
+    },
+    "HTMLTIDY AND Libpng": {
+      "shards": 4,
+      "docs": 6,
+      "tokens": 4377,
+      "bytes": 0
+    },
+    "HTMLTIDY AND Libpng AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 16268,
+      "bytes": 0
+    },
+    "ICU": {
+      "shards": 6,
+      "docs": 106,
+      "tokens": 134397,
+      "bytes": 0
+    },
+    "ICU AND MIT": {
+      "shards": 4,
+      "docs": 8,
+      "tokens": 19783,
+      "bytes": 0
+    },
+    "ICU AND X11": {
+      "shards": 6,
+      "docs": 84,
+      "tokens": 41636,
+      "bytes": 0
+    },
     "ISC": {
-      "shards": 52,
-      "docs": 83235,
-      "tokens": 31875977,
+      "shards": 58,
+      "docs": 91065,
+      "tokens": 35059050,
       "bytes": 0
     },
     "ISC AND MIT": {
-      "shards": 1,
+      "shards": 7,
+      "docs": 344,
+      "tokens": 119271,
+      "bytes": 0
+    },
+    "ISC AND TCL": {
+      "shards": 4,
       "docs": 7,
-      "tokens": 2709,
+      "tokens": 7574,
+      "bytes": 0
+    },
+    "ISC AND Unlicense": {
+      "shards": 5,
+      "docs": 6,
+      "tokens": 1602,
+      "bytes": 0
+    },
+    "Intel": {
+      "shards": 6,
+      "docs": 125,
+      "tokens": 162267,
+      "bytes": 0
+    },
+    "Intel AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 48,
+      "bytes": 0
+    },
+    "JasPer-2.0": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 2691,
       "bytes": 0
     },
     "LGPL-2.1-or-later": {
@@ -302,9 +2444,15 @@
       "bytes": 0
     },
     "LPPL-1.3c": {
-      "shards": 52,
-      "docs": 3001,
-      "tokens": 1596958,
+      "shards": 58,
+      "docs": 3053,
+      "tokens": 1841506,
+      "bytes": 0
+    },
+    "LPPL-1.3c AND MIT": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 648,
       "bytes": 0
     },
     "LicenseRef-Apache-Public-Forum": {
@@ -317,6 +2465,12 @@
       "shards": 1,
       "docs": 325,
       "tokens": 280057,
+      "bytes": 0
+    },
+    "LicenseRef-Mixed": {
+      "shards": 6,
+      "docs": 13948,
+      "tokens": 10292315,
       "bytes": 0
     },
     "LicenseRef-NetBSD-permissive": {
@@ -355,22 +2509,244 @@
       "tokens": 6498531406,
       "bytes": 3204733700
     },
+    "Linux-OpenIB AND MIT": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 43,
+      "bytes": 0
+    },
     "MIT": {
-      "shards": 62,
-      "docs": 9864297,
-      "tokens": 4599336082,
+      "shards": 68,
+      "docs": 10918409,
+      "tokens": 5244821718,
       "bytes": 374455862
     },
+    "MIT AND MIT-0": {
+      "shards": 6,
+      "docs": 227,
+      "tokens": 163389,
+      "bytes": 0
+    },
+    "MIT AND MIT-Modern-Variant": {
+      "shards": 6,
+      "docs": 38,
+      "tokens": 37385,
+      "bytes": 0
+    },
+    "MIT AND MIT-Wu": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 168,
+      "bytes": 0
+    },
+    "MIT AND MITNFA": {
+      "shards": 6,
+      "docs": 21,
+      "tokens": 10260,
+      "bytes": 0
+    },
+    "MIT AND MS-PL": {
+      "shards": 6,
+      "docs": 122,
+      "tokens": 92550,
+      "bytes": 0
+    },
+    "MIT AND NCSA": {
+      "shards": 6,
+      "docs": 102,
+      "tokens": 349759,
+      "bytes": 0
+    },
+    "MIT AND NIST-Software": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 227,
+      "bytes": 0
+    },
+    "MIT AND NTP": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 104,
+      "bytes": 0
+    },
+    "MIT AND NTP AND TCL": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 70155,
+      "bytes": 0
+    },
+    "MIT AND OGL-Canada-2.0": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 1510,
+      "bytes": 0
+    },
+    "MIT AND OpenSSL": {
+      "shards": 3,
+      "docs": 5,
+      "tokens": 4313,
+      "bytes": 0
+    },
+    "MIT AND OpenSSL AND Zlib": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 108,
+      "bytes": 0
+    },
+    "MIT AND PostgreSQL": {
+      "shards": 6,
+      "docs": 14,
+      "tokens": 18510,
+      "bytes": 0
+    },
+    "MIT AND Python-2.0": {
+      "shards": 6,
+      "docs": 312,
+      "tokens": 403057,
+      "bytes": 0
+    },
+    "MIT AND Ruby": {
+      "shards": 6,
+      "docs": 170,
+      "tokens": 208982,
+      "bytes": 0
+    },
+    "MIT AND SGI-B-2.0 AND X11": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 92,
+      "bytes": 0
+    },
+    "MIT AND TCL": {
+      "shards": 4,
+      "docs": 4,
+      "tokens": 1447,
+      "bytes": 0
+    },
+    "MIT AND UPL-1.0": {
+      "shards": 2,
+      "docs": 3,
+      "tokens": 234,
+      "bytes": 0
+    },
+    "MIT AND Unlicense": {
+      "shards": 6,
+      "docs": 452,
+      "tokens": 164021,
+      "bytes": 0
+    },
+    "MIT AND Unlicense AND Zlib": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 745,
+      "bytes": 0
+    },
+    "MIT AND W3C": {
+      "shards": 6,
+      "docs": 11,
+      "tokens": 2943,
+      "bytes": 0
+    },
+    "MIT AND X11": {
+      "shards": 6,
+      "docs": 67,
+      "tokens": 111705,
+      "bytes": 0
+    },
+    "MIT AND Xerox": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 1156,
+      "bytes": 0
+    },
+    "MIT AND ZPL-2.0 AND ZPL-2.1": {
+      "shards": 5,
+      "docs": 21,
+      "tokens": 101667,
+      "bytes": 0
+    },
+    "MIT AND Zlib": {
+      "shards": 6,
+      "docs": 351,
+      "tokens": 303336,
+      "bytes": 0
+    },
+    "MIT AND Zlib AND zlib-acknowledgement": {
+      "shards": 6,
+      "docs": 30,
+      "tokens": 39994,
+      "bytes": 0
+    },
+    "MIT AND curl": {
+      "shards": 6,
+      "docs": 54,
+      "tokens": 24211,
+      "bytes": 0
+    },
+    "MIT AND zlib-acknowledgement": {
+      "shards": 6,
+      "docs": 30,
+      "tokens": 9032,
+      "bytes": 0
+    },
     "MIT-0": {
-      "shards": 52,
-      "docs": 23765,
-      "tokens": 11201349,
+      "shards": 58,
+      "docs": 24071,
+      "tokens": 11528665,
+      "bytes": 0
+    },
+    "MIT-Modern-Variant": {
+      "shards": 6,
+      "docs": 668,
+      "tokens": 532336,
+      "bytes": 0
+    },
+    "MIT-Wu": {
+      "shards": 3,
+      "docs": 4,
+      "tokens": 1065,
+      "bytes": 0
+    },
+    "MIT-advertising": {
+      "shards": 5,
+      "docs": 19,
+      "tokens": 17270,
+      "bytes": 0
+    },
+    "MIT-enna": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 13543,
+      "bytes": 0
+    },
+    "MIT-feh": {
+      "shards": 5,
+      "docs": 9,
+      "tokens": 3773,
+      "bytes": 0
+    },
+    "MIT-open-group": {
+      "shards": 1,
+      "docs": 2,
+      "tokens": 251,
+      "bytes": 0
+    },
+    "MIT-open-group AND X11": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 5680,
+      "bytes": 0
+    },
+    "MITNFA": {
+      "shards": 5,
+      "docs": 8,
+      "tokens": 1934,
       "bytes": 0
     },
     "MS-PL": {
-      "shards": 52,
-      "docs": 8627,
-      "tokens": 3569901,
+      "shards": 58,
+      "docs": 9131,
+      "tokens": 4168138,
       "bytes": 0
     },
     "MulanPSL-2.0": {
@@ -379,10 +2755,40 @@
       "tokens": 245173,
       "bytes": 0
     },
+    "Multics": {
+      "shards": 6,
+      "docs": 108,
+      "tokens": 65349,
+      "bytes": 0
+    },
+    "Mup": {
+      "shards": 6,
+      "docs": 8,
+      "tokens": 21634,
+      "bytes": 0
+    },
     "NCSA": {
-      "shards": 52,
-      "docs": 2580,
-      "tokens": 854551,
+      "shards": 58,
+      "docs": 3064,
+      "tokens": 1758231,
+      "bytes": 0
+    },
+    "NIST-Software": {
+      "shards": 6,
+      "docs": 70,
+      "tokens": 36593,
+      "bytes": 0
+    },
+    "NTP": {
+      "shards": 6,
+      "docs": 287,
+      "tokens": 387635,
+      "bytes": 0
+    },
+    "NetCDF": {
+      "shards": 6,
+      "docs": 93,
+      "tokens": 353019,
       "bytes": 0
     },
     "ODC-BY-1.0": {
@@ -391,22 +2797,154 @@
       "tokens": 25301901368,
       "bytes": 62346946127
     },
+    "OGL-Canada-2.0": {
+      "shards": 4,
+      "docs": 10,
+      "tokens": 3953,
+      "bytes": 0
+    },
+    "OML": {
+      "shards": 5,
+      "docs": 17,
+      "tokens": 38908,
+      "bytes": 0
+    },
+    "OpenSSL": {
+      "shards": 6,
+      "docs": 63,
+      "tokens": 104270,
+      "bytes": 0
+    },
+    "OpenSSL AND VSL-1.0": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 36,
+      "bytes": 0
+    },
+    "PHP-3.0": {
+      "shards": 5,
+      "docs": 11,
+      "tokens": 8131,
+      "bytes": 0
+    },
+    "PHP-3.01": {
+      "shards": 6,
+      "docs": 23,
+      "tokens": 61159,
+      "bytes": 0
+    },
+    "PSF-2.0": {
+      "shards": 6,
+      "docs": 15,
+      "tokens": 19924,
+      "bytes": 0
+    },
+    "Plexus": {
+      "shards": 5,
+      "docs": 7,
+      "tokens": 1590,
+      "bytes": 0
+    },
     "PostgreSQL": {
-      "shards": 52,
-      "docs": 3648,
-      "tokens": 1985840,
+      "shards": 58,
+      "docs": 3888,
+      "tokens": 2293041,
+      "bytes": 0
+    },
+    "PostgreSQL AND Zlib": {
+      "shards": 4,
+      "docs": 5,
+      "tokens": 25675,
+      "bytes": 0
+    },
+    "Python-2.0": {
+      "shards": 6,
+      "docs": 93,
+      "tokens": 92428,
+      "bytes": 0
+    },
+    "Python-2.0 AND Ruby": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 302,
+      "bytes": 0
+    },
+    "Python-2.0 AND ZPL-2.0 AND ZPL-2.1": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 3862,
+      "bytes": 0
+    },
+    "Ruby": {
+      "shards": 6,
+      "docs": 37,
+      "tokens": 51620,
+      "bytes": 0
+    },
+    "SGI-B-2.0": {
+      "shards": 2,
+      "docs": 2,
+      "tokens": 1089,
+      "bytes": 0
+    },
+    "SMLNJ": {
+      "shards": 6,
+      "docs": 172,
+      "tokens": 310313,
+      "bytes": 0
+    },
+    "SWL AND TCL": {
+      "shards": 6,
+      "docs": 16,
+      "tokens": 36193,
+      "bytes": 0
+    },
+    "TCL": {
+      "shards": 6,
+      "docs": 524,
+      "tokens": 704943,
+      "bytes": 0
+    },
+    "TCP-wrappers": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 286,
+      "bytes": 0
+    },
+    "UCAR": {
+      "shards": 5,
+      "docs": 6,
+      "tokens": 3324,
       "bytes": 0
     },
     "UPL-1.0": {
-      "shards": 52,
-      "docs": 10786,
-      "tokens": 5220911,
+      "shards": 58,
+      "docs": 10951,
+      "tokens": 5313285,
+      "bytes": 0
+    },
+    "Unicode-DFS-2016": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 363,
       "bytes": 0
     },
     "Unlicense": {
-      "shards": 52,
-      "docs": 122152,
-      "tokens": 73237627,
+      "shards": 58,
+      "docs": 148218,
+      "tokens": 93126272,
+      "bytes": 0
+    },
+    "Unlicense AND Zlib": {
+      "shards": 2,
+      "docs": 4,
+      "tokens": 1742,
+      "bytes": 0
+    },
+    "Unlicense AND curl": {
+      "shards": 5,
+      "docs": 7,
+      "tokens": 2024,
       "bytes": 0
     },
     "Vim": {
@@ -415,16 +2953,52 @@
       "tokens": 11098923,
       "bytes": 0
     },
+    "W3C": {
+      "shards": 6,
+      "docs": 75,
+      "tokens": 85130,
+      "bytes": 0
+    },
     "WTFPL": {
       "shards": 52,
       "docs": 29778,
       "tokens": 10215508,
       "bytes": 0
     },
+    "X11": {
+      "shards": 6,
+      "docs": 26,
+      "tokens": 5650,
+      "bytes": 0
+    },
+    "Xnet": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 968,
+      "bytes": 0
+    },
+    "ZPL-2.0": {
+      "shards": 4,
+      "docs": 7,
+      "tokens": 11888,
+      "bytes": 0
+    },
+    "ZPL-2.1": {
+      "shards": 6,
+      "docs": 25,
+      "tokens": 18238,
+      "bytes": 0
+    },
     "Zlib": {
-      "shards": 52,
-      "docs": 38701,
-      "tokens": 23111372,
+      "shards": 58,
+      "docs": 49513,
+      "tokens": 28818335,
+      "bytes": 0
+    },
+    "Zlib AND zlib-acknowledgement": {
+      "shards": 6,
+      "docs": 85,
+      "tokens": 23240,
       "bytes": 0
     },
     "apache-2.0": {
@@ -451,10 +3025,28 @@
       "tokens": 169048027,
       "bytes": 0
     },
+    "bzip2-1.0.6": {
+      "shards": 1,
+      "docs": 1,
+      "tokens": 74,
+      "bytes": 0
+    },
+    "curl": {
+      "shards": 6,
+      "docs": 68,
+      "tokens": 45229,
+      "bytes": 0
+    },
     "isc": {
       "shards": 52,
       "docs": 39794,
       "tokens": 16469062,
+      "bytes": 0
+    },
+    "libtiff": {
+      "shards": 6,
+      "docs": 100,
+      "tokens": 71692,
       "bytes": 0
     },
     "mit": {
@@ -468,12 +3060,18 @@
       "docs": 33496,
       "tokens": 13590608,
       "bytes": 0
+    },
+    "xlock": {
+      "shards": 5,
+      "docs": 24,
+      "tokens": 29347,
+      "bytes": 0
     }
   },
   "languages": {
     "en": 54,
     "es": 2,
-    "mul": 10,
+    "mul": 11,
     "zh": 1
   },
   "programming_languages": {
@@ -3430,6 +6028,1917 @@
           "tokens": 1280789827
         }
       }
+    },
+    {
+      "path": "code/stack-v2-html",
+      "name": "stack-v2-html",
+      "title": "Stack V2 HTML Text",
+      "description": "Plain text extracted from HTML documents in openly licensed software repositories in the filtered Common Pile Stack V2 release.",
+      "sources": [
+        {
+          "name": "common-pile/stackv2_html_filtered",
+          "origin": "common-pile/stackv2_html_filtered",
+          "version": "92c9fa898d6af643db9c7d73e75219f862be8ca0",
+          "url": "https://huggingface.co/datasets/common-pile/stackv2_html_filtered",
+          "input_formats": [
+            "jsonl"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "mul"
+      ],
+      "programming_languages": [],
+      "shards": 6,
+      "docs": 1662269,
+      "tokens": 1104164816,
+      "bytes": 1654283584,
+      "licenses": {
+        "0BSD": {
+          "shards": 6,
+          "tokens": 3644579
+        },
+        "0BSD AND Apache-2.0": {
+          "shards": 6,
+          "tokens": 95947
+        },
+        "0BSD AND Apache-2.0 AND MIT": {
+          "shards": 2,
+          "tokens": 379
+        },
+        "0BSD AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 92534
+        },
+        "0BSD AND BSD-3-Clause AND MIT": {
+          "shards": 2,
+          "tokens": 69
+        },
+        "0BSD AND CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 587
+        },
+        "0BSD AND MIT": {
+          "shards": 6,
+          "tokens": 39292
+        },
+        "AFL-2.1": {
+          "shards": 4,
+          "tokens": 1887
+        },
+        "AFL-2.1 AND AFL-3.0": {
+          "shards": 2,
+          "tokens": 989
+        },
+        "AFL-2.1 AND AFL-3.0 AND Apache-2.0 AND BSD-3-Clause": {
+          "shards": 5,
+          "tokens": 15732
+        },
+        "AFL-2.1 AND AFL-3.0 AND BSD-2-Clause AND BSD-3-Clause": {
+          "shards": 2,
+          "tokens": 50
+        },
+        "AFL-2.1 AND AFL-3.0 AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 4768
+        },
+        "AFL-2.1 AND AFL-3.0 AND BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 48052
+        },
+        "AFL-2.1 AND AFL-3.0 AND MIT": {
+          "shards": 1,
+          "tokens": 479
+        },
+        "AFL-2.1 AND Apache-2.0": {
+          "shards": 1,
+          "tokens": 514
+        },
+        "AFL-2.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT": {
+          "shards": 6,
+          "tokens": 26284
+        },
+        "AFL-2.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+          "shards": 6,
+          "tokens": 15841
+        },
+        "AFL-2.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 14178
+        },
+        "AFL-2.1 AND Apache-2.0 AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 34594
+        },
+        "AFL-2.1 AND Apache-2.0 AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 32
+        },
+        "AFL-2.1 AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 53644
+        },
+        "AFL-2.1 AND BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 106745
+        },
+        "AFL-2.1 AND MIT AND Python-2.0": {
+          "shards": 1,
+          "tokens": 30496
+        },
+        "AFL-3.0": {
+          "shards": 6,
+          "tokens": 118652
+        },
+        "AFL-3.0 AND BSD-2-Clause AND BSD-3-Clause": {
+          "shards": 1,
+          "tokens": 946
+        },
+        "AFL-3.0 AND BSD-3-Clause": {
+          "shards": 2,
+          "tokens": 379
+        },
+        "AFL-3.0 AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 32
+        },
+        "AFL-3.0 AND MIT": {
+          "shards": 2,
+          "tokens": 158
+        },
+        "AML": {
+          "shards": 6,
+          "tokens": 46220
+        },
+        "ANTLR-PD": {
+          "shards": 1,
+          "tokens": 241
+        },
+        "ANTLR-PD AND Apache-2.0 AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 75900
+        },
+        "Apache-1.0": {
+          "shards": 6,
+          "tokens": 138415
+        },
+        "Apache-1.0 AND Apache-2.0": {
+          "shards": 4,
+          "tokens": 2242
+        },
+        "Apache-1.1": {
+          "shards": 6,
+          "tokens": 167795
+        },
+        "Apache-1.1 AND Apache-2.0": {
+          "shards": 6,
+          "tokens": 1541998
+        },
+        "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause": {
+          "shards": 6,
+          "tokens": 508758
+        },
+        "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 88680
+        },
+        "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 328
+        },
+        "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND MIT": {
+          "shards": 2,
+          "tokens": 2951
+        },
+        "Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND OpenSSL": {
+          "shards": 6,
+          "tokens": 86396
+        },
+        "Apache-1.1 AND Apache-2.0 AND BSD-3-Clause": {
+          "shards": 3,
+          "tokens": 6124
+        },
+        "Apache-1.1 AND Apache-2.0 AND MIT": {
+          "shards": 6,
+          "tokens": 49255
+        },
+        "Apache-1.1 AND BSD-2-Clause": {
+          "shards": 6,
+          "tokens": 86132
+        },
+        "Apache-1.1 AND BSD-2-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 11400
+        },
+        "Apache-1.1 AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 66381
+        },
+        "Apache-2.0": {
+          "shards": 6,
+          "tokens": 228355171
+        },
+        "Apache-2.0 AND Artistic-2.0": {
+          "shards": 6,
+          "tokens": 5493
+        },
+        "Apache-2.0 AND Artistic-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 4,
+          "tokens": 19891
+        },
+        "Apache-2.0 AND Artistic-2.0 AND BSD-3-Clause": {
+          "shards": 2,
+          "tokens": 290
+        },
+        "Apache-2.0 AND Artistic-2.0 AND BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 19284
+        },
+        "Apache-2.0 AND Artistic-2.0 AND MIT": {
+          "shards": 4,
+          "tokens": 3021
+        },
+        "Apache-2.0 AND BSD-2-Clause": {
+          "shards": 6,
+          "tokens": 552629
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause": {
+          "shards": 5,
+          "tokens": 4081
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND Intel AND Zlib": {
+          "shards": 2,
+          "tokens": 7764
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND MIT": {
+          "shards": 3,
+          "tokens": 5539
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 365077
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0": {
+          "shards": 2,
+          "tokens": 386
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 308
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 911
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+          "shards": 4,
+          "tokens": 462
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+          "shards": 3,
+          "tokens": 7800
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND Libpng AND MIT AND Python-2.0 AND Zlib": {
+          "shards": 1,
+          "tokens": 90
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 353587
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND PHP-3.01": {
+          "shards": 1,
+          "tokens": 1358
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND Ruby": {
+          "shards": 1,
+          "tokens": 16928
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND Zlib": {
+          "shards": 1,
+          "tokens": 5229
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND Zlib AND xpp": {
+          "shards": 2,
+          "tokens": 480
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND zlib-acknowledgement": {
+          "shards": 5,
+          "tokens": 1993
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND Python-2.0": {
+          "shards": 1,
+          "tokens": 30
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND xpp": {
+          "shards": 2,
+          "tokens": 206
+        },
+        "Apache-2.0 AND BSD-2-Clause AND BSL-1.0 AND ISC AND MIT": {
+          "shards": 4,
+          "tokens": 7949
+        },
+        "Apache-2.0 AND BSD-2-Clause AND CC0-1.0 AND MIT": {
+          "shards": 2,
+          "tokens": 521
+        },
+        "Apache-2.0 AND BSD-2-Clause AND CC0-1.0 AND MIT AND Zlib": {
+          "shards": 1,
+          "tokens": 3169
+        },
+        "Apache-2.0 AND BSD-2-Clause AND ISC": {
+          "shards": 1,
+          "tokens": 2529
+        },
+        "Apache-2.0 AND BSD-2-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 15881
+        },
+        "Apache-2.0 AND BSD-2-Clause AND MIT AND Zlib": {
+          "shards": 6,
+          "tokens": 29889
+        },
+        "Apache-2.0 AND BSD-2-Clause AND MIT-feh": {
+          "shards": 3,
+          "tokens": 10480
+        },
+        "Apache-2.0 AND BSD-2-Clause AND NetCDF": {
+          "shards": 1,
+          "tokens": 45
+        },
+        "Apache-2.0 AND BSD-2-Clause AND Zlib": {
+          "shards": 4,
+          "tokens": 9380
+        },
+        "Apache-2.0 AND BSD-2-Clause-Views": {
+          "shards": 6,
+          "tokens": 4095
+        },
+        "Apache-2.0 AND BSD-2-Clause-Views AND BSD-3-Clause": {
+          "shards": 1,
+          "tokens": 58
+        },
+        "Apache-2.0 AND BSD-2-Clause-Views AND ISC AND MIT": {
+          "shards": 1,
+          "tokens": 1574
+        },
+        "Apache-2.0 AND BSD-2-Clause-Views AND MIT": {
+          "shards": 4,
+          "tokens": 6719
+        },
+        "Apache-2.0 AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 2720202
+        },
+        "Apache-2.0 AND BSD-3-Clause AND BSD-Source-Code AND MIT": {
+          "shards": 2,
+          "tokens": 3415
+        },
+        "Apache-2.0 AND BSD-3-Clause AND BSL-1.0": {
+          "shards": 1,
+          "tokens": 5665
+        },
+        "Apache-2.0 AND BSD-3-Clause AND BSL-1.0 AND MIT": {
+          "shards": 3,
+          "tokens": 267
+        },
+        "Apache-2.0 AND BSD-3-Clause AND BSL-1.0 AND MIT AND Zlib": {
+          "shards": 2,
+          "tokens": 152
+        },
+        "Apache-2.0 AND BSD-3-Clause AND CC0-1.0": {
+          "shards": 6,
+          "tokens": 9673
+        },
+        "Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+          "shards": 5,
+          "tokens": 958
+        },
+        "Apache-2.0 AND BSD-3-Clause AND ICU": {
+          "shards": 6,
+          "tokens": 53901
+        },
+        "Apache-2.0 AND BSD-3-Clause AND ISC": {
+          "shards": 1,
+          "tokens": 748
+        },
+        "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT": {
+          "shards": 2,
+          "tokens": 135
+        },
+        "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND Unlicense": {
+          "shards": 2,
+          "tokens": 147
+        },
+        "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND bzip2-1.0.6": {
+          "shards": 2,
+          "tokens": 336
+        },
+        "Apache-2.0 AND BSD-3-Clause AND Intel": {
+          "shards": 1,
+          "tokens": 407
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 1224376
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND MIT-0": {
+          "shards": 4,
+          "tokens": 362
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND MS-PL": {
+          "shards": 1,
+          "tokens": 311
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND NCSA": {
+          "shards": 1,
+          "tokens": 9477
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND PHP-3.01": {
+          "shards": 3,
+          "tokens": 637
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND PostgreSQL": {
+          "shards": 6,
+          "tokens": 27885
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND Python-2.0": {
+          "shards": 6,
+          "tokens": 137085
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND Ruby": {
+          "shards": 4,
+          "tokens": 2061
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND UPL-1.0": {
+          "shards": 2,
+          "tokens": 214
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND Unlicense": {
+          "shards": 5,
+          "tokens": 1891
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND W3C": {
+          "shards": 6,
+          "tokens": 2916
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND ZPL-2.1": {
+          "shards": 6,
+          "tokens": 12841
+        },
+        "Apache-2.0 AND BSD-3-Clause AND MIT AND Zlib": {
+          "shards": 5,
+          "tokens": 5803
+        },
+        "Apache-2.0 AND BSD-3-Clause AND NIST-Software": {
+          "shards": 2,
+          "tokens": 105
+        },
+        "Apache-2.0 AND BSD-3-Clause AND OpenSSL": {
+          "shards": 3,
+          "tokens": 1517
+        },
+        "Apache-2.0 AND BSD-3-Clause AND Python-2.0": {
+          "shards": 2,
+          "tokens": 94
+        },
+        "Apache-2.0 AND BSD-3-Clause AND SunPro": {
+          "shards": 3,
+          "tokens": 556
+        },
+        "Apache-2.0 AND BSD-3-Clause AND SunPro AND bzip2-1.0.6": {
+          "shards": 1,
+          "tokens": 267
+        },
+        "Apache-2.0 AND BSD-3-Clause AND TCL": {
+          "shards": 1,
+          "tokens": 1415
+        },
+        "Apache-2.0 AND BSD-3-Clause AND Zlib": {
+          "shards": 2,
+          "tokens": 1900
+        },
+        "Apache-2.0 AND BSD-3-Clause AND zlib-acknowledgement": {
+          "shards": 1,
+          "tokens": 540
+        },
+        "Apache-2.0 AND BSD-3-Clause-Clear": {
+          "shards": 1,
+          "tokens": 114
+        },
+        "Apache-2.0 AND BSD-3-Clause-No-Nuclear-Warranty": {
+          "shards": 6,
+          "tokens": 19148
+        },
+        "Apache-2.0 AND BSD-3-Clause-Open-MPI": {
+          "shards": 4,
+          "tokens": 28565
+        },
+        "Apache-2.0 AND BSD-4-Clause-UC": {
+          "shards": 3,
+          "tokens": 101736
+        },
+        "Apache-2.0 AND BSL-1.0": {
+          "shards": 6,
+          "tokens": 38044
+        },
+        "Apache-2.0 AND BSL-1.0 AND MIT": {
+          "shards": 6,
+          "tokens": 1852
+        },
+        "Apache-2.0 AND BSL-1.0 AND Python-2.0": {
+          "shards": 3,
+          "tokens": 7682
+        },
+        "Apache-2.0 AND BSL-1.0 AND SGI-B-2.0": {
+          "shards": 5,
+          "tokens": 8726
+        },
+        "Apache-2.0 AND CC0-1.0": {
+          "shards": 6,
+          "tokens": 31744
+        },
+        "Apache-2.0 AND CC0-1.0 AND ISC AND MIT": {
+          "shards": 2,
+          "tokens": 695
+        },
+        "Apache-2.0 AND CC0-1.0 AND MIT": {
+          "shards": 6,
+          "tokens": 29788
+        },
+        "Apache-2.0 AND Cube": {
+          "shards": 2,
+          "tokens": 1745
+        },
+        "Apache-2.0 AND Cube AND MIT": {
+          "shards": 1,
+          "tokens": 33
+        },
+        "Apache-2.0 AND ECL-1.0": {
+          "shards": 6,
+          "tokens": 14149
+        },
+        "Apache-2.0 AND ECL-2.0": {
+          "shards": 6,
+          "tokens": 11562
+        },
+        "Apache-2.0 AND FTL": {
+          "shards": 2,
+          "tokens": 497
+        },
+        "Apache-2.0 AND HTMLTIDY": {
+          "shards": 5,
+          "tokens": 11443
+        },
+        "Apache-2.0 AND ICU": {
+          "shards": 6,
+          "tokens": 36129
+        },
+        "Apache-2.0 AND ICU AND MIT": {
+          "shards": 3,
+          "tokens": 1082
+        },
+        "Apache-2.0 AND ISC": {
+          "shards": 6,
+          "tokens": 93671
+        },
+        "Apache-2.0 AND ISC AND MIT": {
+          "shards": 6,
+          "tokens": 14547
+        },
+        "Apache-2.0 AND ISC AND MIT AND MS-PL AND PostgreSQL": {
+          "shards": 1,
+          "tokens": 70
+        },
+        "Apache-2.0 AND Intel": {
+          "shards": 4,
+          "tokens": 4239
+        },
+        "Apache-2.0 AND Intel AND MIT": {
+          "shards": 4,
+          "tokens": 1215
+        },
+        "Apache-2.0 AND Intel AND Zlib": {
+          "shards": 1,
+          "tokens": 387
+        },
+        "Apache-2.0 AND MIT": {
+          "shards": 6,
+          "tokens": 9861367
+        },
+        "Apache-2.0 AND MIT AND MIT-0": {
+          "shards": 6,
+          "tokens": 22303
+        },
+        "Apache-2.0 AND MIT AND MIT-0 AND MS-PL": {
+          "shards": 4,
+          "tokens": 20589
+        },
+        "Apache-2.0 AND MIT AND MIT-open-group": {
+          "shards": 3,
+          "tokens": 721
+        },
+        "Apache-2.0 AND MIT AND MS-PL": {
+          "shards": 6,
+          "tokens": 19367
+        },
+        "Apache-2.0 AND MIT AND MS-PL AND Zlib": {
+          "shards": 1,
+          "tokens": 1645
+        },
+        "Apache-2.0 AND MIT AND NCSA": {
+          "shards": 1,
+          "tokens": 1182
+        },
+        "Apache-2.0 AND MIT AND PHP-3.0": {
+          "shards": 1,
+          "tokens": 102
+        },
+        "Apache-2.0 AND MIT AND PostgreSQL": {
+          "shards": 6,
+          "tokens": 16860
+        },
+        "Apache-2.0 AND MIT AND Python-2.0": {
+          "shards": 5,
+          "tokens": 10795
+        },
+        "Apache-2.0 AND MIT AND Ruby": {
+          "shards": 1,
+          "tokens": 273
+        },
+        "Apache-2.0 AND MIT AND Unlicense": {
+          "shards": 6,
+          "tokens": 12260
+        },
+        "Apache-2.0 AND MIT AND X11": {
+          "shards": 1,
+          "tokens": 34
+        },
+        "Apache-2.0 AND MIT AND Zlib": {
+          "shards": 6,
+          "tokens": 7200
+        },
+        "Apache-2.0 AND MIT-0": {
+          "shards": 6,
+          "tokens": 269984
+        },
+        "Apache-2.0 AND MIT-Modern-Variant": {
+          "shards": 2,
+          "tokens": 11945
+        },
+        "Apache-2.0 AND MS-PL": {
+          "shards": 6,
+          "tokens": 85494
+        },
+        "Apache-2.0 AND NCSA": {
+          "shards": 6,
+          "tokens": 22393
+        },
+        "Apache-2.0 AND OpenSSL": {
+          "shards": 2,
+          "tokens": 741
+        },
+        "Apache-2.0 AND PHP-3.0": {
+          "shards": 6,
+          "tokens": 7498
+        },
+        "Apache-2.0 AND PHP-3.01": {
+          "shards": 5,
+          "tokens": 2910
+        },
+        "Apache-2.0 AND PostgreSQL": {
+          "shards": 6,
+          "tokens": 758083
+        },
+        "Apache-2.0 AND Python-2.0": {
+          "shards": 6,
+          "tokens": 30639
+        },
+        "Apache-2.0 AND Ruby": {
+          "shards": 6,
+          "tokens": 10639
+        },
+        "Apache-2.0 AND UPL-1.0": {
+          "shards": 1,
+          "tokens": 22
+        },
+        "Apache-2.0 AND Unlicense": {
+          "shards": 6,
+          "tokens": 38659
+        },
+        "Apache-2.0 AND W3C": {
+          "shards": 6,
+          "tokens": 11531
+        },
+        "Apache-2.0 AND Zlib": {
+          "shards": 6,
+          "tokens": 60428
+        },
+        "Apache-2.0 AND bzip2-1.0.6": {
+          "shards": 6,
+          "tokens": 31456
+        },
+        "Artistic-2.0": {
+          "shards": 6,
+          "tokens": 1992823
+        },
+        "Artistic-2.0 AND BSD-2-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 2266
+        },
+        "Artistic-2.0 AND BSD-3-Clause": {
+          "shards": 4,
+          "tokens": 829
+        },
+        "Artistic-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 27
+        },
+        "Artistic-2.0 AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 26
+        },
+        "Artistic-2.0 AND CC0-1.0": {
+          "shards": 1,
+          "tokens": 40
+        },
+        "Artistic-2.0 AND MIT": {
+          "shards": 6,
+          "tokens": 86322
+        },
+        "Artistic-2.0 AND MS-PL": {
+          "shards": 1,
+          "tokens": 1444
+        },
+        "Artistic-2.0 AND Unlicense": {
+          "shards": 6,
+          "tokens": 1694
+        },
+        "Artistic-2.0 AND Zlib": {
+          "shards": 3,
+          "tokens": 664
+        },
+        "BSD-1-Clause": {
+          "shards": 1,
+          "tokens": 138
+        },
+        "BSD-1-Clause AND BSD-2-Clause": {
+          "shards": 1,
+          "tokens": 726
+        },
+        "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause": {
+          "shards": 1,
+          "tokens": 2915
+        },
+        "BSD-1-Clause AND BSD-3-Clause": {
+          "shards": 4,
+          "tokens": 2232
+        },
+        "BSD-1-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 5,
+          "tokens": 22742
+        },
+        "BSD-1-Clause AND MIT": {
+          "shards": 3,
+          "tokens": 3805
+        },
+        "BSD-2-Clause": {
+          "shards": 6,
+          "tokens": 55141059
+        },
+        "BSD-2-Clause AND BSD-2-Clause-Views": {
+          "shards": 6,
+          "tokens": 467242
+        },
+        "BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 82892
+        },
+        "BSD-2-Clause AND BSD-2-Clause-Views AND ISC AND MIT": {
+          "shards": 1,
+          "tokens": 448
+        },
+        "BSD-2-Clause AND BSD-2-Clause-Views AND MIT": {
+          "shards": 6,
+          "tokens": 13262
+        },
+        "BSD-2-Clause AND BSD-2-Clause-Views AND OpenSSL AND Zlib": {
+          "shards": 2,
+          "tokens": 1737
+        },
+        "BSD-2-Clause AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 3486115
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-3-Clause-Attribution": {
+          "shards": 1,
+          "tokens": 64
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-3-Clause-LBNL AND MIT AND Zlib": {
+          "shards": 1,
+          "tokens": 513
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-3-Clause-No-Nuclear-Warranty AND BSD-4-Clause": {
+          "shards": 2,
+          "tokens": 1574
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSD-4-Clause-Shortened AND BSD-4-Clause-UC AND MIT-CMU": {
+          "shards": 3,
+          "tokens": 1516
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND CC0-1.0": {
+          "shards": 1,
+          "tokens": 166
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND ISC AND MIT": {
+          "shards": 1,
+          "tokens": 128
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND MIT": {
+          "shards": 2,
+          "tokens": 249939
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC": {
+          "shards": 1,
+          "tokens": 104
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT": {
+          "shards": 1,
+          "tokens": 80
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND BSL-1.0": {
+          "shards": 1,
+          "tokens": 2441
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND CC0-1.0": {
+          "shards": 6,
+          "tokens": 27196
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND MIT": {
+          "shards": 1,
+          "tokens": 339
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND ECL-2.0": {
+          "shards": 1,
+          "tokens": 39
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND ISC": {
+          "shards": 2,
+          "tokens": 8473
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT": {
+          "shards": 6,
+          "tokens": 52984
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MIT-0": {
+          "shards": 3,
+          "tokens": 749
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 743155
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND MIT AND Python-2.0": {
+          "shards": 1,
+          "tokens": 61
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND NCSA": {
+          "shards": 6,
+          "tokens": 58676
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND NCSA AND Zlib AND curl": {
+          "shards": 3,
+          "tokens": 3794
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND NTP": {
+          "shards": 6,
+          "tokens": 13412
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND OpenSSL AND Zlib": {
+          "shards": 1,
+          "tokens": 914
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND Python-2.0": {
+          "shards": 1,
+          "tokens": 103
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND Ruby": {
+          "shards": 2,
+          "tokens": 593
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND TCL": {
+          "shards": 6,
+          "tokens": 10937
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND Unlicense": {
+          "shards": 2,
+          "tokens": 13607
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND VSL-1.0": {
+          "shards": 2,
+          "tokens": 536
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND ZPL-2.1": {
+          "shards": 6,
+          "tokens": 33736
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND Zlib": {
+          "shards": 5,
+          "tokens": 3543
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND bzip2-1.0.6": {
+          "shards": 1,
+          "tokens": 18478
+        },
+        "BSD-2-Clause AND BSD-3-Clause AND libtiff": {
+          "shards": 6,
+          "tokens": 40047
+        },
+        "BSD-2-Clause AND BSD-4-Clause": {
+          "shards": 6,
+          "tokens": 19255
+        },
+        "BSD-2-Clause AND BSD-4-Clause AND BSD-4-Clause-UC": {
+          "shards": 2,
+          "tokens": 81
+        },
+        "BSD-2-Clause AND BSD-4-Clause AND MIT": {
+          "shards": 4,
+          "tokens": 916
+        },
+        "BSD-2-Clause AND BSD-4-Clause-Shortened": {
+          "shards": 1,
+          "tokens": 3180
+        },
+        "BSD-2-Clause AND BSD-4-Clause-UC": {
+          "shards": 6,
+          "tokens": 126874
+        },
+        "BSD-2-Clause AND BSD-Source-Code": {
+          "shards": 2,
+          "tokens": 2316
+        },
+        "BSD-2-Clause AND BSL-1.0": {
+          "shards": 1,
+          "tokens": 633
+        },
+        "BSD-2-Clause AND CC0-1.0": {
+          "shards": 1,
+          "tokens": 1362
+        },
+        "BSD-2-Clause AND CC0-1.0 AND MIT": {
+          "shards": 6,
+          "tokens": 7224
+        },
+        "BSD-2-Clause AND ISC": {
+          "shards": 6,
+          "tokens": 52313
+        },
+        "BSD-2-Clause AND ISC AND MIT": {
+          "shards": 6,
+          "tokens": 26369
+        },
+        "BSD-2-Clause AND Linux-OpenIB AND MIT": {
+          "shards": 2,
+          "tokens": 121
+        },
+        "BSD-2-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 825537
+        },
+        "BSD-2-Clause AND MIT AND MIT-0": {
+          "shards": 2,
+          "tokens": 103
+        },
+        "BSD-2-Clause AND MIT AND MIT-Modern-Variant": {
+          "shards": 1,
+          "tokens": 84
+        },
+        "BSD-2-Clause AND MIT AND OpenSSL": {
+          "shards": 1,
+          "tokens": 40
+        },
+        "BSD-2-Clause AND MIT AND Ruby": {
+          "shards": 2,
+          "tokens": 747
+        },
+        "BSD-2-Clause AND MIT AND Unlicense": {
+          "shards": 5,
+          "tokens": 11115
+        },
+        "BSD-2-Clause AND MIT AND Zlib": {
+          "shards": 5,
+          "tokens": 57731
+        },
+        "BSD-2-Clause AND MIT-feh": {
+          "shards": 2,
+          "tokens": 5894
+        },
+        "BSD-2-Clause AND MS-PL": {
+          "shards": 4,
+          "tokens": 398
+        },
+        "BSD-2-Clause AND NCSA": {
+          "shards": 5,
+          "tokens": 7775
+        },
+        "BSD-2-Clause AND NCSA AND Zlib": {
+          "shards": 5,
+          "tokens": 3889
+        },
+        "BSD-2-Clause AND NCSA AND Zlib AND curl": {
+          "shards": 6,
+          "tokens": 19930
+        },
+        "BSD-2-Clause AND NTP": {
+          "shards": 4,
+          "tokens": 4188
+        },
+        "BSD-2-Clause AND OpenSSL": {
+          "shards": 6,
+          "tokens": 29760
+        },
+        "BSD-2-Clause AND PostgreSQL": {
+          "shards": 6,
+          "tokens": 12511
+        },
+        "BSD-2-Clause AND PostgreSQL AND Ruby": {
+          "shards": 5,
+          "tokens": 79858
+        },
+        "BSD-2-Clause AND Python-2.0": {
+          "shards": 5,
+          "tokens": 5712
+        },
+        "BSD-2-Clause AND Ruby": {
+          "shards": 5,
+          "tokens": 6473
+        },
+        "BSD-2-Clause AND SMLNJ AND W3C": {
+          "shards": 1,
+          "tokens": 108
+        },
+        "BSD-2-Clause AND TCL": {
+          "shards": 6,
+          "tokens": 417956
+        },
+        "BSD-2-Clause AND Unlicense": {
+          "shards": 6,
+          "tokens": 102708
+        },
+        "BSD-2-Clause AND VSL-1.0": {
+          "shards": 1,
+          "tokens": 2143
+        },
+        "BSD-2-Clause AND Zlib": {
+          "shards": 6,
+          "tokens": 2642
+        },
+        "BSD-2-Clause-Patent": {
+          "shards": 3,
+          "tokens": 3907
+        },
+        "BSD-2-Clause-Views": {
+          "shards": 6,
+          "tokens": 325038
+        },
+        "BSD-2-Clause-Views AND BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 193932
+        },
+        "BSD-2-Clause-Views AND BSD-3-Clause AND MIT": {
+          "shards": 1,
+          "tokens": 36843
+        },
+        "BSD-2-Clause-Views AND MIT": {
+          "shards": 6,
+          "tokens": 5600
+        },
+        "BSD-3-Clause": {
+          "shards": 6,
+          "tokens": 55420110
+        },
+        "BSD-3-Clause AND BSD-3-Clause-Clear": {
+          "shards": 6,
+          "tokens": 8139
+        },
+        "BSD-3-Clause AND BSD-3-Clause-Clear AND MIT": {
+          "shards": 2,
+          "tokens": 168
+        },
+        "BSD-3-Clause AND BSD-3-Clause-LBNL": {
+          "shards": 6,
+          "tokens": 15816
+        },
+        "BSD-3-Clause AND BSD-3-Clause-LBNL AND MIT-Modern-Variant": {
+          "shards": 1,
+          "tokens": 6991
+        },
+        "BSD-3-Clause AND BSD-3-Clause-Modification AND MIT": {
+          "shards": 1,
+          "tokens": 49
+        },
+        "BSD-3-Clause AND BSD-3-Clause-No-Nuclear-Warranty": {
+          "shards": 4,
+          "tokens": 11801
+        },
+        "BSD-3-Clause AND BSD-3-Clause-Open-MPI": {
+          "shards": 1,
+          "tokens": 8463
+        },
+        "BSD-3-Clause AND BSD-4-Clause": {
+          "shards": 5,
+          "tokens": 5761
+        },
+        "BSD-3-Clause AND BSD-Source-Code": {
+          "shards": 2,
+          "tokens": 6842
+        },
+        "BSD-3-Clause AND BSD-Source-Code AND MIT": {
+          "shards": 3,
+          "tokens": 3481
+        },
+        "BSD-3-Clause AND BSL-1.0": {
+          "shards": 6,
+          "tokens": 17052
+        },
+        "BSD-3-Clause AND BSL-1.0 AND ISC AND MIT AND MIT-Wu": {
+          "shards": 1,
+          "tokens": 7059
+        },
+        "BSD-3-Clause AND BSL-1.0 AND MIT": {
+          "shards": 2,
+          "tokens": 38786
+        },
+        "BSD-3-Clause AND BSL-1.0 AND Zlib": {
+          "shards": 5,
+          "tokens": 192917
+        },
+        "BSD-3-Clause AND CC0-1.0": {
+          "shards": 6,
+          "tokens": 14442
+        },
+        "BSD-3-Clause AND CC0-1.0 AND MIT": {
+          "shards": 5,
+          "tokens": 3435
+        },
+        "BSD-3-Clause AND ECL-2.0": {
+          "shards": 1,
+          "tokens": 216
+        },
+        "BSD-3-Clause AND ECL-2.0 AND MIT": {
+          "shards": 1,
+          "tokens": 1417
+        },
+        "BSD-3-Clause AND ICU": {
+          "shards": 6,
+          "tokens": 81761
+        },
+        "BSD-3-Clause AND ICU AND MIT AND Python-2.0": {
+          "shards": 5,
+          "tokens": 3466
+        },
+        "BSD-3-Clause AND ISC": {
+          "shards": 6,
+          "tokens": 46565
+        },
+        "BSD-3-Clause AND ISC AND MIT": {
+          "shards": 5,
+          "tokens": 52360
+        },
+        "BSD-3-Clause AND ISC AND MIT AND MIT-advertising": {
+          "shards": 4,
+          "tokens": 4793
+        },
+        "BSD-3-Clause AND ISC AND MIT AND Zlib": {
+          "shards": 2,
+          "tokens": 2283
+        },
+        "BSD-3-Clause AND Intel": {
+          "shards": 1,
+          "tokens": 1378
+        },
+        "BSD-3-Clause AND LPPL-1.3c": {
+          "shards": 1,
+          "tokens": 9541
+        },
+        "BSD-3-Clause AND MIT": {
+          "shards": 6,
+          "tokens": 4520639
+        },
+        "BSD-3-Clause AND MIT AND MIT-0": {
+          "shards": 5,
+          "tokens": 591
+        },
+        "BSD-3-Clause AND MIT AND MIT-Wu": {
+          "shards": 2,
+          "tokens": 1081
+        },
+        "BSD-3-Clause AND MIT AND MS-PL": {
+          "shards": 6,
+          "tokens": 10256
+        },
+        "BSD-3-Clause AND MIT AND NCSA": {
+          "shards": 5,
+          "tokens": 4764
+        },
+        "BSD-3-Clause AND MIT AND NIST-Software": {
+          "shards": 5,
+          "tokens": 877
+        },
+        "BSD-3-Clause AND MIT AND OpenSSL": {
+          "shards": 1,
+          "tokens": 329
+        },
+        "BSD-3-Clause AND MIT AND PostgreSQL": {
+          "shards": 3,
+          "tokens": 813
+        },
+        "BSD-3-Clause AND MIT AND PostgreSQL AND Zlib": {
+          "shards": 6,
+          "tokens": 110808
+        },
+        "BSD-3-Clause AND MIT AND Python-2.0": {
+          "shards": 4,
+          "tokens": 3043
+        },
+        "BSD-3-Clause AND MIT AND Ruby": {
+          "shards": 5,
+          "tokens": 6059
+        },
+        "BSD-3-Clause AND MIT AND SGI-B-2.0": {
+          "shards": 2,
+          "tokens": 189
+        },
+        "BSD-3-Clause AND MIT AND Unlicense": {
+          "shards": 4,
+          "tokens": 1770
+        },
+        "BSD-3-Clause AND MIT AND W3C": {
+          "shards": 3,
+          "tokens": 2350
+        },
+        "BSD-3-Clause AND MIT AND Zlib": {
+          "shards": 6,
+          "tokens": 52547
+        },
+        "BSD-3-Clause AND MIT AND bzip2-1.0.6": {
+          "shards": 5,
+          "tokens": 17888
+        },
+        "BSD-3-Clause AND MIT-0": {
+          "shards": 2,
+          "tokens": 1065
+        },
+        "BSD-3-Clause AND MIT-CMU": {
+          "shards": 1,
+          "tokens": 1566
+        },
+        "BSD-3-Clause AND MIT-Wu": {
+          "shards": 2,
+          "tokens": 1468
+        },
+        "BSD-3-Clause AND MS-PL": {
+          "shards": 4,
+          "tokens": 3617
+        },
+        "BSD-3-Clause AND NCSA": {
+          "shards": 5,
+          "tokens": 61757
+        },
+        "BSD-3-Clause AND NIST-Software": {
+          "shards": 5,
+          "tokens": 679
+        },
+        "BSD-3-Clause AND NetCDF": {
+          "shards": 1,
+          "tokens": 302
+        },
+        "BSD-3-Clause AND OpenSSL": {
+          "shards": 3,
+          "tokens": 38409
+        },
+        "BSD-3-Clause AND Plexus": {
+          "shards": 6,
+          "tokens": 79664
+        },
+        "BSD-3-Clause AND PostgreSQL": {
+          "shards": 6,
+          "tokens": 40462
+        },
+        "BSD-3-Clause AND PostgreSQL AND Zlib": {
+          "shards": 1,
+          "tokens": 3556
+        },
+        "BSD-3-Clause AND Python-2.0": {
+          "shards": 6,
+          "tokens": 72606
+        },
+        "BSD-3-Clause AND Ruby": {
+          "shards": 6,
+          "tokens": 882455
+        },
+        "BSD-3-Clause AND SGI-B-2.0": {
+          "shards": 1,
+          "tokens": 381
+        },
+        "BSD-3-Clause AND SMLNJ": {
+          "shards": 6,
+          "tokens": 14035
+        },
+        "BSD-3-Clause AND SunPro": {
+          "shards": 3,
+          "tokens": 5404
+        },
+        "BSD-3-Clause AND SunPro AND bzip2-1.0.6": {
+          "shards": 1,
+          "tokens": 54
+        },
+        "BSD-3-Clause AND TCL": {
+          "shards": 6,
+          "tokens": 277068
+        },
+        "BSD-3-Clause AND Unlicense": {
+          "shards": 5,
+          "tokens": 1175
+        },
+        "BSD-3-Clause AND Xfig": {
+          "shards": 1,
+          "tokens": 4356
+        },
+        "BSD-3-Clause AND Zlib": {
+          "shards": 6,
+          "tokens": 353647
+        },
+        "BSD-3-Clause AND Zlib AND zlib-acknowledgement": {
+          "shards": 3,
+          "tokens": 2021
+        },
+        "BSD-3-Clause AND bzip2-1.0.6": {
+          "shards": 3,
+          "tokens": 10000
+        },
+        "BSD-3-Clause AND libtiff": {
+          "shards": 6,
+          "tokens": 21278
+        },
+        "BSD-3-Clause-Clear": {
+          "shards": 6,
+          "tokens": 272443
+        },
+        "BSD-3-Clause-Clear AND MIT": {
+          "shards": 6,
+          "tokens": 2320
+        },
+        "BSD-3-Clause-LBNL": {
+          "shards": 6,
+          "tokens": 184794
+        },
+        "BSD-3-Clause-LBNL AND MIT": {
+          "shards": 1,
+          "tokens": 876
+        },
+        "BSD-3-Clause-Modification": {
+          "shards": 1,
+          "tokens": 49
+        },
+        "BSD-3-Clause-No-Nuclear-License-2014": {
+          "shards": 6,
+          "tokens": 381453
+        },
+        "BSD-3-Clause-No-Nuclear-Warranty": {
+          "shards": 4,
+          "tokens": 4076
+        },
+        "BSD-3-Clause-Open-MPI": {
+          "shards": 6,
+          "tokens": 95243
+        },
+        "BSD-4-Clause": {
+          "shards": 5,
+          "tokens": 8092
+        },
+        "BSD-4-Clause-UC": {
+          "shards": 5,
+          "tokens": 21538
+        },
+        "BSD-4-Clause-UC AND BSD-Source-Code": {
+          "shards": 1,
+          "tokens": 601
+        },
+        "BSD-4-Clause-UC AND MIT": {
+          "shards": 1,
+          "tokens": 4446
+        },
+        "BSD-Source-Code": {
+          "shards": 1,
+          "tokens": 161
+        },
+        "BSD-Source-Code AND MIT": {
+          "shards": 3,
+          "tokens": 865
+        },
+        "BSL-1.0": {
+          "shards": 6,
+          "tokens": 3504995
+        },
+        "BSL-1.0 AND FTL": {
+          "shards": 6,
+          "tokens": 237587
+        },
+        "BSL-1.0 AND MIT": {
+          "shards": 6,
+          "tokens": 229935
+        },
+        "BSL-1.0 AND MIT AND Zlib": {
+          "shards": 4,
+          "tokens": 1143
+        },
+        "BSL-1.0 AND MIT AND curl": {
+          "shards": 6,
+          "tokens": 9771
+        },
+        "BSL-1.0 AND Python-2.0": {
+          "shards": 2,
+          "tokens": 990
+        },
+        "BSL-1.0 AND Zlib": {
+          "shards": 4,
+          "tokens": 1213
+        },
+        "BlueOak-1.0.0": {
+          "shards": 6,
+          "tokens": 36532
+        },
+        "BlueOak-1.0.0 AND MIT": {
+          "shards": 2,
+          "tokens": 180
+        },
+        "CC0-1.0": {
+          "shards": 6,
+          "tokens": 24154576
+        },
+        "CC0-1.0 AND ISC": {
+          "shards": 4,
+          "tokens": 766
+        },
+        "CC0-1.0 AND ISC AND MIT": {
+          "shards": 1,
+          "tokens": 25
+        },
+        "CC0-1.0 AND MIT": {
+          "shards": 6,
+          "tokens": 1192417
+        },
+        "CC0-1.0 AND MIT AND Unlicense": {
+          "shards": 5,
+          "tokens": 12194
+        },
+        "CC0-1.0 AND MIT AND Zlib": {
+          "shards": 4,
+          "tokens": 13716
+        },
+        "CC0-1.0 AND NIST-Software": {
+          "shards": 1,
+          "tokens": 364
+        },
+        "CC0-1.0 AND PostgreSQL": {
+          "shards": 1,
+          "tokens": 219
+        },
+        "CC0-1.0 AND Python-2.0": {
+          "shards": 1,
+          "tokens": 62
+        },
+        "CC0-1.0 AND Unlicense": {
+          "shards": 6,
+          "tokens": 26560
+        },
+        "CC0-1.0 AND Unlicense AND Zlib": {
+          "shards": 1,
+          "tokens": 651
+        },
+        "CC0-1.0 AND Zlib": {
+          "shards": 2,
+          "tokens": 233
+        },
+        "CC0-1.0 AND curl": {
+          "shards": 4,
+          "tokens": 3001
+        },
+        "CFITSIO": {
+          "shards": 6,
+          "tokens": 58517
+        },
+        "ECL-2.0": {
+          "shards": 6,
+          "tokens": 128402
+        },
+        "ECL-2.0 AND MIT": {
+          "shards": 6,
+          "tokens": 39715
+        },
+        "FTL": {
+          "shards": 6,
+          "tokens": 38607
+        },
+        "HTMLTIDY": {
+          "shards": 6,
+          "tokens": 2545
+        },
+        "HTMLTIDY AND Libpng": {
+          "shards": 4,
+          "tokens": 4377
+        },
+        "HTMLTIDY AND Libpng AND MIT": {
+          "shards": 2,
+          "tokens": 16268
+        },
+        "ICU": {
+          "shards": 6,
+          "tokens": 134397
+        },
+        "ICU AND MIT": {
+          "shards": 4,
+          "tokens": 19783
+        },
+        "ICU AND X11": {
+          "shards": 6,
+          "tokens": 41636
+        },
+        "ISC": {
+          "shards": 6,
+          "tokens": 3183073
+        },
+        "ISC AND MIT": {
+          "shards": 6,
+          "tokens": 116562
+        },
+        "ISC AND TCL": {
+          "shards": 4,
+          "tokens": 7574
+        },
+        "ISC AND Unlicense": {
+          "shards": 5,
+          "tokens": 1602
+        },
+        "Intel": {
+          "shards": 6,
+          "tokens": 162267
+        },
+        "Intel AND MIT": {
+          "shards": 1,
+          "tokens": 48
+        },
+        "JasPer-2.0": {
+          "shards": 4,
+          "tokens": 2691
+        },
+        "LPPL-1.3c": {
+          "shards": 6,
+          "tokens": 244548
+        },
+        "LPPL-1.3c AND MIT": {
+          "shards": 2,
+          "tokens": 648
+        },
+        "LicenseRef-Mixed": {
+          "shards": 6,
+          "tokens": 10292315
+        },
+        "Linux-OpenIB AND MIT": {
+          "shards": 1,
+          "tokens": 43
+        },
+        "MIT": {
+          "shards": 6,
+          "tokens": 645485636
+        },
+        "MIT AND MIT-0": {
+          "shards": 6,
+          "tokens": 163389
+        },
+        "MIT AND MIT-Modern-Variant": {
+          "shards": 6,
+          "tokens": 37385
+        },
+        "MIT AND MIT-Wu": {
+          "shards": 1,
+          "tokens": 168
+        },
+        "MIT AND MITNFA": {
+          "shards": 6,
+          "tokens": 10260
+        },
+        "MIT AND MS-PL": {
+          "shards": 6,
+          "tokens": 92550
+        },
+        "MIT AND NCSA": {
+          "shards": 6,
+          "tokens": 349759
+        },
+        "MIT AND NIST-Software": {
+          "shards": 2,
+          "tokens": 227
+        },
+        "MIT AND NTP": {
+          "shards": 1,
+          "tokens": 104
+        },
+        "MIT AND NTP AND TCL": {
+          "shards": 3,
+          "tokens": 70155
+        },
+        "MIT AND OGL-Canada-2.0": {
+          "shards": 3,
+          "tokens": 1510
+        },
+        "MIT AND OpenSSL": {
+          "shards": 3,
+          "tokens": 4313
+        },
+        "MIT AND OpenSSL AND Zlib": {
+          "shards": 1,
+          "tokens": 108
+        },
+        "MIT AND PostgreSQL": {
+          "shards": 6,
+          "tokens": 18510
+        },
+        "MIT AND Python-2.0": {
+          "shards": 6,
+          "tokens": 403057
+        },
+        "MIT AND Ruby": {
+          "shards": 6,
+          "tokens": 208982
+        },
+        "MIT AND SGI-B-2.0 AND X11": {
+          "shards": 2,
+          "tokens": 92
+        },
+        "MIT AND TCL": {
+          "shards": 4,
+          "tokens": 1447
+        },
+        "MIT AND UPL-1.0": {
+          "shards": 2,
+          "tokens": 234
+        },
+        "MIT AND Unlicense": {
+          "shards": 6,
+          "tokens": 164021
+        },
+        "MIT AND Unlicense AND Zlib": {
+          "shards": 2,
+          "tokens": 745
+        },
+        "MIT AND W3C": {
+          "shards": 6,
+          "tokens": 2943
+        },
+        "MIT AND X11": {
+          "shards": 6,
+          "tokens": 111705
+        },
+        "MIT AND Xerox": {
+          "shards": 1,
+          "tokens": 1156
+        },
+        "MIT AND ZPL-2.0 AND ZPL-2.1": {
+          "shards": 5,
+          "tokens": 101667
+        },
+        "MIT AND Zlib": {
+          "shards": 6,
+          "tokens": 303336
+        },
+        "MIT AND Zlib AND zlib-acknowledgement": {
+          "shards": 6,
+          "tokens": 39994
+        },
+        "MIT AND curl": {
+          "shards": 6,
+          "tokens": 24211
+        },
+        "MIT AND zlib-acknowledgement": {
+          "shards": 6,
+          "tokens": 9032
+        },
+        "MIT-0": {
+          "shards": 6,
+          "tokens": 327316
+        },
+        "MIT-Modern-Variant": {
+          "shards": 6,
+          "tokens": 532336
+        },
+        "MIT-Wu": {
+          "shards": 3,
+          "tokens": 1065
+        },
+        "MIT-advertising": {
+          "shards": 5,
+          "tokens": 17270
+        },
+        "MIT-enna": {
+          "shards": 1,
+          "tokens": 13543
+        },
+        "MIT-feh": {
+          "shards": 5,
+          "tokens": 3773
+        },
+        "MIT-open-group": {
+          "shards": 1,
+          "tokens": 251
+        },
+        "MIT-open-group AND X11": {
+          "shards": 2,
+          "tokens": 5680
+        },
+        "MITNFA": {
+          "shards": 5,
+          "tokens": 1934
+        },
+        "MS-PL": {
+          "shards": 6,
+          "tokens": 598237
+        },
+        "Multics": {
+          "shards": 6,
+          "tokens": 65349
+        },
+        "Mup": {
+          "shards": 6,
+          "tokens": 21634
+        },
+        "NCSA": {
+          "shards": 6,
+          "tokens": 903680
+        },
+        "NIST-Software": {
+          "shards": 6,
+          "tokens": 36593
+        },
+        "NTP": {
+          "shards": 6,
+          "tokens": 387635
+        },
+        "NetCDF": {
+          "shards": 6,
+          "tokens": 353019
+        },
+        "OGL-Canada-2.0": {
+          "shards": 4,
+          "tokens": 3953
+        },
+        "OML": {
+          "shards": 5,
+          "tokens": 38908
+        },
+        "OpenSSL": {
+          "shards": 6,
+          "tokens": 104270
+        },
+        "OpenSSL AND VSL-1.0": {
+          "shards": 1,
+          "tokens": 36
+        },
+        "PHP-3.0": {
+          "shards": 5,
+          "tokens": 8131
+        },
+        "PHP-3.01": {
+          "shards": 6,
+          "tokens": 61159
+        },
+        "PSF-2.0": {
+          "shards": 6,
+          "tokens": 19924
+        },
+        "Plexus": {
+          "shards": 5,
+          "tokens": 1590
+        },
+        "PostgreSQL": {
+          "shards": 6,
+          "tokens": 307201
+        },
+        "PostgreSQL AND Zlib": {
+          "shards": 4,
+          "tokens": 25675
+        },
+        "Python-2.0": {
+          "shards": 6,
+          "tokens": 92428
+        },
+        "Python-2.0 AND Ruby": {
+          "shards": 1,
+          "tokens": 302
+        },
+        "Python-2.0 AND ZPL-2.0 AND ZPL-2.1": {
+          "shards": 2,
+          "tokens": 3862
+        },
+        "Ruby": {
+          "shards": 6,
+          "tokens": 51620
+        },
+        "SGI-B-2.0": {
+          "shards": 2,
+          "tokens": 1089
+        },
+        "SMLNJ": {
+          "shards": 6,
+          "tokens": 310313
+        },
+        "SWL AND TCL": {
+          "shards": 6,
+          "tokens": 36193
+        },
+        "TCL": {
+          "shards": 6,
+          "tokens": 704943
+        },
+        "TCP-wrappers": {
+          "shards": 1,
+          "tokens": 286
+        },
+        "UCAR": {
+          "shards": 5,
+          "tokens": 3324
+        },
+        "UPL-1.0": {
+          "shards": 6,
+          "tokens": 92374
+        },
+        "Unicode-DFS-2016": {
+          "shards": 1,
+          "tokens": 363
+        },
+        "Unlicense": {
+          "shards": 6,
+          "tokens": 19888645
+        },
+        "Unlicense AND Zlib": {
+          "shards": 2,
+          "tokens": 1742
+        },
+        "Unlicense AND curl": {
+          "shards": 5,
+          "tokens": 2024
+        },
+        "W3C": {
+          "shards": 6,
+          "tokens": 85130
+        },
+        "X11": {
+          "shards": 6,
+          "tokens": 5650
+        },
+        "Xnet": {
+          "shards": 1,
+          "tokens": 968
+        },
+        "ZPL-2.0": {
+          "shards": 4,
+          "tokens": 11888
+        },
+        "ZPL-2.1": {
+          "shards": 6,
+          "tokens": 18238
+        },
+        "Zlib": {
+          "shards": 6,
+          "tokens": 5706963
+        },
+        "Zlib AND zlib-acknowledgement": {
+          "shards": 6,
+          "tokens": 23240
+        },
+        "bzip2-1.0.6": {
+          "shards": 1,
+          "tokens": 74
+        },
+        "curl": {
+          "shards": 6,
+          "tokens": 45229
+        },
+        "libtiff": {
+          "shards": 6,
+          "tokens": 71692
+        },
+        "xlock": {
+          "shards": 5,
+          "tokens": 29347
+        }
+      },
+      "input_formats": [
+        "jsonl"
+      ]
     },
     {
       "path": "code/copyleft/linux-core",
