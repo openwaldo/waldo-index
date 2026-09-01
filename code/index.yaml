@@ -8,5 +8,7 @@ entries:
     type: dir
   - name: permissive
     type: dir
+  - name: stack-v2-edu
+    type: dir
   - name: stack-v2-html
     type: dir

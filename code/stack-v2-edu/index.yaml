@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: code/stack-v2-edu
+entries:
+  - name: stack-v2-edu.yaml
+    type: manifest
