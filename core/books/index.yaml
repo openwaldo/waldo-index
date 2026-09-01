@@ -6,3 +6,5 @@ entries:
     type: dir
   - name: gutenberg
     type: dir
+  - name: matecompu1-logica-circuitos
+    type: dir
