@@ -49,7 +49,7 @@ redaction:
   mail_routing_headers: 0
   credentials: 0
 shards:
-  - url: file:///home/manuel/projects/waldo-lookaside/c9/b3/c9b371ba2b9f73f131f7f2453c8306f71ea5ef0a7e4129ceffb48a24374fd892
+  - url: https://raw.githubusercontent.com/mlmateos/waldo-lookaside/main/c9/b3/c9b371ba2b9f73f131f7f2453c8306f71ea5ef0a7e4129ceffb48a24374fd892
     sha256: c9b371ba2b9f73f131f7f2453c8306f71ea5ef0a7e4129ceffb48a24374fd892
     license: CC-BY-4.0
     sources:
