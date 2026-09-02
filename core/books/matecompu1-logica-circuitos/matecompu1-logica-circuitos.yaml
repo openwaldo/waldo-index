@@ -1,0 +1,77 @@
+kind: manifest
+schema: 2
+name: matecompu1-logica-circuitos
+title: Lógica y Circuitos
+description: Segundo libro de la serie Matemáticas para Todo por Manuel López Mateos
+content:
+  languages:
+    - es
+license: CC-BY-4.0
+sources:
+  - name: matecompu1-logica-circuitos
+    source: matecompu1-logica-circuitos
+    version: v0.2.0
+    input_formats:
+      - markdown
+    license: CC-BY-4.0
+    license_evidence:
+      declaration: CC-BY-4.0
+    url: https://doi.org/10.5281/zenodo.20433093
+    category: public-dataset
+    sha256: 5b25f4203b5b0f09239a91d1ebabc4985fce18442b50c6d353d6488861a4c742
+    content:
+      languages:
+        - es
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  tokenizer: tiktoken/cl100k_base
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 1
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 1
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 0
+  phone_numbers: 0
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: https://raw.githubusercontent.com/mlmateos/waldo-lookaside/main/c9/b3/c9b371ba2b9f73f131f7f2453c8306f71ea5ef0a7e4129ceffb48a24374fd892
+    sha256: c9b371ba2b9f73f131f7f2453c8306f71ea5ef0a7e4129ceffb48a24374fd892
+    license: CC-BY-4.0
+    sources:
+      - matecompu1-logica-circuitos
+    docs: 1
+    tokens: 47617
+    bytes: 39878
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 1
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 0
+      phone_numbers: 0
+      mail_routing_headers: 0
+      credentials: 0

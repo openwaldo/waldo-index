@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: core/books/matecompu1-logica-circuitos
+entries:
+  - name: matecompu1-logica-circuitos.yaml
+    type: manifest
