@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-01T16:38:45Z",
-  "index_commit": "5628e94",
-  "manifests": 68,
-  "shards": 2010,
-  "docs": 244472091,
-  "tokens": 443937051247,
-  "bytes": 546922074347,
+  "generated": "2026-09-11T02:47:31Z",
+  "index_commit": "6b0774a",
+  "manifests": 69,
+  "shards": 2011,
+  "docs": 244472092,
+  "tokens": 443937098864,
+  "bytes": 546922114225,
   "licenses": {
     "0BSD": {
       "shards": 305,
@@ -6446,10 +6446,10 @@
       "bytes": 6220477451
     },
     "CC-BY-4.0": {
-      "shards": 988,
-      "docs": 28452207,
-      "tokens": 229757383043,
-      "bytes": 206590967999
+      "shards": 989,
+      "docs": 28452208,
+      "tokens": 229757430660,
+      "bytes": 206591007877
     },
     "CC-BY-4.0 AND MIT": {
       "shards": 1,
@@ -8350,7 +8350,7 @@
   },
   "languages": {
     "en": 55,
-    "es": 2,
+    "es": 3,
     "mul": 11,
     "zh": 1
   },
@@ -20329,6 +20329,41 @@
           "tokens": 118289
         }
       }
+    },
+    {
+      "path": "core/books/matecompu1-logica-circuitos",
+      "name": "matecompu1-logica-circuitos",
+      "title": "L\u00f3gica y Circuitos",
+      "description": "Segundo libro de la serie Matem\u00e1ticas para Todo por Manuel L\u00f3pez Mateos",
+      "sources": [
+        {
+          "name": "matecompu1-logica-circuitos",
+          "origin": "matecompu1-logica-circuitos",
+          "version": "v0.2.0",
+          "url": "https://doi.org/10.5281/zenodo.20433093",
+          "input_formats": [
+            "markdown"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "es"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 1,
+      "tokens": 47617,
+      "bytes": 39878,
+      "licenses": {
+        "CC-BY-4.0": {
+          "shards": 1,
+          "tokens": 47617
+        }
+      },
+      "input_formats": [
+        "markdown"
+      ]
     },
     {
       "path": "math/lopez-mateos/logica-y-circuitos",
