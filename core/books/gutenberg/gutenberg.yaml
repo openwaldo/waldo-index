@@ -7,14 +7,6 @@ content:
   languages:
     - mul
 license: CC0-1.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: unresolved
-  corpus_redistribution: unresolved
-  model_weights: unresolved
-  reason: The immutable shards encode an unsupported CC0 assertion; Project Gutenberg says the collection includes copyrighted works and public-domain status is item- and jurisdiction-specific.
-  evidence:
-    - https://www.gutenberg.org/policy/permission.html
 sources:
   - name: gutenberg
     source: gutenberg

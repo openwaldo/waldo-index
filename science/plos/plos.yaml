@@ -7,14 +7,6 @@ content:
   languages:
     - en
 license: CC-BY-4.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: approved
-  corpus_redistribution: unresolved
-  model_weights: unresolved
-  reason: PLOS permits training under CC BY, but the current immutable shards do not preserve each article's license version, authors, DOI, and required attribution.
-  evidence:
-    - https://plos.org/open-science/open-access/
 sources:
   - name: plos
     source: plos

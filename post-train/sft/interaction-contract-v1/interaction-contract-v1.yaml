@@ -7,14 +7,6 @@ content:
   languages:
     - en
 license: Apache-2.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: approved
-  corpus_redistribution: approved
-  model_weights: approved
-  reason: OpenWALDO authored and released the pinned training data under Apache-2.0.
-  evidence:
-    - https://github.com/openwaldo/post-training-data/blob/8d2454f2625a85d911cd7810816e489f0ebb1448/LICENSE
 sources:
   - name: openwaldo/post-training-data
     source: openwaldo/post-training-data

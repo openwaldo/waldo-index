@@ -7,14 +7,6 @@ content:
   languages:
     - en
 license: ODC-BY-1.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: private-research
-  corpus_redistribution: unresolved
-  model_weights: private-research
-  reason: The publisher states that subsets have different licenses, some are noncommercial, and third-party model outputs have separate terms.
-  evidence:
-    - https://huggingface.co/datasets/allenai/tulu-3-sft-mixture/tree/b14afda60f1bbebe55d5d2fa1e4df5042f97f8be
 sources:
   - name: allenai/tulu-3-sft-mixture
     source: allenai/tulu-3-sft-mixture

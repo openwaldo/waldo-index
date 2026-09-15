@@ -7,14 +7,6 @@ content:
   languages:
     - en
 license: CC-BY-SA-4.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: approved
-  corpus_redistribution: approved
-  model_weights: approved
-  reason: Google releases the selected original SGD dialogue records under CC-BY-SA-4.0.
-  evidence:
-    - https://github.com/google-research-datasets/dstc8-schema-guided-dialogue/blob/e852981ae34990f4358979625854259302feaa78/LICENSE.txt
 sources:
   - name: Google Schema-Guided Dialogue Dataset
     source: Google Schema-Guided Dialogue Dataset

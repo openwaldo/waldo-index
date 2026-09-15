@@ -11,16 +11,6 @@ content:
     - C
     - C++
     - Shell
-rights_review:
-  reviewed_at: 2026-09-14
-  training: approved
-  corpus_redistribution: unresolved
-  model_weights: unresolved
-  reason: The combined shards require per-file copyright and notice preservation and contain non-uniform BSD/ISC-style LicenseRef declarations that are not yet reviewed for release.
-  evidence:
-    - https://git.musl-libc.org/cgit/musl/tree/COPYRIGHT?id=0784374d561435f7c787a555aeab8ede699ed298
-    - https://www.openbsd.org/policy.html
-    - https://www.netbsd.org/about/redistribution.html
 licenses:
   - 0BSD
   - BSD-2-Clause

@@ -7,15 +7,6 @@ content:
   languages:
     - mul
 license: CC-BY-SA-4.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: approved
-  corpus_redistribution: approved
-  model_weights: approved
-  reason: The pinned March 2025 official Wikimedia dumps are licensed under CC-BY-SA-4.0 and the ingestion retains page source metadata needed for attribution.
-  evidence:
-    - https://huggingface.co/datasets/common-pile/wikimedia_filtered/tree/0641bb84bd9b7162bcddf8be7836822161a9a342
-    - https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
 sources:
   - name: common-pile/wikimedia_filtered
     source: common-pile/wikimedia_filtered

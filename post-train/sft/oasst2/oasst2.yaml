@@ -7,14 +7,6 @@ content:
   languages:
     - mul
 license: Apache-2.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: approved
-  corpus_redistribution: approved
-  model_weights: approved
-  reason: OpenAssistant publishes the selected human-generated and annotated OASST2 dataset under Apache-2.0.
-  evidence:
-    - https://huggingface.co/datasets/OpenAssistant/oasst2/tree/179dd21fc55192153d94adb0e0ce8f69e222bf75
 sources:
   - name: OpenAssistant/oasst2
     source: OpenAssistant/oasst2

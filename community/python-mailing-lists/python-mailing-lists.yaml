@@ -7,14 +7,6 @@ content:
   languages:
     - en
 license: LicenseRef-Publicly-Archived-Forum
-rights_review:
-  reviewed_at: 2026-09-14
-  training: unresolved
-  corpus_redistribution: unresolved
-  model_weights: unresolved
-  reason: Python.org documents public archives but does not grant a blanket copyright license from message authors.
-  evidence:
-    - https://www.python.org/community/lists/
 sources:
   - name: python-list@python.org
     source: python-list@python.org

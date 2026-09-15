@@ -19,15 +19,6 @@ content:
     - Perl
     - Rust
     - Shell
-rights_review:
-  reviewed_at: 2026-09-14
-  training: approved
-  corpus_redistribution: unresolved
-  model_weights: unresolved
-  reason: The sources carry GPL/LGPL terms and exceptions; per-file source, notice, and exception compliance and the legal status of released model weights require review.
-  evidence:
-    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/COPYING?id=038d61fd642278bab63ee8ef722c50d10ab01e8f
-    - https://github.com/gcc-mirror/gcc/blob/5115c7e447fc07457443df874bf57840e8316d5f/COPYING3
 licenses:
   - GPL-2.0-only
   - GPL-2.0-or-later

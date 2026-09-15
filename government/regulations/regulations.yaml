@@ -7,15 +7,6 @@ content:
   languages:
     - en
 license: LicenseRef-Public-Domain
-rights_review:
-  reviewed_at: 2026-09-14
-  training: unresolved
-  corpus_redistribution: unresolved
-  model_weights: unresolved
-  reason: The immutable shards encode a blanket public-domain assertion, but the aggregation includes public comments and other works not covered by 17 U.S.C. 105.
-  evidence:
-    - https://huggingface.co/datasets/common-pile/regulations_filtered/tree/3327364490dfc7929009226ad667eceb2441d93a
-    - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section105
 sources:
   - name: common-pile/regulations_filtered
     source: common-pile/regulations_filtered

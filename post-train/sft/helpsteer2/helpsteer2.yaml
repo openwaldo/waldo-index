@@ -7,14 +7,6 @@ content:
   languages:
     - en
 license: CC-BY-4.0
-rights_review:
-  reviewed_at: 2026-09-14
-  training: unresolved
-  corpus_redistribution: unresolved
-  model_weights: unresolved
-  reason: NVIDIA labels the dataset CC-BY-4.0 but says most prompts came from user-contributed ShareGPT without documenting the underlying prompt rights chain.
-  evidence:
-    - https://huggingface.co/datasets/nvidia/HelpSteer2/tree/cece6cab0b0e2851523fd3664220d36a63337b47
 sources:
   - name: nvidia/HelpSteer2
     source: nvidia/HelpSteer2
