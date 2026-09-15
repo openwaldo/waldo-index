@@ -7,10 +7,22 @@ content:
   languages:
     - en
 license: CC-BY-SA-3.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: approved
+  model_weights: approved
+  reason: Databricks expressly permits academic and commercial use and redistribution under CC-BY-SA-3.0 with the documented Databricks and Wikipedia attribution.
+  evidence:
+    - https://huggingface.co/datasets/databricks/databricks-dolly-15k/tree/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a
 sources:
   - name: databricks/databricks-dolly-15k
     source: databricks/databricks-dolly-15k
+    version: bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a
     license: CC-BY-SA-3.0
+    license_evidence:
+      declaration: Databricks permits academic and commercial use under CC BY-SA 3.0 and identifies the included Wikipedia-derived categories and attribution.
+      url: https://huggingface.co/datasets/databricks/databricks-dolly-15k/tree/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a
     url: https://huggingface.co/datasets/databricks/databricks-dolly-15k
     category: public-dataset
     sha256: 0ddbedf84305456afe9b542eaaf893f4b36749fc86e2fc3d527119df60f5c906

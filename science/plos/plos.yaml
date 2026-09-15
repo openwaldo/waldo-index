@@ -7,13 +7,21 @@ content:
   languages:
     - en
 license: CC-BY-4.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: unresolved
+  model_weights: unresolved
+  reason: PLOS permits training under CC BY, but the current immutable shards do not preserve each article's license version, authors, DOI, and required attribution.
+  evidence:
+    - https://plos.org/open-science/open-access/
 sources:
   - name: plos
     source: plos
     license: CC-BY-4.0
     license_evidence:
-      declaration: CC-BY-4.0
-      url: https://allof.plos.org/allofplos.zip
+      declaration: PLOS publishes research articles under CC BY, but the exact license version and attribution metadata are article-level facts in the XML and were not retained by this ingestion.
+      url: https://plos.org/open-science/open-access/
     url: https://allof.plos.org/allofplos.zip
     category: public-dataset
     sha256: 71d1ca1e20db3c538587eece5813ce92f27030925126a833e22eebe5fb810cf9

@@ -7,10 +7,22 @@ content:
   languages:
     - mul
 license: Apache-2.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: approved
+  model_weights: approved
+  reason: Cohere For AI expressly permits academic and commercial use of the selected human-authored Aya dataset under Apache-2.0.
+  evidence:
+    - https://huggingface.co/datasets/CohereForAI/aya_dataset/tree/f9ea04583f02a8f86404ff6c58bf75fe637df8a2
 sources:
   - name: CohereForAI/aya_dataset
     source: CohereForAI/aya_dataset
+    version: f9ea04583f02a8f86404ff6c58bf75fe637df8a2
     license: Apache-2.0
+    license_evidence:
+      declaration: Cohere For AI states that this human-annotated dataset may be used for any academic or commercial purpose under Apache-2.0.
+      url: https://huggingface.co/datasets/CohereForAI/aya_dataset/tree/f9ea04583f02a8f86404ff6c58bf75fe637df8a2
     url: https://huggingface.co/datasets/CohereForAI/aya_dataset
     category: public-dataset
     sha256: 1dc931004cf3cad68a03fd1f8a667f419cf73025a56d77aebaed2fd617194bc9

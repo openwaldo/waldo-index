@@ -7,6 +7,15 @@ content:
   languages:
     - en
 license: MIT
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: approved
+  model_weights: approved
+  reason: The pinned derivative and original publisher identify the automatically generated UltraChat dialogue data as MIT licensed.
+  evidence:
+    - https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k/tree/8049631c405ae6576f93f445c6b8166f76f5505a
+    - https://github.com/thunlp/UltraChat#data
 sources:
   - name: HuggingFaceH4/ultrachat_200k
     source: HuggingFaceH4/ultrachat_200k

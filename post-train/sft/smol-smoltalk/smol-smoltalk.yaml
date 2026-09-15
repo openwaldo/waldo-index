@@ -7,6 +7,15 @@ content:
   languages:
     - en
 license: Apache-2.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: unresolved
+  corpus_redistribution: unresolved
+  model_weights: unresolved
+  reason: The child card labels the adapted subset Apache-2.0, but the parent mixture says existing components retain original licenses and provides no record-level license BOM for this subset.
+  evidence:
+    - https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk/tree/f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc
+    - https://huggingface.co/datasets/HuggingFaceTB/smoltalk
 sources:
   - name: HuggingFaceTB/smol-smoltalk
     source: HuggingFaceTB/smol-smoltalk
@@ -15,7 +24,7 @@ sources:
       - parquet
     license: Apache-2.0
     license_evidence:
-      declaration: Apache-2.0
+      declaration: The child card labels this adapted subset Apache-2.0, while the parent SmolTalk card states that existing component datasets retain their original licenses and does not provide a record-level license BOM for this subset.
       url: https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk/tree/f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc
     url: https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk
     category: public-dataset

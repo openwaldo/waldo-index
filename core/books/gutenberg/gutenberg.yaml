@@ -2,15 +2,26 @@ kind: manifest
 schema: 1
 name: gutenberg
 title: Project Gutenberg
-description: Public-domain books transcribed and proofread by Project Gutenberg volunteers.
+description: Ebooks transcribed and proofread by Project Gutenberg volunteers; item-level rights vary by work and jurisdiction.
 content:
   languages:
     - mul
 license: CC0-1.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: unresolved
+  corpus_redistribution: unresolved
+  model_weights: unresolved
+  reason: The immutable shards encode an unsupported CC0 assertion; Project Gutenberg says the collection includes copyrighted works and public-domain status is item- and jurisdiction-specific.
+  evidence:
+    - https://www.gutenberg.org/policy/permission.html
 sources:
   - name: gutenberg
     source: gutenberg
     version: 2026-07-31 catalog
+    license_evidence:
+      declaration: Project Gutenberg states that most ebooks are public domain in the United States, but thousands remain copyrighted and non-US status varies; it does not apply CC0 to the collection.
+      url: https://www.gutenberg.org/policy/permission.html
     url: https://www.gutenberg.org/
     category: public-dataset
     collected_to: 2026-07

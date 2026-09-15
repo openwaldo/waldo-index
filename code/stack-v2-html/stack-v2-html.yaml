@@ -6,6 +6,14 @@ description: Plain text extracted from HTML documents in openly licensed softwar
 content:
   languages:
     - mul
+rights_review:
+  reviewed_at: 2026-09-14
+  training: unresolved
+  corpus_redistribution: unresolved
+  model_weights: unresolved
+  reason: The corpus contains hundreds of per-record license combinations plus LicenseRef-Mixed records whose notice, source, and redistribution obligations are not fully resolved.
+  evidence:
+    - https://huggingface.co/datasets/common-pile/stackv2_html_filtered/tree/92c9fa898d6af643db9c7d73e75219f862be8ca0
 licenses:
   - 0BSD
   - 0BSD AND Apache-2.0

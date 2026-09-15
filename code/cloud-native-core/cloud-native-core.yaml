@@ -10,6 +10,16 @@ content:
     - Go
     - TypeScript
 license: Apache-2.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: approved
+  model_weights: approved
+  reason: The selected project-owned files from containerd, etcd, and Prometheus are each released under Apache-2.0 at immutable commits.
+  evidence:
+    - https://github.com/containerd/containerd/blob/aad11006b869517fcd3009450b6f82da282e1a9b/LICENSE
+    - https://github.com/etcd-io/etcd/blob/5e7fd0de9a57db03ecc11794dc40403a734c07bb/LICENSE
+    - https://github.com/prometheus/prometheus/blob/bb5dff00cf8fdfbf5c65e0531aa835fa238a43a2/LICENSE
 sources:
   - name: containerd/containerd
     source: containerd/containerd

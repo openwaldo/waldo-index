@@ -7,6 +7,15 @@ content:
   languages:
     - en
 license: ODC-BY-1.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: unresolved
+  corpus_redistribution: unresolved
+  model_weights: unresolved
+  reason: ODC-BY licenses the database, while the generated documents use web seed samples whose record-level content rights are not established by the dataset card.
+  evidence:
+    - https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus/tree/3ba9d605774198c5868892d7a8deda78031a781f
+    - https://opendatacommons.org/licenses/by/1-0/
 sources:
   - name: HuggingFaceTB/smollm-corpus Cosmopedia v2
     source: HuggingFaceTB/smollm-corpus Cosmopedia v2
@@ -15,7 +24,7 @@ sources:
       - parquet
     license: ODC-BY-1.0
     license_evidence:
-      declaration: ODC-BY-1.0
+      declaration: The collection is labeled ODC-BY-1.0, while the generated contents use web seed samples; the card does not establish content rights for every seed-derived record.
       url: https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus/tree/3ba9d605774198c5868892d7a8deda78031a781f
     url: https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus
     category: public-dataset

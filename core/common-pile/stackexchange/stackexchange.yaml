@@ -7,13 +7,23 @@ content:
   languages:
     - en
 license: CC-BY-SA-4.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: unresolved
+  model_weights: unresolved
+  reason: The current immutable shards flatten contribution-date-specific CC-BY-SA-2.5, 3.0, and 4.0 records into CC-BY-SA-4.0 and omit required per-post attribution.
+  evidence:
+    - https://stackoverflow.com/help/licensing
+    - https://huggingface.co/datasets/common-pile/stackexchange_filtered/tree/c0ac7373830c688a43fc12d1988c4b19ccd884ab
 sources:
   - name: common-pile/stackexchange_filtered
     source: common-pile/stackexchange_filtered
+    version: c0ac7373830c688a43fc12d1988c4b19ccd884ab
     license: CC-BY-SA-4.0
     license_evidence:
-      declaration: CC-BY-SA-4.0
-      url: https://huggingface.co/datasets/common-pile/stackexchange_filtered
+      declaration: Stack Exchange applies CC BY-SA 2.5, 3.0, or 4.0 according to contribution date; the Common Pile records carry per-document license metadata that this ingestion did not retain.
+      url: https://stackoverflow.com/help/licensing
     url: https://huggingface.co/datasets/common-pile/stackexchange_filtered
     category: public-dataset
     sha256: e2de4cbc5e3f8e89cdb54530e3f1b344f24d74ca7e6bff3ebaa074021ae9ea99

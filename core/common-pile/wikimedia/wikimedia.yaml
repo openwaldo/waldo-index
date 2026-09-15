@@ -7,10 +7,23 @@ content:
   languages:
     - mul
 license: CC-BY-SA-4.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: approved
+  model_weights: approved
+  reason: The pinned March 2025 official Wikimedia dumps are licensed under CC-BY-SA-4.0 and the ingestion retains page source metadata needed for attribution.
+  evidence:
+    - https://huggingface.co/datasets/common-pile/wikimedia_filtered/tree/0641bb84bd9b7162bcddf8be7836822161a9a342
+    - https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
 sources:
   - name: common-pile/wikimedia_filtered
     source: common-pile/wikimedia_filtered
+    version: 0641bb84bd9b7162bcddf8be7836822161a9a342
     license: CC-BY-SA-4.0
+    license_evidence:
+      declaration: The pinned Common Pile card identifies March 2025 official Wikimedia dumps and CC BY-SA content; Wikimedia requires attribution, share-alike, and indication of modifications.
+      url: https://huggingface.co/datasets/common-pile/wikimedia_filtered/tree/0641bb84bd9b7162bcddf8be7836822161a9a342
     url: https://huggingface.co/datasets/common-pile/wikimedia_filtered
     category: public-dataset
     sha256: 20de5fb9de914fc3f8a0b3c3e09d0164a790645256fa346b68a6d770c2d91882

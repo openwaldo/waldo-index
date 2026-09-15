@@ -7,6 +7,14 @@ content:
   languages:
     - en
 license: CC-BY-4.0
+rights_review:
+  reviewed_at: 2026-09-14
+  training: approved
+  corpus_redistribution: approved
+  model_weights: approved
+  reason: Google releases the complete selected CCPE-M dialogue dataset under CC-BY-4.0.
+  evidence:
+    - https://github.com/google-research-datasets/ccpe/blob/2c9cd30f33f3a154b5a27d015333679262ff36f5/README.md
 sources:
   - name: Google CCPE-M
     source: Google CCPE-M
