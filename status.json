@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T02:47:31Z",
-  "index_commit": "6b0774a",
+  "generated": "2026-09-15T03:24:00Z",
+  "index_commit": "5a0ee3a",
   "manifests": 69,
   "shards": 2011,
   "docs": 244472092,
@@ -13891,7 +13891,7 @@
         {
           "name": "common-pile/stackexchange_filtered",
           "origin": "common-pile/stackexchange_filtered",
-          "version": null,
+          "version": "c0ac7373830c688a43fc12d1988c4b19ccd884ab",
           "url": "https://huggingface.co/datasets/common-pile/stackexchange_filtered"
         }
       ],
@@ -13920,7 +13920,7 @@
         {
           "name": "common-pile/wikimedia_filtered",
           "origin": "common-pile/wikimedia_filtered",
-          "version": null,
+          "version": "0641bb84bd9b7162bcddf8be7836822161a9a342",
           "url": "https://huggingface.co/datasets/common-pile/wikimedia_filtered"
         }
       ],
@@ -14219,7 +14219,7 @@
       "path": "core/books/gutenberg",
       "name": "gutenberg",
       "title": "Project Gutenberg",
-      "description": "Public-domain books transcribed and proofread by Project Gutenberg volunteers.",
+      "description": "Ebooks transcribed and proofread by Project Gutenberg volunteers; item-level rights vary by work and jurisdiction.",
       "sources": [
         {
           "name": "gutenberg",
@@ -16642,7 +16642,7 @@
         {
           "name": "common-pile/regulations_filtered",
           "origin": "common-pile/regulations_filtered",
-          "version": "v0.1",
+          "version": "3327364490dfc7929009226ad667eceb2441d93a",
           "url": "https://huggingface.co/datasets/common-pile/regulations_filtered"
         }
       ],
@@ -19490,7 +19490,7 @@
         {
           "name": "CohereForAI/aya_dataset",
           "origin": "CohereForAI/aya_dataset",
-          "version": null,
+          "version": "f9ea04583f02a8f86404ff6c58bf75fe637df8a2",
           "url": "https://huggingface.co/datasets/CohereForAI/aya_dataset"
         }
       ],
@@ -20027,7 +20027,7 @@
         {
           "name": "OpenAssistant/oasst2",
           "origin": "OpenAssistant/oasst2",
-          "version": null,
+          "version": "179dd21fc55192153d94adb0e0ce8f69e222bf75",
           "url": "https://huggingface.co/datasets/OpenAssistant/oasst2"
         }
       ],
@@ -20085,7 +20085,7 @@
         {
           "name": "OpenAssistant/oasst1",
           "origin": "OpenAssistant/oasst1",
-          "version": null,
+          "version": "fdf72ae0827c1cda404aff25b6603abec9e3399b",
           "url": "https://huggingface.co/datasets/OpenAssistant/oasst1"
         }
       ],
@@ -20143,7 +20143,7 @@
         {
           "name": "databricks/databricks-dolly-15k",
           "origin": "databricks/databricks-dolly-15k",
-          "version": null,
+          "version": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
           "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
         }
       ],
