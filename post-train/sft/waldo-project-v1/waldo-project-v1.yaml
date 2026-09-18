@@ -1,0 +1,92 @@
+kind: manifest
+schema: 2
+name: waldo-project-v1
+title: OpenWALDO Project Knowledge v1
+description: OpenWALDO-authored and documentation-grounded conversations covering WALDO's purpose, architecture, workflows, provenance contracts, limitations, and the benefits and responsibilities of open-source AI.
+content:
+  languages:
+    - en
+license: Apache-2.0
+sources:
+  - name: OpenWALDO Project Knowledge v1
+    source: OpenWALDO Project Knowledge v1
+    version: 3d0377d10a85c119db1ec3cead1bd6f8272d825c
+    input_formats:
+      - jsonl
+    license: Apache-2.0
+    license_evidence:
+      declaration: Apache License 2.0, declared in the repository LICENSE file.
+      url: https://github.com/openwaldo/post-training-data/blob/3d0377d10a85c119db1ec3cead1bd6f8272d825c/LICENSE
+    url: https://github.com/openwaldo/post-training-data/tree/3d0377d10a85c119db1ec3cead1bd6f8272d825c/data/sft/waldo-project-v1
+    category: synthetic
+    sha256: d2f0d5fc40fb393cfc0d4a1b0a979f426129ea6712a6ead27c75c479e63d24d0
+    content:
+      types:
+        - project documentation
+        - question and answer pairs
+        - supervised fine-tuning
+      languages:
+        - en
+      selection: All 3,006 deterministic prompt and response records in the waldo-project-v1 training split; generator, validation, source-manifest, and documentation files are excluded.
+      personal_data: no
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: OpenWALDO project-authored, AI-assisted training material generated reproducibly from reviewed factual answers and retained in the project's Apache-licensed post-training repository.
+      synthetic:
+        model: OpenAI Codex (GPT-5)
+        version: "2026-09-17"
+        description: OpenAI Codex drafted the reviewed core answers and deterministic documentation-grounding generator; the checked-in generator expanded a pinned WALDO documentation snapshot, and the resulting candidate data requires human review before release.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:ad1adc6fca3844ce6192a730a7ea4d6c797ac99fc662953ffd68d1020e73e3eb
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 6
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 6
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 0
+  phone_numbers: 0
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: s3://openwaldo/lookaside/30/9d/309dc8a0a1dcaf36f83449c4e229914dc49f889252277e4225e04427eb5463af
+    sha256: 309dc8a0a1dcaf36f83449c4e229914dc49f889252277e4225e04427eb5463af
+    license: Apache-2.0
+    sources:
+      - OpenWALDO Project Knowledge v1
+    docs: 3006
+    tokens: 499761
+    bytes: 252018
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 6
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 6
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 0
+      phone_numbers: 0
+      mail_routing_headers: 0
+      credentials: 0

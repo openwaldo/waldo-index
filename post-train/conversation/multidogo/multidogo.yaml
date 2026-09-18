@@ -1,0 +1,88 @@
+kind: manifest
+schema: 2
+name: multidogo
+title: MultiDoGO
+description: The complete MultiDoGO collection of human-to-human task-oriented service conversations across six domains.
+content:
+  languages:
+    - en
+license: CDLA-Permissive-1.0
+sources:
+  - name: Multi-Domain Goal-Oriented Dialogues
+    source: Multi-Domain Goal-Oriented Dialogues
+    version: baa30639c4b271f394b81443c842193407cdf26d
+    input_formats:
+      - delimited
+    license: CDLA-Permissive-1.0
+    license_evidence:
+      declaration: The MultiDoGO repository licenses the dataset under the Community Data License Agreement Permissive Version 1.0.
+      url: https://github.com/awslabs/multi-domain-goal-oriented-dialogues-dataset/blob/baa30639c4b271f394b81443c842193407cdf26d/LICENSE.txt
+    url: https://github.com/awslabs/multi-domain-goal-oriented-dialogues-dataset
+    category: public-dataset
+    sha256: 026e21f34068efc769b3df42ccd8869a88cb7b1e08f106987a71e31fedf3ea7b
+    content:
+      types:
+        - customer service dialogue
+        - human conversations
+        - task-oriented dialogue
+      languages:
+        - en
+      selection: All publisher-provided unannotated human-to-human conversations from the airline, fast food, finance, insurance, media, and software domains; derived intent and slot-labeling paper splits are excluded.
+      personal_data: unknown
+      copyrighted: yes
+      machine_generated: no
+    acquisition:
+      basis: All six unannotated conversation files are retained directly from the publisher's immutable repository revision without transformation.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:011fe5dbbcf7380dc8b3c6c8462d25a9e4578d4d5bafdf8b968ba1462b858c0d
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/conversation-v1
+  tokenizer: tiktoken/cl100k_base
+record_schema: 1
+record_kind: conversation
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 732
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 93
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 7754
+  ip_addresses: 80
+  phone_numbers: 8416
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: s3://openwaldo/lookaside/87/23/872380b2838753d0f5a90bf5fd039b0c682777413f231c0d1d879fd9c8f664fb
+    sha256: 872380b2838753d0f5a90bf5fd039b0c682777413f231c0d1d879fd9c8f664fb
+    license: CDLA-Permissive-1.0
+    sources:
+      - Multi-Domain Goal-Oriented Dialogues
+    docs: 62804
+    tokens: 20462348
+    bytes: 11861874
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 732
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 93
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 7754
+      ip_addresses: 80
+      phone_numbers: 8416
+      mail_routing_headers: 0
+      credentials: 0

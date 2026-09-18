@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/sft/waldo-project-v1
+entries:
+  - name: waldo-project-v1.yaml
+    type: manifest

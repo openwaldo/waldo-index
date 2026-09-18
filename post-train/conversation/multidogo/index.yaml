@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: post-train/conversation/multidogo
+entries:
+  - name: multidogo.yaml
+    type: manifest
