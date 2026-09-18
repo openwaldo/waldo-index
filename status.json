@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-15T03:44:32Z",
-  "index_commit": "57f371f",
-  "manifests": 69,
-  "shards": 2011,
-  "docs": 244472092,
-  "tokens": 443937098864,
-  "bytes": 546922114225,
+  "generated": "2026-09-18T03:43:59Z",
+  "index_commit": "e27299a",
+  "manifests": 71,
+  "shards": 2013,
+  "docs": 244537902,
+  "tokens": 443958060973,
+  "bytes": 546934228117,
   "licenses": {
     "0BSD": {
       "shards": 305,
@@ -842,10 +842,10 @@
       "bytes": 0
     },
     "Apache-2.0": {
-      "shards": 327,
-      "docs": 23630351,
-      "tokens": 20714631905,
-      "bytes": 1456630877
+      "shards": 328,
+      "docs": 23633357,
+      "tokens": 20715131666,
+      "bytes": 1456882895
     },
     "Apache-2.0 AND Artistic-2.0": {
       "shards": 152,
@@ -6655,6 +6655,12 @@
       "tokens": 3640,
       "bytes": 0
     },
+    "CDLA-Permissive-1.0": {
+      "shards": 1,
+      "docs": 62804,
+      "tokens": 20462348,
+      "bytes": 11861874
+    },
     "CFITSIO": {
       "shards": 31,
       "docs": 147,
@@ -8349,7 +8355,7 @@
     }
   },
   "languages": {
-    "en": 55,
+    "en": 57,
     "es": 3,
     "mul": 11,
     "zh": 1
@@ -19806,6 +19812,41 @@
       }
     },
     {
+      "path": "post-train/conversation/multidogo",
+      "name": "multidogo",
+      "title": "MultiDoGO",
+      "description": "The complete MultiDoGO collection of human-to-human task-oriented service conversations across six domains.",
+      "sources": [
+        {
+          "name": "Multi-Domain Goal-Oriented Dialogues",
+          "origin": "Multi-Domain Goal-Oriented Dialogues",
+          "version": "baa30639c4b271f394b81443c842193407cdf26d",
+          "url": "https://github.com/awslabs/multi-domain-goal-oriented-dialogues-dataset",
+          "input_formats": [
+            "delimited"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 62804,
+      "tokens": 20462348,
+      "bytes": 11861874,
+      "licenses": {
+        "CDLA-Permissive-1.0": {
+          "shards": 1,
+          "tokens": 20462348
+        }
+      },
+      "input_formats": [
+        "delimited"
+      ]
+    },
+    {
       "path": "post-train/sft/xlam-function-calling-60k",
       "name": "xlam-function-calling-60k",
       "title": "xLAM Function Calling 60k",
@@ -20265,6 +20306,41 @@
           "tokens": 12735
         }
       }
+    },
+    {
+      "path": "post-train/sft/waldo-project-v1",
+      "name": "waldo-project-v1",
+      "title": "OpenWALDO Project Knowledge v1",
+      "description": "OpenWALDO-authored and documentation-grounded conversations covering WALDO's purpose, architecture, workflows, provenance contracts, limitations, and the benefits and responsibilities of open-source AI.",
+      "sources": [
+        {
+          "name": "OpenWALDO Project Knowledge v1",
+          "origin": "OpenWALDO Project Knowledge v1",
+          "version": "3d0377d10a85c119db1ec3cead1bd6f8272d825c",
+          "url": "https://github.com/openwaldo/post-training-data/tree/3d0377d10a85c119db1ec3cead1bd6f8272d825c/data/sft/waldo-project-v1",
+          "input_formats": [
+            "jsonl"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 3006,
+      "tokens": 499761,
+      "bytes": 252018,
+      "licenses": {
+        "Apache-2.0": {
+          "shards": 1,
+          "tokens": 499761
+        }
+      },
+      "input_formats": [
+        "jsonl"
+      ]
     },
     {
       "path": "post-train/conversation/ccpe",
