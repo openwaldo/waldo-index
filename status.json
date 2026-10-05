@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-18T03:43:59Z",
-  "index_commit": "e27299a",
-  "manifests": 71,
-  "shards": 2013,
-  "docs": 244537902,
-  "tokens": 443958060973,
-  "bytes": 546934228117,
+  "generated": "2026-10-05T06:38:13Z",
+  "index_commit": "e1db97d",
+  "manifests": 72,
+  "shards": 2014,
+  "docs": 244537903,
+  "tokens": 443958362802,
+  "bytes": 546934659530,
   "licenses": {
     "0BSD": {
       "shards": 305,
@@ -7214,10 +7214,10 @@
       "bytes": 0
     },
     "MIT": {
-      "shards": 314,
-      "docs": 55930248,
-      "tokens": 43803084487,
-      "bytes": 374455862
+      "shards": 315,
+      "docs": 55930249,
+      "tokens": 43803386316,
+      "bytes": 374887275
     },
     "MIT AND MIT-0": {
       "shards": 252,
@@ -8355,7 +8355,7 @@
     }
   },
   "languages": {
-    "en": 57,
+    "en": 58,
     "es": 3,
     "mul": 11,
     "zh": 1
@@ -20340,6 +20340,41 @@
       },
       "input_formats": [
         "jsonl"
+      ]
+    },
+    {
+      "path": "core/reference/tiny-shakespeare",
+      "name": "tiny-shakespeare",
+      "title": "Tiny Shakespeare",
+      "description": "The exact Tiny Shakespeare text subset used by the char-rnn and nanoGPT character-level examples.",
+      "sources": [
+        {
+          "name": "karpathy/char-rnn Tiny Shakespeare",
+          "origin": "karpathy/char-rnn Tiny Shakespeare",
+          "version": "6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e",
+          "url": "https://github.com/karpathy/char-rnn/tree/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare",
+          "input_formats": [
+            "text"
+          ]
+        }
+      ],
+      "converted_by": "waldo index ingest",
+      "languages": [
+        "en"
+      ],
+      "programming_languages": [],
+      "shards": 1,
+      "docs": 1,
+      "tokens": 301829,
+      "bytes": 431413,
+      "licenses": {
+        "MIT": {
+          "shards": 1,
+          "tokens": 301829
+        }
+      },
+      "input_formats": [
+        "text"
       ]
     },
     {
