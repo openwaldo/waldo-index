@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: core/reference/tiny-shakespeare
+entries:
+  - name: tiny-shakespeare.yaml
+    type: manifest

@@ -1,0 +1,86 @@
+kind: manifest
+schema: 2
+name: tiny-shakespeare
+title: Tiny Shakespeare
+description: The exact Tiny Shakespeare text subset used by the char-rnn and nanoGPT character-level examples.
+content:
+  languages:
+    - en
+license: MIT
+sources:
+  - name: karpathy/char-rnn Tiny Shakespeare
+    source: karpathy/char-rnn Tiny Shakespeare
+    version: 6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e
+    input_formats:
+      - text
+    license: MIT
+    license_evidence:
+      declaration: The char-rnn repository declares the MIT license and distributes Tiny Shakespeare as an example dataset.
+      url: https://github.com/karpathy/char-rnn/blob/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/Readme.md#license
+    url: https://github.com/karpathy/char-rnn/tree/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare
+    category: public-dataset
+    sha256: 04698e83c02c7833243e82057bbe7b4cce2bf678e1bc6eee37ad3b6535ac303e
+    content:
+      types:
+        - plays
+      languages:
+        - en
+      selection: Exact data/tinyshakespeare/input.txt bytes at the pinned char-rnn commit; the same file is used by nanoGPT data/shakespeare_char/prepare.py.
+      personal_data: no
+      copyrighted: no
+      machine_generated: no
+    acquisition:
+      basis: Public example dataset distributed in the MIT-licensed char-rnn repository; the underlying Shakespeare works are public domain.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  tokenizer: tiktoken/cl100k_base
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 0
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 0
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 0
+  phone_numbers: 0
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: s3://openwaldo/lookaside/a3/8d/a38dd268b12417bc9124e763fd0073eb8052fc3536c3d72b4c60bf00d177e22f
+    sha256: a38dd268b12417bc9124e763fd0073eb8052fc3536c3d72b4c60bf00d177e22f
+    license: MIT
+    sources:
+      - karpathy/char-rnn Tiny Shakespeare
+    docs: 1
+    tokens: 301829
+    bytes: 431413
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 0
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 0
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 0
+      phone_numbers: 0
+      mail_routing_headers: 0
+      credentials: 0
