@@ -1,0 +1,6 @@
+kind: index
+schema: 1
+path: core/synthetic/tinystories-reference
+entries:
+  - name: tinystories-reference.yaml
+    type: manifest

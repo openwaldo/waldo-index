@@ -1,0 +1,87 @@
+kind: manifest
+schema: 2
+name: tinystories-reference
+title: TinyStories Reference Quarter
+description: A pinned quarter-corpus from the original TinyStories training release for reproducible small-language-model controls.
+content:
+  languages:
+    - en
+license: CDLA-Sharing-1.0
+sources:
+  - name: Ronen Eldan and Yuanzhi Li TinyStories
+    source: Ronen Eldan and Yuanzhi Li TinyStories
+    version: f54c09fd23315a6f9c86f9dc80f725de7d8f9c64
+    input_formats:
+      - parquet
+    license: CDLA-Sharing-1.0
+    license_evidence:
+      declaration: The Hugging Face dataset card declares CDLA-Sharing-1.0 for the dataset.
+      url: https://huggingface.co/datasets/roneneldan/TinyStories/tree/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64
+    url: https://huggingface.co/datasets/roneneldan/TinyStories
+    category: public-dataset
+    sha256: 89ef69762b78a29c5a90fbe3f01b7a3b2b021332f9af2e3c01f7734ed80bee2d
+    content:
+      types:
+        - children stories
+        - synthetic stories
+      languages:
+        - en
+      selection: The first of four auto-converted training Parquet shards at the pinned dataset revision; validation and V2 files are excluded.
+      personal_data: no
+      copyrighted: yes
+      machine_generated: yes
+    acquisition:
+      basis: Public synthetic corpus released by the TinyStories authors with the paper and reference models.
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2@sha256:f5be24a6d13338e2dc6c099ae95ab596cc9e02af15f2764938fcb321ff51306e
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  tokenizer: tiktoken/cl100k_base
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 509
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 1
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 0
+  phone_numbers: 1
+  mail_routing_headers: 0
+  credentials: 4
+shards:
+  - url: s3://openwaldo/lookaside/0d/55/0d55456f06de0329dbf9b7f0e72d98a957365e1fba01621fa64795c6e4abd48c
+    sha256: 0d55456f06de0329dbf9b7f0e72d98a957365e1fba01621fa64795c6e4abd48c
+    license: CDLA-Sharing-1.0
+    sources:
+      - Ronen Eldan and Yuanzhi Li TinyStories
+    docs: 509625
+    tokens: 108786022
+    bytes: 151046264
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 509
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 0
+      phone_numbers: 1
+      mail_routing_headers: 0
+      credentials: 4
