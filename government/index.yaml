@@ -2,6 +2,8 @@ kind: index
 schema: 1
 path: government
 entries:
+  - name: epo
+    type: dir
   - name: library-of-congress
     type: dir
   - name: regulations

@@ -1,0 +1,74 @@
+kind: manifest
+schema: 2
+name: epo
+title: European Patent Office - EP Full-Text Patent Sample
+description: European patent full-text sample (6 records; titles, descriptions, claims), transformed via an independent extraction, normalization, aggregation, derivation, cross-linking and enrichment pipeline. Qualifies as an independent 'own product' per EPO licensing terms confirmed via direct correspondence (Sep 2026); original raw EPO XML is not redistributed as such. This product contains data sourced from EPO databases, © European Patent Organisation.
+content:
+  languages:
+    - de
+    - en
+license: CC-BY-4.0
+sources:
+  - name: epo
+    source: epo
+    license: CC-BY-4.0
+    url: https://www.epo.org/en/searching-for-patents/data/bulk-data-sets
+    category: public-dataset
+    sha256: 99fa1af70a86ebd6c64294ffd00c70540fb4f2f461ddb4dd4d15368a09a09b6c
+    content:
+      languages:
+        - de
+        - en
+converted_by:
+  tool: waldo index ingest
+  version: 0.1.0-dev
+  profile: canonical-text-schema-2
+  recipe: parquet-go/0.30.1/zstd-6/page-1m/rg-64m/v9-privacy-redaction
+  tokenizer: tiktoken/cl100k_base
+record_schema: 2
+record_kind: pretrain
+assessment:
+  email_addresses:
+    detector: waldo/email-address-v1
+    records: 0
+  repetitive_content:
+    detector: waldo/gopher-ngram-repetition-v1
+    records: 4
+  boilerplate_content:
+    detector: waldo/gopher-structural-duplication-v1
+    records: 1
+redaction:
+  policy: waldo/privacy-redaction-v1
+  names_retained: true
+  email_addresses: 0
+  ip_addresses: 5
+  phone_numbers: 0
+  mail_routing_headers: 0
+  credentials: 0
+shards:
+  - url: file:///home/radu/Documente/Proiecte/waldo-lookaside/5c/b3/5cb349785ec499a8eb666b00dbae22eeeeae654eea96f76ad98c8a37e330d823
+    sha256: 5cb349785ec499a8eb666b00dbae22eeeeae654eea96f76ad98c8a37e330d823
+    license: CC-BY-4.0
+    sources:
+      - epo
+    docs: 6
+    tokens: 428040
+    bytes: 183848
+    assessment:
+      email_addresses:
+        detector: waldo/email-address-v1
+        records: 0
+      repetitive_content:
+        detector: waldo/gopher-ngram-repetition-v1
+        records: 4
+      boilerplate_content:
+        detector: waldo/gopher-structural-duplication-v1
+        records: 1
+    redaction:
+      policy: waldo/privacy-redaction-v1
+      names_retained: true
+      email_addresses: 0
+      ip_addresses: 5
+      phone_numbers: 0
+      mail_routing_headers: 0
+      credentials: 0
